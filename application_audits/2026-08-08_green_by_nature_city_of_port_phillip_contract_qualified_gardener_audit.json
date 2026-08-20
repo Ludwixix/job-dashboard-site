@@ -1,0 +1,29 @@
+{
+  "audit_version": "1.0",
+  "fit": "Strong fit",
+  "score": 92,
+  "source": "https://www.livehire.com",
+  "source_url": "https://www.livehire.com/careers/greenbynature/job/CHNE8/M1CCLMMRIC/qualified-gardener",
+  "application_route": "https://www.livehire.com/careers/greenbynature/job/CHNE8/M1CCLMMRIC/qualified-gardener",
+  "application_route_type": "Direct employer or government route",
+  "listing_verification": "Individual listing captured from a non-LinkedIn source; confirm availability before applying.",
+  "matched_terms": [
+    "Customer support"
+  ],
+  "requested_terms": [
+    "Customer support"
+  ],
+  "unsupported_or_unverified_terms": [],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm horticulture, plant-equipment, physical-capacity, licence, and outdoor-work requirements."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+}

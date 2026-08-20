@@ -1,0 +1,39 @@
+{
+  "audit_version": "1.0",
+  "fit": "Possible fit",
+  "score": 87,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=2e5ac5f60ab11af3",
+  "application_route": "https://au.indeed.com/viewjob?jk=2e5ac5f60ab11af3",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual non-LinkedIn listing returned in the August 14, 2026 search; confirm availability and the direct employer or government route before applying.",
+  "matched_terms": [
+    "site reliability",
+    "digital infrastructure",
+    "cloud operations",
+    "incident management",
+    "automation"
+  ],
+  "requested_terms": [
+    "site reliability",
+    "digital infrastructure",
+    "cloud operations",
+    "incident management",
+    "automation"
+  ],
+  "unsupported_or_unverified_terms": [
+    "Confirm production engineering depth, Linux, observability, infrastructure-as-code, on-call, and the direct Certus Digital route."
+  ],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm production engineering depth, Linux, observability, infrastructure-as-code, on-call, and the direct Certus Digital route."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that does not sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, insurance, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Fresh individual listing metadata, search rationale, and verified candidate profile"
+}

@@ -1,0 +1,39 @@
+{
+  "audit_version": "1.0",
+  "fit": "Good fit",
+  "score": 89,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=32d96bb2c221a5a9",
+  "application_route": "https://au.indeed.com/viewjob?jk=32d96bb2c221a5a9",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual Indeed listing returned in the August 10, 2026 non-LinkedIn search; confirm the full description, location, and employer route before applying.",
+  "matched_terms": [
+    "Microsoft 365",
+    "Entra ID",
+    "Intune",
+    "Layer 1 networking",
+    "Healthcare technology",
+    "Customer support"
+  ],
+  "requested_terms": [
+    "Microsoft 365",
+    "Entra ID",
+    "Intune",
+    "Layer 1 networking",
+    "Healthcare technology",
+    "Customer support"
+  ],
+  "unsupported_or_unverified_terms": [],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm any security-clearance, police-check, or government screening requirement."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+}

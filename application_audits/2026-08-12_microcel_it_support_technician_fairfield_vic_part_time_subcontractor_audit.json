@@ -1,0 +1,37 @@
+{
+  "audit_version": "1.0",
+  "fit": "Good fit",
+  "score": 82,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=2c5906b2ec19161a",
+  "application_route": "https://au.indeed.com/viewjob?jk=2c5906b2ec19161a",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual Indeed listing returned in the August 12, 2026 search. Confirm subcontractor terms, school-site travel, insurance, vehicle, and availability before applying.",
+  "matched_terms": [
+    "Intune",
+    "Autopilot",
+    "Customer support",
+    "Infrastructure",
+    "Field support"
+  ],
+  "requested_terms": [
+    "Intune",
+    "Autopilot",
+    "Customer support",
+    "Infrastructure",
+    "Field support"
+  ],
+  "unsupported_or_unverified_terms": [],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm subcontractor terms, insurance, vehicle, school-site travel, equipment, and payment conditions."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that does not sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, insurance, subcontractor, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Fresh individual listing metadata, search rationale, and verified candidate profile"
+}

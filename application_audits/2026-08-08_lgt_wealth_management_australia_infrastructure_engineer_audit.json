@@ -1,0 +1,38 @@
+{
+  "audit_version": "1.0",
+  "fit": "Strong fit",
+  "score": 94,
+  "source": "LGT Careers",
+  "source_url": "https://www.lgtwm.com/au-en/careers/jobs/infrastructure-engineer-364826",
+  "application_route": "https://www.lgtwm.com/au-en/careers/jobs/infrastructure-engineer-364826",
+  "application_route_type": "Direct employer route",
+  "listing_verification": "Direct LGT employer page captured; confirm availability and closing status before applying.",
+  "matched_terms": [
+    "Azure",
+    "Microsoft 365",
+    "Entra ID",
+    "Windows",
+    "PowerShell",
+    "ITIL"
+  ],
+  "requested_terms": [
+    "Azure",
+    "Microsoft 365",
+    "Entra ID",
+    "Windows",
+    "PowerShell",
+    "ITIL"
+  ],
+  "unsupported_or_unverified_terms": [],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+}

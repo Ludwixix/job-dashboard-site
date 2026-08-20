@@ -1,0 +1,33 @@
+[build]
+  functions = "netlify/functions"
+  edge_functions = "netlify/edge-functions"
+
+[[redirects]]
+  from = "/api/gate"
+  to = "/.netlify/functions/gate"
+  status = 200
+
+[[redirects]]
+  from = "/api/config"
+  to = "/.netlify/functions/config"
+  status = 200
+
+[[redirects]]
+  from = "/api/jobs"
+  to = "/.netlify/functions/jobs"
+  status = 200
+
+[[redirects]]
+  from = "/api/ingest"
+  to = "/.netlify/functions/ingest"
+  status = 200
+
+[[redirects]]
+  from = "/api/status"
+  to = "/.netlify/functions/status"
+  status = 200
+
+[[redirects]]
+  from = "/api/ai-request"
+  to = "/.netlify/functions/ai-request"
+  status = 200

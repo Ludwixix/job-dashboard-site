@@ -1,0 +1,41 @@
+{
+  "audit_version": "1.0",
+  "fit": "Adjacent fit — review carefully",
+  "score": 83,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=4b96c6a91526b9bd",
+  "application_route": "https://au.indeed.com/viewjob?jk=4b96c6a91526b9bd",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual listing captured from a non-LinkedIn source on 12 August 2026; confirm availability before applying.",
+  "matched_terms": [
+    "Critical operations",
+    "data centers",
+    "electrical",
+    "facility operations",
+    "maintenance",
+    "safety"
+  ],
+  "requested_terms": [
+    "Critical operations",
+    "data centers",
+    "electrical",
+    "facility operations",
+    "maintenance",
+    "safety"
+  ],
+  "unsupported_or_unverified_terms": [
+    "Electrical licence, HV switching authority, critical-facility experience, roster, safety certifications, and on-call requirements require confirmation."
+  ],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Electrical licence, HV switching authority, critical-facility experience, roster, safety certifications, and on-call requirements require confirmation."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+}

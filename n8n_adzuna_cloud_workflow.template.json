@@ -1,0 +1,86 @@
+{
+  "name": "Sam Job Sourcing - Adzuna Cloud to Supabase",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "manual",
+      "name": "Manual test trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [-1000, 0]
+    },
+    {
+      "parameters": {"rule": {"interval": [{"field": "cronExpression", "expression": "0 8 * * *"}]}},
+      "id": "schedule",
+      "name": "Daily 8am Sydney (enable after manual test)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [-1000, 180],
+      "disabled": true,
+      "notesInFlow": true,
+      "notes": "Keep disabled until the manual run is reviewed. Set the workflow timezone to Australia/Sydney."
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://api.adzuna.com/v1/api/jobs/au/search/1",
+        "sendQuery": true,
+        "queryParameters": {"parameters": [
+          {"name": "app_id", "value": "={{$vars.ADZUNA_APP_ID}}"},
+          {"name": "app_key", "value": "={{$vars.ADZUNA_APP_KEY}}"},
+          {"name": "results_per_page", "value": "50"},
+          {"name": "what", "value": "Azure Microsoft 365 Intune endpoint infrastructure technician"},
+          {"name": "where", "value": "Melbourne"},
+          {"name": "content-type", "value": "application/json"}
+        ]},
+        "options": {"timeout": 30000}
+      },
+      "id": "adzuna",
+      "name": "Adzuna API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-720, 80]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "const sourcePayload = $input.first()?.json || {};\nconst rows = Array.isArray(sourcePayload.results) ? sourcePayload.results : [];\nconst seen = new Set();\nconst dropQuery = /^(utm_|fbclid$|gclid$|mc_|ref$|source$)/i;\nfunction canonicalise(value) { try { const url = new URL(value); url.hash = ''; for (const key of [...url.searchParams.keys()]) if (dropQuery.test(key)) url.searchParams.delete(key); url.searchParams.sort(); return `${url.origin}${url.pathname.replace(/\\/$/, '')}${url.search}`; } catch { return null; } }\nconst jobs = [];\nfor (const raw of rows) {\n  const route = raw.redirect_url || raw.job_url || raw.url || '';\n  const canonicalUrl = canonicalise(route);\n  const title = String(raw.title || '').trim();\n  const company = String(raw.company?.display_name || raw.company || '').trim();\n  if (!title || !company || !canonicalUrl || /linkedin\\.com\\/jobs/i.test(route) || seen.has(canonicalUrl)) continue;\n  seen.add(canonicalUrl);\n  jobs.push({ source: 'adzuna', source_record_id: raw.id ? String(raw.id) : canonicalUrl, canonical_url: canonicalUrl, application_route: route, application_route_type: 'Adzuna listing', listing_verification: 'Aggregator listing; confirm the original employer route and requirements before applying.', title, company, location: raw.location?.display_name || '', description: raw.description || '', salary: { min: raw.salary_min ?? null, max: raw.salary_max ?? null, currency: 'AUD' }, work_type: raw.contract_type || raw.category?.label || '', remote: /remote|work from home|hybrid/i.test(`${raw.title || ''} ${raw.description || ''}`), lane: 'core', posted_at: raw.created || null, screening_score: null, fit: 'Review', matched_terms: [], evidence: [], gaps: [], requirements_to_confirm: ['Confirm the original employer listing, closing date, location, work rights, licences, clearances, and roster.'], confidence: null, needs_human_review: true });\n}\nreturn [{ json: { jobs } }];"
+      },
+      "id": "normalise",
+      "name": "Normalise + deduplicate + exclude LinkedIn",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-420, 80]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{$vars.JOB_INGEST_API_URL}}/api/ingest",
+        "sendHeaders": true,
+        "headerParameters": {"parameters": [
+          {"name": "Authorization", "value": "Bearer {{$vars.JOB_INGEST_API_TOKEN}}"},
+          {"name": "Content-Type", "value": "application/json"}
+        ]},
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{$json}}",
+        "options": {"timeout": 30000}
+      },
+      "id": "ingest",
+      "name": "POST validated batch to Supabase backend",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-100, 80]
+    }
+  ],
+  "connections": {
+    "Manual test trigger": {"main": [[{"node": "Adzuna API", "type": "main", "index": 0}]]},
+    "Daily 8am Sydney (enable after manual test)": {"main": [[{"node": "Adzuna API", "type": "main", "index": 0}]]},
+    "Adzuna API": {"main": [[{"node": "Normalise + deduplicate + exclude LinkedIn", "type": "main", "index": 0}]]},
+    "Normalise + deduplicate + exclude LinkedIn": {"main": [[{"node": "POST validated batch to Supabase backend", "type": "main", "index": 0}]]}
+  },
+  "active": false,
+  "settings": {"executionOrder": "v1", "timezone": "Australia/Sydney"},
+  "meta": {"templateCredsSetupCompleted": false},
+  "tags": []
+}

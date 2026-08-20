@@ -1,0 +1,41 @@
+{
+  "audit_version": "1.0",
+  "fit": "Strong fit",
+  "score": 91,
+  "source": "Careers Vic",
+  "source_url": "https://www.careers.vic.gov.au/job/systems-administrator-77703",
+  "application_route": "https://www.careers.vic.gov.au/job/systems-administrator-77703",
+  "application_route_type": "Direct government route",
+  "listing_verification": "Individual non-LinkedIn listing captured in the August 15, 2026 refresh; confirm availability, exact requirements, and the direct route before applying.",
+  "matched_terms": [
+    "systems administration",
+    "government",
+    "enterprise support",
+    "Windows",
+    "infrastructure",
+    "security"
+  ],
+  "requested_terms": [
+    "systems administration",
+    "government",
+    "enterprise support",
+    "Windows",
+    "infrastructure",
+    "security"
+  ],
+  "unsupported_or_unverified_terms": [
+    "Confirm the position description, grade, salary, Microsoft stack, security or citizenship requirements, and closing time."
+  ],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm the position description, grade, salary, Microsoft stack, security or citizenship requirements, and closing time."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that does not sound like you.",
+    "Confirm every licence, qualification, clearance, travel, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Fresh individual listing metadata, search rationale, and verified candidate profile"
+}

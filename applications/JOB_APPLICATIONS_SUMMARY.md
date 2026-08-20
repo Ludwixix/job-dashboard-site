@@ -1,0 +1,15 @@
+# Job Applications Summary
+**Generated:** 2026-06-10 | **Total Jobs:** 10 | **Ready to Apply:** 10
+
+| # | Role | Company | Location | Posted | Apply Link | Cover Letter | Resume | Status |
+|---|------|---------|----------|--------|------------|-------------|--------|--------|
+| 1 | Digital Workplace Engineer - Cloud | Interactive | Melbourne, VIC (Hybrid) | 2026-06-08 | [Indeed](https://au.indeed.com/viewjob?jk=f0f4a125a24fb4d5) | `cover_letter_interactive_digital_workplace_engineer.md` | `resume_interactive_digital_workplace_engineer.md` | ✅ Ready to Apply |
+| 2 | Power Platform Developer | Fujitsu | Melbourne, VIC | 2026-06-08 | [LinkedIn](https://www.linkedin.com/jobs/view/4425563800) | `cover_letter_fujitsu_power_platform_developer.md` | `resume_fujitsu_power_platform_developer.md` | ✅ Ready to Apply |
+| 3 | IT Infrastructure Manager & Senior Systems Administrator | Arcare Aged Care | Hampton East, VIC | 2026-06-08 | [LinkedIn](https://www.linkedin.com/jobs/view/4422286204) | `cover_letter_arcare_infrastructure_manager.md` | `resume_arcare_infrastructure_manager.md` | ✅ Ready to Apply |
+| 4 | Systems Engineer - Infrastructure Team | Centorrino Technologies | Melbourne, VIC | 2026-06-08 | [LinkedIn](https://www.linkedin.com/jobs/view/4425568441) | `cover_letter_centorrino_systems_engineer.md` | `resume_centorrino_systems_engineer.md` | ✅ Ready to Apply |
+| 5 | Azure Cloud Engineer / Specialist | Randstad Digital Australia | Melbourne, VIC | 2026-06-08 | [LinkedIn](https://www.linkedin.com/jobs/view/4426313754) | `cover_letter_randstad_azure_cloud_engineer.md` | `resume_randstad_azure_cloud_engineer.md` | ✅ Ready to Apply |
+| 6 | Azure Cloud Engineer / Specialist IDAM | Randstad Digital Australia | Melbourne, VIC | 2026-06-08 | [LinkedIn](https://www.linkedin.com/jobs/view/4426312807) | `cover_letter_randstad_azure_cloud_engineer_idam.md` | `resume_randstad_azure_cloud_engineer_idam.md` | ✅ Ready to Apply |
+| 7 | IT Field Engineer - ANZ | Palo Alto Networks | Melbourne, VIC (Remote) | 2026-06-08 | [Indeed](https://au.indeed.com/viewjob?jk=7fb6916f588b7deb) | `cover_letter_paloalto_it_field_engineer.md` | `resume_paloalto_it_field_engineer.md` | ✅ Ready to Apply |
+| 8 | Level 3 Technical Consultant | Hamilton Barnes | Eastern Melbourne | 2026-06-08 | [LinkedIn](https://www.linkedin.com/jobs/view/4421906757) | `cover_letter_hamilton_barnes_level3_technical_consultant.md` | `resume_hamilton_barnes_level3_technical_consultant.md` | ✅ Ready to Apply |
+| 9 | Information Technology Infrastructure Engineer | ARCH | Melbourne, VIC (Remote) | 2026-06-08 | [LinkedIn](https://www.linkedin.com/jobs/view/4425550483) | `cover_letter_arch_infrastructure_engineer.md` | `resume_arch_infrastructure_engineer.md` | ✅ Ready to Apply |
+| 10 | Technical Support Officer | Mercy Health Australia | Melbourne, VIC (Werribee/Heidelberg) | 2026-06-08 | [LinkedIn](https://www.linkedin.com/jobs/view/4425560777) | `cover_letter_mercy_health_technical_support_officer.md` | `resume_mercy_health_technical_support_officer.md` | ✅ Ready to Apply |

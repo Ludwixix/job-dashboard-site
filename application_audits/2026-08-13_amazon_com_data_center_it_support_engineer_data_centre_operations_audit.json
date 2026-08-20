@@ -1,0 +1,41 @@
+{
+  "audit_version": "1.0",
+  "fit": "Good fit",
+  "score": 84,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=c539d7ad0470abe3",
+  "application_route": "https://au.indeed.com/viewjob?jk=c539d7ad0470abe3",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual Indeed listing returned in the August 13, 2026 non-LinkedIn search; confirm availability, the employer route, and exact requirements before applying.",
+  "matched_terms": [
+    "Data centre operations",
+    "server support",
+    "networking",
+    "hardware diagnostics",
+    "incident response",
+    "operational procedures"
+  ],
+  "requested_terms": [
+    "Data centre operations",
+    "server support",
+    "networking",
+    "hardware diagnostics",
+    "incident response",
+    "operational procedures"
+  ],
+  "unsupported_or_unverified_terms": [
+    "Confirm shift pattern, data-centre access requirements, server and network depth, lifting and physical-work requirements, and the direct Amazon application route."
+  ],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm shift pattern, data-centre access requirements, server and network depth, lifting and physical-work requirements, and the direct Amazon application route."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that does not sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, insurance, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Fresh individual listing metadata, search rationale, and verified candidate profile"
+}

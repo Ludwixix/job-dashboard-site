@@ -1,0 +1,5 @@
+/api/config /.netlify/functions/config 200
+/api/jobs /.netlify/functions/jobs 200
+/api/status /.netlify/functions/status 200
+/api/ingest /.netlify/functions/ingest 200
+/api/ai-request /.netlify/functions/ai-request 200

@@ -1,0 +1,108 @@
+{
+  "name": "Sam Job Sourcing - Adzuna + Apify SEEK Pilot",
+  "nodes": [
+    {
+      "parameters": {"rule": {"interval": [{"field": "cronExpression", "expression": "0 8 * * *"}]}},
+      "id": "schedule",
+      "name": "Daily 8am Sydney (set workflow timezone)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [-1000, 0],
+      "disabled": true,
+      "notesInFlow": true,
+      "notes": "Disabled by default. Enable only after a manual Adzuna run has been reviewed. Set timezone to Australia/Sydney."
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://api.adzuna.com/v1/api/jobs/au/search/1",
+        "sendQuery": true,
+        "queryParameters": {"parameters": [
+          {"name": "app_id", "value": "={{$env.ADZUNA_APP_ID}}"},
+          {"name": "app_key", "value": "={{$env.ADZUNA_APP_KEY}}"},
+          {"name": "results_per_page", "value": "50"},
+          {"name": "what", "value": "Azure Microsoft 365 Intune endpoint infrastructure technician"},
+          {"name": "where", "value": "Melbourne"},
+          {"name": "content-type", "value": "application/json"}
+        ]},
+        "options": {"timeout": 30000}
+      },
+      "id": "adzuna",
+      "name": "Adzuna API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-760, -120]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/parseforge~seek-scraper/runs?token={{$env.APIFY_TOKEN}}&waitForFinish=120",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\"keywords\":\"Azure Microsoft 365 Intune infrastructure technician\",\"where\":\"Melbourne VIC\",\"maxItems\":25,\"includeDetails\":false,\"requestDelayMs\":1500}",
+        "options": {"timeout": 180000}
+      },
+      "id": "apify-start",
+      "name": "Apify SEEK pilot (manual approval before enabling)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-760, 140],
+      "disabled": true,
+      "notesInFlow": true,
+      "notes": "Community actor, not SEEK-authorised. Review SEEK terms, actor licence, cost, data retention, and request volume first. Keep disabled."
+    },
+    {
+      "parameters": {
+        "mode": "append",
+        "numberInputs": 2
+      },
+      "id": "merge",
+      "name": "Merge source responses",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [-480, 0]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "const out = [];\nconst seen = new Set();\nconst dropQuery = /^(utm_|fbclid$|gclid$|mc_|ref$|source$)/i;\nfunction canonicalise(value) { try { const u = new URL(value); u.hash = ''; for (const key of [...u.searchParams.keys()]) if (dropQuery.test(key)) u.searchParams.delete(key); u.searchParams.sort(); return `${u.origin}${u.pathname.replace(/\\/$/, '')}${u.search}`; } catch { return null; } }\nfor (const item of $input.all()) {\n  const payload = item.json || {};\n  const rows = Array.isArray(payload.results) ? payload.results : (Array.isArray(payload.jobs) ? payload.jobs : [payload]);\n  for (const raw of rows) {\n    const route = raw.redirect_url || raw.job_url || raw.url || raw.shareLink || raw.share_link || '';\n    const canonicalUrl = canonicalise(route);\n    const title = raw.title || raw.job_title || '';\n    const company = raw.company?.display_name || raw.companyName || raw.company || '';\n    if (!title || !company || !canonicalUrl || /linkedin\\.com\\/jobs/i.test(route)) continue;\n    if (seen.has(canonicalUrl)) continue;\n    seen.add(canonicalUrl);\n    out.push({ source: raw.source || (raw.jobId ? 'seek_apify' : 'adzuna'), source_record_id: String(raw.id || raw.jobId || canonicalUrl), canonical_url: canonicalUrl, application_route: route, application_route_type: raw.jobId ? 'SEEK search lead' : 'Adzuna listing', listing_verification: 'Confirm the original listing and requirements before applying.', title, company, location: raw.location?.display_name || raw.location || '', description: raw.description || raw.jobContent || raw.job_abstract || '', salary: { min: raw.salary_min ?? null, max: raw.salary_max ?? null, label: raw.salaryLabel || '' }, work_type: raw.contract_type || raw.workType || '', remote: /remote|work from home|hybrid/i.test(`${raw.title || ''} ${raw.description || ''}`), lane: 'core', posted_at: raw.created || raw.listingDate || null, screening_score: null, fit: 'Review', matched_terms: [], evidence: [], gaps: [], requirements_to_confirm: ['Confirm the original employer route, closing date, location, roster, licences, clearances, and work rights.'], confidence: null, needs_human_review: true });\n  }\n}\nreturn [{ json: { jobs: out } }];"
+      },
+      "id": "normalise",
+      "name": "Normalise + deduplicate + exclude LinkedIn",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-220, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.JOB_INGEST_API_URL}}/api/ingest",
+        "sendHeaders": true,
+        "headerParameters": {"parameters": [
+          {"name": "Authorization", "value": "Bearer {{$env.JOB_INGEST_API_TOKEN}}"},
+          {"name": "Content-Type", "value": "application/json"}
+        ]},
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{$json}}",
+        "options": {"timeout": 30000}
+      },
+      "id": "upsert",
+      "name": "POST validated batch to Supabase backend",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [40, 0]
+    }
+  ],
+  "connections": {
+    "Daily 8am Sydney (set workflow timezone)": {"main": [[{"node": "Adzuna API", "type": "main", "index": 0}, {"node": "Apify SEEK pilot (manual approval before enabling)", "type": "main", "index": 0}]]},
+    "Adzuna API": {"main": [[{"node": "Merge source responses", "type": "main", "index": 0}]]},
+    "Apify SEEK pilot (manual approval before enabling)": {"main": [[{"node": "Merge source responses", "type": "main", "index": 1}]]},
+    "Merge source responses": {"main": [[{"node": "Normalise + deduplicate + exclude LinkedIn", "type": "main", "index": 0}]]},
+    "Normalise + deduplicate + exclude LinkedIn": {"main": [[{"node": "POST validated batch to Supabase backend", "type": "main", "index": 0}]]}
+  },
+  "active": false,
+  "settings": {"executionOrder": "v1", "timezone": "Australia/Sydney"},
+  "meta": {"templateCredsSetupCompleted": false},
+  "tags": []
+}

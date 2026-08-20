@@ -1,0 +1,37 @@
+{
+  "audit_version": "1.0",
+  "fit": "Strong fit",
+  "score": 91,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=29da64835023f2a8",
+  "application_route": "https://au.indeed.com/viewjob?jk=29da64835023f2a8",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual Indeed listing returned in the August 12, 2026 search. Confirm the full description, employer route, travel expectations, and availability before applying.",
+  "matched_terms": [
+    "Azure",
+    "Microsoft 365",
+    "PowerShell",
+    "Project delivery",
+    "Infrastructure"
+  ],
+  "requested_terms": [
+    "Azure",
+    "Microsoft 365",
+    "PowerShell",
+    "Project delivery",
+    "Infrastructure"
+  ],
+  "unsupported_or_unverified_terms": [],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm the project-delivery scope, travel expectations, client-facing duties, and any billable or after-hours requirements."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that does not sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, insurance, subcontractor, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Fresh individual listing metadata, search rationale, and verified candidate profile"
+}

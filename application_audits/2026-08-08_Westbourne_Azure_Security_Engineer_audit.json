@@ -1,0 +1,43 @@
+{
+  "audit_version": "1.0",
+  "fit": "Strong fit",
+  "score": 95,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=ba536f2b4442002e",
+  "application_route": "https://au.indeed.com/viewjob?jk=ba536f2b4442002e",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual listing captured from a non-LinkedIn source; confirm availability before applying.",
+  "matched_terms": [
+    "Azure",
+    "Microsoft 365",
+    "Entra ID",
+    "Intune",
+    "Autopilot",
+    "PowerShell",
+    "SharePoint",
+    "Exchange"
+  ],
+  "requested_terms": [
+    "Azure",
+    "Microsoft 365",
+    "Entra ID",
+    "Intune",
+    "Autopilot",
+    "PowerShell",
+    "SharePoint",
+    "Exchange"
+  ],
+  "unsupported_or_unverified_terms": [],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm any security-clearance, police-check, or government screening requirement."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+}

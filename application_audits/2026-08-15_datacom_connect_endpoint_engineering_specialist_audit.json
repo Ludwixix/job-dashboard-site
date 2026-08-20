@@ -1,0 +1,41 @@
+{
+  "audit_version": "1.0",
+  "fit": "Strong fit",
+  "score": 94,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=1c766effd007760b",
+  "application_route": "https://au.indeed.com/viewjob?jk=1c766effd007760b",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual non-LinkedIn listing captured in the August 15, 2026 refresh; confirm availability, exact requirements, and the direct route before applying.",
+  "matched_terms": [
+    "endpoint engineering",
+    "Intune",
+    "Autopilot",
+    "Windows 11",
+    "Microsoft 365",
+    "modern workplace"
+  ],
+  "requested_terms": [
+    "endpoint engineering",
+    "Intune",
+    "Autopilot",
+    "Windows 11",
+    "Microsoft 365",
+    "modern workplace"
+  ],
+  "unsupported_or_unverified_terms": [
+    "Confirm client environment, platform depth, travel or roster, security requirements, and direct Datacom route."
+  ],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm client environment, platform depth, travel or roster, security requirements, and direct Datacom route."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that does not sound like you.",
+    "Confirm every licence, qualification, clearance, travel, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Fresh individual listing metadata, search rationale, and verified candidate profile"
+}

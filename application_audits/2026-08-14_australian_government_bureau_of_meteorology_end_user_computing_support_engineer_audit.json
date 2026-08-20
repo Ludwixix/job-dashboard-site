@@ -1,0 +1,39 @@
+{
+  "audit_version": "1.0",
+  "fit": "Strong fit",
+  "score": 96,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=48e83a9403a0ead8",
+  "application_route": "https://au.indeed.com/viewjob?jk=48e83a9403a0ead8",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual non-LinkedIn listing returned in the August 14, 2026 search; confirm availability and the direct employer or government route before applying.",
+  "matched_terms": [
+    "EUC support",
+    "Level 1 and Level 2 ICT support",
+    "Windows",
+    "endpoint management",
+    "government operations"
+  ],
+  "requested_terms": [
+    "EUC support",
+    "Level 1 and Level 2 ICT support",
+    "Windows",
+    "endpoint management",
+    "government operations"
+  ],
+  "unsupported_or_unverified_terms": [
+    "Confirm the direct Bureau application route, exact closing date, citizenship or clearance requirements, and nationwide travel or office coverage expectations."
+  ],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm the direct Bureau application route, exact closing date, citizenship or clearance requirements, and nationwide travel or office coverage expectations."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that does not sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, insurance, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Fresh individual listing metadata, search rationale, and verified candidate profile"
+}

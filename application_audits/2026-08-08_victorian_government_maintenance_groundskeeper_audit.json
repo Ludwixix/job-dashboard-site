@@ -1,0 +1,34 @@
+{
+  "audit_version": "1.0",
+  "fit": "Good fit",
+  "score": 82,
+  "source": "Careers Vic",
+  "source_url": "https://www.careers.vic.gov.au/job/maintenancegroundskeeper-77184",
+  "application_route": "https://www.careers.vic.gov.au/job/maintenancegroundskeeper-77184",
+  "application_route_type": "Direct employer or government route",
+  "listing_verification": "Individual listing captured from a non-LinkedIn source; confirm availability before applying.",
+  "matched_terms": [
+    "HVAC",
+    "Data-centre operations",
+    "Customer support"
+  ],
+  "requested_terms": [
+    "HVAC",
+    "Data-centre operations",
+    "Customer support"
+  ],
+  "unsupported_or_unverified_terms": [],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm any security-clearance, police-check, or government screening requirement.",
+    "Confirm horticulture, plant-equipment, physical-capacity, licence, and outdoor-work requirements."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+}

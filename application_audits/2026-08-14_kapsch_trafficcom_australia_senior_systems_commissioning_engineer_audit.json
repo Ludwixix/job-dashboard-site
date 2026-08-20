@@ -1,0 +1,37 @@
+{
+  "audit_version": "1.0",
+  "fit": "Possible fit",
+  "score": 80,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=c74937c95731c71c",
+  "application_route": "https://au.indeed.com/viewjob?jk=c74937c95731c71c",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual non-LinkedIn listing returned in the August 14, 2026 search; confirm availability and the direct employer or government route before applying.",
+  "matched_terms": [
+    "systems engineering",
+    "commissioning",
+    "intelligent transport systems",
+    "technical delivery"
+  ],
+  "requested_terms": [
+    "systems engineering",
+    "commissioning",
+    "intelligent transport systems",
+    "technical delivery"
+  ],
+  "unsupported_or_unverified_terms": [
+    "Confirm engineering qualifications, intelligent transport systems experience, commissioning scope, site travel, and clearance requirements."
+  ],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm engineering qualifications, intelligent transport systems experience, commissioning scope, site travel, and clearance requirements."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that does not sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, insurance, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Fresh individual listing metadata, search rationale, and verified candidate profile"
+}

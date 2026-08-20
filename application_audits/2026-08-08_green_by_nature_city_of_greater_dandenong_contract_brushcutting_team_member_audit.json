@@ -1,0 +1,29 @@
+{
+  "audit_version": "1.0",
+  "fit": "Good fit",
+  "score": 86,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=91143bbcf1be0a63",
+  "application_route": "https://au.indeed.com/viewjob?jk=91143bbcf1be0a63",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual listing captured from a non-LinkedIn source; confirm availability before applying.",
+  "matched_terms": [
+    "HVAC"
+  ],
+  "requested_terms": [
+    "HVAC"
+  ],
+  "unsupported_or_unverified_terms": [],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm horticulture, plant-equipment, physical-capacity, licence, and outdoor-work requirements."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+}

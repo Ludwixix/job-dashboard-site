@@ -1,0 +1,41 @@
+{
+  "audit_version": "1.0",
+  "fit": "Strong fit",
+  "score": 89,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=3c833e97aeabae3c",
+  "application_route": "https://au.indeed.com/viewjob?jk=3c833e97aeabae3c",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual listing captured from a non-LinkedIn source on 12 August 2026; confirm availability before applying.",
+  "matched_terms": [
+    "Level 2 support",
+    "ICT support",
+    "Windows",
+    "Microsoft 365",
+    "endpoint management",
+    "troubleshooting"
+  ],
+  "requested_terms": [
+    "Level 2 support",
+    "ICT support",
+    "Windows",
+    "Microsoft 365",
+    "endpoint management",
+    "troubleshooting"
+  ],
+  "unsupported_or_unverified_terms": [
+    "Confirm Working with Children Check requirement, campus travel, device fleet, and exact closing date of 26 August 2026."
+  ],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm Working with Children Check requirement, campus travel, device fleet, and exact closing date of 26 August 2026."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+}

@@ -1,0 +1,37 @@
+{
+  "audit_version": "1.0",
+  "fit": "Strong fit",
+  "score": 92,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=3c4ab30cc0649a2f",
+  "application_route": "https://au.indeed.com/viewjob?jk=3c4ab30cc0649a2f",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual non-LinkedIn listing returned in the August 14, 2026 search; confirm availability and the direct employer or government route before applying.",
+  "matched_terms": [
+    "senior infrastructure",
+    "healthcare technology",
+    "enterprise operations",
+    "technical support"
+  ],
+  "requested_terms": [
+    "senior infrastructure",
+    "healthcare technology",
+    "enterprise operations",
+    "technical support"
+  ],
+  "unsupported_or_unverified_terms": [
+    "Confirm the exact Bayside Health location, platform mix, roster, healthcare screening, and direct Alfred Health application route."
+  ],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm the exact Bayside Health location, platform mix, roster, healthcare screening, and direct Alfred Health application route."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that does not sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, insurance, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Fresh individual listing metadata, search rationale, and verified candidate profile"
+}

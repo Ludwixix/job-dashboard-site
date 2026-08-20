@@ -1,0 +1,41 @@
+{
+  "audit_version": "1.0",
+  "fit": "Good fit - review carefully",
+  "score": 87,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=251f0789cd2814ee",
+  "application_route": "https://au.indeed.com/viewjob?jk=251f0789cd2814ee",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual non-LinkedIn listing captured in the August 15, 2026 refresh; confirm availability, exact requirements, and the direct route before applying.",
+  "matched_terms": [
+    "EUC support",
+    "endpoint management",
+    "Windows",
+    "Microsoft 365",
+    "service operations",
+    "hybrid work"
+  ],
+  "requested_terms": [
+    "EUC support",
+    "endpoint management",
+    "Windows",
+    "Microsoft 365",
+    "service operations",
+    "hybrid work"
+  ],
+  "unsupported_or_unverified_terms": [
+    "Confirm people-leadership scope, budget and vendor ownership, roster, and formal-management requirements."
+  ],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm people-leadership scope, budget and vendor ownership, roster, and formal-management requirements."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that does not sound like you.",
+    "Confirm every licence, qualification, clearance, travel, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Fresh individual listing metadata, search rationale, and verified candidate profile"
+}

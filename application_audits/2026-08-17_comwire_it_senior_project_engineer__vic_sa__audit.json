@@ -1,0 +1,39 @@
+{
+  "audit_version": "1.0",
+  "fit": "Good fit - review carefully",
+  "score": 88,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=29da64835023f2a8",
+  "application_route": "https://au.indeed.com/viewjob?jk=29da64835023f2a8",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Fresh individual non-LinkedIn listing captured in the August 17, 2026 refresh; confirm availability, exact requirements, and the direct route before applying.",
+  "matched_terms": [
+    "Microsoft 365",
+    "Azure",
+    "project delivery",
+    "client infrastructure",
+    "technical leadership"
+  ],
+  "requested_terms": [
+    "Microsoft 365",
+    "Azure",
+    "project delivery",
+    "client infrastructure",
+    "technical leadership"
+  ],
+  "unsupported_or_unverified_terms": [
+    "Confirm the project mix, travel frequency, Microsoft partner tooling, certifications, after-hours expectations, and direct Comwire route."
+  ],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm the project mix, travel frequency, Microsoft partner tooling, certifications, after-hours expectations, and direct Comwire route."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that does not sound like you.",
+    "Confirm every licence, qualification, clearance, travel, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Fresh individual listing metadata, search rationale, and verified candidate profile"
+}
