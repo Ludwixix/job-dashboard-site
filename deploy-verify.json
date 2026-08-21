@@ -1,0 +1,14 @@
+{
+  "deploy_id": "6a8882b03ad33e758ed200d7",
+  "url": "https://job-dashboard-sam.netlify.app",
+  "categories": {
+    "core": 435,
+    "local": 46,
+    "outdoor": 9,
+    "technician": 30
+  },
+  "total": 520,
+  "verified_routes": 268,
+  "linkedin_cards": 252,
+  "http_status": 200
+}

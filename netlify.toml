@@ -31,3 +31,8 @@
   from = "/api/ai-request"
   to = "/.netlify/functions/ai-request"
   status = 200
+
+[[redirects]]
+  from = "/api/generate-pack"
+  to = "/.netlify/functions/generate-pack"
+  status = 200

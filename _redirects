@@ -3,3 +3,4 @@
 /api/status /.netlify/functions/status 200
 /api/ingest /.netlify/functions/ingest 200
 /api/ai-request /.netlify/functions/ai-request 200
+/api/generate-pack /.netlify/functions/generate-pack 200
