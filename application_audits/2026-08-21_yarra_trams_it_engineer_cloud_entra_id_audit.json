@@ -1,0 +1,45 @@
+{
+  "audit_version": "1.0",
+  "fit": "Strong fit",
+  "score": 97,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=07214026d73518f0",
+  "application_route": "https://au.indeed.com/viewjob?jk=07214026d73518f0",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual non-LinkedIn listing captured from the employer or government careers page during the August 21, 2026 refresh. Confirm availability and the exact position description before applying.",
+  "matched_terms": [
+    "Microsoft Entra ID",
+    "Microsoft 365",
+    "cloud infrastructure",
+    "identity and access management",
+    "Azure",
+    "automation",
+    "Tier 2/3 support",
+    "enterprise infrastructure"
+  ],
+  "supported_terminology": [
+    "Microsoft Entra ID",
+    "Microsoft 365",
+    "cloud infrastructure",
+    "identity and access management",
+    "Azure",
+    "automation",
+    "Tier 2/3 support",
+    "enterprise infrastructure"
+  ],
+  "unsupported_or_unverified_terms": [
+    "Confirm the additional identity-platform exposure, change-window flexibility for an operational rail environment, and any public-transport industry experience expectations."
+  ],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm the additional identity-platform exposure, change-window flexibility for an operational rail environment, and any public-transport industry experience expectations."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that does not sound like you.",
+    "Confirm every licence, qualification, clearance, travel, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Direct employer or government listing text, current route, and Sam's supported candidate profile"
+}

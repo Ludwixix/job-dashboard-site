@@ -3,3 +3,8 @@ netlify
 *.bak
 __pycache__
 node_modules
+_*.py
+_*.json
+_*.ps1
+_*.txt
+_*.mjs

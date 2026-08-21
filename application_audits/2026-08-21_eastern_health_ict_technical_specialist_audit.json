@@ -1,0 +1,41 @@
+{
+  "audit_version": "1.0",
+  "fit": "Good fit - review carefully",
+  "score": 89,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=61486b825c74696f",
+  "application_route": "https://au.indeed.com/viewjob?jk=61486b825c74696f",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual non-LinkedIn listing captured from the employer or government careers page during the August 21, 2026 refresh. Confirm availability and the exact position description before applying.",
+  "matched_terms": [
+    "Microsoft 365",
+    "end-user computing",
+    "Windows",
+    "clinical systems support",
+    "Incident management",
+    "automation"
+  ],
+  "supported_terminology": [
+    "Microsoft 365",
+    "end-user computing",
+    "Windows",
+    "clinical systems support",
+    "Incident management",
+    "automation"
+  ],
+  "unsupported_or_unverified_terms": [
+    "Confirm the specific service-desk triage responsibilities, working-with-children or police check, and vaccine requirements."
+  ],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm the specific service-desk triage responsibilities, working-with-children or police check, and vaccine requirements."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that does not sound like you.",
+    "Confirm every licence, qualification, clearance, travel, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Direct employer or government listing text, current route, and Sam's supported candidate profile"
+}

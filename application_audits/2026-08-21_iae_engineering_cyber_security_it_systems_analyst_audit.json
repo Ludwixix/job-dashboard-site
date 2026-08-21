@@ -1,0 +1,41 @@
+{
+  "audit_version": "1.0",
+  "fit": "Good fit - review carefully",
+  "score": 88,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=70421276b4496eb8",
+  "application_route": "https://au.indeed.com/viewjob?jk=70421276b4496eb8",
+  "application_route_type": "Indeed listing",
+  "listing_verification": "Individual non-LinkedIn listing captured from the employer or government careers page during the August 21, 2026 refresh. Confirm availability and the exact position description before applying.",
+  "matched_terms": [
+    "Microsoft 365",
+    "security controls",
+    "cloud platforms",
+    "business systems",
+    "PowerShell",
+    "incident response"
+  ],
+  "supported_terminology": [
+    "Microsoft 365",
+    "security controls",
+    "cloud platforms",
+    "business systems",
+    "PowerShell",
+    "incident response"
+  ],
+  "unsupported_or_unverified_terms": [
+    "Confirm the security-framework exposure (Essential Eight, ISO 27001), on-call expectations, and the specific tooling road map."
+  ],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description.",
+    "Confirm the security-framework exposure (Essential Eight, ISO 27001), on-call expectations, and the specific tooling road map."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that does not sound like you.",
+    "Confirm every licence, qualification, clearance, travel, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Direct employer or government listing text, current route, and Sam's supported candidate profile"
+}
