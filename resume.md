@@ -1,1281 +1,265 @@
-Sam Ludwig — Infrastructure & M365 Engineer 
-Master Resume — Comprehensive Career Biography Last updated: June 2026 | No page 
-constraints — this is the complete career record 
- 
- 
-Contact 
-Field 
-Detail 
-Full Name 
-Sam Ludwig 
-Location 
-Melbourne, Victoria, Australia 
-Phone 
-0405 993 245 
-Email 
-sam.ludwig@gmail.com 
-LinkedIn 
-linkedin.com/in/sam-ludwig 
-Portfolio 
-samludwig.au 
-GitHub 
-github.com/Ludwixix 
-Citizenship 
-Australian Citizen 
-Security Clearance 
-No current clearance. Eligible and willing to 
-apply (Baseline / NV1). 
-Visa / Work Rights 
-Australian Citizen — unrestricted work rights 
-Preferred Engagement 
-Permanent, Contract, Fixed-Term 
- 
- 
-Professional Summary 
-Infrastructure and M365 Engineer with progressive experience bridging physical infrastructure, 
-large-scale hybrid cloud environments, and enterprise automation. Career spans the full stack 
-— from HVAC and Layer 1 telecommunications cabling through to high-level M365 architecture, 
-SharePoint farm management, and Azure cloud adoption strategy. 
- 
-Trusted technical authority for Victoria Police, Transurban, the Department of Education 
-Victoria, Australia Post, and St John of God Health Care. Known for taking ownership of 
-critical L3 escalations, engineering durable automation solutions that eliminate recurring toil, 
-and delivering enterprise-scale infrastructure projects from deployment through to post-incident 
-review. 
- 
-Operates at the intersection of deep technical execution and strategic advisory — equally 
-comfortable writing production PowerShell at 2am, architecting governance frameworks for ISO 
-27001 compliance, or facilitating a client workshop on M365 adoption strategy. Combines 
-hands-on technical depth with strong stakeholder communication and a relentless focus on 
-lasting, durable results. 
- 
-Engineering Philosophy: 
- 
--​
-Automate everything that repeats — eliminate manual toil at the source 
--​
-Root cause analysis is not complete until the fault cannot recur 
--​
-Infrastructure is not static — treat every environment as a living system that requires 
-continuous improvement 
--​
-Documentation is not overhead — it is force-multiplying leverage for the entire team 
--​
-Security is not a checkbox — it must be engineered into every layer of the stack 
- 
- 
-Core Competencies & Technical Expertise 
-Cloud & Microsoft 365 
-Domain 
-Technologies & 
-Tools 
-Proficiency 
-Key Scenarios 
-SharePoint 
-SharePoint Online, 
-SharePoint Server, 
-SPFx, PnP 
-PowerShell, Term 
-Store, Search 
-Configuration 
-Expert 
-660k+ user farm 
-mgmt, cross-tenant 
-migrations, 
-governance 
-frameworks 
-Exchange 
-Exchange Online, 
-Exchange Hybrid, 
-Exchange Online 
-Protection (EOP), 
-ATP, mail-flow rules 
-Advanced 
-Hybrid migration, 
-mail-flow 
-troubleshooting, 
-federation, anti-spam 
-Domain 
-Technologies & 
-Tools 
-Proficiency 
-Key Scenarios 
-Teams 
-Microsoft Teams, 
-Teams Admin Center, 
-Teams Voice, Teams 
-Policies, Guest 
-Access 
-Advanced 
-Enterprise rollout, 
-governance, meeting 
-policies, federation 
-OneDrive 
-OneDrive for 
-Business, Known 
-Folder Move, Sync 
-Client 
-Proficient 
-Enterprise migration, 
-sync troubleshooting, 
-policy configuration 
-Entra ID 
-Entra ID (Azure AD), 
-Azure AD Connect, 
-ADFS, PHS, PTA, 
-Seamless SSO, 
-Dynamic Groups 
-Expert 
-Hybrid identity, sync 
-engine 
-troubleshooting, 
-authentication flows 
-Azure 
-Azure VMs, Azure 
-Functions, Azure 
-Automation, Azure 
-DevOps, Azure Portal 
-Advanced 
-Cloud adoption, 
-legacy remediation, 
-CI/CD pipelines 
-Power Platform 
-Power Automate, 
-Power Apps, Power 
-BI 
-Proficient 
-Workflow automation, 
-reporting dashboards 
-Identity & Security 
-Domain 
-Details 
-Identity Management 
-Entra ID (Azure AD), Azure AD Connect sync 
-engine, ADFS, Password Hash Sync, 
-Pass-through Authentication, Seamless SSO, 
-custom domain configuration 
-Security Frameworks 
-ACSC Essential 8 maturity model, NIST, ISO 
-27001 compliance requirements 
-Conditional Access 
-Policy design and implementation, 
-location-based policies, device compliance, 
-risk-based policies 
-Domain 
-Details 
-MFA 
-MFA enforcement strategy, per-user vs 
-Conditional Access MFA, SSPR 
-configuration, MFA compliance auditing 
-Identity Protection 
-Risk detection, risk-based policies, 
-compromised credential remediation 
-Email Security 
-Exchange Online Protection, Advanced 
-Threat Protection (anti-phishing, safe 
-attachments, safe links), DKIM/SPF/DMARC 
-Compliance 
-Microsoft Purview (DLP, retention policies, 
-eDiscovery, litigation hold), compliance score 
-Endpoint Management 
-Domain 
-Technologies & Tools 
-Key Activities 
-MDM/MAM 
-Microsoft Intune 
-Policy deployment, 
-compliance rings, app 
-protection policies, device 
-configuration profiles 
-OS Deployment 
-Windows Autopilot, SCCM, 
-MDT, OS imaging 
-Autopilot provisioning, hybrid 
-Azure AD join, white-glove 
-deployment 
-SOE Design 
-Windows 10/11 Enterprise, 
-Group Policy, Intune 
-Configuration Profiles 
-SOE standards definition, 
-application compatibility, 
-baseline hardening 
-Device Lifecycle 
-Provisioning, loan 
-management, OS migration, 
-compliant disposal 
-Full lifecycle management for 
-enterprise fleets 
-Cross-Platform 
-Jamf Pro (macOS), Android 
-Enterprise, iOS MDM 
-Multi-platform endpoint 
-strategy 
-Infrastructure & Data Centre 
-Domain 
-Technologies & Tools 
-Virtualization 
-VMware vSphere (ESXi, vCenter), Microsoft 
-Hyper-V 
-Server OS 
-Windows Server 2012R2–2022, Active 
-Directory Domain Services, Group Policy 
-Management, DNS, DHCP, Certificate 
-Services 
-Networking 
-Layer 1 physical cabling (fibre, copper), cable 
-routing, structured cabling standards, switch 
-patching 
-Facilities 
-Data centre environmental controls, 
-HVAC/thermal management, power 
-distribution, hardware provisioning, 
-rack-and-stack 
-Storage 
-SAN/NAS fundamentals, file server 
-management, DFS 
-Automation & DevOps 
-Domain 
-Technologies & Tools 
-Proficiency 
-PowerShell 
-PowerShell 5.1/7, PnP 
-PowerShell, Exchange Online 
-Management, AzureAD/Entra 
-modules, Graph API 
-Expert 
-Python 
-Python 3, Selenium, GUI 
-frameworks (Tkinter), web 
-scraping, API integration 
-Advanced 
-JavaScript/TypeScript 
-ES6+, TypeScript, React, 
-Node.js 
-Advanced 
-SPFx 
-SharePoint Framework, 
-React SPFx web parts, 
-extension development 
-Advanced 
-Domain 
-Technologies & Tools 
-Proficiency 
-CI/CD 
-Azure DevOps Pipelines, Git, 
-GitHub, branching strategies, 
-release management 
-Advanced 
-REST APIs 
-Microsoft Graph API, custom 
-API integration, OAuth, token 
-management 
-Proficient 
-Browser Automation 
-Tampermonkey/Greasemonk
-ey, custom user scripts, 
-keystroke injection, DOM 
-manipulation 
-Expert 
-Service Management & Operations 
-Domain 
-Details 
-Frameworks 
-ITIL 4 — incident management, problem 
-management, change management, service 
-request management, SLA management 
-Ticketing Tools 
-ServiceNow (advanced), Zendesk, Jira 
-Service Management 
-Monitoring 
-Splunk, KQL (Kusto Query Language), Azure 
-Monitor, SharePoint health monitoring 
-Documentation 
-RCA reports, as-built documentation, 
-technical knowledge base, runbooks, process 
-flows 
-Operations 
-High-volume queue management (40+ 
-concurrent tickets), consistently >90% SLA 
-resolution 
-Platforms, Tools & Environments 
-Category 
-Technologies 
-Google Workspace 
-Gmail, Google Drive, Google Admin Console, 
-directory sync, Google Groups 
-Category 
-Technologies 
-Migration Tools 
-Sharegate, AvePoint, BitTitan MigrationWiz, 
-SPMT, Mover.io 
-Security 
-Microsoft Defender for Office 365, Defender 
-for Endpoint, Microsoft Purview 
-Database 
-SQL Server, KQL 
-Version Control 
-Git (advanced branching, merging, rebasing), 
-GitHub 
-Methodologies 
-Agile/Scrum, Kanban, Waterfall 
-Soft Skills 
-Stakeholder management, technical 
-workshop facilitation, cross-functional 
-collaboration, client-facing engagement, 
-vendor management 
- 
- 
-Professional Experience 
- 
-L2/L3 Technical Support Engineer 
-Australia Post (via Capgemini) | Feb 2026 – Jun 2026 | Melbourne, Victoria 
- 
-Environment: National postal and logistics service — enterprise IT operations supporting 
-thousands of endpoints across multiple sites. High-volume service centre environment with strict 
-SLA requirements. 
- 
-Context & Scale: Australia Post operates a complex hybrid IT environment spanning retail 
-outlets, distribution centres, corporate offices, and data centres. The MyITHub service centre 
-functioned as the primary IT touchpoint for all employees, managing device provisioning, 
-break-fix, and end-user support at national scale. 
- 
-Key Responsibilities & Achievements: 
- 
--​
-Service Desk Operations: Delivered comprehensive L1/L2 face-to-endpoint and remote 
-technical support within the MyITHub service centre. Services covered: 
- 
--​
-Device repair and hardware diagnostics 
--​
-OS reimaging and recovery 
--​
-Loan device management and tracking 
--​
-New employee provisioning (hardware, software, access) 
--​
-Accessories fulfilment and spares management 
- 
--​
-Automation Innovation — Keystroke Injection: Engineered a novel custom 
-keystroke injection automation solution within ServiceNow to circumvent stringent 
-system access controls. This automation: 
- 
--​
-Programmatically created and modified ITSM tickets 
--​
-Eliminated hundreds of hours of manual data entry per month 
--​
-Worked within the constraints of locked-down enterprise endpoints 
--​
-Demonstrated creative problem-solving under restrictive security policies 
- 
--​
-Endpoint Lifecycle Management: Managed the complete endpoint lifecycle from 
-procurement to disposal: 
- 
--​
-OS migrations across Windows 10 and 11 
--​
-Device imaging using standardised SOE builds 
--​
-Autopilot/UEM enrolment and configuration 
--​
-Compliant equipment disposal with data sanitisation 
--​
-Ensured every device left the service centre deployment-ready 
- 
--​
-Inventory & Asset Management: Maintained spares and accessories inventory, 
-conducted monthly stock watermark reviews, and contributed to the implementation of a 
-ServiceNow Stock Accessories module to improve inventory visibility and SLA tracking. 
- 
--​
-Self-Service Kiosk Programme: Played a key role in rolling out a self-help kiosk 
-programme that enabled staff to independently: 
- 
--​
-Access the Knowledge Base 
--​
-Perform password resets 
--​
-Log support tickets 
--​
-Book hub appointments Reduced service desk walk-in volume and improved 
-user autonomy. 
- 
--​
-Escalation Support: Acted as the primary escalation point for complex infrastructure 
-faults, collaborating with L3 engineering teams to drive incidents through to permanent 
-resolution. 
- 
-Technologies Used: ServiceNow, Windows 10/11, Autopilot, Intune, UEM, OS imaging, 
-JavaScript, inventory management systems 
- 
- 
-Endpoint Migration Engineer 
-St John of God Health Care | Oct 2025 – Jan 2026 | Melbourne, Victoria 
- 
-Environment: Private hospital network — Windows 11 migration across 100+ clinical endpoints 
-in live hospital environments. Zero tolerance for patient care disruption. 
- 
-Context & Scale: St John of God Health Care operates multiple private hospitals across 
-Australia. This project required migrating clinical endpoints from Windows 10 to Windows 11 
-while maintaining continuous operation of critical clinical systems including Electronic Medical 
-Records (EMR), diagnostic imaging software, and patient administration systems. 
- 
-Key Responsibilities & Achievements: 
- 
--​
-Windows 11 Enterprise Migration: Led the execution of a Windows 11 enterprise 
-migration across 100+ clinical endpoints, maintaining 100% adherence to Autopilot 
-provisioning workflows and strict Standard Operating Environment (SOE) standards in 
-live, patient-facing environments. 
- 
--​
-Full Lifecycle Management: Managed every phase of the endpoint migration: 
- 
--​
-Hardware preparation and assessment 
--​
-Autopilot enrolment and profile assignment 
--​
-Intune policy application and compliance verification 
--​
-Post-deployment validation including clinical software compatibility testing 
--​
-User handoff and training 
- 
--​
-Clinical Stakeholder Liaison: Served as the primary technical liaison between clinical 
-end-users and the engineering team. Translated complex technical issues into 
-actionable, understandable feedback for medical and nursing staff who had zero 
-tolerance for system disruption. 
- 
--​
-Hypercare & Clinical Application Support: Provided intensive hypercare support to 
-medical staff post-migration. Diagnosed and resolved compatibility issues with: 
- 
--​
-EMR (Electronic Medical Record) systems 
--​
-Diagnostic imaging software (PACS) 
--​
-Clinical administration tools 
--​
-Patient monitoring interfaces Ensured zero disruption to patient care 
-throughout the entire migration. 
- 
-Technologies Used: Windows 11, Windows Autopilot, Microsoft Intune, SOE design, Clinical 
-EMR systems, PACS 
- 
- 
-Senior Managed Services Engineer (Consultant to Department of 
-Education Victoria) 
-Capgemini | December 2021 – 2023 | Melbourne, Victoria 
- 
-Environment: One of Australia's largest government departments. Managed the Southern 
-Hemisphere's largest SharePoint farm supporting 660,000+ active users across 1,000+ site 
-collections in a federal- and state-government secure environment. 
- 
-Context & Scale: The Department of Education Victoria manages IT for every government 
-school, administrative office, and shared services function across the state. The SharePoint 
-environment alone processes millions of transactions daily across curriculum delivery, 
-administrative workflows, HR self-service, and policy dissemination. The role required deep 
-M365 expertise, hybrid identity management spanning three distinct identity providers, and 
-operating as the ultimate technical escalation point for the entire M365 ecosystem. 
- 
-Key Responsibilities & Achievements: 
- 
--​
-SharePoint Operations & Governance: Managed the largest SharePoint farm in the 
-Southern Hemisphere (660,000+ active users across 1,000+ site collections). Executed 
-critical change requests, security patching, and capacity management — consistently 
-achieving 99.9% uptime in a government SLA environment. Developed site collection 
-provisioning workflows and governance policies to manage growth at scale. 
- 
--​
-L3 Escalation & Problem Management: Served as the ultimate Tier-3 escalation 
-point across the entire M365 ecosystem — SharePoint Online, Exchange Online, 
-Microsoft Teams, and Google Workspace. Led root cause analysis (RCA) investigations 
-for chronic and critical incidents, implementing permanent preventive measures that 
-resulted in a documented 15% reduction in repeat incidents over a 12-month period. 
- 
--​
-MFA Compliance Automation (Flagship Project): Engineered a comprehensive PnP 
-PowerShell automation solution to dynamically audit and enforce MFA compliance 
-across 200+ sensitive SharePoint sites. The solution: 
- 
--​
-Automated discovery of site collections containing sensitive data 
--​
-Checked membership and MFA status for all users with access 
--​
-Generated structured compliance reports for department-wide stakeholder review 
--​
-Eliminated a previously manual, month-long audit cycle 
--​
-Provided real-time visibility into compliance posture 
- 
--​
-Hybrid Identity Management: Managed the complex synchronisation of three identity 
-platforms: On-Premise Active Directory, Entra ID (Azure AD), and Google Workspace. 
-Resolved intricate identity conflicts, sync engine failures, and authentication cascade 
-issues to maintain seamless single sign-on (SSO) for the entire department. 
- 
--​
-Exchange & Teams Administration: Administered Exchange Hybrid environment 
-alongside Microsoft Teams, resolving complex mail-flow routing issues, calendar sharing 
-and federation problems, and cross-tenant collaboration scenarios. Troubleshot issues 
-affecting the entire department's communication infrastructure. 
- 
--​
-Azure Cloud Adoption & Legacy Remediation: Spearheaded Azure cloud adoption 
-initiatives, migrating legacy on-premise workloads to Azure IaaS/PaaS. Aligned 
-hybrid-cloud infrastructure with ACSC Essential 8 maturity model requirements and 
-modern enterprise security baselines. Conducted application remediation assessments 
-for legacy systems. 
- 
--​
-Custom Workload Distribution Engine (Tampermonkey + ServiceNow Integration): 
-Built a production-grade algorithmic workload distribution engine as a client-side 
-browser extension. The system: 
- 
--​
-Integrated live M365 presence data from SharePoint with ServiceNow ticket 
-queues 
--​
-Automatically recommended ticket assignments based on engineer availability 
-and workload 
--​
-Eliminated manual triage overhead for the entire service desk team 
--​
-Prevented SLA breaches by ensuring timely ticket distribution 
--​
-Achieved adoption as a standard team tool 
- 
--​
-Technical Documentation & Knowledge Management: Produced comprehensive 
-as-built documentation, RCA reports, and operational runbooks. Created a searchable 
-knowledge base that reduced resolution time for recurring incidents and dramatically 
-improved new team member onboarding velocity. 
- 
--​
-Operational Management: Managed 40+ concurrent tickets in a high-volume 
-government service queue, consistently achieving >90% resolution within contractual 
-SLA targets. Balanced competing priorities across operational support, project work, and 
-automation initiatives. 
- 
-Technologies Used: SharePoint Online, PnP PowerShell, Exchange Hybrid, Microsoft Teams, 
-Entra ID, Azure AD Connect, Google Workspace Admin, ServiceNow, Tampermonkey, 
-JavaScript, Azure, Windows Server, Active Directory, MFA, Conditional Access, ACSC Essential 
-8 
- 
- 
-Application Support Engineer 
-Knosys | December 2020 – December 2021 | Melbourne, Victoria 
- 
-Environment: Enterprise SaaS company — flagship product GreenOrbit intranet platform 
-deployed across major Australian enterprises including retail, healthcare, and professional 
-services. 
- 
-Context & Scale: Knosys provides the GreenOrbit enterprise intranet and knowledge 
-management platform to major Australian organisations. As an L3 Application Support Engineer, 
-Sam was responsible for the most complex technical escalations across the entire customer 
-base, requiring deep platform knowledge, database expertise, and cross-functional collaboration 
-with the development team. 
- 
-Key Responsibilities & Achievements: 
- 
--​
-L3 Application Support: Delivered expert-level L3 application support for the 
-GreenOrbit enterprise intranet platform, achieving a 95% issue resolution rate within 
-SLA for a diverse client portfolio including: 
- 
--​
-Cotton On — major Australian retail fashion group 
--​
-Harvey Norman — Australia's largest electronics and furniture retailer 
--​
-Healthscope — major private hospital operator 
--​
-Various government and education clients 
- 
--​
-Process Automation (87% Efficiency Gain): Engineered a PowerShell automation 
-solution that replaced manual data compilation during cloud migrations, reducing 
-processing time by 87% — from 2 hours to 15 minutes per migration batch. This saved 
-10+ hours of manual overhead per month and eliminated data entry errors. 
- 
--​
-Systems Patching Automation: Developed Python and PowerShell scripts to 
-streamline and standardise system patching procedures, reducing manual patching 
-effort by 20% and improving patch-cycle consistency across the platform infrastructure. 
- 
--​
-Platform Upgrades & AWS Migration: Contributed to complex platform version 
-upgrades and an AWS cloud migration. Authored comprehensive RCA documentation 
-that permanently resolved recurring version conflicts. This RCA document became the 
-reference guide for all future upgrade cycles, preventing the same issues from recurring. 
- 
--​
-Deep Technical Diagnostics: Diagnosed and resolved a wide range of application-layer 
-issues: 
- 
--​
-Database query failures and deadlocks (SQL) 
--​
-API integration errors and timeouts 
--​
-Front-end rendering defects and browser compatibility issues 
--​
-Authentication and authorisation configuration Frequently engaged directly with 
-the development team to engineer code-level fixes for complex platform defects. 
- 
-Technologies Used: GreenOrbit, PowerShell, Python, SQL, AWS, REST APIs, IIS, Windows 
-Server 
- 
- 
-SharePoint Developer 
-Engage Squared | March 2018 – December 2020 | Melbourne, Victoria 
- 
-Environment: Boutique M365 consultancy delivering custom SharePoint solutions to major 
-enterprise clients including Victoria Police, Transurban, and Cimic Group. Agile delivery 
-environment with close client collaboration. 
- 
-Context & Scale: Engage Squared is a specialised M365 and SharePoint consultancy working 
-with some of Australia's largest enterprise clients. As a SharePoint Developer, Sam was 
-responsible for the full delivery lifecycle — from client requirements gathering and solution 
-architecture through to development, deployment, and post-launch support. 
- 
-Key Responsibilities & Achievements: 
- 
--​
-Enterprise Solution Delivery: Architected and delivered 5+ bespoke SharePoint 
-Online intranet solutions for major enterprise clients: 
- 
--​
-Victoria Police — secure law enforcement intranet with strict governance 
-requirements 
--​
-Transurban — road infrastructure operator intranet and collaboration platform 
--​
-Cimic Group — global construction and mining contractor intranet 
--​
-Built using custom SPFx (SharePoint Framework) components with React 
-and TypeScript 
- 
--​
-CI/CD Pipeline Implementation: Implemented full CI/CD pipelines using Azure 
-DevOps and Git, automating build, test, and release processes. Achieved a 25% 
-reduction in deployment cycle times through: 
- 
--​
-Automated builds triggered by code commits 
--​
-Automated testing and quality gates 
--​
-Streamlined release management workflows 
--​
-Elimination of manual deployment steps 
- 
--​
-Legacy-to-M365 Migration: Led end-to-end migration of legacy on-premise SharePoint 
-intranets to Microsoft 365, including: 
- 
--​
-Content migration using Sharegate and SPMT 
--​
-Permission restructuring and security group migration 
--​
-Information architecture redesign for modern SharePoint 
--​
-Governance framework development ensuring ISO 27001 compliance from day 
-one 
- 
--​
-Client Technical Workshops & Adoption: Facilitated client-facing technical workshops 
-and product demonstrations that drove a 20% increase in enterprise adoption of new 
-M365 platform features. Translated complex technical capabilities into business value 
-propositions for non-technical stakeholders. 
- 
--​
-Agile Delivery: Collaborated within a cross-functional Agile/Scrum delivery model, 
-actively contributing to: 
- 
--​
-Sprint planning and estimation 
--​
-Backlog refinement and prioritisation 
--​
-Daily stand-ups and sprint retrospectives 
--​
-Pair programming and knowledge sharing 
- 
--​
-Post-Launch Support: Provided L2/L3 production support for all deployed solutions, 
-ensuring long-term platform stability and client satisfaction. Developed support runbooks 
-and knowledge base articles for client IT teams. 
- 
-Technologies Used: SharePoint Online, SPFx, React, TypeScript, JavaScript, Azure DevOps, 
-Git, PnP PowerShell, Sharegate, SPMT, HTML5, CSS3, REST APIs, Agile/Scrum 
- 
- 
-Telecommunications Technician 
-National Broadband Network (NBN) | October 2016 – November 2017 | Melbourne, Victoria 
- 
-Environment: Australia's national broadband infrastructure project — field-based 
-telecommunications deployment across residential and commercial properties. 
- 
-Context & Scale: The NBN rollout was one of Australia's largest infrastructure projects. As a 
-field technician, Sam was responsible for the physical installation and maintenance of 
-broadband infrastructure across Melbourne's metropolitan area. 
- 
-Key Responsibilities & Achievements: 
- 
--​
-Layer 1 Infrastructure Deployment: Executed physical Layer 1 telecommunications 
-infrastructure deployments, running structured cabling (fibre optic and copper) through 
-complex residential, commercial, and multi-dwelling environments. 
--​
-Fault-Finding & Diagnostics: Performed hands-on fault-finding and hardware 
-troubleshooting across physical network lines, diagnosing connectivity issues at the 
-physical and data link layers. 
--​
-Hardware Installation & Maintenance: Installed and maintained IT infrastructure and 
-equipment including NTDs (Network Termination Devices), routers, and customer 
-premises equipment with precision, adherence to standards, and efficiency. 
--​
-Site Assessment: Conducted site surveys to determine optimal cable routing, 
-equipment placement, and installation methodology for diverse building types. 
- 
-Technologies Used: Fibre optic cabling, copper structured cabling, NBN NTDs, customer 
-premises equipment, Layer 1 diagnostics 
- 
- 
-HVAC Service Technician 
-PolaAir | 2017 | Melbourne, Victoria 
- 
-Environment: Commercial HVAC installation, maintenance, and service across Melbourne 
-metropolitan area. 
- 
-Prior to transitioning into IT and telecommunications, Sam worked as an HVAC service 
-technician — conducting installation, maintenance, and repair of heating, ventilation, and air 
-conditioning systems across commercial and light industrial sites. The role developed strong 
-diagnostic thinking, hands-on fault-finding under time pressure, and customer-facing service 
-skills that carried directly into IT operations. 
- 
-Key Responsibilities: 
- 
--​
-Installed, maintained, and repaired commercial HVAC systems including split systems, 
-roof-top units, and ducted heating. 
--​
-Diagnosed mechanical and electrical faults using systematic troubleshooting — a 
-methodology later applied to IT incident resolution and RCA. 
--​
-Managed service schedules and customer communications for multiple concurrent jobs 
-across different sites. 
--​
-Developed direct understanding of environmental control systems — applicable to data 
-centre thermal management in later infrastructure roles. 
- 
- 
-Education & Certifications 
-Professional Certifications 
-Certification 
-Issuing Body 
-Credential ID 
-Year Obtained 
-Microsoft Certified: 
-Azure Administrator 
-Associate 
-Microsoft 
-AZ-104 
-2025 
-Microsoft Certified: 
-Azure 
-Fundamentals 
-Microsoft 
-AZ-900 
-2022 
-ITIL 4 Foundation 
-AXELOS 
-— 
-2025 
-Formal Education 
-Qualification 
-Institution 
-Location 
-Year 
-Diploma of 
-Information 
-Technology 
-Coder Academy 
-Melbourne, VIC 
-2019 
-Web Development 
-Fast Track 
-Bootcamp 
-Coder Academy 
-Melbourne, VIC 
-2018 
-Continuous Professional Development 
-Focus Area 
-Activities 
-Microsoft 365 
-Ongoing self-study across Entra ID, 
-SharePoint Premium, Microsoft Purview, 
-Intune Suite 
-Focus Area 
-Activities 
-Azure 
-Hands-on lab work and certification renewal 
-Security 
-ACSC Essential 8, zero-trust architecture, 
-identity security best practices 
-Automation 
-PowerShell 7, Microsoft Graph API, Python 
-advanced patterns 
-AI / Copilot 
-Microsoft Copilot for M365, Azure OpenAI 
-patterns 
- 
- 
-Key Projects & Portfolio 
-🔧 ServiceNow UI & Assignment Engine — YellowSnow 
-GitHub: github.com/Ludwixix/YellowSnow 
- 
-A sophisticated client-side browser extension suite that revolutionises service desk 
-operations by integrating live M365/SharePoint presence data with ServiceNow ticket queues. 
- 
-Technical Architecture: 
- 
--​
-Built as a Tampermonkey/Greasemonkey user script suite 
--​
-Interrogates SharePoint Online presence APIs to determine engineer availability in 
-real-time 
--​
-Queries ServiceNow REST APIs for current ticket queue state 
--​
-Implements a custom algorithmic workload recommendation engine that: 
--​
-Analyses engineer availability, current workload, and skill sets 
--​
-Recommends optimal ticket assignments 
--​
-Prevents SLA breaches through intelligent distribution 
--​
-Eliminates manual triage overhead entirely 
- 
-Impact: Eliminated manual ticket triage for the entire service desk team. Became the standard 
-operational tool used by all team members. Demonstrated the power of client-side automation 
-when system-level integrations are constrained. 
- 
- 
-🔧 M365 Diagnostic GUI — PySPO 
-GitHub: github.com/Ludwixix/pyspo-tool 
- 
-A Python-based graphical user interface that empowers Tier-1 support staff to safely run 
-advanced PowerShell diagnostics against Exchange Online and Teams accounts without 
-needing PowerShell expertise. 
- 
-Technical Architecture: 
- 
--​
-Python GUI built with Tkinter 
--​
-Backend PowerShell execution engine with sandboxed safety controls 
--​
-Pre-built diagnostic modules covering: 
--​
-Exchange Online mailbox statistics and health checks 
--​
-Teams call quality and connectivity diagnostics 
--​
-License assignment validation 
--​
-Mail-flow troubleshooting 
--​
-Results presented in structured, non-technical format suitable for frontline staff 
- 
-Impact: Significantly reduced L3 escalation volumes by enabling frontline staff to perform 
-advanced diagnostics autonomously. Reduced average resolution time for common M365 
-issues. Democratised access to PowerShell diagnostics across the team. 
- 
- 
-🔧 JobGobblin Browser Automation 
-GitHub: github.com/Ludwixix/JobGobblin 
- 
-A web-scraping engine that programmatically navigates job boards and extracts requisition 
-data based on custom Boolean search parameters. 
- 
-Technical Architecture: 
- 
--​
-Built with Python and Selenium WebDriver 
--​
-Supports Boolean search parameters (AND, OR, NOT, parentheses) 
--​
-Multi-platform support (LinkedIn, Seek, Indeed) 
--​
-Structured data extraction with deduplication 
--​
-Configurable search frequency and notification patterns 
- 
-Demonstrates: Practical automation architecture, web scraping best practices, API-agnostic 
-data extraction, and durable error handling for dynamic web environments. 
- 
- 
-🔧 MFA Compliance Automation 
-PnP PowerShell solution for dynamic MFA compliance auditing across enterprise SharePoint 
-environments. 
- 
-Scope: 200+ sensitive SharePoint sites within the Department of Education Victoria. 
- 
-Technical Implementation: 
- 
--​
-Automated site collection discovery using PnP PowerShell 
--​
-Membership enumeration for all users with access to sensitive sites 
--​
-MFA status checking against Entra ID for each identified user 
--​
-Structured compliance report generation with: 
--​
-Overall compliance score 
--​
-Per-site compliance breakdown 
--​
-Individual user non-compliance details 
--​
-Trend data for stakeholder reporting 
--​
-Email-based automated distribution to compliance stakeholders 
- 
-Impact: Eliminated previously manual, month-long audit cycles. Provided real-time visibility into 
-MFA compliance posture. Enabled proactive remediation before audit findings. 
- 
- 
-🔧 Windows 11 Clinical Migration 
-Enterprise-wide Windows 11 migration at St John of God Health Care across 100+ clinical 
-endpoints. 
- 
-Scope: Live hospital environment with zero tolerance for patient care disruption. 
- 
-Technical Implementation: 
- 
--​
-Autopilot-driven provisioning with hardware hash registration 
--​
-Intune policy application including compliance, configuration, and app deployment 
--​
-SOE standard adherence with clinical-specific customisations 
--​
-Application compatibility testing for: 
--​
-EMR systems (Cerner, Epic integration) 
--​
-PACS diagnostic imaging software 
--​
-Clinical administration tools 
--​
-Patient monitoring interfaces 
--​
-Phased rollout with intensive hypercare support 
- 
-Impact: 100% SOE compliance, zero patient care disruptions, all clinical applications verified 
-compatible before handoff. 
- 
- 
-🔧 SharePoint Southern Hemisphere — 660k User Farm 
-Management of the Department of Education Victoria's SharePoint Online environment. 
- 
-Scale: 660,000+ active users, 1,000+ site collections, 99.9% uptime. 
- 
-Technical Responsibilities: 
- 
--​
-Capacity planning and growth management 
--​
-Security patching and change management 
--​
-Site collection provisioning and governance 
--​
-Performance monitoring and optimisation 
--​
-Cross-functional collaboration with security, networking, and identity teams 
- 
- 
-Open Source & Personal Projects 
-Project 
-Description 
-Stack 
-Status 
-YellowSnow 
-ServiceNow workload 
-distribution engine 
-JavaScript, 
-Tampermonkey, 
-REST APIs, 
-SharePoint Presence 
-Active 
-PySPO Tool 
-M365 diagnostic GUI 
-for Tier-1 teams 
-Python, PowerShell, 
-Tkinter 
-Active 
-JobGobblin 
-Job board scraping 
-engine 
-Python, Selenium 
-Active 
-MFA Audit Scripts 
-PnP PowerShell 
-compliance 
-automation 
-PowerShell, PnP, 
-Graph API 
-Active 
- 
- 
-Career Metrics & Impact Summary 
-Metric 
-Value 
-Context 
-Environment scale 
-managed 
-660,000+ users 
-Dept. of Education VIC — 
-largest SharePoint farm in 
-Southern Hemisphere 
-SharePoint uptime 
-achieved 
-99.9% 
-Over multi-year production 
-operations 
-M365 processing time 
-reduction 
-87% 
-2 hours → 15 minutes via 
-PowerShell automation 
-Deployment cycle 
-reduction 
-25% 
-CI/CD pipeline 
-implementation at Engage 
-Squared 
-Repeat incident reduction 
-15% 
-Through systematic RCA and 
-preventive measures 
-SLA resolution rate (L3) 
-95% 
-At Knosys across major 
-enterprise clients 
-SLA resolution rate 
-(operational) 
->90% 
-At Capgemini — 40+ 
-concurrent ticket queue 
-Clinical endpoints migrated 
-100+ 
-St John of God — zero 
-patient care disruption 
-Bespoke SharePoint 
-solutions 
-5+ 
-For Victoria Police, 
-Transurban, Cimic Group 
-Client-facing workshops 
-delivered 
-10+ 
-Driving 20% increase in 
-M365 adoption 
-Automation projects 
-shipped 
-5+ 
-Production-grade solutions 
-deployed across multiple 
-organisations 
- 
- 
-Enterprise Client Portfolio 
-Organisation 
-Sector 
-Engagement Type 
-Work Delivered 
-Australia Post 
-Government (Govt 
-Enterprise) 
-Consultancy 
-(Capgemini) 
-L2/L3 support, 
-automation, endpoint 
-lifecycle 
-St John of God 
-Health Care 
-Healthcare / Private 
-Project 
-Windows 11 
-migration, Autopilot 
-deployment 
-Department of 
-Education Victoria 
-Government (State) 
-Consultancy 
-(Capgemini) 
-SharePoint 
-operations, M365 
-engineering, 
-automation, L3 
-escalation 
-Victoria Police 
-Government (State) 
-Client (Engage 
-Squared) 
-SharePoint intranet 
-solution 
-Transurban 
-Infrastructure / 
-Private 
-Client (Engage 
-Squared) 
-SharePoint intranet 
-solution 
-Cimic Group 
-Construction / Private 
-Client (Engage 
-Squared) 
-SharePoint intranet 
-solution 
-Cotton On 
-Retail / Private 
-Client (Knosys) 
-L3 application 
-support 
-Harvey Norman 
-Retail / Private 
-Client (Knosys) 
-L3 application 
-support 
-Healthscope 
-Healthcare / Private 
-Client (Knosys) 
-L3 application 
-support 
- 
- 
-Professional Attributes & Working Style 
--​
-Self-Starter: Comfortable with ambiguity. Proactively identifies automation opportunities 
-and drives them from concept to production without needing external direction. 
--​
-Customer-Obsessed: Prioritises end-user outcomes. Translates technical complexity 
-into business value. Understands that infrastructure exists to serve the organisation, not 
-the other way around. 
--​
-Durable Problem-Solving: Not satisfied with workarounds. Every RCA is pursued until 
-the root cause is eliminated and the fault cannot recur. Builds systems that last. 
--​
-Technical Communicator: Equally effective writing PowerShell, explaining architecture 
-decisions to technical peers, facilitating client workshops, or documenting operational 
-procedures. Produces documentation that others actually use. 
--​
-Continuous Learner: Actively pursues new technologies and methodologies. Maintains 
-certifications, builds personal projects, and experiments with emerging platforms. 
--​
-Cross-Functional Collaborator: Works effectively across engineering, operations, 
-security, and business teams. Understands the perspectives and priorities of each group. 
- 
- 
-Role Targeting Matrix 
-This master resume contains the full career record and can be tailored to produce targeted 
-versions for the following role categories: 
- 
-Role Category 
-Key Skills to Emphasise 
-Target Audience 
-Senior Infrastructure / 
-Cloud Engineer 
-Azure, M365, hybrid identity, 
-PowerShell automation, 
-enterprise infrastructure 
-management, ACSC 
-Essential 8 
-Enterprise IT, government, 
-MSPs 
-Modern Workplace / M365 
-Engineer 
-SharePoint, Teams, 
-Exchange, Intune, Autopilot, 
-endpoint management, 
-adoption strategy 
-Consulting firms, enterprise 
-IT 
-DevOps / Automation 
-Engineer 
-CI/CD pipelines, 
-PowerShell/Python scripting, 
-Azure DevOps, ServiceNow 
-integration, API development 
-Tech-forward organisations 
-L3 Support / Systems 
-Administrator 
-Escalation management, 
-RCA, SLA delivery, enterprise 
-support operations, 
-documentation 
-MSPs, enterprise service 
-desks 
-Role Category 
-Key Skills to Emphasise 
-Target Audience 
-Application Support 
-Engineer 
-SaaS platforms, API 
-integrations, cloud 
-migrations, stakeholder 
-management, database 
-diagnostics 
-SaaS companies, enterprise 
-IT 
-Endpoint / EUC Engineer 
-Intune, Autopilot, SCCM, 
-SOE design, Windows 11 
-migration, device lifecycle 
-Enterprise IT, healthcare, 
-education 
-Security / Compliance 
-Engineer 
-Conditional Access, MFA, 
-ACSC Essential 8, Purview, 
-identity protection, 
-compliance automation 
-Government, regulated 
-industries 
-SharePoint / M365 
-Developer 
-SPFx, React, TypeScript, 
-PnP PowerShell, Azure 
-DevOps, CI/CD, solution 
-architecture 
-Consulting firms, enterprise 
-IT 
- 
- 
-References 
-Professional references available upon request. Referee list includes managers from 
-Capgemini, Knosys, Engage Squared, and St John of God Health Care. 
- 
- 
- 
-This master resume is the comprehensive career biography — compiled from the Emperor CV, 
-10+ tailored CV versions, 4 application submission packages, and all available work history 
-data. It is designed as a single source of truth from which targeted, role-specific resumes can be 
-produced. No page constraints applied — every detail is included for maximum utility in tailoring. 
- 
+# MASTER CV DATA SOURCE — Sam Ludwig
+Last updated: August 2026
+Purpose: This is a structured reference document for an AI agent to draw from when generating a job-specific, tailored CV. It is NOT meant to be sent to an employer as-is — it is a comprehensive data source to select, trim, and reorder from.
+
+---
+
+## HOW TO USE THIS DOCUMENT (Agent Instructions)
+
+1. **Read the target job ad first.** Identify: role title, seniority level, must-have technologies, industry/sector, and tone (corporate/government vs startup/agile).
+2. **Select a summary** from the "Summary Variants" section that best matches the role, or blend two.
+3. **Select 4–6 technical categories** from "Technical Expertise" that match the job ad's keywords. Do not dump the entire competency list — that's for reference only, not for copy-paste into a 1–2 page CV.
+4. **For each role in Experience**, select 3–5 bullet points (not all of them) that best match the target job. Each bullet below is tagged with `[theme: ...]` to help you match relevant ones quickly.
+5. **Default output length**: 1–2 pages for a standard corporate/government application, matching the style of the "PDF Reference Version" at the end of this doc. Only go longer if the user explicitly asks for a detailed/technical CV.
+6. **Do not fabricate metrics, dates, or client names.** Only use what's in this document.
+7. **Flag date conflicts.** Two prior CV versions gave different employment dates for Capgemini/Dept. of Education, Australia Post, and St John of God. Use the dates in the "Experience" section below (marked as authoritative) unless the user has since confirmed different dates — and mention to the user if this is the first time tailoring a CV in a session, so they can double check before it goes out.
+8. **Tone**: technically credible, outcome-focused, no generic filler adjectives without a metric or specific system attached.
+
+---
+
+## CONTACT / HEADER BLOCK (always include, standard format)
+
+```
+Sam Ludwig — [Insert Target Role Title Here]
+Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
+linkedin.com/in/sam-ludwig | samludwig.au | github.com/Ludwixix
+```
+
+Additional (include only if relevant to the role, e.g. government/security roles):
+- Citizenship: Australian Citizen
+- Security Clearance: No current clearance. Eligible and willing to apply (Baseline / NV1).
+- Work Rights: Unrestricted (Australian Citizen)
+- Preferred Engagement: Permanent, Contract, Fixed-Term
+
+---
+
+## SUMMARY VARIANTS (pick/blend based on role)
+
+**A. Infrastructure & Cloud Engineer angle:**
+Infrastructure and M365 Engineer with 6+ years bridging physical infrastructure and large-scale hybrid cloud environments. Trusted by Victoria Police, Transurban, and the Department of Education Victoria to manage complex infrastructure and drive automation-focused outcomes. Specialist in Microsoft 365 (Exchange, Intune, SharePoint, Teams, Entra ID), PowerShell automation, and endpoint management across environments supporting 660,000+ users.
+
+**B. Automation/DevOps angle:**
+Infrastructure engineer with a strong automation bias — has shipped 5+ production automation tools (PowerShell, Python, JavaScript) that eliminated manual toil across ServiceNow, SharePoint, and Exchange environments at enterprise and government scale. Comfortable across the full stack from CI/CD pipelines to Layer 1 cabling.
+
+**C. M365 / Modern Workplace angle:**
+M365 Engineer with deep expertise across SharePoint Online, Exchange Hybrid, Teams, Entra ID, and Intune. Managed the largest SharePoint farm in the Southern Hemisphere (660,000+ users) and led enterprise-wide endpoint migrations in zero-tolerance environments (live hospital networks). Strong stakeholder-facing skills, from client workshops to clinical staff hypercare support.
+
+**D. Support/Escalation (L2/L3) angle:**
+IT support engineer with progressive experience from field telecommunications through to Tier-3 escalation ownership for a 660,000+ user M365 environment. Track record of >90% SLA resolution across high-volume queues (40+ concurrent tickets), and of engineering automation that permanently removes recurring incident classes rather than just resolving tickets.
+
+**E. Security/Compliance angle:**
+Infrastructure engineer with applied experience in identity security and compliance automation — built and ran a PnP PowerShell system auditing MFA compliance across 200+ sensitive SharePoint sites for a state government department, aligned cloud adoption work to the ACSC Essential 8 maturity model, and holds AZ-104/AZ-900.
+
+---
+
+## TECHNICAL EXPERTISE (categorised — pick relevant subset per role)
+
+**Cloud & Microsoft 365**
+SharePoint Online/Server, SPFx, PnP PowerShell, Term Store, Exchange Online/Hybrid, EOP, ATP, Teams (Admin Center, Voice, Policies, Guest Access), OneDrive for Business, Entra ID (Azure AD), Azure AD Connect, ADFS, PHS, PTA, Seamless SSO, Dynamic Groups, Azure VMs/Functions/Automation/DevOps, Power Automate, Power Apps, Power BI
+
+**Identity & Security**
+Entra ID, ADFS, Conditional Access, MFA enforcement strategy, SSPR, Identity Protection (risk-based policies), Exchange Online Protection, DKIM/SPF/DMARC, Microsoft Purview (DLP, retention, eDiscovery, litigation hold), ACSC Essential 8, NIST, ISO 27001 compliance
+
+**Endpoint Management**
+Microsoft Intune (MDM/MAM), Windows Autopilot, SCCM, MDT, SOE design (Windows 10/11 Enterprise, Group Policy), full device lifecycle management, Jamf Pro (macOS), Android Enterprise, iOS MDM
+
+**Infrastructure & Data Centre**
+VMware vSphere (ESXi, vCenter), Hyper-V, Windows Server 2012R2–2022, Active Directory Domain Services, DNS, DHCP, Certificate Services, Layer 1 physical cabling (fibre/copper), structured cabling standards, HVAC/thermal management, SAN/NAS, DFS
+
+**Automation & DevOps**
+PowerShell 5.1/7 (Expert), PnP PowerShell, Exchange Online Management, Graph API, Python 3 (Selenium, Tkinter, web scraping), JavaScript/TypeScript/React/Node.js, SPFx, Azure DevOps Pipelines, Git/GitHub, REST APIs/OAuth, browser automation (Tampermonkey/Greasemonkey, DOM manipulation)
+
+**Service Management & Operations**
+ITIL 4 (incident/problem/change/SLA management), ServiceNow (advanced), Zendesk, Jira Service Management, Splunk, KQL, Azure Monitor, RCA reporting, runbooks, high-volume queue management (40+ concurrent, >90% SLA)
+
+**Other Platforms**
+Google Workspace (Admin Console, directory sync), Sharegate, AvePoint, BitTitan MigrationWiz, SPMT, Mover.io, Microsoft Defender (O365/Endpoint), SQL Server, Agile/Scrum/Kanban/Waterfall
+
+---
+
+## EXPERIENCE (authoritative dates — from Emperor CV master record)
+
+### L2/L3 Technical Support Engineer
+**Australia Post (via Capgemini)** | Feb 2026 – Jun 2026 | Melbourne, VIC
+
+- [theme: automation, servicenow] Engineered a custom keystroke injection automation solution within ServiceNow to work around locked-down system access controls — programmatically created/modified ITSM tickets, eliminating hundreds of hours of manual data entry per month.
+- [theme: endpoint, autopilot, lifecycle] Managed full endpoint lifecycle: OS migrations (Win10→11), SOE imaging, Autopilot/UEM enrolment, and compliant disposal with data sanitisation.
+- [theme: support, service desk] Delivered L1/L2 face-to-endpoint and remote support at the MyITHub service centre: device repair, hardware diagnostics, loan device management, new employee provisioning.
+- [theme: process improvement] Contributed to a ServiceNow Stock Accessories module implementation and monthly stock watermark reviews to improve inventory visibility and SLA tracking.
+- [theme: self-service, ux] Played a key role in rolling out a self-help kiosk programme (KB access, password resets, ticket logging, appointment booking), reducing walk-in volume.
+- [theme: escalation] Acted as primary escalation point for complex infrastructure faults, working with L3 teams to drive incidents to permanent resolution.
+
+### Endpoint Migration Engineer
+**St John of God Health Care** | Oct 2025 – Jan 2026 | Melbourne, VIC
+
+- [theme: endpoint, autopilot, healthcare, zero-disruption] Led a Windows 11 enterprise migration across 100+ clinical endpoints, maintaining 100% adherence to Autopilot provisioning and SOE standards in a live, patient-facing environment.
+- [theme: lifecycle, intune] Managed full migration lifecycle: hardware prep, Autopilot enrolment, Intune policy application, post-deployment validation, user handoff and training.
+- [theme: stakeholder management, clinical] Served as primary technical liaison between clinical staff and the engineering team, translating technical issues for medical/nursing staff with zero tolerance for disruption.
+- [theme: hypercare, clinical systems] Provided intensive hypercare support post-migration, resolving compatibility issues across EMR, PACS diagnostic imaging, clinical administration tools, and patient monitoring interfaces — zero disruption to patient care.
+
+### Senior Managed Services Engineer (Consultant to Department of Education Victoria)
+**Capgemini** | December 2021 – 2023 | Melbourne, VIC
+
+- [theme: scale, sharepoint, governance] Managed the largest SharePoint farm in the Southern Hemisphere — 660,000+ active users, 1,000+ site collections — consistently achieving 99.9% uptime in a government SLA environment.
+- [theme: escalation, L3, RCA] Served as the ultimate Tier-3 escalation point across the M365 ecosystem (SharePoint Online, Exchange Online, Teams, Google Workspace). Led RCA investigations resulting in a documented 15% reduction in repeat incidents over 12 months.
+- [theme: automation, security, compliance, flagship] **Flagship project:** Engineered a PnP PowerShell automation solution to audit and enforce MFA compliance across 200+ sensitive SharePoint sites — automated discovery, membership/MFA status checks, structured compliance reporting — eliminating a previously manual, month-long audit cycle.
+- [theme: identity, hybrid] Managed sync across three identity platforms (on-prem AD, Entra ID, Google Workspace), resolving identity conflicts and sync/authentication failures to maintain seamless SSO department-wide.
+- [theme: exchange, teams, messaging] Administered Exchange Hybrid and Microsoft Teams, resolving complex mail-flow routing, calendar/federation issues, and cross-tenant collaboration scenarios.
+- [theme: cloud adoption, security framework] Spearheaded Azure cloud adoption, migrating legacy on-prem workloads to Azure IaaS/PaaS, aligned to the ACSC Essential 8 maturity model.
+- [theme: automation, tooling, servicenow] Built a production-grade workload distribution engine (Tampermonkey + ServiceNow integration) using live M365 presence data to auto-recommend ticket assignments — adopted as a standard team tool.
+- [theme: documentation, knowledge management] Produced as-built documentation, RCA reports, and runbooks; built a searchable knowledge base that cut recurring-incident resolution time and improved onboarding.
+- [theme: operations, SLA] Managed 40+ concurrent tickets in a high-volume government queue, consistently achieving >90% SLA resolution.
+
+### Application Support Engineer
+**Knosys** | December 2020 – December 2021 | Melbourne, VIC
+
+- [theme: L3 support, SaaS] Delivered expert L3 application support for the GreenOrbit enterprise intranet platform, achieving 95% SLA resolution across clients including Cotton On, Harvey Norman, and Healthscope.
+- [theme: automation, efficiency] Engineered a PowerShell automation solution that cut manual data compilation during cloud migrations by 87% (2 hours → 15 minutes per batch), saving 10+ hours/month.
+- [theme: automation, patching] Developed Python/PowerShell scripts to standardise system patching, reducing manual patching effort by 20%.
+- [theme: cloud migration, documentation] Contributed to platform upgrades and an AWS migration; authored RCA documentation that became the standing reference for future upgrade cycles.
+- [theme: diagnostics, database] Diagnosed application-layer issues including SQL deadlocks, API integration errors/timeouts, front-end rendering defects, and auth/authorisation config — working directly with developers on code-level fixes.
+
+### SharePoint Developer
+**Engage Squared** | March 2018 – December 2020 | Melbourne, VIC
+
+- [theme: delivery, sharepoint, enterprise clients] Architected and delivered 5+ bespoke SharePoint Online intranet solutions for Victoria Police, Transurban, and Cimic Group using custom SPFx components (React/TypeScript).
+- [theme: CI/CD, devops] Implemented full CI/CD pipelines (Azure DevOps, Git), achieving a 25% reduction in deployment cycle times.
+- [theme: migration, governance] Led legacy on-prem to M365 migrations (Sharegate, SPMT), including permission restructuring and ISO 27001-aligned governance frameworks.
+- [theme: stakeholder, adoption] Facilitated client-facing technical workshops driving a 20% increase in enterprise adoption of new M365 features.
+- [theme: agile] Collaborated in a cross-functional Agile/Scrum delivery model (sprint planning, backlog refinement, retros, pair programming).
+- [theme: support] Provided L2/L3 production support and built runbooks/KB articles for client IT teams.
+
+### Telecommunications Technician
+**National Broadband Network (NBN)** | October 2016 – November 2017 | Melbourne, VIC
+
+- [theme: layer1, physical infrastructure] Executed Layer 1 telecommunications deployments — fibre and copper structured cabling — across residential, commercial, and multi-dwelling environments.
+- [theme: diagnostics, fieldwork] Performed fault-finding and hardware troubleshooting at the physical and data link layers.
+- [theme: installation] Installed and maintained NTDs, routers, and customer premises equipment.
+- [theme: site assessment] Conducted site surveys for optimal cable routing and equipment placement.
+
+### HVAC Service Technician
+**PolaAir** | 2017 | Melbourne, VIC
+*(Use only for roles where "hands-on diagnostic background" or "career progression story" adds value — otherwise omit or reduce to one line.)*
+
+- [theme: diagnostics, trade background] Installed, maintained, and repaired commercial HVAC systems; developed systematic mechanical/electrical fault-finding later applied to IT incident resolution and RCA methodology.
+
+---
+
+## EDUCATION & CERTIFICATIONS
+
+**Certifications**
+- Microsoft Certified: Azure Administrator Associate (AZ-104) — 2025
+- Microsoft Certified: Azure Fundamentals (AZ-900) — 2022
+- ITIL 4 Foundation (AXELOS) — 2025
+
+Note: an earlier CV draft also listed "Certified Scrum Master (CSM)" — this does **not** appear in the master record. Do not include it unless the user confirms it's a real, current credential.
+
+**Education**
+- Diploma of Information Technology — Coder Academy, Melbourne, VIC — 2019
+- Web Development Fast Track Bootcamp — Coder Academy, Melbourne, VIC — 2018
+
+**Vocational / Trade Qualifications — Telecommunications (verified via USI-authenticated transcript)**
+
+Source of record: Authenticated VET Transcript, National VET Provider Collection (USI), generated 12 Aug 2026. All units below show outcome "CA" (Competency Achieved). These directly underpin the NBN Telecommunications Technician role and are strong evidence for any role emphasising Layer 1/physical infrastructure, cabling, or telecom compliance — use selectively, not in full, for non-telecom roles.
+
+*Provider: Blue Sky Academy (RTO 121689), 2017:*
+- Use Optical and Radio Frequency Measuring Instruments (ICTBWN305)
+- Install Telecommunications Network Equipment (ICTTEN302)
+- Construct Aerial Cable Supports (ICTCBL309)
+- Install Aerial Cable (ICTCBL310)
+- Locate and Identify Cable System Faults (ICTCBL306)
+- Install a Cable Lead-In (ICTCBL220)
+- Install, Maintain and Modify Customer Premises Communications Cabling: ACMA Restricted Rule (ICTCBL236)
+- Perform Restricted Customer Premises Broadband Cabling Work: ACMA Restricted Rule (ICTCMP202)
+- Use Electrical Skills in Telecommunications Work (ICTTEN201)
+- Use Hand and Power Tools (ICTTEN202)
+- Implement and Monitor Environmentally Sustainable Work Practices (BSBSUS401)
+- Follow Work Health and Safety and Environmental Policy and Procedures (ICTWHS204)
+- Install and Terminate Coaxial Cable (ICTCBL303)
+- Install, Maintain and Modify Customer Premises Communications Cabling: ACMA Open Rule (ICTCBL237)
+- Install a Complex Digital Reception System (ICTDRE303)
+- Install and Test Internet Protocol Devices in Convergence Networks (ICTTEN207)
+
+*Provider: Pinnacle Height Safety Pty Ltd (RTO 40496), 2017:*
+- Provide Telecommunications Services Safely on Roofs (ICTWHS201)
+- Work Safely at Heights (RIIWHS204D)
+
+*Provider: RSA Express Pty Ltd (RTO 40592), 2016:*
+- Work Safely in the Construction Industry (CPCCOHS1001A)
+
+**Agent guidance:** For telecom/field-technician/network cabling roles, summarise this block as something like *"Nationally accredited (ACMA-compliant) telecommunications cabling qualifications, including aerial and customer-premises cabling, fault-finding, and Working at Heights/Construction Industry safety certification (Blue Sky Academy / RTO 121689, 2016–2017)"* rather than listing every unit code — the full list above is reference data, not CV-ready copy. For non-technical or purely corporate M365/cloud roles, omit this section entirely or reduce it to a single line ("underlying trade background in ACMA-compliant telecommunications cabling").
+
+---
+
+## KEY PROJECTS (use 1–3, matched to role; include GitHub links for technical/dev-leaning roles)
+
+| Project | One-line pitch | Stack | Link |
+|---|---|---|---|
+| YellowSnow | Browser extension integrating M365 presence data with ServiceNow ticket queues to auto-recommend assignments; adopted as standard team tool | JavaScript, Tampermonkey, REST APIs | github.com/Ludwixix/YellowSnow |
+| PySPO Tool | GUI enabling Tier-1 staff to safely run PowerShell diagnostics against Exchange/Teams without PowerShell expertise | Python, Tkinter, PowerShell | github.com/Ludwixix/pyspo-tool |
+| JobGobblin | Boolean-search job board scraper (LinkedIn/Seek/Indeed) with structured extraction and dedup | Python, Selenium | github.com/Ludwixix/JobGobblin |
+| MFA Compliance Automation | PnP PowerShell system auditing MFA compliance across 200+ sensitive SharePoint sites, automated reporting | PowerShell, PnP, Graph API | (internal — no public repo) |
+
+---
+
+## CAREER METRICS BANK (pull individual stats to support relevant bullets — don't dump the whole table into a CV)
+
+- 660,000+ users / 1,000+ site collections managed (largest SharePoint farm in the Southern Hemisphere)
+- 99.9% SharePoint uptime over multi-year production operations
+- 87% reduction in M365 migration processing time (2 hrs → 15 min)
+- 25% reduction in deployment cycle time via CI/CD
+- 15% reduction in repeat incidents via systematic RCA
+- 95% SLA resolution rate (L3, Knosys)
+- >90% SLA resolution rate (40+ concurrent tickets, Capgemini)
+- 100+ clinical endpoints migrated with zero patient care disruption
+- 5+ bespoke SharePoint solutions delivered (Victoria Police, Transurban, Cimic Group)
+- 20% increase in M365 adoption via client workshops
+
+---
+
+## ENTERPRISE CLIENT PORTFOLIO (name-drop selectively based on target employer's sector)
+
+| Organisation | Sector | Engagement | Work |
+|---|---|---|---|
+| Australia Post | Government enterprise | Consultancy (Capgemini) | L2/L3 support, automation, endpoint lifecycle |
+| St John of God Health Care | Healthcare / Private | Project | Windows 11 migration, Autopilot |
+| Department of Education Victoria | State Government | Consultancy (Capgemini) | SharePoint ops, M365 engineering, automation, L3 |
+| Victoria Police | State Government | Client (Engage Squared) | SharePoint intranet |
+| Transurban | Infrastructure / Private | Client (Engage Squared) | SharePoint intranet |
+| Cimic Group | Construction / Private | Client (Engage Squared) | SharePoint intranet |
+| Cotton On | Retail / Private | Client (Knosys) | L3 application support |
+| Harvey Norman | Retail / Private | Client (Knosys) | L3 application support |
+| Healthscope | Healthcare / Private | Client (Knosys) | L3 application support |
+
+---
+
+## ROLE TARGETING MATRIX
+
+| Role Category | Emphasise | Target Audience |
+|---|---|---|
+| Senior Infrastructure / Cloud Engineer | Azure, M365, hybrid identity, PowerShell automation, ACSC Essential 8 | Enterprise IT, government, MSPs |
+| Modern Workplace / M365 Engineer | SharePoint, Teams, Exchange, Intune, Autopilot, adoption strategy | Consulting firms, enterprise IT |
+| DevOps / Automation Engineer | CI/CD, PowerShell/Python, Azure DevOps, ServiceNow integration, API dev | Tech-forward orgs |
+| L3 Support / Systems Administrator | Escalation, RCA, SLA delivery, documentation | MSPs, enterprise service desks |
+| Application Support Engineer | SaaS platforms, API integrations, cloud migrations, DB diagnostics | SaaS companies, enterprise IT |
+| Endpoint / EUC Engineer | Intune, Autopilot, SCCM, SOE design, Windows 11, device lifecycle | Enterprise IT, healthcare, education |
+| Security / Compliance Engineer | Conditional Access, MFA, ACSC Essential 8, Purview, compliance automation | Government, regulated industries |
+| SharePoint / M365 Developer | SPFx, React, TypeScript, PnP PowerShell, Azure DevOps, CI/CD | Consulting firms, enterprise IT |
+
+---
+
+## DATE DISCREPANCY LOG (resolve with user before final submission of any CV)
+
+An earlier tailored PDF version of this CV used different employment dates than the master record:
+
+- Capgemini / Dept. of Education: PDF said "Dec 2021 – Present"; master record says "Dec 2021 – 2023"
+- Australia Post: PDF said "2023 – 2024"; master record says "Feb 2026 – Jun 2026"
+- St John of God: PDF said "2023"; master record says "Oct 2025 – Jan 2026"
+
+**Action for agent:** default to the master record dates above. If generating a CV for a live application, prompt the user to confirm current employment status and exact dates before sending, since accuracy here matters for reference checks.
+
+---
+
+## REFERENCES
+
+Available upon request. Referees available from Capgemini, Knosys, Engage Squared, and St John of God Health Care.
