@@ -36,3 +36,22 @@
   from = "/api/generate-pack"
   to = "/.netlify/functions/generate-pack"
   status = 200
+
+[[redirects]]
+  from = "/api/discover"
+  to = "/.netlify/functions/discover"
+  status = 200
+
+[[redirects]]
+  from = "/api/documents"
+  to = "/.netlify/functions/documents"
+  status = 200
+
+[[redirects]]
+  from = "/api/apply"
+  to = "/.netlify/functions/apply"
+  status = 200
+
+[[cron]]
+  function = "discover"
+  schedule = "0 7 * * *"

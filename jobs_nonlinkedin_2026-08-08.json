@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-22T02:18:26.850674+10:00",
+  "updated": "2026-08-22T08:02:38.072919+10:00",
   "search_area": "Melbourne, St Kilda-area, and remote Australia",
-  "policy": "Fresh scrape Indeed+LinkedIn. LinkedIn tagged verify. 14-day filter.",
+  "policy": "Fresh scrape Indeed+LinkedIn with proxy rotation and rate limiting. LinkedIn tagged verify. 14-day filter.",
   "freshness_policy": "HARD AGE FILTER at refresh time (2026-08-21 08:45 AEST): only roles with a confirmed posted date on or after 2026-08-17 08:37 AEST are shown. Roles with unknown or missing posted dates are excluded.",
-  "filtered_at": "2026-08-22T02:18:26.850674+10:00",
-  "filtered_cutoff": "2026-08-08T02:18:26.850674+10:00",
-  "filtered_end": "2026-08-22T02:18:26.850674+10:00",
+  "filtered_at": "2026-08-22T08:02:38.072919+10:00",
+  "filtered_cutoff": "2026-08-08T08:02:38.072919+10:00",
+  "filtered_end": "2026-08-22T08:02:38.072919+10:00",
   "jobs": [
     {
       "rank": 1,
@@ -1027,6 +1027,26 @@
     {
       "rank": 24,
       "score": 85,
+      "company": "Kasada",
+      "title": "Senior Software Engineer (compiler focused)",
+      "location": "Melbourne, VIC, AU",
+      "posted": "2026-08-19",
+      "source": "Indeed",
+      "url": "https://au.indeed.com/viewjob?jk=475bb06ae9fc4b4e",
+      "remote": false,
+      "why": "Fresh Indeed listing matching 'software developer'. Category: Software Dev.",
+      "tags": [
+        "software",
+        "developer"
+      ],
+      "status": "Fresh individual listing",
+      "application_route": "https://au.indeed.com/viewjob?jk=475bb06ae9fc4b4e",
+      "application_route_type": "Indeed listing",
+      "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
+    },
+    {
+      "rank": 25,
+      "score": 85,
       "company": "Kinetic Plc",
       "title": "Senior Data Engineer",
       "location": "Melbourne, VIC, AU",
@@ -1045,7 +1065,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 25,
+      "rank": 26,
       "score": 85,
       "company": "Wiz Soluções",
       "title": "Senior Technical Account Manager, ANZ",
@@ -1065,7 +1085,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 26,
+      "rank": 27,
       "score": 85,
       "company": "CoMade",
       "title": "Senior Electrical Engineer (Secondary)",
@@ -1085,7 +1105,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 27,
+      "rank": 28,
       "score": 85,
       "company": "Commonwealth Bank of Australia",
       "title": "Principal Software Engineer",
@@ -1105,7 +1125,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 28,
+      "rank": 29,
       "score": 85,
       "company": "Employment Hero",
       "title": "Senior Full-Stack Software Engineer",
@@ -1125,7 +1145,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 29,
+      "rank": 30,
       "score": 85,
       "company": "Jacobs",
       "title": "Senior Associate Architect – Data Centre",
@@ -1145,7 +1165,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 30,
+      "rank": 31,
       "score": 85,
       "company": "Lab3",
       "title": "Principal Engineer - Cloud & DevOps",
@@ -1165,7 +1185,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 31,
+      "rank": 32,
       "score": 85,
       "company": "Lab3",
       "title": "Principal Engineer - Azure Cloud & DevOps",
@@ -1185,7 +1205,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 32,
+      "rank": 33,
       "score": 85,
       "company": "Victorian Government",
       "title": "Principal DevOps Engineer",
@@ -1205,7 +1225,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 33,
+      "rank": 34,
       "score": 85,
       "company": "Victorian Government",
       "title": "Principal DevOps Engineer",
@@ -1225,7 +1245,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 34,
+      "rank": 35,
       "score": 85,
       "company": "AECOM",
       "title": "Senior Systems Engineer",
@@ -1245,7 +1265,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 35,
+      "rank": 36,
       "score": 85,
       "company": "Australia Post",
       "title": "Senior Manager, Enterprise Security Architect",
@@ -1265,7 +1285,27 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 36,
+      "rank": 37,
+      "score": 85,
+      "company": "Australian Unity",
+      "title": "Lead Solution Architect - Home Health",
+      "location": "Melbourne, VIC, AU",
+      "posted": "2026-08-21",
+      "source": "Indeed",
+      "url": "https://au.indeed.com/viewjob?jk=0fb1efcb49fbc4e7",
+      "remote": false,
+      "why": "Fresh Indeed listing matching 'IT project manager'. Category: IT / General.",
+      "tags": [
+        "project",
+        "manager"
+      ],
+      "status": "Fresh individual listing",
+      "application_route": "https://au.indeed.com/viewjob?jk=0fb1efcb49fbc4e7",
+      "application_route_type": "Indeed listing",
+      "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
+    },
+    {
+      "rank": 38,
       "score": 85,
       "company": "Ford Motor Company",
       "title": "Systems Engineering Transformation Lead",
@@ -1285,7 +1325,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 37,
+      "rank": 39,
       "score": 85,
       "company": "Heidi",
       "title": "Senior AI Models Engineer",
@@ -1305,7 +1345,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 38,
+      "rank": 40,
       "score": 85,
       "company": "NTT DATA",
       "title": "Senior Azure Engineer",
@@ -1325,7 +1365,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 39,
+      "rank": 41,
       "score": 85,
       "company": "Xero",
       "title": "Senior Search Engineer",
@@ -1345,7 +1385,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 40,
+      "rank": 42,
       "score": 84,
       "company": "Gridsight",
       "title": "Power Engineer",
@@ -1365,7 +1405,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 41,
+      "rank": 43,
       "score": 83,
       "company": "EY",
       "title": "Senior Consultant - Cyber Security - Technology Consulting",
@@ -1384,7 +1424,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 42,
+      "rank": 44,
       "score": 83,
       "company": "NTT DATA",
       "title": "Senior Systems Administrator",
@@ -1404,7 +1444,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 43,
+      "rank": 45,
       "score": 83,
       "company": "Downer Group",
       "title": "Data & AI Security Lead",
@@ -1424,7 +1464,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 44,
+      "rank": 46,
       "score": 83,
       "company": "Accenture",
       "title": "Network Engagement Delivery Lead",
@@ -1444,7 +1484,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 45,
+      "rank": 47,
       "score": 83,
       "company": "DiDi Global",
       "title": "Senior Data/Business Analyst or Manager (Pricing Strategy)",
@@ -1464,7 +1504,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 46,
+      "rank": 48,
       "score": 83,
       "company": "HOSTPLUS Pty Ltd",
       "title": "Senior Analyst - Investment Compliance (12 month contract)",
@@ -1484,7 +1524,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 47,
+      "rank": 49,
       "score": 83,
       "company": "Kinetic Plc",
       "title": "Workday HCM Lead",
@@ -1504,7 +1544,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 48,
+      "rank": 50,
       "score": 83,
       "company": "PwC",
       "title": "Data Governance Analyst | Senior Associate",
@@ -1524,7 +1564,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 49,
+      "rank": 51,
       "score": 83,
       "company": "Serco",
       "title": "Senior Full Stack Developer",
@@ -1544,7 +1584,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 50,
+      "rank": 52,
       "score": 83,
       "company": "ANZ",
       "title": "Senior Product Improvement Analyst",
@@ -1564,7 +1604,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 51,
+      "rank": 53,
       "score": 83,
       "company": "Accenture",
       "title": "Service Request Senior Analyst",
@@ -1584,7 +1624,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 52,
+      "rank": 54,
       "score": 83,
       "company": "RACV",
       "title": "Senior Business Analyst",
@@ -1604,7 +1644,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 53,
+      "rank": 55,
       "score": 83,
       "company": "Royal Children's Hospital",
       "title": "Administration Lead",
@@ -1624,7 +1664,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 54,
+      "rank": 56,
       "score": 83,
       "company": "Australia Post",
       "title": "Senior Business Analyst",
@@ -1644,7 +1684,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 55,
+      "rank": 57,
       "score": 83,
       "company": "AustralianSuper",
       "title": "Senior Risk & Incident Analyst",
@@ -1664,7 +1704,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 56,
+      "rank": 58,
       "score": 83,
       "company": "Department of Education",
       "title": "Senior Analyst",
@@ -1684,7 +1724,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 57,
+      "rank": 59,
       "score": 83,
       "company": "Department of Education",
       "title": "Senior Finance Analyst",
@@ -1704,7 +1744,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 58,
+      "rank": 60,
       "score": 83,
       "company": "Ford Motor Company",
       "title": "Senior Manager, Dealer Capability & Training IMG",
@@ -1724,7 +1764,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 59,
+      "rank": 61,
       "score": 83,
       "company": "NAB - National Australia Bank",
       "title": "Senior Analyst, Production Support",
@@ -1744,7 +1784,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 60,
+      "rank": 62,
       "score": 83,
       "company": "Two Circles",
       "title": "Lead Business Analyst",
@@ -1764,7 +1804,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 61,
+      "rank": 63,
       "score": 83,
       "company": "Victorian Government",
       "title": "Senior Heritage and Cultural Values Officer",
@@ -1784,7 +1824,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 62,
+      "rank": 64,
       "score": 83,
       "company": "Victorian Government",
       "title": "Senior Analyst",
@@ -1804,7 +1844,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 63,
+      "rank": 65,
       "score": 83,
       "company": "Victorian Government",
       "title": "Senior Finance Analyst",
@@ -1824,7 +1864,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 64,
+      "rank": 66,
       "score": 83,
       "company": "Victorian Government - Department of Health",
       "title": "Senior Policy Adviser, Health Protection",
@@ -1844,7 +1884,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 65,
+      "rank": 67,
       "score": 83,
       "company": "nan",
       "title": "Senior AI Consultant",
@@ -1864,7 +1904,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 66,
+      "rank": 68,
       "score": 82,
       "company": "Cognizant",
       "title": "Quality Engineer ( Playwright)",
@@ -1884,7 +1924,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 67,
+      "rank": 69,
       "score": 82,
       "company": "Cognizant",
       "title": "Platform Engineer",
@@ -1904,7 +1944,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 68,
+      "rank": 70,
       "score": 82,
       "company": "Intelerad",
       "title": "System Support Specialist (Windows, SQL)",
@@ -1924,7 +1964,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 69,
+      "rank": 71,
       "score": 82,
       "company": "Leidos",
       "title": "ICT Systems Engineer",
@@ -1944,7 +1984,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 70,
+      "rank": 72,
       "score": 82,
       "company": "Andromeda Robotics",
       "title": "Network & IT Systems Engineer",
@@ -1964,7 +2004,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 71,
+      "rank": 73,
       "score": 82,
       "company": "Gridsight",
       "title": "IT Operations Manager",
@@ -1984,7 +2024,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 72,
+      "rank": 74,
       "score": 82,
       "company": "Guild Group",
       "title": "Azure Infrastructure Engineer",
@@ -2003,7 +2043,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 73,
+      "rank": 75,
       "score": 82,
       "company": "NCS",
       "title": "Systems Engineer",
@@ -2022,7 +2062,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 74,
+      "rank": 76,
       "score": 82,
       "company": "Zoll Medical Corporation",
       "title": "Territory Manager - WA",
@@ -2042,7 +2082,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 75,
+      "rank": 77,
       "score": 82,
       "company": "EY",
       "title": "Cyber Security - One Identity Engineer / Consultant",
@@ -2062,7 +2102,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 76,
+      "rank": 78,
       "score": 82,
       "company": "Amentum",
       "title": "Pricing Officer",
@@ -2082,7 +2122,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 77,
+      "rank": 79,
       "score": 82,
       "company": "Nixil",
       "title": "Cyber Security Architect",
@@ -2102,7 +2142,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 78,
+      "rank": 80,
       "score": 82,
       "company": "STACK Infrastructure APAC",
       "title": "Director - ICT Engineering (APAC)",
@@ -2121,7 +2161,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 79,
+      "rank": 81,
       "score": 82,
       "company": "Datacom Connect",
       "title": "Endpoint Engineering Specialist",
@@ -2141,7 +2181,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 80,
+      "rank": 82,
       "score": 82,
       "company": "Deloitte",
       "title": "Manager, AI & Analytics Engineer - Performance Improvement",
@@ -2161,7 +2201,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 81,
+      "rank": 83,
       "score": 82,
       "company": "Medibank",
       "title": "API Integration Engineer",
@@ -2181,7 +2221,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 82,
+      "rank": 84,
       "score": 82,
       "company": "Showtime Consulting",
       "title": "Data Solution Architect - Databricks",
@@ -2201,7 +2241,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 83,
+      "rank": 85,
       "score": 82,
       "company": "Socia",
       "title": "Test Automation Engineer - Telecommunications and IT",
@@ -2221,7 +2261,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 84,
+      "rank": 86,
       "score": 82,
       "company": "Victorian Government",
       "title": "Cloud & DevOps Engineer",
@@ -2241,7 +2281,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 85,
+      "rank": 87,
       "score": 82,
       "company": "4DMedical",
       "title": "Site Reliability Engineer",
@@ -2261,7 +2301,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 86,
+      "rank": 88,
       "score": 82,
       "company": "ANZ",
       "title": "Security Engineer",
@@ -2281,7 +2321,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 87,
+      "rank": 89,
       "score": 82,
       "company": "Accenture",
       "title": "SD-WAN / SASE Architect & Consultant",
@@ -2301,7 +2341,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 88,
+      "rank": 90,
       "score": 82,
       "company": "Accenture",
       "title": "SD-WAN / SASE Operations Engineer",
@@ -2321,7 +2361,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 89,
+      "rank": 91,
       "score": 82,
       "company": "BeyondTrust",
       "title": "SOC Analyst",
@@ -2341,7 +2381,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 90,
+      "rank": 92,
       "score": 82,
       "company": "Culture Amp",
       "title": "Staff Platform Engineer",
@@ -2361,7 +2401,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 91,
+      "rank": 93,
       "score": 82,
       "company": "Infosys",
       "title": "Data Engineer",
@@ -2381,7 +2421,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 92,
+      "rank": 94,
       "score": 82,
       "company": "Keywords Studios",
       "title": "Software Engineer",
@@ -2401,7 +2441,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 93,
+      "rank": 95,
       "score": 82,
       "company": "Kraken",
       "title": "Mid level Software Engineer (Java/AWS)",
@@ -2421,7 +2461,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 94,
+      "rank": 96,
       "score": 82,
       "company": "Lyra Technology Group",
       "title": "Service Desk Engineer, Level 2 - CT Group",
@@ -2441,7 +2481,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 95,
+      "rank": 97,
       "score": 82,
       "company": "Murdoch Children's Research Institute",
       "title": "Cloud Data Engineer",
@@ -2461,7 +2501,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 96,
+      "rank": 98,
       "score": 82,
       "company": "BAE Systems",
       "title": "ICT Engineer",
@@ -2480,7 +2520,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 97,
+      "rank": 99,
       "score": 82,
       "company": "CSIRO",
       "title": "Research Solutions Architect",
@@ -2500,7 +2540,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 98,
+      "rank": 100,
       "score": 82,
       "company": "Commonwealth Bank of Australia",
       "title": "Staff Software Engineer",
@@ -2520,7 +2560,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 99,
+      "rank": 101,
       "score": 82,
       "company": "Eastern Health",
       "title": "Biomedical Engineer",
@@ -2540,7 +2580,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 100,
+      "rank": 102,
       "score": 82,
       "company": "Gridsight",
       "title": "Power Engineer",
@@ -2560,7 +2600,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 101,
+      "rank": 103,
       "score": 82,
       "company": "Nixil",
       "title": "Data Engineer – AWS & Snowflake",
@@ -2580,7 +2620,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 102,
+      "rank": 104,
       "score": 82,
       "company": "Sysintegra Pty Ltd",
       "title": "ServiceNow Consultant(Remote) (Remote)",
@@ -2600,7 +2640,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 103,
+      "rank": 105,
       "score": 82,
       "company": "UniSuper",
       "title": "AI Platform Engineer",
@@ -2620,7 +2660,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 104,
+      "rank": 106,
       "score": 82,
       "company": "Vertiv",
       "title": "Customer Engineer - Thermal, VIC",
@@ -2640,7 +2680,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 105,
+      "rank": 107,
       "score": 82,
       "company": "AARNet",
       "title": "Network Architect",
@@ -2660,7 +2700,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 106,
+      "rank": 108,
       "score": 82,
       "company": "AE Capital",
       "title": "Junior Software Engineer/Quantitative Developer/Quantitative Analyst (C#/.NET)",
@@ -2680,7 +2720,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 107,
+      "rank": 109,
       "score": 82,
       "company": "AE Capital",
       "title": "Experienced Quantitative Developer/Software Engineer (C#)- Systematic Hedge Fund",
@@ -2700,7 +2740,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 108,
+      "rank": 110,
       "score": 82,
       "company": "AECOM",
       "title": "Director – Aviation Engineer",
@@ -2720,7 +2760,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 109,
+      "rank": 111,
       "score": 82,
       "company": "CSL",
       "title": "Automation Engineer",
@@ -2740,7 +2780,27 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 110,
+      "rank": 112,
+      "score": 82,
+      "company": "Cisco",
+      "title": "Solutions Engineer | Public Safety & Emergency Services (Victoria)",
+      "location": "Melbourne, VIC, AU",
+      "posted": "2026-08-21",
+      "source": "Indeed",
+      "url": "https://au.indeed.com/viewjob?jk=b6e2349d2897e0e6",
+      "remote": false,
+      "why": "Fresh Indeed listing matching 'infrastructure engineer'. Category: IT / SysAdmin.",
+      "tags": [
+        "infrastructure",
+        "engineer"
+      ],
+      "status": "Fresh individual listing",
+      "application_route": "https://au.indeed.com/viewjob?jk=b6e2349d2897e0e6",
+      "application_route_type": "Indeed listing",
+      "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
+    },
+    {
+      "rank": 113,
       "score": 82,
       "company": "Comtec Australia",
       "title": "Automation & Robotics Engineer",
@@ -2760,7 +2820,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 111,
+      "rank": 114,
       "score": 82,
       "company": "Diksha Technologies",
       "title": "Data Architect",
@@ -2780,7 +2840,27 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 112,
+      "rank": 115,
+      "score": 82,
+      "company": "Google",
+      "title": "Customer Engineering Manager, Data Analytics, Google Cloud",
+      "location": "Melbourne, VIC, AU",
+      "posted": "2026-08-21",
+      "source": "Indeed",
+      "url": "https://au.indeed.com/viewjob?jk=72448a8bac73dfe4",
+      "remote": false,
+      "why": "Fresh Indeed listing matching 'data analyst'. Category: Data / Analytics.",
+      "tags": [
+        "data",
+        "analyst"
+      ],
+      "status": "Fresh individual listing",
+      "application_route": "https://au.indeed.com/viewjob?jk=72448a8bac73dfe4",
+      "application_route_type": "Indeed listing",
+      "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
+    },
+    {
+      "rank": 116,
       "score": 82,
       "company": "Heidi",
       "title": "Mid Level AI Models Engineer",
@@ -2800,7 +2880,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 113,
+      "rank": 117,
       "score": 82,
       "company": "Motorola Solutions",
       "title": "Operations Engineer ENR",
@@ -2820,7 +2900,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 114,
+      "rank": 118,
       "score": 82,
       "company": "NTT DATA",
       "title": "Network Engineers (Cisco Technologies) | Expression of Interest",
@@ -2840,7 +2920,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 115,
+      "rank": 119,
       "score": 82,
       "company": "Sportsbet",
       "title": "Associate Software Engineer",
@@ -2860,7 +2940,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 116,
+      "rank": 120,
       "score": 82,
       "company": "Yarra Trams",
       "title": "Head of Engineering, Electronics and Communications Systems",
@@ -2880,7 +2960,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 117,
+      "rank": 121,
       "score": 80,
       "company": "Maurice Blackburn",
       "title": "Application Developer",
@@ -2899,7 +2979,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 118,
+      "rank": 122,
       "score": 80,
       "company": "SentinelOne",
       "title": "Associate MDR Cyber Security Analyst",
@@ -2919,7 +2999,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 119,
+      "rank": 123,
       "score": 80,
       "company": "Wallbridge Gilbert Aztec",
       "title": "Service Desk Analyst - Level 2",
@@ -2940,7 +3020,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 120,
+      "rank": 124,
       "score": 80,
       "company": "EY",
       "title": "Manager - Cyber Security - Technology Consulting",
@@ -2959,7 +3039,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 121,
+      "rank": 125,
       "score": 80,
       "company": "Microsoft",
       "title": "Azure Cloud & AI Sales Specialist - Retail/Logistics - Melbourne",
@@ -2979,7 +3059,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 122,
+      "rank": 126,
       "score": 80,
       "company": "Braze",
       "title": "Account Executive, Enterprise",
@@ -3000,7 +3080,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 123,
+      "rank": 127,
       "score": 80,
       "company": "Cognizant",
       "title": "Digital Forensic and Incident Response Investigator",
@@ -3020,7 +3100,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 124,
+      "rank": 128,
       "score": 80,
       "company": "Dyna IT Pty Ltd",
       "title": "Specialist Technician - Technical Support to Schools Program (TSSP)",
@@ -3040,7 +3120,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 125,
+      "rank": 129,
       "score": 80,
       "company": "Infosys",
       "title": "Customer Service Specialist",
@@ -3061,7 +3141,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 126,
+      "rank": 130,
       "score": 80,
       "company": "MedHealth",
       "title": "Desktop Support Technician",
@@ -3080,7 +3160,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 127,
+      "rank": 131,
       "score": 80,
       "company": "Victorian Government",
       "title": "IT Support Trainee - ES 1-2",
@@ -3099,7 +3179,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 128,
+      "rank": 132,
       "score": 80,
       "company": "Westbourne Grammar School",
       "title": "ICT Technician Level 2",
@@ -3118,7 +3198,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 129,
+      "rank": 133,
       "score": 80,
       "company": "AMES Australia",
       "title": "IT Service & Project Manager",
@@ -3138,7 +3218,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 130,
+      "rank": 134,
       "score": 80,
       "company": "Gridsight",
       "title": "IT Operations Manager",
@@ -3158,7 +3238,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 131,
+      "rank": 135,
       "score": 80,
       "company": "ITSoft",
       "title": "Field Computer/IT Technician",
@@ -3178,7 +3258,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 132,
+      "rank": 136,
       "score": 80,
       "company": "Angle Auto Finance",
       "title": "Cyber Security Support Analyst",
@@ -3199,7 +3279,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 133,
+      "rank": 137,
       "score": 80,
       "company": "Australia Post",
       "title": "Cyber Security Specialist",
@@ -3219,7 +3299,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 134,
+      "rank": 138,
       "score": 80,
       "company": "Australia Post",
       "title": "Cyber Security Specialist",
@@ -3239,7 +3319,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 135,
+      "rank": 139,
       "score": 80,
       "company": "Brennan IT",
       "title": "Service Desk Analyst",
@@ -3260,7 +3340,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 136,
+      "rank": 140,
       "score": 80,
       "company": "DuluxGroup",
       "title": "Identity & Access Manager - Hybrid",
@@ -3279,7 +3359,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 137,
+      "rank": 141,
       "score": 80,
       "company": "Genuine Parts Company",
       "title": "Service Desk Analyst - GPC Asia Pacific - Full Time",
@@ -3300,7 +3380,28 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 138,
+      "rank": 142,
+      "score": 80,
+      "company": "NAPA Auto Parts",
+      "title": "Service Desk Analyst - GPC Asia Pacific - Full Time",
+      "location": "Rowville, VIC, AU",
+      "posted": "2026-08-14",
+      "source": "Indeed",
+      "url": "https://au.indeed.com/viewjob?jk=52a6b8818dd94c80",
+      "remote": false,
+      "why": "Fresh Indeed listing matching 'service desk analyst'. Category: Service Desk.",
+      "tags": [
+        "service",
+        "desk",
+        "analyst"
+      ],
+      "status": "Fresh individual listing",
+      "application_route": "https://au.indeed.com/viewjob?jk=52a6b8818dd94c80",
+      "application_route_type": "Indeed listing",
+      "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
+    },
+    {
+      "rank": 143,
       "score": 80,
       "company": "Victorian Government",
       "title": "Advisor, Policy (Advisor, Policy and Legal)",
@@ -3320,7 +3421,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 139,
+      "rank": 144,
       "score": 80,
       "company": "Bounce",
       "title": "eCommerce Specialist",
@@ -3340,7 +3441,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 140,
+      "rank": 145,
       "score": 80,
       "company": "Coforge",
       "title": "ANALYST PROGRAMMER",
@@ -3360,7 +3461,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 141,
+      "rank": 146,
       "score": 80,
       "company": "Corsair",
       "title": "Demand Planner",
@@ -3380,7 +3481,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 142,
+      "rank": 147,
       "score": 80,
       "company": "Lander & Rogers",
       "title": "Legal Support Administrator",
@@ -3400,7 +3501,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 143,
+      "rank": 148,
       "score": 80,
       "company": "Rex Tec",
       "title": "Desktop & Network Support",
@@ -3420,7 +3521,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 144,
+      "rank": 149,
       "score": 80,
       "company": "Animal Emergency Australia",
       "title": "Veterinary Team Manager",
@@ -3440,7 +3541,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 145,
+      "rank": 150,
       "score": 80,
       "company": "Aptella",
       "title": "Network Customer Support Technician",
@@ -3460,7 +3561,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 146,
+      "rank": 151,
       "score": 80,
       "company": "Australian Red Cross",
       "title": "Information Security Analyst",
@@ -3480,7 +3581,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 147,
+      "rank": 152,
       "score": 80,
       "company": "Bank of America",
       "title": "Assistant Vice President, Markets Support Analyst (Global Markets Operations Risk & Control 2IC), Australia, Global Markets Operations",
@@ -3500,7 +3601,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 148,
+      "rank": 153,
       "score": 80,
       "company": "Denodo",
       "title": "Technical Consultant - Fixed-Term (12 Months)",
@@ -3520,7 +3621,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 149,
+      "rank": 154,
       "score": 80,
       "company": "Kinetic Plc",
       "title": "Cyber Security Assurance Analyst",
@@ -3540,7 +3641,27 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 150,
+      "rank": 155,
+      "score": 80,
+      "company": "Melton City Council",
+      "title": "Technical Analyst (Decommission)",
+      "location": "Melton, VIC, AU",
+      "posted": "2026-08-18",
+      "source": "Indeed",
+      "url": "https://au.indeed.com/viewjob?jk=e96b3c9fa9d614f4",
+      "remote": false,
+      "why": "Fresh Indeed listing matching 'security analyst'. Category: Security / SOC.",
+      "tags": [
+        "security",
+        "analyst"
+      ],
+      "status": "Fresh individual listing",
+      "application_route": "https://au.indeed.com/viewjob?jk=e96b3c9fa9d614f4",
+      "application_route_type": "Indeed listing",
+      "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
+    },
+    {
+      "rank": 156,
       "score": 80,
       "company": "Microcel",
       "title": "IT Support Technician",
@@ -3560,7 +3681,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 151,
+      "rank": 157,
       "score": 80,
       "company": "Victorian Government",
       "title": "Parkville EMR Help Desk Analyst",
@@ -3581,7 +3702,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 152,
+      "rank": 158,
       "score": 80,
       "company": "Vocus",
       "title": "Risk Manager",
@@ -3601,7 +3722,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 153,
+      "rank": 159,
       "score": 80,
       "company": "AURA CAREER AND EDUCATION GROUP PTY LTD",
       "title": "ICT Business Analyst",
@@ -3621,7 +3742,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 154,
+      "rank": 160,
       "score": 80,
       "company": "Axiom Technologies",
       "title": "Desktop Support Officer",
@@ -3641,7 +3762,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 155,
+      "rank": 161,
       "score": 80,
       "company": "BMP Technologies Pty. Ltd",
       "title": "SAP Functional Consultant",
@@ -3661,7 +3782,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 156,
+      "rank": 162,
       "score": 80,
       "company": "Banyule City Council",
       "title": "Data Analyst",
@@ -3681,7 +3802,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 157,
+      "rank": 163,
       "score": 80,
       "company": "BeyondTrust",
       "title": "SOC Analyst",
@@ -3701,7 +3822,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 158,
+      "rank": 164,
       "score": 80,
       "company": "Metro Trains Melbourne",
       "title": "Safety Advisor",
@@ -3721,7 +3842,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 159,
+      "rank": 165,
       "score": 80,
       "company": "Microcel",
       "title": "IT Support Technician",
@@ -3741,7 +3862,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 160,
+      "rank": 166,
       "score": 80,
       "company": "Opasa Software Services India pvt. Ltd",
       "title": "Director – AI Strategy Consultant",
@@ -3761,7 +3882,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 161,
+      "rank": 167,
       "score": 80,
       "company": "Plenty Valley Christian College",
       "title": "Junior ICT Support Officer",
@@ -3780,7 +3901,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 162,
+      "rank": 168,
       "score": 80,
       "company": "Plenty Valley Christian College",
       "title": "ICT Daily Operations Manager",
@@ -3799,7 +3920,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 163,
+      "rank": 169,
       "score": 80,
       "company": "Swagelok Australia & New Zealand",
       "title": "Technical Specialist & Trainer",
@@ -3819,7 +3940,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 164,
+      "rank": 170,
       "score": 80,
       "company": "Victorian Government",
       "title": "Director, Service Delivery Support (ICT systems)",
@@ -3838,7 +3959,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 165,
+      "rank": 171,
       "score": 80,
       "company": "Victorian Government",
       "title": "Library Support/ IT Support",
@@ -3857,7 +3978,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 166,
+      "rank": 172,
       "score": 80,
       "company": "Victorian Government",
       "title": "Business Systems Officer",
@@ -3877,7 +3998,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 167,
+      "rank": 173,
       "score": 80,
       "company": "Victorian Government - Department of Families, Fairness, and Housing",
       "title": "Director, Service Delivery Support (ICT systems)",
@@ -3896,7 +4017,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 168,
+      "rank": 174,
       "score": 80,
       "company": "Wesfarmers Health",
       "title": "Category Assistant - atomica",
@@ -3916,7 +4037,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 169,
+      "rank": 175,
       "score": 80,
       "company": "nan",
       "title": "Full-Time Data Analyst (e-Commerce)",
@@ -3936,7 +4057,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 170,
+      "rank": 176,
       "score": 80,
       "company": "nan",
       "title": "IT and Operations Support Officer",
@@ -3956,7 +4077,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 171,
+      "rank": 177,
       "score": 80,
       "company": "ANZ",
       "title": "Data Analyst",
@@ -3976,7 +4097,27 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 172,
+      "rank": 178,
+      "score": 80,
+      "company": "Access Aged Care",
+      "title": "RN/EN Triage Nurse",
+      "location": "Melbourne, VIC, AU",
+      "posted": "2026-08-20",
+      "source": "Indeed",
+      "url": "https://au.indeed.com/viewjob?jk=696b140c98d9a33d",
+      "remote": false,
+      "why": "Fresh Indeed listing matching 'systems administrator'. Category: IT / SysAdmin.",
+      "tags": [
+        "systems",
+        "administrator"
+      ],
+      "status": "Fresh individual listing",
+      "application_route": "https://au.indeed.com/viewjob?jk=696b140c98d9a33d",
+      "application_route_type": "Indeed listing",
+      "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
+    },
+    {
+      "rank": 179,
       "score": 80,
       "company": "Braze",
       "title": "Account Manager, Enterprise",
@@ -3997,7 +4138,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 173,
+      "rank": 180,
       "score": 80,
       "company": "Care Connect",
       "title": "Business Analyst",
@@ -4017,7 +4158,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 174,
+      "rank": 181,
       "score": 80,
       "company": "Compass Education",
       "title": "Talent Acquisition Specialist",
@@ -4037,7 +4178,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 175,
+      "rank": 182,
       "score": 80,
       "company": "Country Road",
       "title": "Executive Assistant - Country Road Group",
@@ -4057,7 +4198,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 176,
+      "rank": 183,
       "score": 80,
       "company": "DiDi Global",
       "title": "Operations Analyst",
@@ -4077,7 +4218,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 177,
+      "rank": 184,
       "score": 80,
       "company": "Everyday Independence",
       "title": "Administration Assistant - Barwon",
@@ -4097,7 +4238,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 178,
+      "rank": 185,
       "score": 80,
       "company": "Gallagher",
       "title": "Claims Coordinator",
@@ -4117,7 +4258,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 179,
+      "rank": 186,
       "score": 80,
       "company": "Genpact Australia",
       "title": "Sr. Consultant - Enterprise Risk Advisory 4C",
@@ -4137,7 +4278,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 180,
+      "rank": 187,
       "score": 80,
       "company": "Grant Thornton",
       "title": "Manager, Technology Risk Consulting",
@@ -4157,7 +4298,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 181,
+      "rank": 188,
       "score": 80,
       "company": "HICKORY GROUP",
       "title": "Facade Administrator",
@@ -4177,7 +4318,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 182,
+      "rank": 189,
       "score": 80,
       "company": "Healthscope Limited",
       "title": "Enterprise PM Practice Associate",
@@ -4197,7 +4338,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 183,
+      "rank": 190,
       "score": 80,
       "company": "Infinite Care Pty Ltd",
       "title": "Sales Administrator",
@@ -4217,7 +4358,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 184,
+      "rank": 191,
       "score": 80,
       "company": "JELLIS CRAIG",
       "title": "Sales Administrator (Monday to Wednesday)",
@@ -4237,7 +4378,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 185,
+      "rank": 192,
       "score": 80,
       "company": "KENNARDS HIRE",
       "title": "Business Development Manager",
@@ -4257,7 +4398,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 186,
+      "rank": 193,
       "score": 80,
       "company": "Kalmar",
       "title": "Field Service Technician",
@@ -4277,7 +4418,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 187,
+      "rank": 194,
       "score": 80,
       "company": "Katz Recruitment",
       "title": "Technical Support (BMS & Controls) | Melbourne",
@@ -4296,7 +4437,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 188,
+      "rank": 195,
       "score": 80,
       "company": "Leidos",
       "title": "Technical Program Managers (NV2/TSPV) – Intelligence/National Security & Defence – Canberra & Melbourne",
@@ -4316,7 +4457,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 189,
+      "rank": 196,
       "score": 80,
       "company": "Marsh",
       "title": "Business Analyst",
@@ -4336,7 +4477,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 190,
+      "rank": 197,
       "score": 80,
       "company": "Pickles Auctions",
       "title": "Vehicle Inspector - Sunshine",
@@ -4356,7 +4497,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 191,
+      "rank": 198,
       "score": 80,
       "company": "Pickles Auctions",
       "title": "Operations Officer - Sunshine",
@@ -4376,7 +4517,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 192,
+      "rank": 199,
       "score": 80,
       "company": "Skillquest",
       "title": "ICT Security Specialist",
@@ -4396,7 +4537,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 193,
+      "rank": 200,
       "score": 80,
       "company": "Victorian Government",
       "title": "Integration Aide",
@@ -4416,7 +4557,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 194,
+      "rank": 201,
       "score": 80,
       "company": "Victorian Government",
       "title": "Integration Aide",
@@ -4436,7 +4577,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 195,
+      "rank": 202,
       "score": 80,
       "company": "Victorian Government",
       "title": "Food Tech Support",
@@ -4455,7 +4596,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 196,
+      "rank": 203,
       "score": 80,
       "company": "Victorian Government",
       "title": "Business Analyst",
@@ -4475,7 +4616,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 197,
+      "rank": 204,
       "score": 80,
       "company": "Victorian Government",
       "title": "ICT Manager - Victorian School of Languages",
@@ -4494,7 +4635,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 198,
+      "rank": 205,
       "score": 80,
       "company": "Victorian Government",
       "title": "Administrative Officer",
@@ -4514,7 +4655,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 199,
+      "rank": 206,
       "score": 80,
       "company": "nan",
       "title": "KMD Brands - ANZ Technical Support Specialist",
@@ -4534,7 +4675,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 200,
+      "rank": 207,
       "score": 80,
       "company": "AHA Personal AG",
       "title": "Casual Project Support Officer",
@@ -4554,7 +4695,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 201,
+      "rank": 208,
       "score": 80,
       "company": "AHA Personal AG",
       "title": "Project Support Officer",
@@ -4574,7 +4715,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 202,
+      "rank": 209,
       "score": 80,
       "company": "Affinda Group",
       "title": "Affinda Group Legal Operations Specialist (Part-time)",
@@ -4594,7 +4735,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 203,
+      "rank": 210,
       "score": 80,
       "company": "Anglicare Victoria",
       "title": "Occupational Rehabilitation & Return to Work Specialist",
@@ -4614,7 +4755,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 204,
+      "rank": 211,
       "score": 80,
       "company": "Australia Post",
       "title": "Delivery Practice Analyst (Jira Admin)",
@@ -4634,7 +4775,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 205,
+      "rank": 212,
       "score": 80,
       "company": "Australian Financial Complaints Authority",
       "title": "Service & Systems Support Officer",
@@ -4654,7 +4795,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 206,
+      "rank": 213,
       "score": 80,
       "company": "Australian Financial Complaints Authority",
       "title": "Service & Systems Support Officer",
@@ -4674,7 +4815,27 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 207,
+      "rank": 214,
+      "score": 80,
+      "company": "Australian Government Bureau of Meteorology",
+      "title": "General Manager Security and CISO",
+      "location": "Melbourne, VIC, AU",
+      "posted": "2026-08-21",
+      "source": "Indeed",
+      "url": "https://au.indeed.com/viewjob?jk=2de854c03a85720a",
+      "remote": false,
+      "why": "Fresh Indeed listing matching 'cyber security'. Category: Security / SOC.",
+      "tags": [
+        "cyber",
+        "security"
+      ],
+      "status": "Fresh individual listing",
+      "application_route": "https://au.indeed.com/viewjob?jk=2de854c03a85720a",
+      "application_route_type": "Indeed listing",
+      "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
+    },
+    {
+      "rank": 215,
       "score": 80,
       "company": "Big Ben Specialty Foods",
       "title": "Supply Chain Analyst",
@@ -4694,7 +4855,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 208,
+      "rank": 216,
       "score": 80,
       "company": "Brennan IT",
       "title": "IT Service Desk Analyst",
@@ -4715,7 +4876,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 209,
+      "rank": 217,
       "score": 80,
       "company": "Brenntag",
       "title": "HSES Manager",
@@ -4735,7 +4896,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 210,
+      "rank": 218,
       "score": 80,
       "company": "Brenntag",
       "title": "HSES Manager",
@@ -4755,7 +4916,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 211,
+      "rank": 219,
       "score": 80,
       "company": "Bunnings",
       "title": "ITSM Support Analyst",
@@ -4775,7 +4936,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 212,
+      "rank": 220,
       "score": 80,
       "company": "CSL",
       "title": "Project Coordinator, Tech Ops",
@@ -4795,7 +4956,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 213,
+      "rank": 221,
       "score": 80,
       "company": "Chisholm Institute",
       "title": "Casual Teacher - ICT, Networking, AI & Cyber security",
@@ -4815,7 +4976,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 214,
+      "rank": 222,
       "score": 80,
       "company": "Chisholm Institute",
       "title": "Casual Teacher - Real Estate Practice and Business",
@@ -4835,7 +4996,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 215,
+      "rank": 223,
       "score": 80,
       "company": "Compass Group Australia",
       "title": "Hub Coordinator",
@@ -4855,7 +5016,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 216,
+      "rank": 224,
       "score": 80,
       "company": "Cotton On",
       "title": "Product Developer Assistant - Cotton On Kids Global Support Centre",
@@ -4875,7 +5036,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 217,
+      "rank": 225,
       "score": 80,
       "company": "Country Road",
       "title": "Cyber Security Analyst - Country Road Group",
@@ -4895,7 +5056,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 218,
+      "rank": 226,
       "score": 80,
       "company": "Country Road",
       "title": "Business Analyst (Data & Analytics) - Country Road Group (Fixed Term)",
@@ -4915,7 +5076,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 219,
+      "rank": 227,
       "score": 80,
       "company": "DXC Technology",
       "title": "Tech Manager – Medical Review Program",
@@ -4935,7 +5096,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 220,
+      "rank": 228,
       "score": 80,
       "company": "Department of Education",
       "title": "Functional Analyst, Salesforce",
@@ -4955,7 +5116,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 221,
+      "rank": 229,
       "score": 80,
       "company": "Department of Education",
       "title": "Manager",
@@ -4975,7 +5136,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 222,
+      "rank": 230,
       "score": 80,
       "company": "Department of Education",
       "title": "Data Analyst",
@@ -4995,7 +5156,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 223,
+      "rank": 231,
       "score": 80,
       "company": "Employment Hero",
       "title": "Community Administration Officer",
@@ -5015,7 +5176,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 224,
+      "rank": 232,
       "score": 80,
       "company": "Ford Motor Company",
       "title": "Dealer Performance Specialist",
@@ -5035,7 +5196,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 225,
+      "rank": 233,
       "score": 80,
       "company": "Ford Motor Company",
       "title": "Power Supply Supervisor",
@@ -5055,7 +5216,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 226,
+      "rank": 234,
       "score": 80,
       "company": "Fulton Hogan",
       "title": "Receptionist",
@@ -5075,7 +5236,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 227,
+      "rank": 235,
       "score": 80,
       "company": "GFF Power",
       "title": "Accountant",
@@ -5095,7 +5256,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 228,
+      "rank": 236,
       "score": 80,
       "company": "GFG Alliance",
       "title": "Account Manager",
@@ -5115,7 +5276,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 229,
+      "rank": 237,
       "score": 80,
       "company": "Gallagher",
       "title": "Quality Assurance Specialist - Victorian Workers Compensation",
@@ -5135,7 +5296,27 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 230,
+      "rank": 238,
+      "score": 80,
+      "company": "Ghanda Clothing",
+      "title": "Shopfitter / Carpenter (Contractor) - Nationwide Travel",
+      "location": "Geelong, VIC, AU",
+      "posted": "2026-08-21",
+      "source": "Indeed",
+      "url": "https://au.indeed.com/viewjob?jk=89ce031dd47832c0",
+      "remote": false,
+      "why": "Fresh Indeed listing matching 'IT project manager'. Category: IT / General.",
+      "tags": [
+        "project",
+        "manager"
+      ],
+      "status": "Fresh individual listing",
+      "application_route": "https://au.indeed.com/viewjob?jk=89ce031dd47832c0",
+      "application_route_type": "Indeed listing",
+      "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
+    },
+    {
+      "rank": 239,
       "score": 80,
       "company": "Healius",
       "title": "Lease Administrator",
@@ -5155,7 +5336,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 231,
+      "rank": 240,
       "score": 80,
       "company": "Internal Sunshine",
       "title": "Receptionist/Administrator",
@@ -5175,7 +5356,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 232,
+      "rank": 241,
       "score": 80,
       "company": "Jacobs",
       "title": "Primary Substation Designer",
@@ -5195,7 +5376,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 233,
+      "rank": 242,
       "score": 80,
       "company": "Kmart Australia",
       "title": "Forecast Analyst",
@@ -5215,7 +5396,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 234,
+      "rank": 243,
       "score": 80,
       "company": "Landis+Gyr",
       "title": "Compliance Officer",
@@ -5235,7 +5416,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 235,
+      "rank": 244,
       "score": 80,
       "company": "Maker Store",
       "title": "Workshop & Operations All-Rounder",
@@ -5255,7 +5436,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 236,
+      "rank": 245,
       "score": 80,
       "company": "McMillan Shakespeare",
       "title": "Digital Optimisation Manager",
@@ -5275,7 +5456,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 237,
+      "rank": 246,
       "score": 80,
       "company": "Microcel",
       "title": "IT Support Technician",
@@ -5295,7 +5476,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 238,
+      "rank": 247,
       "score": 80,
       "company": "NTT DATA",
       "title": "Data Testers | Expressions of Interest",
@@ -5315,7 +5496,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 239,
+      "rank": 248,
       "score": 80,
       "company": "NTT DATA",
       "title": "Expression of Interest | Business Analysts",
@@ -5335,7 +5516,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 240,
+      "rank": 249,
       "score": 80,
       "company": "NTT DATA",
       "title": "Project Manager",
@@ -5355,7 +5536,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 241,
+      "rank": 250,
       "score": 80,
       "company": "Newell Brands",
       "title": "Financial Analyst - Supply Chain",
@@ -5375,7 +5556,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 242,
+      "rank": 251,
       "score": 80,
       "company": "OZCOM TECHNOLOGY GROUP",
       "title": "Technical Support Officer - Education",
@@ -5395,7 +5576,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 243,
+      "rank": 252,
       "score": 80,
       "company": "Officeworks",
       "title": "Project Manager",
@@ -5415,7 +5596,27 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 244,
+      "rank": 253,
+      "score": 80,
+      "company": "REA Group",
+      "title": "Commercial Analyst",
+      "location": "Richmond, VIC, AU",
+      "posted": "2026-08-21",
+      "source": "Indeed",
+      "url": "https://au.indeed.com/viewjob?jk=b4750c117aedf476",
+      "remote": false,
+      "why": "Fresh Indeed listing matching 'business analyst'. Category: PM / BA.",
+      "tags": [
+        "business",
+        "analyst"
+      ],
+      "status": "Fresh individual listing",
+      "application_route": "https://au.indeed.com/viewjob?jk=b4750c117aedf476",
+      "application_route_type": "Indeed listing",
+      "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
+    },
+    {
+      "rank": 254,
       "score": 80,
       "company": "REST",
       "title": "Technology Support Analyst",
@@ -5436,7 +5637,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 245,
+      "rank": 255,
       "score": 80,
       "company": "Red Energy",
       "title": "Market Analyst",
@@ -5456,7 +5657,27 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 246,
+      "rank": 256,
+      "score": 80,
+      "company": "Rivian and Volkswagen Group Technologies",
+      "title": "Job Posting",
+      "location": "Melbourne, VIC, AU",
+      "posted": "2026-08-21",
+      "source": "Indeed",
+      "url": "https://au.indeed.com/viewjob?jk=527511854970e292",
+      "remote": false,
+      "why": "Fresh Indeed listing matching 'network engineer'. Category: Network Engineer.",
+      "tags": [
+        "network",
+        "engineer"
+      ],
+      "status": "Fresh individual listing",
+      "application_route": "https://au.indeed.com/viewjob?jk=527511854970e292",
+      "application_route_type": "Indeed listing",
+      "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
+    },
+    {
+      "rank": 257,
       "score": 80,
       "company": "Royal Melbourne Hospital",
       "title": "Personal Assistant",
@@ -5476,7 +5697,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 247,
+      "rank": 258,
       "score": 80,
       "company": "SAFE STEPS",
       "title": "Manager - Marketing and Communications",
@@ -5496,7 +5717,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 248,
+      "rank": 259,
       "score": 80,
       "company": "Seers Digital",
       "title": "Site core developer EOI - Expression of Interest",
@@ -5516,7 +5737,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 249,
+      "rank": 260,
       "score": 80,
       "company": "Serco",
       "title": "People & Capability Business Partner",
@@ -5536,7 +5757,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 250,
+      "rank": 261,
       "score": 80,
       "company": "St Vincent’s Health Australia",
       "title": "People Services Support",
@@ -5556,7 +5777,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 251,
+      "rank": 262,
       "score": 80,
       "company": "Strait Link Shipping Pty Ltd",
       "title": "Graduate Pricing Analyst",
@@ -5576,7 +5797,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 252,
+      "rank": 263,
       "score": 80,
       "company": "Synechron Australia",
       "title": "Finance Manager",
@@ -5596,7 +5817,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 253,
+      "rank": 264,
       "score": 80,
       "company": "The GEO Group Australia",
       "title": "Learning And Development Coordinator",
@@ -5616,7 +5837,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 254,
+      "rank": 265,
       "score": 80,
       "company": "The Walter and Eliza Hall Institute of Medical Research",
       "title": "Facilities Assistant ESM",
@@ -5636,7 +5857,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 255,
+      "rank": 266,
       "score": 80,
       "company": "Treasury Wine Estates",
       "title": "Penfolds Strategy Manager",
@@ -5656,7 +5877,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 256,
+      "rank": 267,
       "score": 80,
       "company": "Victoria Police",
       "title": "Intelligence Analyst",
@@ -5676,7 +5897,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 257,
+      "rank": 268,
       "score": 80,
       "company": "Victorian Government",
       "title": "Functional Analyst, Salesforce",
@@ -5696,7 +5917,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 258,
+      "rank": 269,
       "score": 80,
       "company": "Victorian Government",
       "title": "Intelligence Analyst",
@@ -5716,7 +5937,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 259,
+      "rank": 270,
       "score": 80,
       "company": "Victorian Government",
       "title": "Manager",
@@ -5736,7 +5957,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 260,
+      "rank": 271,
       "score": 80,
       "company": "Victorian Government",
       "title": "Data Analyst",
@@ -5756,7 +5977,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 261,
+      "rank": 272,
       "score": 80,
       "company": "Victorian Government",
       "title": "Executive Support Officer",
@@ -5776,7 +5997,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 262,
+      "rank": 273,
       "score": 80,
       "company": "Victorian Government",
       "title": "Executive Support Officer",
@@ -5796,7 +6017,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 263,
+      "rank": 274,
       "score": 80,
       "company": "Weploy",
       "title": "Recruitment Consultant",
@@ -5816,7 +6037,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 264,
+      "rank": 275,
       "score": 80,
       "company": "Windana",
       "title": "AOD Support Workers - Multiple Casual Opportunities",
@@ -5836,7 +6057,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 265,
+      "rank": 276,
       "score": 80,
       "company": "Woopack Corner Pty Ltd",
       "title": "Warehouse Administrator",
@@ -5856,7 +6077,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 266,
+      "rank": 277,
       "score": 80,
       "company": "Yarra Trams",
       "title": "O.C.M.S. Project Manager",
@@ -5876,7 +6097,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 267,
+      "rank": 278,
       "score": 80,
       "company": "dormakaba",
       "title": "National Sales Administrator",
@@ -5896,7 +6117,7 @@
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     },
     {
-      "rank": 268,
+      "rank": 279,
       "score": 80,
       "company": "safe steps Family Violence Response Centre",
       "title": "Manager - Marketing and Communications",
@@ -5912,6 +6133,26 @@
       ],
       "status": "Fresh individual listing",
       "application_route": "https://au.indeed.com/viewjob?jk=42b5b0a06b3d50b4",
+      "application_route_type": "Indeed listing",
+      "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
+    },
+    {
+      "rank": 280,
+      "score": 80,
+      "company": "Twinings Ovaltine",
+      "title": "BizTx Manager",
+      "location": "Melbourne, VIC, AU",
+      "posted": "2026-08-22",
+      "source": "Indeed",
+      "url": "https://au.indeed.com/viewjob?jk=09a08d5e99bebd3d",
+      "remote": false,
+      "why": "Fresh Indeed listing matching 'IT project manager'. Category: IT / General.",
+      "tags": [
+        "project",
+        "manager"
+      ],
+      "status": "Fresh individual listing",
+      "application_route": "https://au.indeed.com/viewjob?jk=09a08d5e99bebd3d",
       "application_route_type": "Indeed listing",
       "listing_verification": "Captured from Indeed on 2026-08-22. Confirm availability before applying."
     }
@@ -5984,6 +6225,26 @@
       {
         "rank": 4,
         "score": 75,
+        "company": "Aged Care Quality and Safety Commission",
+        "title": "EL1 Senior DevOps Engineer",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-10",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4450975897",
+        "remote": false,
+        "why": "LinkedIn listing matching 'azure engineer'. Category: Cloud / DevOps. Verify before applying.",
+        "tags": [
+          "azure",
+          "engineer"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4450975897",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 5,
+        "score": 75,
         "company": "Crown Resorts",
         "title": "Senior Cloud and Infrastructure Engineer",
         "location": "Southbank, Victoria, Australia",
@@ -6002,7 +6263,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 5,
+        "rank": 6,
         "score": 75,
         "company": "Opus Recruitment Solutions",
         "title": "Senior DevOps Engineer",
@@ -6022,7 +6283,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 6,
+        "rank": 7,
         "score": 75,
         "company": "Commonwealth Bank",
         "title": "Senior Software Engineer - .NET Full Stack",
@@ -6042,7 +6303,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 7,
+        "rank": 8,
         "score": 75,
         "company": "Emmbr",
         "title": "Principal Engineer - Azure",
@@ -6062,7 +6323,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 8,
+        "rank": 9,
         "score": 75,
         "company": "Refactor.",
         "title": "Senior Software Engineer",
@@ -6082,7 +6343,27 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 9,
+        "rank": 10,
+        "score": 75,
+        "company": "Scyne Advisory",
+        "title": "Senior Security Engineer",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-12",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4452368279",
+        "remote": false,
+        "why": "LinkedIn listing matching 'azure engineer'. Category: Cloud / DevOps. Verify before applying.",
+        "tags": [
+          "azure",
+          "engineer"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4452368279",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 11,
         "score": 75,
         "company": "Ciena",
         "title": "Technical Support Lead Engineer, Optical Transport",
@@ -6102,7 +6383,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 10,
+        "rank": 12,
         "score": 75,
         "company": "Mantel",
         "title": "Lead Cloud Engineer, AWS",
@@ -6122,7 +6403,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 11,
+        "rank": 13,
         "score": 75,
         "company": "OpenTable",
         "title": "Senior Engineer (C# backend development)",
@@ -6142,7 +6423,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 12,
+        "rank": 14,
         "score": 75,
         "company": "PaperCut Software",
         "title": "Senior DevOps Engineer",
@@ -6162,7 +6443,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 13,
+        "rank": 15,
         "score": 75,
         "company": "Australia Post",
         "title": "Senior Platform Engineer Azure",
@@ -6182,7 +6463,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 14,
+        "rank": 16,
         "score": 75,
         "company": "Commonwealth Bank",
         "title": "Staff Platform Engineer / Lead DevOps Engineer",
@@ -6202,7 +6483,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 15,
+        "rank": 17,
         "score": 75,
         "company": "Commonwealth Bank",
         "title": "Senior Software Engineer – Full Stack, Unloan (React, Typescript, Node.js, GraphQL API)",
@@ -6222,7 +6503,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 16,
+        "rank": 18,
         "score": 75,
         "company": "Kaizen Global Technologies",
         "title": "Senior Network Security Engineer",
@@ -6242,7 +6523,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 17,
+        "rank": 19,
         "score": 75,
         "company": "Russell Tobin",
         "title": "Senior Data Engineer",
@@ -6262,7 +6543,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 18,
+        "rank": 20,
         "score": 75,
         "company": "Heidi",
         "title": "Senior DevOps Engineer - GCP",
@@ -6282,7 +6563,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 19,
+        "rank": 21,
         "score": 75,
         "company": "Morgan Consulting",
         "title": "Senior EUC Engineer",
@@ -6302,7 +6583,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 20,
+        "rank": 22,
         "score": 75,
         "company": "Salt",
         "title": "Senior System Engineer",
@@ -6322,7 +6603,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 21,
+        "rank": 23,
         "score": 75,
         "company": "Telstra",
         "title": "Senior Commercial Engineer",
@@ -6342,7 +6623,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 22,
+        "rank": 24,
         "score": 75,
         "company": "K&K Global Talent Solutions INC.",
         "title": "Senior Network Security Engineer",
@@ -6362,7 +6643,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 23,
+        "rank": 25,
         "score": 75,
         "company": "AustralianSuper",
         "title": "Cloud Engineering Lead",
@@ -6382,7 +6663,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 24,
+        "rank": 26,
         "score": 75,
         "company": "LAB3",
         "title": "Lead Engineer- Azure Cloud & DevOps",
@@ -6402,7 +6683,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 25,
+        "rank": 27,
         "score": 75,
         "company": "Ventia",
         "title": "Senior Engineer (Signals & ITS)",
@@ -6422,7 +6703,27 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 26,
+        "rank": 28,
+        "score": 75,
+        "company": "Talent Insights Group",
+        "title": "Lead Data Engineer - Microsoft Azure",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-19",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4454973282",
+        "remote": false,
+        "why": "LinkedIn listing matching 'azure engineer'. Category: Cloud / DevOps. Verify before applying.",
+        "tags": [
+          "azure",
+          "engineer"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4454973282",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 29,
         "score": 75,
         "company": "Logical",
         "title": "Senior System Engineer",
@@ -6442,7 +6743,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 27,
+        "rank": 30,
         "score": 73,
         "company": "KBR, Inc.",
         "title": "Senior IT Systems Administrator",
@@ -6462,7 +6763,47 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 28,
+        "rank": 31,
+        "score": 73,
+        "company": "Crown Resorts",
+        "title": "Senior IT Analyst - Systems",
+        "location": "Southbank, Victoria, Australia",
+        "posted": "2026-08-11",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4452105309",
+        "remote": false,
+        "why": "LinkedIn listing matching 'systems administrator'. Category: IT / SysAdmin. Verify before applying.",
+        "tags": [
+          "systems",
+          "administrator"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4452105309",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 32,
+        "score": 73,
+        "company": "KBR, Inc.",
+        "title": "Senior IT Systems Administrator",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-11",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4452199450",
+        "remote": false,
+        "why": "LinkedIn listing matching 'systems administrator'. Category: IT / SysAdmin. Verify before applying.",
+        "tags": [
+          "systems",
+          "administrator"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4452199450",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 33,
         "score": 73,
         "company": "EY",
         "title": "Senior Data Analyst",
@@ -6482,7 +6823,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 29,
+        "rank": 34,
         "score": 73,
         "company": "Prysmian",
         "title": "APAC IT Senior Business Analyst",
@@ -6502,7 +6843,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 30,
+        "rank": 35,
         "score": 73,
         "company": "AGL",
         "title": "Senior Business Analyst",
@@ -6522,7 +6863,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 31,
+        "rank": 36,
         "score": 73,
         "company": "Datacom",
         "title": "Senior Cybersecurity Incident Responder",
@@ -6542,7 +6883,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 32,
+        "rank": 37,
         "score": 73,
         "company": "FIS",
         "title": "Analyst Sr Lead, Managed Service",
@@ -6562,7 +6903,27 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 33,
+        "rank": 38,
+        "score": 73,
+        "company": "AGL",
+        "title": "Senior Business Analyst",
+        "location": "",
+        "posted": "2026-08-13",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4450467485",
+        "remote": false,
+        "why": "LinkedIn listing matching 'business analyst'. Category: PM / BA. Verify before applying.",
+        "tags": [
+          "business",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4450467485",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 39,
         "score": 73,
         "company": "Nokia",
         "title": "Lead Presales Manager - APJ",
@@ -6582,7 +6943,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 34,
+        "rank": 40,
         "score": 73,
         "company": "Talent",
         "title": "Senior Infrastructure Technical Lead",
@@ -6602,7 +6963,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 35,
+        "rank": 41,
         "score": 73,
         "company": "Datacom",
         "title": "Senior Mobility Specialist",
@@ -6621,7 +6982,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 36,
+        "rank": 42,
         "score": 73,
         "company": "HUB24 Limited",
         "title": "Senior Business Analyst",
@@ -6641,7 +7002,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 37,
+        "rank": 43,
         "score": 73,
         "company": "KBR, Inc.",
         "title": "Senior IT Systems Administrator",
@@ -6661,7 +7022,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 38,
+        "rank": 44,
         "score": 73,
         "company": "AusNet",
         "title": "Senior Cyber Security Analyst",
@@ -6681,7 +7042,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 39,
+        "rank": 45,
         "score": 73,
         "company": "GenusPlus Group",
         "title": "Senior Solution Specialist LTE/5G",
@@ -6701,7 +7062,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 40,
+        "rank": 46,
         "score": 73,
         "company": "Computershare Australia",
         "title": "Site Support Senior Technician",
@@ -6721,7 +7082,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 41,
+        "rank": 47,
         "score": 73,
         "company": "NTT DATA, Inc.",
         "title": "Senior Analyst: Information Security Incident Response",
@@ -6741,7 +7102,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 42,
+        "rank": 48,
         "score": 73,
         "company": "Techwave",
         "title": "Senior Business Analyst – Utilities",
@@ -6761,7 +7122,27 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 43,
+        "rank": 49,
+        "score": 73,
+        "company": "Jetstar Airways",
+        "title": "Senior Analyst - Operational Intelligence",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-18",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4455979064",
+        "remote": false,
+        "why": "LinkedIn listing matching 'data analyst'. Category: Data / Analytics. Verify before applying.",
+        "tags": [
+          "data",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4455979064",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 50,
         "score": 73,
         "company": "Alstom",
         "title": "Telephony/EHP/Voice & Data Logger Lead 1",
@@ -6781,7 +7162,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 44,
+        "rank": 51,
         "score": 73,
         "company": "Amazon Web Services (AWS)",
         "title": "Network Deployment Build Lead I, Global Network Delivery - Deployment",
@@ -6801,7 +7182,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 45,
+        "rank": 52,
         "score": 73,
         "company": "Datacom",
         "title": "Senior Product Analyst - ERP Financials",
@@ -6821,7 +7202,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 46,
+        "rank": 53,
         "score": 73,
         "company": "Michael Page",
         "title": "Senior Business Analyst (Workday Implementation)",
@@ -6841,7 +7222,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 47,
+        "rank": 54,
         "score": 73,
         "company": "Verra Mobility",
         "title": "Senior Information Security Analyst",
@@ -6861,7 +7242,27 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 48,
+        "rank": 55,
+        "score": 73,
+        "company": "Orora",
+        "title": "Senior Business Analyst",
+        "location": "Hawthorn, Victoria, Australia",
+        "posted": "2026-08-19",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4454943567",
+        "remote": false,
+        "why": "LinkedIn listing matching 'business analyst'. Category: PM / BA. Verify before applying.",
+        "tags": [
+          "business",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4454943567",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 56,
         "score": 73,
         "company": "Commonwealth Bank",
         "title": "Cloud Security Incident Response Senior Analyst",
@@ -6881,7 +7282,67 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 49,
+        "rank": 57,
+        "score": 73,
+        "company": "Aware Super",
+        "title": "Senior Business Analyst",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-20",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4453839349",
+        "remote": false,
+        "why": "LinkedIn listing matching 'business analyst'. Category: PM / BA. Verify before applying.",
+        "tags": [
+          "business",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4453839349",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 58,
+        "score": 73,
+        "company": "Luxoft Australia",
+        "title": "Account Delivery Lead",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-20",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4456475728",
+        "remote": false,
+        "why": "LinkedIn listing matching 'IT project manager'. Category: IT / General. Verify before applying.",
+        "tags": [
+          "project",
+          "manager"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4456475728",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 59,
+        "score": 73,
+        "company": "RACV",
+        "title": "Senior Business Analyst",
+        "location": "",
+        "posted": "2026-08-20",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4455609536",
+        "remote": false,
+        "why": "LinkedIn listing matching 'business analyst'. Category: PM / BA. Verify before applying.",
+        "tags": [
+          "business",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4455609536",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 60,
         "score": 72,
         "company": "HUB24 Limited",
         "title": "Software Engineer",
@@ -6901,7 +7362,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 50,
+        "rank": 61,
         "score": 72,
         "company": "HUB24 Limited",
         "title": "Software Engineer (Full stack)",
@@ -6921,7 +7382,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 51,
+        "rank": 62,
         "score": 72,
         "company": "Airwallex",
         "title": "Software Engineer, Spend",
@@ -6941,7 +7402,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 52,
+        "rank": 63,
         "score": 72,
         "company": "CyberCX",
         "title": "Microsoft Cloud Engineer",
@@ -6961,7 +7422,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 53,
+        "rank": 64,
         "score": 72,
         "company": "Emmbr",
         "title": "Network Security Engineer",
@@ -6981,7 +7442,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 54,
+        "rank": 65,
         "score": 72,
         "company": "NTT DATA, Inc.",
         "title": "Data Engineer",
@@ -7001,7 +7462,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 55,
+        "rank": 66,
         "score": 72,
         "company": "Symbio",
         "title": "Software Engineer",
@@ -7021,7 +7482,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 56,
+        "rank": 67,
         "score": 72,
         "company": "Unisys",
         "title": "M365 Endpoint Architect",
@@ -7041,7 +7502,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 57,
+        "rank": 68,
         "score": 72,
         "company": "Hays",
         "title": "MSP Project Engineer",
@@ -7061,7 +7522,27 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 58,
+        "rank": 69,
+        "score": 72,
+        "company": "Cognizant",
+        "title": "Platform Engineer",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-10",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4451101966",
+        "remote": false,
+        "why": "LinkedIn listing matching 'cloud engineer'. Category: Cloud / DevOps. Verify before applying.",
+        "tags": [
+          "cloud",
+          "engineer"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4451101966",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 70,
         "score": 72,
         "company": "APD Global",
         "title": "Graduate Electrical Engineer - Telecommunications Infrastructure",
@@ -7081,7 +7562,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 59,
+        "rank": 71,
         "score": 72,
         "company": "Datacom",
         "title": "Endpoint Engineering Specialist",
@@ -7101,7 +7582,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 60,
+        "rank": 72,
         "score": 72,
         "company": "Leidos",
         "title": "ICT Systems Engineer",
@@ -7121,7 +7602,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 61,
+        "rank": 73,
         "score": 72,
         "company": "Leidos Australia",
         "title": "ICT Systems Engineer",
@@ -7141,7 +7622,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 62,
+        "rank": 74,
         "score": 72,
         "company": "Vix Technology",
         "title": "Cloud Operations Engineer",
@@ -7161,7 +7642,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 63,
+        "rank": 75,
         "score": 72,
         "company": "BAE Systems Australia",
         "title": "Software Engineer",
@@ -7181,7 +7662,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 64,
+        "rank": 76,
         "score": 72,
         "company": "Andromeda",
         "title": "Network & IT Systems Engineer",
@@ -7201,7 +7682,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 65,
+        "rank": 77,
         "score": 72,
         "company": "Motorola Solutions",
         "title": "Junior/Mid-Level Cloud Production Engineer",
@@ -7221,7 +7702,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 66,
+        "rank": 78,
         "score": 72,
         "company": "REA Group",
         "title": "Software Engineer - 2 positions available",
@@ -7241,7 +7722,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 67,
+        "rank": 79,
         "score": 72,
         "company": "REA Group",
         "title": "Software Engineer",
@@ -7261,7 +7742,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 68,
+        "rank": 80,
         "score": 72,
         "company": "Vocus",
         "title": "OCC Engineer Level II",
@@ -7281,7 +7762,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 69,
+        "rank": 81,
         "score": 72,
         "company": "Fortiro",
         "title": "Cloud Observability Engineer",
@@ -7301,7 +7782,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 70,
+        "rank": 82,
         "score": 72,
         "company": "Google",
         "title": "Strategic Cloud Engineer, Platform and AI Infrastructure",
@@ -7321,7 +7802,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 71,
+        "rank": 83,
         "score": 72,
         "company": "REA Group",
         "title": "Software Engineer",
@@ -7341,7 +7822,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 72,
+        "rank": 84,
         "score": 72,
         "company": "Wipro",
         "title": "Software Engineer",
@@ -7361,7 +7842,28 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 73,
+        "rank": 85,
+        "score": 72,
+        "company": "Canon Business Services ANZ",
+        "title": "Service Desk & Onsite Engineer",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-12",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4443736984",
+        "remote": false,
+        "why": "LinkedIn listing matching 'service desk analyst'. Category: Service Desk. Verify before applying.",
+        "tags": [
+          "service",
+          "desk",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4443736984",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 86,
         "score": 72,
         "company": "Accenture Australia",
         "title": "Network Security Engineer",
@@ -7381,7 +7883,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 74,
+        "rank": 87,
         "score": 72,
         "company": "Accenture Australia",
         "title": "Cloud Engineer (AWS / DevOps)",
@@ -7401,7 +7903,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 75,
+        "rank": 88,
         "score": 72,
         "company": "Accenture Australia",
         "title": "Junior DevOps Engineer",
@@ -7421,7 +7923,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 76,
+        "rank": 89,
         "score": 72,
         "company": "Allume ANZ",
         "title": "Full Stack Software Engineer",
@@ -7441,7 +7943,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 77,
+        "rank": 90,
         "score": 72,
         "company": "Aware Super",
         "title": "Systems Engineer - End User Computing",
@@ -7461,7 +7963,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 78,
+        "rank": 91,
         "score": 72,
         "company": "Emmbr",
         "title": "Cloud Engineer",
@@ -7481,7 +7983,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 79,
+        "rank": 92,
         "score": 72,
         "company": "Guild Group",
         "title": "Azure Infrastructure Engineer",
@@ -7501,7 +8003,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 80,
+        "rank": 93,
         "score": 72,
         "company": "Macquarie Group",
         "title": "Cloud Engineer",
@@ -7521,7 +8023,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 81,
+        "rank": 94,
         "score": 72,
         "company": "PageUp",
         "title": "Systems Engineer",
@@ -7541,7 +8043,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 82,
+        "rank": 95,
         "score": 72,
         "company": "Viasat",
         "title": "DWDM Optical Network Engineer",
@@ -7561,7 +8063,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 83,
+        "rank": 96,
         "score": 72,
         "company": "nDeva",
         "title": "Software Engineer",
@@ -7581,7 +8083,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 84,
+        "rank": 97,
         "score": 72,
         "company": "Anduril Industries",
         "title": "Software Engineer",
@@ -7601,7 +8103,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 85,
+        "rank": 98,
         "score": 72,
         "company": "Capgemini",
         "title": "Network Engineer- Automation & AI",
@@ -7621,7 +8123,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 86,
+        "rank": 99,
         "score": 72,
         "company": "Slater and Gordon Lawyers",
         "title": "Cloud DevOps Engineer (AI)",
@@ -7641,7 +8143,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 87,
+        "rank": 100,
         "score": 72,
         "company": "Transport Accident Commission (TAC)",
         "title": "Cloud Engineer",
@@ -7661,7 +8163,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 88,
+        "rank": 101,
         "score": 72,
         "company": "Arch Insurance Australia",
         "title": "Software Engineer III",
@@ -7681,7 +8183,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 89,
+        "rank": 102,
         "score": 72,
         "company": "KBR, Inc.",
         "title": "Systems Integration Engineer",
@@ -7701,7 +8203,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 90,
+        "rank": 103,
         "score": 72,
         "company": "KBR, Inc.",
         "title": "Systems Integration Engineer",
@@ -7721,7 +8223,27 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 91,
+        "rank": 104,
+        "score": 72,
+        "company": "ORDE Financial",
+        "title": "Security Engineer",
+        "location": "Carlton, Victoria, Australia",
+        "posted": "2026-08-15",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4453907104",
+        "remote": false,
+        "why": "LinkedIn listing matching 'security analyst'. Category: Security / SOC. Verify before applying.",
+        "tags": [
+          "security",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4453907104",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 105,
         "score": 72,
         "company": "GoDaddy",
         "title": "Software Development Engineer",
@@ -7741,7 +8263,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 92,
+        "rank": 106,
         "score": 72,
         "company": "Persistent Systems",
         "title": "DevOps Engineer",
@@ -7761,7 +8283,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 93,
+        "rank": 107,
         "score": 72,
         "company": "affix",
         "title": "Software Engineer - 12 MFTC",
@@ -7781,7 +8303,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 94,
+        "rank": 108,
         "score": 72,
         "company": "luvo Talent",
         "title": "Azure Data Engineer",
@@ -7801,7 +8323,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 95,
+        "rank": 109,
         "score": 72,
         "company": "APM",
         "title": "DevOps Engineer",
@@ -7821,7 +8343,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 96,
+        "rank": 110,
         "score": 72,
         "company": "Datacom",
         "title": "Cloud Engineer - Azure & AI Platforms",
@@ -7841,7 +8363,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 97,
+        "rank": 111,
         "score": 72,
         "company": "Deloitte",
         "title": "Systems/DevOps Engineer",
@@ -7861,7 +8383,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 98,
+        "rank": 112,
         "score": 72,
         "company": "Future Secure AI",
         "title": "DevOps Engineer",
@@ -7881,7 +8403,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 99,
+        "rank": 113,
         "score": 72,
         "company": "Hays",
         "title": "Level 2 Support Engineer",
@@ -7901,7 +8423,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 100,
+        "rank": 114,
         "score": 72,
         "company": "KBR, Inc.",
         "title": "Software Engineer",
@@ -7921,7 +8443,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 101,
+        "rank": 115,
         "score": 72,
         "company": "Multiplex",
         "title": "IT Technical Support Engineer",
@@ -7941,7 +8463,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 102,
+        "rank": 116,
         "score": 72,
         "company": "Safe Transport Victoria",
         "title": "Cloud & DevOps Engineer",
@@ -7961,7 +8483,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 103,
+        "rank": 117,
         "score": 72,
         "company": "St John of God Health Care",
         "title": "Google Cloud Platform Engineer",
@@ -7981,7 +8503,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 104,
+        "rank": 118,
         "score": 72,
         "company": "Yarra Trams",
         "title": "IT Engineer - Cloud & Entra ID",
@@ -8001,7 +8523,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 105,
+        "rank": 119,
         "score": 72,
         "company": "iterate",
         "title": "System Engineer",
@@ -8021,7 +8543,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 106,
+        "rank": 120,
         "score": 72,
         "company": "Accenture Australia",
         "title": "SD-WAN / SASE Operations Engineer",
@@ -8041,7 +8563,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 107,
+        "rank": 121,
         "score": 72,
         "company": "Amazon Web Services (AWS)",
         "title": "Systems Engineer, Region Services",
@@ -8061,7 +8583,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 108,
+        "rank": 122,
         "score": 72,
         "company": "Amazon Web Services (AWS)",
         "title": "Systems Engineer",
@@ -8081,7 +8603,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 109,
+        "rank": 123,
         "score": 72,
         "company": "Amazon Web Services (AWS)",
         "title": "Systems Engineer, Route 53",
@@ -8101,7 +8623,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 110,
+        "rank": 124,
         "score": 72,
         "company": "Amazon Web Services (AWS)",
         "title": "Network Development Engineer, Network Core (Relocation support available)",
@@ -8121,7 +8643,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 111,
+        "rank": 125,
         "score": 72,
         "company": "Amazon Web Services (AWS)",
         "title": "Security Engineer, AWS Security",
@@ -8141,7 +8663,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 112,
+        "rank": 126,
         "score": 72,
         "company": "Amazon Web Services (AWS)",
         "title": "SOC Engineer, AWS Security",
@@ -8161,7 +8683,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 113,
+        "rank": 127,
         "score": 72,
         "company": "Change Recruitment",
         "title": "DevOps Engineer - AI & AWS",
@@ -8181,7 +8703,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 114,
+        "rank": 128,
         "score": 72,
         "company": "Inseego Corp",
         "title": "Customer Engineer",
@@ -8201,7 +8723,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 115,
+        "rank": 129,
         "score": 72,
         "company": "Leidos Australia",
         "title": "DevOps Platform Engineer",
@@ -8221,7 +8743,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 116,
+        "rank": 130,
         "score": 72,
         "company": "Leidos Australia",
         "title": "Software Engineer",
@@ -8241,7 +8763,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 117,
+        "rank": 131,
         "score": 72,
         "company": "Lyra Technology Group",
         "title": "Service Desk Engineer, Level 2 - CT Group",
@@ -8261,7 +8783,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 118,
+        "rank": 132,
         "score": 72,
         "company": "NTT DATA, Inc.",
         "title": "Azure DevOps Engineer (Landing zone)",
@@ -8281,7 +8803,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 119,
+        "rank": 133,
         "score": 72,
         "company": "Peoplebank",
         "title": "IT Analyst / L1–L2 Support Engineer",
@@ -8302,7 +8824,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 120,
+        "rank": 134,
         "score": 72,
         "company": "St Vincent's Health Australia",
         "title": "Cloud Engineer",
@@ -8322,7 +8844,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 121,
+        "rank": 135,
         "score": 72,
         "company": "Zip Co",
         "title": "IT Operations Engineer",
@@ -8342,7 +8864,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 122,
+        "rank": 136,
         "score": 72,
         "company": "Zone IT Solutions",
         "title": "AWS Cloud Engineer",
@@ -8362,7 +8884,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 123,
+        "rank": 137,
         "score": 72,
         "company": "Amazon Web Services (AWS)",
         "title": "Systems Engineer",
@@ -8382,7 +8904,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 124,
+        "rank": 138,
         "score": 72,
         "company": "Canon Business Services ANZ",
         "title": "Technical Engineer - Cloud - VIC",
@@ -8402,7 +8924,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 125,
+        "rank": 139,
         "score": 72,
         "company": "Canva",
         "title": "Staff Backend Software Engineer - User Platform",
@@ -8422,7 +8944,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 126,
+        "rank": 140,
         "score": 72,
         "company": "Culture Amp",
         "title": "Staff Platform Engineer",
@@ -8442,7 +8964,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 127,
+        "rank": 141,
         "score": 72,
         "company": "Kraken",
         "title": "Mid level Software Engineer (Java/AWS)",
@@ -8462,7 +8984,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 128,
+        "rank": 142,
         "score": 72,
         "company": "Tantalus Media",
         "title": "Software Engineer",
@@ -8482,7 +9004,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 129,
+        "rank": 143,
         "score": 72,
         "company": "Canon Business Services ANZ",
         "title": "Network Engineer - VIC",
@@ -8502,7 +9024,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 130,
+        "rank": 144,
         "score": 72,
         "company": "Computershare Australia",
         "title": "Software Engineer",
@@ -8522,7 +9044,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 131,
+        "rank": 145,
         "score": 72,
         "company": "ITbility",
         "title": "Data Engineer",
@@ -8542,7 +9064,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 132,
+        "rank": 146,
         "score": 72,
         "company": "Service Stream",
         "title": "System Engineer",
@@ -8562,7 +9084,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 133,
+        "rank": 147,
         "score": 72,
         "company": "Xero",
         "title": "Software Engineer - Database",
@@ -8582,7 +9104,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 134,
+        "rank": 148,
         "score": 72,
         "company": "nbn® Australia",
         "title": "Wireless Engineering Specialist",
@@ -8602,7 +9124,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 135,
+        "rank": 149,
         "score": 72,
         "company": "BAE Systems",
         "title": "ICT Engineer",
@@ -8622,7 +9144,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 136,
+        "rank": 150,
         "score": 72,
         "company": "Murdoch Children's Research Institute (MCRI)",
         "title": "Systems Engineer (HPC & AI)",
@@ -8642,7 +9164,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 137,
+        "rank": 151,
         "score": 72,
         "company": "Murdoch Children's Research Institute (MCRI)",
         "title": "Cloud Data Engineer",
@@ -8662,7 +9184,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 138,
+        "rank": 152,
         "score": 72,
         "company": "UniSuper",
         "title": "AI Platform Engineer",
@@ -8682,7 +9204,67 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 139,
+        "rank": 153,
+        "score": 72,
+        "company": "BAE Systems Australia",
+        "title": "ICT Engineer",
+        "location": "",
+        "posted": "2026-08-20",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4456485542",
+        "remote": false,
+        "why": "LinkedIn listing matching 'systems administrator'. Category: IT / SysAdmin. Verify before applying.",
+        "tags": [
+          "systems",
+          "administrator"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4456485542",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 154,
+        "score": 72,
+        "company": "DXC Technology",
+        "title": "Security Engineer",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-20",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4446736583",
+        "remote": false,
+        "why": "LinkedIn listing matching 'security analyst'. Category: Security / SOC. Verify before applying.",
+        "tags": [
+          "security",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4446736583",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 155,
+        "score": 70,
+        "company": "Vusion",
+        "title": "Program Manager",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-08",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4451088351",
+        "remote": false,
+        "why": "LinkedIn listing matching 'IT project manager'. Category: IT / General. Verify before applying.",
+        "tags": [
+          "project",
+          "manager"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4451088351",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 156,
         "score": 70,
         "company": "Kraken",
         "title": "TechOps Generalist",
@@ -8702,7 +9284,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 140,
+        "rank": 157,
         "score": 70,
         "company": "Accent Group Limited",
         "title": "Service Desk Analyst",
@@ -8723,7 +9305,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 141,
+        "rank": 158,
         "score": 70,
         "company": "Australian Charities and Not-for-profits Commission",
         "title": "IT Helpdesk Support Officer",
@@ -8743,7 +9325,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 142,
+        "rank": 159,
         "score": 70,
         "company": "Australian Charities and Not-for-profits Commission",
         "title": "IT Helpdesk Junior Support Officer",
@@ -8763,7 +9345,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 143,
+        "rank": 160,
         "score": 70,
         "company": "Barwon Health",
         "title": "Cybersecurity Analyst (Grade 5), SWARH",
@@ -8783,7 +9365,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 144,
+        "rank": 161,
         "score": 70,
         "company": "Capgemini",
         "title": "End User Compute (EUC)",
@@ -8803,7 +9385,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 145,
+        "rank": 162,
         "score": 70,
         "company": "Kaliba",
         "title": "IT Service Desk (L1/L2)",
@@ -8824,7 +9406,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 146,
+        "rank": 163,
         "score": 70,
         "company": "MEGT (Australia) Ltd",
         "title": "IT Project Manager",
@@ -8844,7 +9426,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 147,
+        "rank": 164,
         "score": 70,
         "company": "MEGT (Australia) Ltd",
         "title": "IT Project Manager",
@@ -8864,7 +9446,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 148,
+        "rank": 165,
         "score": 70,
         "company": "PUMA Group",
         "title": "Retail Support Analyst",
@@ -8884,7 +9466,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 149,
+        "rank": 166,
         "score": 70,
         "company": "Reece Group",
         "title": "IT Operations Specialist",
@@ -8905,7 +9487,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 150,
+        "rank": 167,
         "score": 70,
         "company": "Tata Consultancy Services",
         "title": "Technical Business Analyst",
@@ -8925,7 +9507,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 151,
+        "rank": 168,
         "score": 70,
         "company": "Viva Energy Australia",
         "title": "Technical Specialist - Infrastructure",
@@ -8945,7 +9527,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 152,
+        "rank": 169,
         "score": 70,
         "company": "WGA (Wallbridge Gilbert Aztec)",
         "title": "Service Desk Analyst - Level 2",
@@ -8966,7 +9548,27 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 153,
+        "rank": 170,
+        "score": 70,
+        "company": "Red Energy",
+        "title": "Commercial Analyst",
+        "location": "Richmond, Victoria, Australia",
+        "posted": "2026-08-10",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4451386631",
+        "remote": false,
+        "why": "LinkedIn listing matching 'data analyst'. Category: Data / Analytics. Verify before applying.",
+        "tags": [
+          "data",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4451386631",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 171,
         "score": 70,
         "company": "Experis Australia",
         "title": "Business Analyst - Public Key Infrastructure (PKI)",
@@ -8986,7 +9588,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 154,
+        "rank": 172,
         "score": 70,
         "company": "Halcyon Knights",
         "title": "Business Analyst",
@@ -9006,7 +9608,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 155,
+        "rank": 173,
         "score": 70,
         "company": "Kaibridge",
         "title": "End User Workspace Specialist",
@@ -9026,7 +9628,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 156,
+        "rank": 174,
         "score": 70,
         "company": "Microsoft",
         "title": "Data Center Technician",
@@ -9046,7 +9648,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 157,
+        "rank": 175,
         "score": 70,
         "company": "Netwealth - See Wealth Differently (ASX:NWL)",
         "title": "Service Desk Analyst",
@@ -9067,7 +9669,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 158,
+        "rank": 176,
         "score": 70,
         "company": "Schneider Electric",
         "title": "Project Manager",
@@ -9087,7 +9689,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 159,
+        "rank": 177,
         "score": 70,
         "company": "SentinelOne",
         "title": "Associate MDR Cyber Security Analyst",
@@ -9107,7 +9709,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 160,
+        "rank": 178,
         "score": 70,
         "company": "SustainRecruit",
         "title": "Project Manager - Wealth Management",
@@ -9127,7 +9729,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 161,
+        "rank": 179,
         "score": 70,
         "company": "Talenza",
         "title": "Business Analyst - Perm",
@@ -9147,7 +9749,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 162,
+        "rank": 180,
         "score": 70,
         "company": "VicRoads",
         "title": "Java Developer",
@@ -9167,7 +9769,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 163,
+        "rank": 181,
         "score": 70,
         "company": "Stellantis",
         "title": "Data & Performance Marketing Specialist",
@@ -9187,7 +9789,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 164,
+        "rank": 182,
         "score": 70,
         "company": "TNG Technology Consulting",
         "title": "Software Developer / IT-Consultant (m/f/d)",
@@ -9207,7 +9809,47 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 165,
+        "rank": 183,
+        "score": 70,
+        "company": "Hays",
+        "title": "Business Analyst-PKI",
+        "location": "Clayton, Victoria, Australia",
+        "posted": "2026-08-11",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4451642739",
+        "remote": false,
+        "why": "LinkedIn listing matching 'business analyst'. Category: PM / BA. Verify before applying.",
+        "tags": [
+          "business",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4451642739",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 184,
+        "score": 70,
+        "company": "LTM",
+        "title": "SAP Program Manager",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-11",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4451484493",
+        "remote": false,
+        "why": "LinkedIn listing matching 'IT project manager'. Category: IT / General. Verify before applying.",
+        "tags": [
+          "project",
+          "manager"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4451484493",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 185,
         "score": 70,
         "company": "AC3",
         "title": "Security Operations Center (SOC) Level 2 Analyst",
@@ -9227,7 +9869,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 166,
+        "rank": 186,
         "score": 70,
         "company": "Aggreko",
         "title": "Regional IT Analyst",
@@ -9248,7 +9890,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 167,
+        "rank": 187,
         "score": 70,
         "company": "Align Talent",
         "title": "IT Project Manager",
@@ -9268,7 +9910,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 168,
+        "rank": 188,
         "score": 70,
         "company": "Heidi",
         "title": "Data Analyst",
@@ -9288,7 +9930,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 169,
+        "rank": 189,
         "score": 70,
         "company": "Leidos Australia",
         "title": "Expression of Interest - Systems Administrator -  TSPV",
@@ -9308,7 +9950,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 170,
+        "rank": 190,
         "score": 70,
         "company": "MedHealth",
         "title": "Desktop Support Technician",
@@ -9328,7 +9970,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 171,
+        "rank": 191,
         "score": 70,
         "company": "Sharp Brains",
         "title": "Information Technology Specialist",
@@ -9348,7 +9990,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 172,
+        "rank": 192,
         "score": 70,
         "company": "Verra Mobility",
         "title": "Project Manager",
@@ -9368,7 +10010,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 173,
+        "rank": 193,
         "score": 70,
         "company": "Visy",
         "title": "Microsoft M365 Systems Administrator",
@@ -9388,7 +10030,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 174,
+        "rank": 194,
         "score": 70,
         "company": "Vusion",
         "title": "Project Manager",
@@ -9408,7 +10050,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 175,
+        "rank": 195,
         "score": 70,
         "company": "Westbourne Grammar School",
         "title": "ICT Technician Level 2",
@@ -9427,7 +10069,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 176,
+        "rank": 196,
         "score": 70,
         "company": "Infosys",
         "title": "Customer Service Specialist",
@@ -9448,7 +10090,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 177,
+        "rank": 197,
         "score": 70,
         "company": "Premier Data",
         "title": "Developer Programmer",
@@ -9468,7 +10110,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 178,
+        "rank": 198,
         "score": 70,
         "company": "SprintSuite",
         "title": "Full stack developer | High-growth Australian SaaS",
@@ -9488,7 +10130,87 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 179,
+        "rank": 199,
+        "score": 70,
+        "company": "Australian Catholic University",
+        "title": "Business Analyst",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-12",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4453032511",
+        "remote": false,
+        "why": "LinkedIn listing matching 'business analyst'. Category: PM / BA. Verify before applying.",
+        "tags": [
+          "business",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4453032511",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 200,
+        "score": 70,
+        "company": "Cognizant",
+        "title": "Digital Forensic and Incident Response Investigator",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-12",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4452740743",
+        "remote": false,
+        "why": "LinkedIn listing matching 'security analyst'. Category: Security / SOC. Verify before applying.",
+        "tags": [
+          "security",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4452740743",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 201,
+        "score": 70,
+        "company": "Ericsson",
+        "title": "Customer Project Manager",
+        "location": "South Melbourne, Victoria, Australia",
+        "posted": "2026-08-12",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4452396085",
+        "remote": false,
+        "why": "LinkedIn listing matching 'IT project manager'. Category: IT / General. Verify before applying.",
+        "tags": [
+          "project",
+          "manager"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4452396085",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 202,
+        "score": 70,
+        "company": "Telstra",
+        "title": "Data Science Specialist",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-12",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4453026936",
+        "remote": false,
+        "why": "LinkedIn listing matching 'data analyst'. Category: Data / Analytics. Verify before applying.",
+        "tags": [
+          "data",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4453026936",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 203,
         "score": 70,
         "company": "Accenture Australia",
         "title": "Data Scientist",
@@ -9508,7 +10230,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 180,
+        "rank": 204,
         "score": 70,
         "company": "Arinco",
         "title": "Azure Consultant",
@@ -9528,7 +10250,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 181,
+        "rank": 205,
         "score": 70,
         "company": "Bytewize IT Consulting",
         "title": "Bytewize Vacancy 2026-2662 for Specialist Technicians",
@@ -9548,7 +10270,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 182,
+        "rank": 206,
         "score": 70,
         "company": "Bytewize IT Consulting",
         "title": "Bytewize Vacancy 2026-2665 for Specialist Technicians",
@@ -9568,7 +10290,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 183,
+        "rank": 207,
         "score": 70,
         "company": "Infosys",
         "title": "IT Infrastructure Support Analyst",
@@ -9588,7 +10310,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 184,
+        "rank": 208,
         "score": 70,
         "company": "Microsoft",
         "title": "Digital Natives Specialist Seller",
@@ -9608,7 +10330,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 185,
+        "rank": 209,
         "score": 70,
         "company": "Safe Transport Victoria",
         "title": "Project Manager",
@@ -9628,7 +10350,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 186,
+        "rank": 210,
         "score": 70,
         "company": "CPB Contractors",
         "title": "Commissioning Analyst - MEI",
@@ -9648,7 +10370,86 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 187,
+        "rank": 211,
+        "score": 70,
+        "company": "Accenture Australia",
+        "title": "*Business Analyst*",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-13",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4453239963",
+        "remote": false,
+        "why": "LinkedIn listing matching 'business analyst'. Category: PM / BA. Verify before applying.",
+        "tags": [
+          "business",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4453239963",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 212,
+        "score": 70,
+        "company": "Australian Venue Co.",
+        "title": "People Data & Insights Analyst",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-13",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4452799178",
+        "remote": false,
+        "why": "LinkedIn listing matching 'data analyst'. Category: Data / Analytics. Verify before applying.",
+        "tags": [
+          "data",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4452799178",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 213,
+        "score": 70,
+        "company": "GHD",
+        "title": "Manager - Workplace Technology",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-13",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4443835109",
+        "remote": false,
+        "why": "LinkedIn listing matching 'intune'. Category: Endpoint / MDM. Verify before applying.",
+        "tags": [
+          "intune"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4443835109",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 214,
+        "score": 70,
+        "company": "The Network Technology Recruitment",
+        "title": "Support Technician",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-13",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4450470763",
+        "remote": false,
+        "why": "LinkedIn listing matching 'desktop support'. Category: Service Desk. Verify before applying.",
+        "tags": [
+          "desktop",
+          "support"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4450470763",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 215,
         "score": 70,
         "company": "Arcare Aged Care",
         "title": "Associate IT Project Manager",
@@ -9668,7 +10469,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 188,
+        "rank": 216,
         "score": 70,
         "company": "BAE Systems Australia",
         "title": "Cyber Security Operations Analyst",
@@ -9688,7 +10489,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 189,
+        "rank": 217,
         "score": 70,
         "company": "Brennan",
         "title": "Service Desk Analyst",
@@ -9709,7 +10510,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 190,
+        "rank": 218,
         "score": 70,
         "company": "CyberCX",
         "title": "Security Analyst",
@@ -9729,7 +10530,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 191,
+        "rank": 219,
         "score": 70,
         "company": "GPC Asia Pacific",
         "title": "Service Desk Analyst - GPC Asia Pacific - Full Time",
@@ -9750,7 +10551,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 192,
+        "rank": 220,
         "score": 70,
         "company": "inforcer",
         "title": "SOC Analyst",
@@ -9770,7 +10571,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 193,
+        "rank": 221,
         "score": 70,
         "company": "inforcer",
         "title": "Security Operations Center Analyst",
@@ -9790,7 +10591,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 194,
+        "rank": 222,
         "score": 70,
         "company": "Bytewize IT Consulting",
         "title": "Bytewize Vacancy 2026-2661 for Specialist Technicians",
@@ -9810,7 +10611,87 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 195,
+        "rank": 223,
+        "score": 70,
+        "company": "Angle Auto Finance",
+        "title": "Cyber Security Support Analyst",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-14",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4454366330",
+        "remote": false,
+        "why": "LinkedIn listing matching 'security analyst'. Category: Security / SOC. Verify before applying.",
+        "tags": [
+          "security",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4454366330",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 224,
+        "score": 70,
+        "company": "DBG Health",
+        "title": "BI Analyst - Supply Chain",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-14",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4454344046",
+        "remote": false,
+        "why": "LinkedIn listing matching 'data analyst'. Category: Data / Analytics. Verify before applying.",
+        "tags": [
+          "data",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4454344046",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 225,
+        "score": 70,
+        "company": "Opus Recruitment Solutions",
+        "title": "Technical Business Analyst",
+        "location": "Brighton East, Victoria, Australia",
+        "posted": "2026-08-14",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4453502758",
+        "remote": false,
+        "why": "LinkedIn listing matching 'business analyst'. Category: PM / BA. Verify before applying.",
+        "tags": [
+          "business",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4453502758",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 226,
+        "score": 70,
+        "company": "Talent",
+        "title": "Business Analyst - Telco/Utilities billing",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-14",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4453280892",
+        "remote": false,
+        "why": "LinkedIn listing matching 'business analyst'. Category: PM / BA. Verify before applying.",
+        "tags": [
+          "business",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4453280892",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 227,
         "score": 70,
         "company": "Arrotex Pharmaceuticals",
         "title": "BI Analyst - Supply Chain",
@@ -9830,7 +10711,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 196,
+        "rank": 228,
         "score": 70,
         "company": "For Purpose Aged Care Australia",
         "title": "IT Infrastructure Project Manager Cheltenham, VIC",
@@ -9850,7 +10731,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 197,
+        "rank": 229,
         "score": 70,
         "company": "Microsoft",
         "title": "Regional Transition Program Manager (Operational Readiness) - Melbourne",
@@ -9870,7 +10751,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 198,
+        "rank": 230,
         "score": 70,
         "company": "Safe Transport Victoria",
         "title": "Developer & Tester",
@@ -9890,7 +10771,27 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 199,
+        "rank": 231,
+        "score": 70,
+        "company": "Australia Post",
+        "title": "Cyber Security Specialist",
+        "location": "Cremorne, Victoria, Australia",
+        "posted": "2026-08-16",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4454359831",
+        "remote": false,
+        "why": "LinkedIn listing matching 'security analyst'. Category: Security / SOC. Verify before applying.",
+        "tags": [
+          "security",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4454359831",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 232,
         "score": 70,
         "company": "BYD Australia & New Zealand",
         "title": "IT Technical Cloud Support Specialist",
@@ -9910,7 +10811,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 200,
+        "rank": 233,
         "score": 70,
         "company": "Jetstar Airways",
         "title": "Platform Analyst",
@@ -9930,7 +10831,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 201,
+        "rank": 234,
         "score": 70,
         "company": "Microsoft",
         "title": "Critical Environment (CE) Technical Trainer",
@@ -9950,7 +10851,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 202,
+        "rank": 235,
         "score": 70,
         "company": "Revo Fitness",
         "title": "Desktop Support Technician",
@@ -9971,7 +10872,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 203,
+        "rank": 236,
         "score": 70,
         "company": "TechnologyOne",
         "title": "Project Manager",
@@ -9991,7 +10892,86 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 204,
+        "rank": 237,
+        "score": 70,
+        "company": "Fabric Group",
+        "title": "Systems & Security Analyst 🇦🇺",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-17",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4427008385",
+        "remote": false,
+        "why": "LinkedIn listing matching 'security analyst'. Category: Security / SOC. Verify before applying.",
+        "tags": [
+          "security",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4427008385",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 238,
+        "score": 70,
+        "company": "Judo Bank",
+        "title": "Technology Owner, Workplace Enablement",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-17",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4452241337",
+        "remote": false,
+        "why": "LinkedIn listing matching 'intune'. Category: Endpoint / MDM. Verify before applying.",
+        "tags": [
+          "intune"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4452241337",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 239,
+        "score": 70,
+        "company": "Marsh",
+        "title": "IT Business Analyst",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-17",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4455326552",
+        "remote": false,
+        "why": "LinkedIn listing matching 'business analyst'. Category: PM / BA. Verify before applying.",
+        "tags": [
+          "business",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4455326552",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 240,
+        "score": 70,
+        "company": "Mercer",
+        "title": "Business Analyst",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-17",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4455325550",
+        "remote": false,
+        "why": "LinkedIn listing matching 'business analyst'. Category: PM / BA. Verify before applying.",
+        "tags": [
+          "business",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4455325550",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 241,
         "score": 70,
         "company": "AGL",
         "title": "Performance Analyst",
@@ -10011,7 +10991,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 205,
+        "rank": 242,
         "score": 70,
         "company": "AGL",
         "title": "Performance Analyst",
@@ -10031,7 +11011,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 206,
+        "rank": 243,
         "score": 70,
         "company": "Bed Bath N' Table",
         "title": "IT Systems Support Analyst",
@@ -10052,7 +11032,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 207,
+        "rank": 244,
         "score": 70,
         "company": "Capillary Technologies",
         "title": "AI Project Manager",
@@ -10072,7 +11052,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 208,
+        "rank": 245,
         "score": 70,
         "company": "Ciena",
         "title": "Customer Technical Advocate",
@@ -10092,7 +11072,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 209,
+        "rank": 246,
         "score": 70,
         "company": "Country Fire Authority (CFA)",
         "title": "Network Administrator",
@@ -10112,7 +11092,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 210,
+        "rank": 247,
         "score": 70,
         "company": "Datacom",
         "title": "Cloud & AI Platform Specialist - Azure",
@@ -10132,7 +11112,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 211,
+        "rank": 248,
         "score": 70,
         "company": "Experis Australia",
         "title": "Technical Business Analyst",
@@ -10152,7 +11132,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 212,
+        "rank": 249,
         "score": 70,
         "company": "Fusion Markets",
         "title": "Data Analyst",
@@ -10172,7 +11152,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 213,
+        "rank": 250,
         "score": 70,
         "company": "Fusion5",
         "title": "Service Desk Analyst",
@@ -10193,7 +11173,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 214,
+        "rank": 251,
         "score": 70,
         "company": "GHD",
         "title": "IS Project Manager",
@@ -10213,7 +11193,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 215,
+        "rank": 252,
         "score": 70,
         "company": "Hanes Brands Australasia",
         "title": "Online Data Analyst",
@@ -10233,7 +11213,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 216,
+        "rank": 253,
         "score": 70,
         "company": "Hays",
         "title": "Level 2 IT Support Officer",
@@ -10252,7 +11232,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 217,
+        "rank": 254,
         "score": 70,
         "company": "Launch Group",
         "title": "Project Manager - Data & AI",
@@ -10272,7 +11252,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 218,
+        "rank": 255,
         "score": 70,
         "company": "Melbourne Business School",
         "title": "ICT Service Desk Officer",
@@ -10293,7 +11273,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 219,
+        "rank": 256,
         "score": 70,
         "company": "Palo Alto Networks",
         "title": "MDR Analyst, Unit 42",
@@ -10313,7 +11293,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 220,
+        "rank": 257,
         "score": 70,
         "company": "Ramsay Health Care",
         "title": "People Data Analyst",
@@ -10333,7 +11313,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 221,
+        "rank": 258,
         "score": 70,
         "company": "The Royal Children's Hospital",
         "title": "Clinical Data Analyst",
@@ -10353,7 +11333,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 222,
+        "rank": 259,
         "score": 70,
         "company": "Verra Mobility",
         "title": "Technology Project Manager",
@@ -10373,7 +11353,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 223,
+        "rank": 260,
         "score": 70,
         "company": "Bytewize IT Consulting",
         "title": "Bytewize Vacancy 2026-2678 for Specialist Technicians",
@@ -10393,7 +11373,67 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 224,
+        "rank": 261,
+        "score": 70,
+        "company": "KordaMentha",
+        "title": "Associate - Forensic Data Analytics",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-18",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4452539628",
+        "remote": false,
+        "why": "LinkedIn listing matching 'data analyst'. Category: Data / Analytics. Verify before applying.",
+        "tags": [
+          "data",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4452539628",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 262,
+        "score": 70,
+        "company": "Talent",
+        "title": "Business Analyst - Federal Government",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-18",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4454495048",
+        "remote": false,
+        "why": "LinkedIn listing matching 'business analyst'. Category: PM / BA. Verify before applying.",
+        "tags": [
+          "business",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4454495048",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 263,
+        "score": 70,
+        "company": "Terra Firma Business Consulting",
+        "title": "Business Analyst",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-18",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4443208589",
+        "remote": false,
+        "why": "LinkedIn listing matching 'business analyst'. Category: PM / BA. Verify before applying.",
+        "tags": [
+          "business",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4443208589",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 264,
         "score": 70,
         "company": "Australia Post",
         "title": "Pricing Analyst",
@@ -10413,7 +11453,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 225,
+        "rank": 265,
         "score": 70,
         "company": "Australian Taxation Office",
         "title": "Business Analyst",
@@ -10433,7 +11473,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 226,
+        "rank": 266,
         "score": 70,
         "company": "Cipher Recruitment",
         "title": "Python Developer (Financial Services)",
@@ -10453,7 +11493,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 227,
+        "rank": 267,
         "score": 70,
         "company": "CrowdStrike",
         "title": "Associate Analyst, Falcon Complete (アソシエイトアナリスト - ファルコンコンプリート、リモート可)",
@@ -10473,7 +11513,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 228,
+        "rank": 268,
         "score": 70,
         "company": "Hays",
         "title": "Technical Business Analyst",
@@ -10493,7 +11533,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 229,
+        "rank": 269,
         "score": 70,
         "company": "Leidos",
         "title": "Cloud Operations Administrator",
@@ -10513,7 +11553,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 230,
+        "rank": 270,
         "score": 70,
         "company": "The Royal Australian College of General Practitioners (RACGP)",
         "title": "Information Security & Risk Analyst",
@@ -10533,7 +11573,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 231,
+        "rank": 271,
         "score": 70,
         "company": "Triple Zero Victoria",
         "title": "Project Manager",
@@ -10553,7 +11593,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 232,
+        "rank": 272,
         "score": 70,
         "company": "Ultradata",
         "title": "Business Analyst — Product, Financial Services & Regulation",
@@ -10573,7 +11613,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 233,
+        "rank": 273,
         "score": 70,
         "company": "Ventia",
         "title": "Data Analyst",
@@ -10593,7 +11633,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 234,
+        "rank": 274,
         "score": 70,
         "company": "Viasat",
         "title": "Data Center Technician (12-Month FTC)",
@@ -10613,7 +11653,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 235,
+        "rank": 275,
         "score": 70,
         "company": "7-Eleven Australia",
         "title": "Power BI Developer",
@@ -10633,7 +11673,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 236,
+        "rank": 276,
         "score": 70,
         "company": "Arinco",
         "title": "M365 Consultant",
@@ -10652,7 +11692,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 237,
+        "rank": 277,
         "score": 70,
         "company": "Australian and New Zealand College of Anaesthetists",
         "title": "Project Manager",
@@ -10672,7 +11712,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 238,
+        "rank": 278,
         "score": 70,
         "company": "Banyule City Council",
         "title": "Data Analyst",
@@ -10692,7 +11732,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 239,
+        "rank": 279,
         "score": 70,
         "company": "Care Connect - Community Care Provider",
         "title": "Business Analyst",
@@ -10712,7 +11752,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 240,
+        "rank": 280,
         "score": 70,
         "company": "DiDi",
         "title": "Operations Analyst",
@@ -10732,7 +11772,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 241,
+        "rank": 281,
         "score": 70,
         "company": "Hays",
         "title": "IT Operations Technician",
@@ -10753,7 +11793,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 242,
+        "rank": 282,
         "score": 70,
         "company": "Integral Diagnostics (IDX)",
         "title": "IT Support Specialist",
@@ -10773,7 +11813,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 243,
+        "rank": 283,
         "score": 70,
         "company": "Logical",
         "title": "Network Specialist",
@@ -10793,7 +11833,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 244,
+        "rank": 284,
         "score": 70,
         "company": "Macquarie Group",
         "title": "Technical Project Manager",
@@ -10813,7 +11853,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 245,
+        "rank": 285,
         "score": 70,
         "company": "Marsh",
         "title": "Business Analyst",
@@ -10833,7 +11873,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 246,
+        "rank": 286,
         "score": 70,
         "company": "Marsh Risk",
         "title": "Business Analyst",
@@ -10853,7 +11893,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 247,
+        "rank": 287,
         "score": 70,
         "company": "Microsoft",
         "title": "Azure Cloud & AI Sales Specialist - Retail/Logistics - Melbourne",
@@ -10873,7 +11913,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 248,
+        "rank": 288,
         "score": 70,
         "company": "STR",
         "title": "IT Support Specialist",
@@ -10893,7 +11933,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 249,
+        "rank": 289,
         "score": 70,
         "company": "Specsavers",
         "title": "Service Desk Analyst",
@@ -10914,7 +11954,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 250,
+        "rank": 290,
         "score": 70,
         "company": "Symbio",
         "title": "Wholesale Support Aussie Expert",
@@ -10934,7 +11974,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 251,
+        "rank": 291,
         "score": 70,
         "company": "Tech Mahindra",
         "title": "EUC Consultant",
@@ -10954,7 +11994,7 @@
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       },
       {
-        "rank": 252,
+        "rank": 292,
         "score": 70,
         "company": "carsales",
         "title": "Commercial Analyst (Sales)",
@@ -10970,6 +12010,46 @@
         ],
         "status": "LinkedIn listing - verify",
         "application_route": "https://www.linkedin.com/jobs/view/4456447344",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 293,
+        "score": 70,
+        "company": "AHPRA (Australian Health Practitioner Regulation Agency)",
+        "title": "Security Operations and Platform Specialist",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-20",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4456462687",
+        "remote": false,
+        "why": "LinkedIn listing matching 'security analyst'. Category: Security / SOC. Verify before applying.",
+        "tags": [
+          "security",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4456462687",
+        "application_route_type": "LinkedIn listing",
+        "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
+      },
+      {
+        "rank": 294,
+        "score": 70,
+        "company": "ANZ",
+        "title": "Data Analyst",
+        "location": "Melbourne, Victoria, Australia",
+        "posted": "2026-08-20",
+        "source": "LinkedIn",
+        "url": "https://www.linkedin.com/jobs/view/4456448964",
+        "remote": false,
+        "why": "LinkedIn listing matching 'data analyst'. Category: Data / Analytics. Verify before applying.",
+        "tags": [
+          "data",
+          "analyst"
+        ],
+        "status": "LinkedIn listing - verify",
+        "application_route": "https://www.linkedin.com/jobs/view/4456448964",
         "application_route_type": "LinkedIn listing",
         "listing_verification": "LinkedIn listing captured on 2026-08-22. Requires manual verification before applying."
       }
@@ -10997,5 +12077,5 @@
       "status": "Verify before applying"
     }
   ],
-  "count": 520
+  "count": 574
 }
