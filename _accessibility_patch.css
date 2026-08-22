@@ -1,0 +1,109 @@
+/* Accessibility patches for job-dashboard-site */
+/* Apply these alongside the main _style.css */
+
+/* 1. Focus visible indicators — keyboard users need to see where they are */
+:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 2px;
+}
+
+/* 2. Skip-to-content link (add <a href="#main" class="skip-link">Skip to content</a> as first child of <body>) */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: var(--cyan);
+  color: #05101b;
+  padding: 8px 16px;
+  z-index: 100;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 0 0 8px 0;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* 3. Modal focus trap visual cue */
+.job-modal[open] .job-modal-panel {
+  /* already styled */
+}
+.job-modal-panel:focus {
+  outline: 2px solid var(--cyan);
+  outline-offset: 4px;
+}
+
+/* 4. Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition-duration: 0.01ms !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* 5. High contrast mode support */
+@media (forced-colors: active) {
+  .card {
+    border: 2px solid CanvasText;
+  }
+  .btn, .face-actions button, .face-actions a {
+    border: 1px solid CanvasText;
+  }
+}
+
+/* 6. Screen reader only utility (visually hidden, accessible to AT) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/*
+ * TODO: JavaScript changes needed for full accessibility:
+ *
+ * 1. ARIA LIVE REGIONS for status summary:
+ *    Add to HTML: <div id="stage-summary" aria-live="polite" aria-atomic="true" role="status"></div>
+ *    The existing updateSummary() function already targets this element.
+ *
+ * 2. KEYBOARD NAVIGATION for modals:
+ *    - Tab should cycle only within the open modal (focus trap)
+ *    - Escape should close the modal (already implemented)
+ *    - Focus should return to the trigger button when modal closes
+ *
+ * 3. FOCUS TRAP implementation:
+ *    const trapFocus = (modal) => {
+ *      const focusable = modal.querySelectorAll('button, a, input, select, [tabindex]:not([tabindex="-1"])');
+ *      const first = focusable[0], last = focusable[focusable.length - 1];
+ *      modal.addEventListener('keydown', (e) => {
+ *        if (e.key !== 'Tab') return;
+ *        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+ *        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+ *      });
+ *    };
+ *
+ * 4. STAGE CHANGE ANNOUNCEMENTS:
+ *    After setCardStage(), announce to screen readers:
+ *    const announce = document.createElement('div');
+ *    announce.setAttribute('role', 'alert');
+ *    announce.setAttribute('aria-live', 'assertive');
+ *    announce.textContent = `${company} ${title} moved to ${status}`;
+ *    document.body.appendChild(announce);
+ *    setTimeout(() => announce.remove(), 3000);
+ *
+ * 5. CARD EXPANDED STATE:
+ *    Add aria-expanded="false" to "View details" buttons.
+ *    Toggle to "true" when modal opens, "false" when it closes.
+ *
+ * 6. SORT CONTROLS:
+ *    Add aria-label="Sort jobs by" to the sort select element.
+ *    Add aria-label="Filter jobs" to each filter select.
+ */

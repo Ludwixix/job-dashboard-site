@@ -1,0 +1,21 @@
+# job-dashboard-site Python dependencies
+# All scripts in this repo currently use only stdlib.
+# These are listed for the broader pipeline (parent workspace) and future use.
+#
+# Core pipeline
+jobspy>=0.3.0
+playwright>=1.40.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+pyyaml>=6.0
+
+# PDF generation
+weasyprint>=60.0
+
+# Supabase backend
+supabase>=2.0.0
+
+# Development / testing
+ruff>=0.1.0
+pytest>=7.4.0
+pytest-cov>=4.1.0

@@ -97,20 +97,23 @@ CREATE TRIGGER jobs_updated_at
   FOR EACH ROW
   EXECUTE FUNCTION update_updated_at();
 
--- Row Level Security (RLS) — disable for service role, enable for public if needed
+-- Row Level Security (RLS)
+-- Updated 2026-08-22: Tightened policies. Service role bypasses RLS by default
+-- in Supabase, so no explicit 'service role' policy is needed. Authenticated
+-- users can read; only the service role (edge functions, n8n) can write.
 ALTER TABLE jobs ENABLE ROW LEVEL SECURITY;
 ALTER TABLE application_documents ENABLE ROW LEVEL SECURITY;
 ALTER TABLE interview_preparations ENABLE ROW LEVEL SECURITY;
 ALTER TABLE status_history ENABLE ROW LEVEL SECURITY;
 
--- Service role can do everything
-CREATE POLICY "Service role full access" ON jobs FOR ALL USING (true) WITH CHECK (true);
-CREATE POLICY "Service role full access" ON application_documents FOR ALL USING (true) WITH CHECK (true);
-CREATE POLICY "Service role full access" ON interview_preparations FOR ALL USING (true) WITH CHECK (true);
-CREATE POLICY "Service role full access" ON status_history FOR ALL USING (true) WITH CHECK (true);
-
--- Authenticated users can read jobs
+-- Authenticated users: read-only access
 CREATE POLICY "Authenticated read jobs" ON jobs FOR SELECT USING (auth.role() = 'authenticated');
+CREATE POLICY "Authenticated read documents" ON application_documents FOR SELECT USING (auth.role() = 'authenticated');
+CREATE POLICY "Authenticated read prep" ON interview_preparations FOR SELECT USING (auth.role() = 'authenticated');
+CREATE POLICY "Authenticated read history" ON status_history FOR SELECT USING (auth.role() = 'authenticated');
+
+-- Service role (used by edge functions / n8n) bypasses RLS automatically.
+-- No explicit INSERT/UPDATE/DELETE policy needed — denied by default.
 
 -- Insert existing data from the dashboard (if any)
 -- This is a one-time migration; existing PDFs in /applications/ are already deployed

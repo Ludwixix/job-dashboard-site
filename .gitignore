@@ -8,3 +8,6 @@ _*.json
 _*.ps1
 _*.txt
 _*.mjs
+
+# Environment secrets
+.env
