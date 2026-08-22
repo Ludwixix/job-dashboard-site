@@ -6,8 +6,18 @@ help: ## Show this help
 scrape: ## Run the daily job scraper
 	python3 scrape_daily.py
 
-build: reclassify ## Regenerate the dashboard HTML
+build: ## Regenerate the dashboard HTML (dedup + reclassify + generate)
+	python3 deduplicate_jobs.py
+	python3 -c "import json; from reclassify_jobs import reclassify; d=json.load(open('jobs_nonlinkedin_2026-08-08_clean.json')); d,s=reclassify(d); json.dump(d,open('jobs_nonlinkedin_2026-08-08_final.json','w'),indent=2)"
+	python3 build_categorized_dashboard.py
+
+echo 'Dashboard generated: index_categorized.html'
+
+build-old: ## Regenerate using the original generator
 	python3 build_nonlinkedin_dashboard.py
+
+dedup: ## Remove duplicate jobs
+	python3 deduplicate_jobs.py
 
 reclassify: ## Reclassify jobs into correct categories
 	python3 reclassify_jobs.py
