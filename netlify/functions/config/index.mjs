@@ -1,8 +1,10 @@
 // netlify/functions/config/index.mjs
-// Return public config (no secrets) — used by dashboard to check features
+// Return public config for dashboard — includes Supabase URL/key for client auth
 
 export default async () => {
   const config = {
+    supabaseUrl: process.env.SUPABASE_URL || '',
+    supabasePublishableKey: process.env.SUPABASE_PUBLISHABLE_KEY || '',
     features: {
       ai_generate: !!process.env.OPENROUTER_API_KEY,
       job_discovery: !!process.env.ADZUNA_APP_ID,
