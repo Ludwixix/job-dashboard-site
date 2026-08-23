@@ -11,6 +11,7 @@
 //
 // Secrets are read from Netlify env vars (set via `netlify env:set`), NOT from
 // committed source. Reads: OPENROUTER_API_KEY (or OPENAI_API_KEY) and LLM_MODEL.
+// Default model: DeepSeek V4 Flash on OpenRouter.
 
 import { readFileSync } from "fs";
 import { dirname, join } from "path";
@@ -24,7 +25,7 @@ async function callLLM(messages) {
   }
 
   const url = "https://openrouter.ai/api/v1/chat/completions";
-  const model = process.env.LLM_MODEL || "openrouter/google/gemini-2.5-flash-lite";
+  const model = process.env.LLM_MODEL || "deepseek/deepseek-v4-flash-0731";
 
   try {
     const resp = await fetch(url, {
