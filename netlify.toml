@@ -7,3 +7,9 @@
   from = "/api/generate"
   to = "/.netlify/functions/generate"
   status = 200
+
+# Saved-applications library reads/deletes (see index.html -> saved panel)
+[[redirects]]
+  from = "/api/applications"
+  to = "/.netlify/functions/applications"
+  status = 200
