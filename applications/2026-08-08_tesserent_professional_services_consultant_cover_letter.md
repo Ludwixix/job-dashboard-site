@@ -1,19 +1,7 @@
-# Sam Ludwig
-Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
+I am writing to apply for the Professional Services Consultant position at TESSERENT in Melbourne CBD. TESSERENT's focus on making technology secure, sustainable, and inclusive, as outlined in the job listing, aligns with my experience delivering enterprise-scale IT solutions for government and private clients.
 
-**Re: Professional Services Consultant — TESSERENT**
+My career includes leading SharePoint migrations and solution delivery for high-profile organisations. At Engage Squared, I architected and delivered custom SharePoint Online intranets for Victoria Police and Transurban, using SPFx and TypeScript while ensuring ISO 27001 compliance. At Capgemini, I served as the Tier-3 escalation point for the Department of Education Victoria, managing a SharePoint farm with 660,000+ users and engineering a PnP PowerShell automation that reduced manual MFA audit cycles from a month to real-time reporting. I also facilitated client workshops that drove a 20% increase in M365 adoption, bridging technical complexity with business value.
 
-Dear Hiring Manager,
+I am drawn to TESSERENT's work in cybersecurity and space, where reliable IT infrastructure is critical. My background in government and healthcare sectors has honed my ability to deliver secure, resilient solutions under strict compliance requirements. I am motivated by the opportunity to apply my technical depth in M365, Azure, and automation within a professional services context, contributing to projects that matter.
 
-The Professional Services Consultant role at TESSERENT aligns with my recent enterprise infrastructure and service-operations work. I'm writing to express my interest in the Professional Services Consultant role at TESSERENT. My background across enterprise infrastructure, Microsoft 365, and service operations connects well with the requirements outlined.
-
-Recent work directly relevant to this role includes Aligned infrastructure with ACSC Essential 8 and implemented MFA compliance across 200+ sites, and Delivered L1/L2/L3 support consistently achieving >90% SLA resolution. The areas where my background aligns most directly are Security, Customer Support.
-
-The security focus described in the listing connects with my Essential 8 alignment work and MFA compliance automation across 200+ sensitive SharePoint sites. The security focus connects with my Essential 8 alignment work and MFA compliance automation across 200+ sensitive SharePoint sites. The Melbourne, Melbourne CBD location is practical for my current situation. I am looking for a role where I can continue building enterprise infrastructure and service operations skills while contributing to a team that values reliable, well-documented technical delivery. My experience across government, healthcare, and enterprise environments has given me a practical understanding of what it takes to deliver technology services at scale.
-
-I'd welcome a conversation about how my experience could contribute to your team. I'm happy to confirm any qualification or screening requirements before progressing.
-
-Kind regards,
-Sam Ludwig
-
-<!-- ✅ Cover letter summary | - Specific listing details referenced: it_support; adzuna; job description reviewed | - Achievements highlighted: Aligned infrastructure with ACSC Essential 8 and i; enterprise service delivery | - Adjacent-match framing used: no | - Word count: 217 | - Voice guide check: PASS |  | ⚠️ Word count 217 below 250 — consider expanding -->
+I am confident my hands-on consulting experience and focus on durable outcomes would benefit TESSERENT's clients. I look forward to discussing how I can support your goals.
