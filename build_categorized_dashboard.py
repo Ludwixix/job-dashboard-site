@@ -435,16 +435,15 @@ a{{color:inherit;text-decoration:none}}
 
 # ── Main ──────────────────────────────────────────────────────────────────
 
-def main():
+def build_dashboard(input_file=None, output_file=None):
+    """Build dashboard from a JSON file. Callable from other scripts."""
     base = Path(__file__).parent
 
-    # CLI argument or default
-    if len(sys.argv) > 1:
-        input_path = Path(sys.argv[1])
+    if input_file:
+        input_path = Path(input_file)
         if not input_path.is_absolute():
             input_path = base / input_path
     else:
-        # Auto-detect: prefer combined, fall back to dated files
         candidates = [
             base / "scrapers" / "jobs_combined.json",
             base / "jobs_combined.json",
@@ -457,7 +456,7 @@ def main():
                 input_path = c
                 break
         if input_path is None:
-            print("Error: no job data found. Provide a JSON file as argument.")
+            print("Error: no job data found.")
             sys.exit(1)
 
     print(f"Loading: {input_path}")
@@ -472,16 +471,26 @@ def main():
     print(f"Classifying {len(jobs)} jobs into 3 streams...")
     streams = classify_all_jobs(jobs)
 
-    # Print summary
     for sid, info in STREAMS.items():
         print(f"  {info['icon']} {info['name']}: {len(streams[sid])} jobs")
 
-    # Build HTML
-    output_path = base / "index.html"
+    if output_file:
+        out = Path(output_file)
+    else:
+        out = base / "index.html"
+
     page = build_page(streams, input_path.name, len(jobs))
-    output_path.write_text(page, encoding="utf-8")
-    print(f"\nGenerated: {output_path}")
-    print(f"  Total: {len(jobs)} jobs across 3 streams")
+    out.write_text(page, encoding="utf-8")
+    print(f"Generated: {out}")
+    return str(out)
+
+
+def main():
+    build_dashboard()
+
+
+if __name__ == "__main__":
+    main()
 
 
 if __name__ == "__main__":

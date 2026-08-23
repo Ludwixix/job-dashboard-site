@@ -23,27 +23,17 @@ IT_KEYWORDS = [
     "cloud engineer Melbourne",
     "devops engineer Melbourne",
     "cyber security Melbourne",
-    "software engineer Melbourne",
-    "data engineer Melbourne",
     "service desk Melbourne",
     "help desk Melbourne",
     "desktop support Melbourne",
     "microsoft 365 Melbourne",
     "azure engineer Melbourne",
-    "intune Melbourne",
-    "windows server Melbourne",
-    "linux administrator Melbourne",
-    "kubernetes Melbourne",
-    "terraform Melbourne",
     "infrastructure engineer Melbourne",
-    "endpoint engineer Melbourne",
-    "project manager IT Melbourne",
     "platform engineer Melbourne",
-    "Entra ID Melbourne",
-    "PowerShell Melbourne",
+    "endpoint engineer Melbourne",
+    "data engineer Melbourne",
 ]
 
-# Additional keywords for Bridge/Local and Trades streams
 BRIDGE_KEYWORDS = [
     "casual work Melbourne",
     "part time retail Melbourne",
@@ -51,6 +41,8 @@ BRIDGE_KEYWORDS = [
     "courier Melbourne",
     "hospitality Melbourne",
     "barista Melbourne",
+    "customer service Melbourne",
+    "receptionist Melbourne",
 ]
 
 TRADE_KEYWORDS = [
@@ -59,6 +51,9 @@ TRADE_KEYWORDS = [
     "data centre technician Melbourne",
     "cabling technician Melbourne",
     "telecommunications Melbourne",
+    "hvac technician Melbourne",
+    "electrician Melbourne",
+    "plumber Melbourne",
 ]
 
 MAX_PER_KEYWORD = 25
