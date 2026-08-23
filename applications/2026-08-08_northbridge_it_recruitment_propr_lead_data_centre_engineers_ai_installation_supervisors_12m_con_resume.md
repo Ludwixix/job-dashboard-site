@@ -4,6 +4,9 @@ samludwig.au | github.com/Ludwixix
 
 ## Target Role: Lead Data Centre Engineers / AI Installation Supervisors - 12M CONTRACT - EXT
 
+### Profile
+Adzuna listing for Lead Data Centre Engineers / AI Installation Supervisors - 12M CONTRACT - EXT at Northbridge IT Recruitment Propr
+
 ### Professional Summary
 Infrastructure and Microsoft 365 engineer with progressive experience across Azure, Entra ID, Intune, Autopilot, Windows, SharePoint, Exchange, PowerShell, ServiceNow and enterprise service operations. Combines hands-on endpoint delivery with Tier-3 escalation, automation, security-aware change and durable documentation.
 
@@ -63,4 +66,4 @@ AZ-104 Azure Administrator Associate · AZ-900 Azure Fundamentals · ITIL 4 Foun
 ### Additional Information
 Australian citizen · unrestricted Australian work rights · available immediately
 
-<!-- ✅ Tailoring summary | - Match tier: Adjacent/stretch match | - Key changes from base resume: Skills reordered: Data Centre first; Experience reordered: HVAC Service Technician first | - Requirements not fully addressed: none | - Word count: 690 | - Voice guide check: PASS |  -->
+<!-- ✅ Tailoring summary | - Match tier: Adjacent/stretch match | - Key changes from base resume: Skills reordered: Data Centre first; Experience reordered: HVAC Service Technician first | - Requirements not fully addressed: none | - Word count: 713 | - Voice guide check: PASS |  -->

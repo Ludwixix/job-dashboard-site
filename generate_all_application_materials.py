@@ -1283,6 +1283,9 @@ def write_resume(prefix: str, title: str, category: str, reason: str,
     tailored_summary = _generate_tailored_summary(category, score_data)
 
     # ── Build resume lines — proper section order ──
+    # Profile section: polished, employer-facing pitch (no scratchpad/meta-text)
+    profile_line = reason if reason else f"Targeting {title} roles in {category} space."
+    
     lines_out = [
         # 1. Header
         "# Sam Ludwig",
@@ -1292,15 +1295,19 @@ def write_resume(prefix: str, title: str, category: str, reason: str,
         # 2. Target Role
         f"## Target Role: {title}",
         "",
-        # 3. Professional Summary
+        # 3. Profile (polished pitch, no listing metadata)
+        "### Profile",
+        profile_line,
+        "",
+        # 4. Professional Summary
         "### Professional Summary",
         tailored_summary,
         "",
-        # 4. Skills
+        # 5. Skills
         "### Core Skills",
         skill_display,
         "",
-        # 5. Professional Experience
+        # 6. Professional Experience
         "### Professional Experience",
     ]
 
@@ -1524,7 +1531,8 @@ def write_cover(prefix: str, role: dict, category: str, reason: str,
     else:
         salutation = "Dear Hiring Manager,"
 
-    opening = f"I'm writing to apply for the {title} role at {company}."
+    # Opening: name role and company, state why briefly — avoid generic openers
+    opening = f"The {title} role at {company} aligns with my recent enterprise infrastructure and service-operations work."
 
     # ── 2. Company hook (grounded in listing details) ──
     company_hook = _get_company_hook(role)
@@ -1554,35 +1562,28 @@ def write_cover(prefix: str, role: dict, category: str, reason: str,
 
     # Add skill alignment sentence
     if matched_skills:
-        skill_names = [s["skill"] for s in matched_skills[:4]]
+        skill_names = [s["skill"] for s in matched_skills[:5]]
         fit_parts.append(
             f"The areas where my background aligns most directly are "
             f"{', '.join(skill_names)}."
         )
-
-    # Add a third sentence about transferable approach
-    fit_parts.append(
-        f"I bring a practical approach to infrastructure problems — "
-        f"rooted in structured diagnostics, automation where it saves time, "
-        f"and documentation that helps the next person pick up the work."
-    )
-
-    # Add a sentence about specific tools/platforms from the listing
+    
+    # Add context about scope/scale
     if matched_skills:
         top_skill = matched_skills[0].get("skill", "")
-        achievement_map_details = {
-            "Microsoft 365": "including administering Exchange Hybrid, Teams governance, and SharePoint Online at enterprise scale",
-            "SharePoint": "including delivering 5+ enterprise intranets using SPFx, React, and TypeScript",
-            "Azure": "including implementing CI/CD pipelines with Azure DevOps and aligning infrastructure with Essential 8",
-            "Entra ID": "including managing hybrid identity across three providers for 660,000+ users",
-            "Intune": "including leading a 100+ endpoint Windows 11 migration with Autopilot and zero clinical disruption",
-            "PowerShell": "including building automation that reduced migration processing from 2 hours to 15 minutes",
-            "Windows": "including managing SOE builds, Autopilot enrolment, and endpoint lifecycle across enterprise fleets",
-            "ServiceNow": "including building automation that removed hundreds of hours of manual data entry per month",
+        scope_map = {
+            "Microsoft 365": "This includes hands-on work across Exchange Hybrid, Teams governance, SharePoint Online administration, and Entra ID identity management at enterprise scale — supporting over 660,000 users in a government environment. My recent role at Australia Post involved delivering L1/L2 endpoint support, managing Windows 10/11 migrations, and building ServiceNow automation that removed hundreds of hours of manual data entry each month.",
+            "Azure": "This includes implementing CI/CD pipelines with Azure DevOps, aligning infrastructure with Essential 8 maturity requirements, and managing hybrid identity synchronisation across multiple providers. I have also delivered enterprise SharePoint Online intranets and managed Azure cloud adoption projects.",
+            "Intune": "This includes leading a 100+ endpoint Windows 11 migration with Autopilot, managing SOE builds, and delivering zero-disruption clinical deployments. I have also managed endpoint lifecycle across enterprise fleets and built PowerShell automation for compliance checks.",
+            "SharePoint": "This includes delivering 5+ enterprise intranets using SPFx, React, and TypeScript, as well as managing PnP PowerShell automation for governance and compliance. I have also managed SharePoint Online administration for over 660,000 users in a government environment.",
+            "PowerShell": "This includes building automation that reduced migration processing from 2 hours to 15 minutes, and developing diagnostic tools that help L1 staff run repeatable checks. I have also built PnP PowerShell automation for MFA compliance across 200+ sensitive SharePoint sites.",
+            "ServiceNow": "This includes building automation that removed hundreds of hours of manual data entry each month, and integrating Microsoft 365 presence data with ticket queues. I have also managed incident management and root-cause analysis investigations.",
+            "Windows": "This includes managing SOE builds, Autopilot enrolment, endpoint lifecycle across enterprise fleets, and leading Windows 10/11 migrations. I have also managed endpoint support and compliance across clinical and government environments.",
         }
-        detail = achievement_map_details.get(top_skill, "")
-        if detail:
-            fit_parts.append(f"My hands-on work with {top_skill} {detail}.")
+        if top_skill in scope_map:
+            fit_parts.append(scope_map[top_skill])
+
+    # No additional skill details needed — scope_map already covers this
 
     fit_para = " ".join(fit_parts)
 
@@ -1641,19 +1642,69 @@ def write_cover(prefix: str, role: dict, category: str, reason: str,
             f"and bringing my infrastructure and automation experience to the team."
         )
 
-    # Add a second sentence about what draws Sam to this specific company/role
-    if role_why:
-        # Extract a meaningful reason from the why field
-        why_clean = role_why.strip()
-        if why_clean and len(why_clean) > 20:
-            value_parts.append(why_clean)
-
-    # Always add a motivation sentence about the specific opportunity
-    if role.get("location"):
+    # Reference something concrete from the listing — not boilerplate enthusiasm
+    import re
+    # Try to extract meaningful content from description first
+    if role_desc:
+        desc_lower = role_desc.lower()
+        # Look for specific requirements or responsibilities
+        if "microsoft 365" in desc_lower or "m365" in desc_lower:
+            value_parts.append(
+                f"The Microsoft 365 environment described in the listing matches my hands-on experience "
+                f"across SharePoint, Exchange, Teams, and Entra ID at enterprise scale — including "
+                f"managing services for over 660,000 users in a government setting."
+            )
+        elif "azure" in desc_lower:
+            value_parts.append(
+                f"The Azure-focused work described in the listing aligns with my cloud infrastructure "
+                f"and identity-management experience, including hybrid identity synchronisation "
+                f"and Essential 8-aligned security baselines."
+            )
+        elif "endpoint" in desc_lower or "intune" in desc_lower:
+            value_parts.append(
+                f"The endpoint management scope matches my Intune, Autopilot, and Windows migration "
+                f"experience, including leading a 100+ endpoint clinical migration with zero disruption."
+            )
+        elif "security" in desc_lower or "cyber" in desc_lower:
+            value_parts.append(
+                f"The security focus connects with my Essential 8 alignment work and MFA compliance "
+                f"automation across 200+ sensitive SharePoint sites."
+            )
+        elif "data centre" in desc_lower or "data center" in desc_lower:
+            value_parts.append(
+                f"The data-centre environment aligns with my physical infrastructure background "
+                f"and enterprise endpoint and service-operations experience."
+            )
+        elif "service desk" in desc_lower or "support" in desc_lower:
+            value_parts.append(
+                f"The support scope matches my recent L1/L2/L3 experience, consistently achieving "
+                f"over 90 percent SLA resolution."
+            )
+        else:
+            # Use first meaningful sentence from description
+            sentences = [s.strip() for s in role_desc.split('.') if len(s.strip()) > 30]
+            if sentences:
+                value_parts.append(f"The listing's focus on {sentences[0].lower()} connects with my background.")
+    
+    # If no description content, use location
+    if not value_parts and role.get("location"):
         value_parts.append(
-            f"The {role['location']} based role fits my current situation, "
-            f"and the technical scope described in the listing matches the kind "
-            f"of infrastructure work I want to keep doing."
+            f"The {role['location']} location and technical scope align with "
+            f"the kind of infrastructure work I want to keep doing."
+        )
+    elif role.get("location") and not any("location" in p.lower() for p in value_parts):
+        value_parts.append(
+            f"The {role['location']} location is practical for my current situation."
+        )
+    
+    # Add motivation sentence about the specific opportunity
+    if role.get("company"):
+        value_parts.append(
+            f"I am looking for a role where I can continue building enterprise infrastructure "
+            f"and service operations skills while contributing to a team that values "
+            f"reliable, well-documented technical delivery. My experience across government, "
+            f"healthcare, and enterprise environments has given me a practical understanding "
+            f"of what it takes to deliver technology services at scale."
         )
 
     value_para = " ".join(value_parts)

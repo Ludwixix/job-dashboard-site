@@ -4,6 +4,9 @@ samludwig.au | github.com/Ludwixix
 
 ## Target Role: Data Center IT Support Engineer, MEL - DCO
 
+### Profile
+The Amazon data-centre IT support role matches my endpoint support, hardware diagnostics, physical infrastructure, incident response, and disciplined operational-procedure experience.
+
 ### Professional Summary
 Infrastructure and Microsoft 365 engineer with progressive experience across Azure, Entra ID, Intune, Autopilot, Windows, SharePoint, Exchange, PowerShell, ServiceNow and enterprise service operations. Combines hands-on endpoint delivery with Tier-3 escalation, automation, security-aware change and durable documentation.
 
@@ -63,4 +66,4 @@ AZ-104 Azure Administrator Associate · AZ-900 Azure Fundamentals · ITIL 4 Foun
 ### Additional Information
 Australian citizen · unrestricted Australian work rights · available immediately
 
-<!-- ✅ Tailoring summary | - Match tier: Strong match | - Key changes from base resume: Skills reordered: Intune, Data Centre, Customer Support first; Experience reordered: L2/L3 Technical Support Engineer first | - Requirements not fully addressed: none | - Word count: 690 | - Voice guide check: PASS |  -->
+<!-- ✅ Tailoring summary | - Match tier: Strong match | - Key changes from base resume: Skills reordered: Intune, Data Centre, Customer Support first; Experience reordered: L2/L3 Technical Support Engineer first | - Requirements not fully addressed: none | - Word count: 712 | - Voice guide check: PASS |  -->

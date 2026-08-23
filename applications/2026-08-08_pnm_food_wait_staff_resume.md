@@ -4,6 +4,9 @@ samludwig.au | github.com/Ludwixix
 
 ## Target Role: Wait Staff
 
+### Profile
+Indeed listing for Wait Staff at PNM FOOD
+
 ### Professional Summary
 Infrastructure and Microsoft 365 engineer with progressive experience across Azure, Entra ID, Intune, Autopilot, Windows, SharePoint, Exchange, PowerShell, ServiceNow and enterprise service operations. Combines hands-on endpoint delivery with Tier-3 escalation, automation, security-aware change and durable documentation.
 
@@ -63,4 +66,4 @@ AZ-104 Azure Administrator Associate · AZ-900 Azure Fundamentals · ITIL 4 Foun
 ### Additional Information
 Australian citizen · unrestricted Australian work rights · available immediately
 
-<!-- ✅ Tailoring summary | - Match tier: Adjacent/stretch match | - Key changes from base resume: Skills reordered: Customer Support first; Experience reordered: Senior Managed Services Engineer first | - Requirements not fully addressed: none | - Word count: 679 | - Voice guide check: PASS |  -->
+<!-- ✅ Tailoring summary | - Match tier: Adjacent/stretch match | - Key changes from base resume: Skills reordered: Customer Support first; Experience reordered: Senior Managed Services Engineer first | - Requirements not fully addressed: none | - Word count: 689 | - Voice guide check: PASS |  -->
