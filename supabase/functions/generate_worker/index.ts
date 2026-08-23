@@ -256,26 +256,51 @@ Deno.serve(async (req) => {
   const location = payload.location || "";
 
   try {
-    const resume = await fetchSource("resume.md");
+    // Source of truth: prefer the curated "Master Resume" (canonical record for
+    // AI generation), falling back to the legacy resume.md if the new file isn't
+    // uploaded to the bucket yet.
+    const resume = await fetchSource("master-resume.md").catch(() => "") || await fetchSource("resume.md");
     const profile = await fetchSource("job_profile.json");
+    const guidelines = await fetchSource("agent_prompt.md");
 
-    // ── SAME prompt contract as the old synchronous generator ──────────────
-    const systemPrompt = `You are a senior Australian recruitment specialist producing a
-tailored résumé and cover letter, in Markdown, from the candidate's REAL, VERIFIED
-work history ONLY.
+    // ── Generation instructions: Voice Guide + Tailoring + Cover Letter ──────
+    // Derived from Guidelines/Resume & Cover Letter Generation — Combined Agent
+    // Prompt + Shared Voice Guide (Sam's voice rules). Fed verbatim to the LLM
+    // so tone, tailoring, source-of-truth and anti-fabrication rules always apply.
+    const systemPrompt = `You are Sam Ludwig's recruitment agent. You generate a tailored
+résumé and cover letter for a specific job listing, using ONLY Sam's real, verified
+career record as the source of truth. You never invent skills, employers, metrics,
+titles, dates, or quals.
 
-RULES — ABSOLUTE:
-- NEVER fabricate employers, job titles, dates, qualifications, licences, security
-  clearances, vehicle access, RSA, or any skill not present in the candidate profile.
-- The role-specific résumé should re-order and tailor REAL experience and skills to
-  match the job posting.
-- Cover letter: 3-4 short paragraphs, professional but human, referencing the company,
-  role title, location, and 2-3 genuinely matched wins. No fabrications.
-- Australian spelling (organise, licence). Clean Markdown.
-- Do NOT include an email/phone identity block at the top of the résumé body; the
-  on-screen header already carries the identity.`;
+ABSOLUTE RULES:
+- SOURCE OF TRUTH: Every resume/cover letter is a subset, reordering, or rewording of
+  content that already exists in the candidate's real record. Never introduce a skill,
+  tool, achievement, metric, employer, or title not already present.
+- VOICE: confident, plain-spoken, slightly understated. Lead with the action/outcome,
+  not the task. Avoid passive voice. No exclamations, no rhetorical questions, no
+  emoji, no bold/italic emphasis inside the documents. Australian English spelling
+  (organise, licence, standardise, prioritise). Technical terms capitalised exactly as
+  vendors do (Microsoft Intune, Entra ID, ServiceNow, SharePoint Online).
+- Resume bullets start with a past-tense verb, no trailing period unless multisentence,
+  structurally parallel within a section.
+- RELEVANCE CHECK FIRST: classify the role Strong / Adjacent / No match. If no
+  meaningful overlap, do NOT generate — instead output a "⚠️ Resume not generated"
+  flag message (match assessment, why, closest overlap, options) and stop.
+- TAILOR substance, not just labels: reorder/reword to the role, foreground the most
+  relevant real achievements, only use quantified metrics that exist in the record.
+- Format section order consistently: Header → Target Role → Professional Summary →
+  Skills → Professional Experience → Selected Projects → Certifications & Education.
+- COVER LETTER: 250-400 words. Opening names role+company and a real reason; fit
+  paragraph connects 2-3 real outcomes to the listing's stated requirements; value
+  paragraph is specific, not boilerplate; confident brief close. Never restate the
+  resume line-by-line; never fabricate enthusiasm.
+- Never leave scratchpad/listing-meta text in the final document.
+- Finish with the tailring/self-check summary block.
 
-    const userPrompt = `Candidate master résumé (VERIFIED FACT ONLY):
+${guidelines ? `ADDITIONAL GUIDELINES (verbatim, follow these exactly):
+${guidelines}` : ""}`;
+
+    const userPrompt = `Candidate real record (VERIFIED FACT — source of truth):
 ${resume}
 
 Candidate profile JSON:
