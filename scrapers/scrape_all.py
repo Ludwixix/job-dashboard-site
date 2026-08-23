@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
 """Unified job scraper — all sources, 14-day window, top 20 per stream."""
 import json
-import re
 import sys
-import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from adzuna_scraper import scrape_adzuna
-from seek_browser import scrape_seek_browser
 from indeed_jobspy import scrape_indeed
 from linkedin_browser import scrape_linkedin_browser
+from seek_browser import scrape_seek_browser
+
 from stream_classifier import classify_all_jobs
 
 

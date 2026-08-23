@@ -9,12 +9,11 @@ All content is derived from the master resume and job_profile.json.
 No experience or skills are fabricated.
 """
 
-from pathlib import Path
 import json
 import re
 from collections import Counter
 from datetime import datetime
-from typing import Optional
+from pathlib import Path
 
 ROOT = Path(__file__).parent
 APP = ROOT / "applications"
@@ -1378,9 +1377,7 @@ def _determine_tone(role: dict) -> str:
 
     if job_req["company_size"] == "government":
         return "formal"
-    elif job_req["company_size"] == "enterprise":
-        return "professional"
-    elif job_req["company_size"] == "msp":
+    elif job_req["company_size"] == "enterprise" or job_req["company_size"] == "msp":
         return "professional"
     elif job_req["company_size"] == "startup":
         return "casual"
@@ -1400,9 +1397,9 @@ def _get_company_hook(role: dict) -> str:
     # Known company hooks
     hooks = {
         "victorian institute of teaching": f"I'm drawn to {company}'s mission of supporting quality teaching across Victoria. Contributing reliable cloud infrastructure to an organisation that directly impacts educational outcomes is meaningful work.",
-        "victorian government": f"I'm motivated by the opportunity to contribute to Victorian Government technology infrastructure. Having previously delivered enterprise services in a government environment through the Department of Education Victoria, I understand the scale, security requirements, and public-accountability standards involved.",
+        "victorian government": "I'm motivated by the opportunity to contribute to Victorian Government technology infrastructure. Having previously delivered enterprise services in a government environment through the Department of Education Victoria, I understand the scale, security requirements, and public-accountability standards involved.",
         "lgt wealth management": f"I'm interested in contributing to {company}'s technology operations in the wealth management space. Financial services demand precise, security-conscious infrastructure, and my experience across Microsoft 365, Azure, and identity management aligns with the operational standards this sector requires.",
-        "amazon": f"I'm drawn to the scale and operational discipline of Amazon's data-centre environment. My background in endpoint support, physical infrastructure, and structured operational procedures connects directly with the demands of a world-class data-centre operation.",
+        "amazon": "I'm drawn to the scale and operational discipline of Amazon's data-centre environment. My background in endpoint support, physical infrastructure, and structured operational procedures connects directly with the demands of a world-class data-centre operation.",
         "first focus it": f"I'm interested in contributing to {company}'s Microsoft-focused technical support operations. My hands-on experience across Azure, Active Directory, Outlook, and customer-facing troubleshooting aligns with the service-delivery standards your clients expect.",
         "converged medical solutions": f"I'm attracted to {company}'s focus on cybersecurity and Microsoft 365 solutions for healthcare organisations. My experience delivering enterprise services in hospital environments through St John of God Health Care gives me direct familiarity with the reliability and compliance standards healthcare technology demands.",
         "fujifilm microchannel": f"I'm interested in contributing to {company}'s Azure cloud consulting practice. My Azure, Microsoft 365, identity management, and customer-facing technical delivery experience aligns with the consultancy context and cloud-solutions focus.",
@@ -1556,8 +1553,8 @@ def write_cover(prefix: str, role: dict, category: str, reason: str,
         )
     else:
         fit_parts.append(
-            f"My experience across enterprise infrastructure, Microsoft 365, "
-            f"and service operations connects with the core requirements of this role."
+            "My experience across enterprise infrastructure, Microsoft 365, "
+            "and service operations connects with the core requirements of this role."
         )
 
     # Add skill alignment sentence
@@ -1594,47 +1591,47 @@ def write_cover(prefix: str, role: dict, category: str, reason: str,
         desc_lower = role_desc.lower()
         if "microsoft 365" in desc_lower or "m365" in desc_lower:
             value_parts.append(
-                f"The Microsoft 365 environment described in the listing "
-                f"matches my hands-on experience across SharePoint, Exchange, "
-                f"Teams, and Entra ID at enterprise scale — including managing "
-                f"services for over 660,000 users in a government setting."
+                "The Microsoft 365 environment described in the listing "
+                "matches my hands-on experience across SharePoint, Exchange, "
+                "Teams, and Entra ID at enterprise scale — including managing "
+                "services for over 660,000 users in a government setting."
             )
         elif "azure" in desc_lower:
             value_parts.append(
-                f"The Azure-focused work described in the listing aligns with "
-                f"my cloud infrastructure and identity-management experience, "
-                f"including hybrid identity synchronisation and Essential 8-aligned "
-                f"security baselines."
+                "The Azure-focused work described in the listing aligns with "
+                "my cloud infrastructure and identity-management experience, "
+                "including hybrid identity synchronisation and Essential 8-aligned "
+                "security baselines."
             )
         elif "endpoint" in desc_lower or "intune" in desc_lower or "euc" in desc_lower:
             value_parts.append(
-                f"The endpoint management scope described in the listing "
-                f"matches my hands-on Intune, Autopilot, and Windows migration "
-                f"experience, including leading a 100+ endpoint clinical migration "
-                f"with zero disruption to operations."
+                "The endpoint management scope described in the listing "
+                "matches my hands-on Intune, Autopilot, and Windows migration "
+                "experience, including leading a 100+ endpoint clinical migration "
+                "with zero disruption to operations."
             )
         elif "security" in desc_lower or "cyber" in desc_lower:
             value_parts.append(
-                f"The security focus described in the listing connects with my "
-                f"Essential 8 alignment work and MFA compliance automation "
-                f"across 200+ sensitive SharePoint sites."
+                "The security focus described in the listing connects with my "
+                "Essential 8 alignment work and MFA compliance automation "
+                "across 200+ sensitive SharePoint sites."
             )
         elif "data centre" in desc_lower or "data center" in desc_lower:
             value_parts.append(
-                f"The data-centre environment described in the listing aligns with "
-                f"my physical infrastructure background from NBN Co and my later "
-                f"enterprise endpoint and service-operations experience."
+                "The data-centre environment described in the listing aligns with "
+                "my physical infrastructure background from NBN Co and my later "
+                "enterprise endpoint and service-operations experience."
             )
         elif "service desk" in desc_lower:
             value_parts.append(
-                f"The service-desk scope described in the listing matches my "
-                f"recent L1/L2/L3 support and incident-management experience, "
-                f"consistently achieving over 90 percent SLA resolution."
+                "The service-desk scope described in the listing matches my "
+                "recent L1/L2/L3 support and incident-management experience, "
+                "consistently achieving over 90 percent SLA resolution."
             )
         else:
             value_parts.append(
-                f"The scope described in the listing connects with my "
-                f"enterprise infrastructure and service-operations background."
+                "The scope described in the listing connects with my "
+                "enterprise infrastructure and service-operations background."
             )
     else:
         value_parts.append(
@@ -1643,42 +1640,41 @@ def write_cover(prefix: str, role: dict, category: str, reason: str,
         )
 
     # Reference something concrete from the listing — not boilerplate enthusiasm
-    import re
     # Try to extract meaningful content from description first
     if role_desc:
         desc_lower = role_desc.lower()
         # Look for specific requirements or responsibilities
         if "microsoft 365" in desc_lower or "m365" in desc_lower:
             value_parts.append(
-                f"The Microsoft 365 environment described in the listing matches my hands-on experience "
-                f"across SharePoint, Exchange, Teams, and Entra ID at enterprise scale — including "
-                f"managing services for over 660,000 users in a government setting."
+                "The Microsoft 365 environment described in the listing matches my hands-on experience "
+                "across SharePoint, Exchange, Teams, and Entra ID at enterprise scale — including "
+                "managing services for over 660,000 users in a government setting."
             )
         elif "azure" in desc_lower:
             value_parts.append(
-                f"The Azure-focused work described in the listing aligns with my cloud infrastructure "
-                f"and identity-management experience, including hybrid identity synchronisation "
-                f"and Essential 8-aligned security baselines."
+                "The Azure-focused work described in the listing aligns with my cloud infrastructure "
+                "and identity-management experience, including hybrid identity synchronisation "
+                "and Essential 8-aligned security baselines."
             )
         elif "endpoint" in desc_lower or "intune" in desc_lower:
             value_parts.append(
-                f"The endpoint management scope matches my Intune, Autopilot, and Windows migration "
-                f"experience, including leading a 100+ endpoint clinical migration with zero disruption."
+                "The endpoint management scope matches my Intune, Autopilot, and Windows migration "
+                "experience, including leading a 100+ endpoint clinical migration with zero disruption."
             )
         elif "security" in desc_lower or "cyber" in desc_lower:
             value_parts.append(
-                f"The security focus connects with my Essential 8 alignment work and MFA compliance "
-                f"automation across 200+ sensitive SharePoint sites."
+                "The security focus connects with my Essential 8 alignment work and MFA compliance "
+                "automation across 200+ sensitive SharePoint sites."
             )
         elif "data centre" in desc_lower or "data center" in desc_lower:
             value_parts.append(
-                f"The data-centre environment aligns with my physical infrastructure background "
-                f"and enterprise endpoint and service-operations experience."
+                "The data-centre environment aligns with my physical infrastructure background "
+                "and enterprise endpoint and service-operations experience."
             )
         elif "service desk" in desc_lower or "support" in desc_lower:
             value_parts.append(
-                f"The support scope matches my recent L1/L2/L3 experience, consistently achieving "
-                f"over 90 percent SLA resolution."
+                "The support scope matches my recent L1/L2/L3 experience, consistently achieving "
+                "over 90 percent SLA resolution."
             )
         else:
             # Use first meaningful sentence from description
@@ -1700,11 +1696,11 @@ def write_cover(prefix: str, role: dict, category: str, reason: str,
     # Add motivation sentence about the specific opportunity
     if role.get("company"):
         value_parts.append(
-            f"I am looking for a role where I can continue building enterprise infrastructure "
-            f"and service operations skills while contributing to a team that values "
-            f"reliable, well-documented technical delivery. My experience across government, "
-            f"healthcare, and enterprise environments has given me a practical understanding "
-            f"of what it takes to deliver technology services at scale."
+            "I am looking for a role where I can continue building enterprise infrastructure "
+            "and service operations skills while contributing to a team that values "
+            "reliable, well-documented technical delivery. My experience across government, "
+            "healthcare, and enterprise environments has given me a practical understanding "
+            "of what it takes to deliver technology services at scale."
         )
 
     value_para = " ".join(value_parts)
@@ -2456,6 +2452,6 @@ DATA_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", enco
 print(f"Generated tailored CVs and cover letters for {count_new} new roles")
 print(f"Generated opening emails for {count_emails} roles")
 print(f"Wrote application_pack_index.json with {len(index)} roles")
-print(f"\nScoring system: v2.0 with multi-dimensional analysis")
-print(f"Resume system: dynamic reorder by job requirements")
-print(f"Cover letter system: company-specific, requirement-aware")
+print("\nScoring system: v2.0 with multi-dimensional analysis")
+print("Resume system: dynamic reorder by job requirements")
+print("Cover letter system: company-specific, requirement-aware")

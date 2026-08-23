@@ -4,10 +4,9 @@ Additional job API sources that don't have aggressive anti-bot.
 Uses Adzuna (already working) plus other structured APIs.
 """
 import json
-import sys
 import time
-import urllib.request
 import urllib.parse
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -109,7 +108,7 @@ def scrape_adzuna_melbourne():
                 })
 
             time.sleep(0.3)
-        except Exception as e:
+        except Exception:
             pass
 
     return all_jobs

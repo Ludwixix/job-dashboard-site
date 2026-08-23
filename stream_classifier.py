@@ -402,7 +402,7 @@ STREAM_3_TRAINEESHIP = {
         r"flooring",
         r"landscaping",
         r"tree.?lopper",
-        f"arborist",
+        "arborist",
         r"pest.?control",
         r"fire.?protection",
         r"fire.?sprinkler",
@@ -594,8 +594,6 @@ def classify_all_jobs(jobs: list[dict]) -> dict:
 
 # ── CLI test ─────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    import json
-    import sys
 
     # Test with sample jobs
     test_jobs = [

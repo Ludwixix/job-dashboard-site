@@ -11,8 +11,6 @@ Outputs (all under ./pipeline-demo/):
 """
 
 import json
-import re
-import os
 import sys
 from pathlib import Path
 
@@ -78,7 +76,7 @@ def score_job(job_iter):
     for j in job_iter:
         title = (j.get("title", "") or "").lower()
         desc = (j.get("description") or "").lower()
-        tagwhy = (" ".join((j.get("tags") or [])) + " " + (j.get("why") or "")).lower()
+        tagwhy = (" ".join(j.get("tags") or []) + " " + (j.get("why") or "")).lower()
 
         s = 0.0
         reasons = []
@@ -167,7 +165,7 @@ def write_outputs(path, results):
         flags = "⚠️" * r.get("low_signal", False) + "🏢" * r.get("staffing_firm", False)
         lines.append(f"| {i} | {r['title']} | {r['company']} | {r['location']} | {r['score']:.0f} | {flags} | {reason[:50]} |")
     (out_dir / "03-shortlist.md").write_text("\n".join(lines), encoding="utf-8")
-    print(f"wrote 03-shortlist.json / 03-shortlist.md")
+    print("wrote 03-shortlist.json / 03-shortlist.md")
 
 
 if __name__ == "__main__":

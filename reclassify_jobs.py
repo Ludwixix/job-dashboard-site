@@ -288,14 +288,14 @@ def main():
         json.dump(data, f, indent=2, ensure_ascii=False)
 
     print(f"Reclassified {stats['total']} jobs → {output_path.name}")
-    print(f"\nCategory distribution:")
+    print("\nCategory distribution:")
     for cat, count in sorted(stats["categories"].items(), key=lambda x: -x[1]):
         print(f"  {cat}: {count}")
     print(f"\n  Non-IT (excluded from IT categories): {stats['non-it']}")
     print(f"  Unclassified (no strong match): {stats['unclassified']}")
 
     # Show some misclassified examples from original
-    print(f"\nSample corrections (jobs that moved category):")
+    print("\nSample corrections (jobs that moved category):")
     for job in data["jobs"][:300]:
         title = job.get("title", "?")
         subcat = job.get("subcategory", "?")

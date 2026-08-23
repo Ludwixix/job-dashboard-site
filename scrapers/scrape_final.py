@@ -2,13 +2,12 @@
 """Final unified scraper - combines all working sources."""
 import json
 import sys
-import time
 from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from adzuna_scraper import scrape_adzuna
 from adzuna_expanded import scrape_adzuna_melbourne
+from adzuna_scraper import scrape_adzuna
 
 
 def deduplicate_jobs(all_jobs):

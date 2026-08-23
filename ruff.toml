@@ -1,0 +1,25 @@
+# Ruff configuration — job-dashboard-site
+# (ruff.toml uses top-level keys; use [tool.ruff] only inside pyproject.toml)
+#
+# Keeps `tests/` and NEW code linted strictly (default rule set), while
+# scoping out pre-existing lint debt from the legacy one-shot scraper /
+# generator scripts listed below. These scripts predate CI linting; the
+# exclusions document the debt without weakening checks on code we own.
+#
+# To see everything within reason:  ruff check . --exclude _archive/
+[lint.per-file-ignores]
+# Legacy scrapers: broad `except Exception` around flaky network / rate-limit
+# code is intentional; unused vars come from dead feature flags. Not worth the
+# churn to "fix" in one-shot grab scripts.
+"scrapers/*.py" = ["BLE001", "F841", "S110", "E722", "DTZ005", "DTZ007"]
+
+# Root-level one-shot generation/dedup scripts (run manually, not CI-tested).
+# Keep entries sorted; only list files that actually live in the repo root.
+"build_application_pdfs.py" = ["F841", "PIE810"]
+"build_categorized_dashboard.py" = ["BLE001", "F841"]
+"deduplicate_jobs.py" = ["C401"]
+"generate_all_application_materials.py" = ["F841", "C401", "RUF013", "BLE001"]
+"generate_packs_batch.py" = ["SIM115", "S110", "BLE001", "DTZ005", "RUF059"]
+"reclassify_jobs.py" = ["BLE001", "PERF102"]
+"scoring_engine.py" = ["F841"]
+"scrape_daily.py" = ["BLE001", "F841", "RUF059", "DTZ007", "PERF102"]

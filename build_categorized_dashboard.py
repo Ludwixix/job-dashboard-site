@@ -8,10 +8,9 @@ Usage:
 Reads job data, classifies into 3 streams via stream_classifier,
 and outputs a self-contained HTML dashboard with dark theme.
 """
-import json
-import html as html_mod
 import hashlib
-import re
+import html as html_mod
+import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -498,7 +497,7 @@ a{{color:inherit;text-decoration:none}}
 }}
 
 /* Why text */
-.card-desc{font-size:.85rem;color:var(--text-secondary);line-height:1.55;margin-bottom:4px}
+.card-desc{{font-size:.85rem;color:var(--text-secondary);line-height:1.55;margin-bottom:4px}}
 .card-why{{font-size:.82rem;color:var(--text-muted);font-style:italic;line-height:1.5}}
 
 /* Tags */
@@ -753,9 +752,9 @@ a{{color:inherit;text-decoration:none}}
       .replace(/^### (.+)$/gm, '<h3>$1</h3>')
       .replace(/^## (.+)$/gm, '<h2>$1</h2>')
       .replace(/^# (.+)$/gm, '<h1>$1</h1>')
-      .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\\*\\*(.+?)\\*\\*/g, '<strong>$1</strong>')
       .replace(/^- (.+)$/gm, '<li>$1</li>')
-      .replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>')
+      .replace(/(<li>.*<\\/li>)/s, '<ul>$1</ul>')
       .replace(/\\n\\n/g, '<br><br>')
       .replace(/\\n/g, '<br>');
   }}

@@ -92,7 +92,7 @@ def main():
             print(f"{section_name}: -{cross_removed} cross-section dedup")
 
     print(f"\nTotal duplicates removed: {total_removed}")
-    print(f"\nFinal counts:")
+    print("\nFinal counts:")
     print(f"  core: {len(data['jobs'])}")
     for name, jobs in data.get("sections", {}).items():
         print(f"  {name}: {len(jobs)}")

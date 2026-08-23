@@ -93,7 +93,7 @@ def scrape_indeed_via_google():
 
                     # Parse title - remove " - Melbourne, VIC" suffix
                     title = job.get("title", "")
-                    title = re.sub(r'\s*[-–]\s*Melbourne.*$', '', title, flags=re.I).strip()
+                    title = re.sub(r'\s*[-–]\s*Melbourne.*$', '', title, flags=re.IGNORECASE).strip()
                     # Remove "Company Name -" prefix
                     title = re.sub(r'^.*?\s*[-–]\s*', '', title).strip() if ' - ' in title else title
 

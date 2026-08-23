@@ -1,6 +1,6 @@
 """Shared test fixtures for job-dashboard-site."""
-import json
 import os
+
 import pytest
 
 

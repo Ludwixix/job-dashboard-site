@@ -1,6 +1,5 @@
 """Smoke tests for the generated dashboard HTML."""
 import os
-import pytest
 
 
 class TestIndexHTML:
@@ -11,7 +10,7 @@ class TestIndexHTML:
 
     def test_is_html(self, index_html):
         lower = index_html.strip().lower()
-        assert lower.startswith("<!doctype html>") or lower.startswith("<html")
+        assert lower.startswith(("<!doctype html>", "<html"))
 
     def test_has_head(self, index_html):
         assert "<head" in index_html.lower()

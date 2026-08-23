@@ -4,7 +4,6 @@ LinkedIn job scraper using Playwright.
 Uses LinkedIn's public job search (no login required) to find roles.
 """
 import json
-import re
 import sys
 import time
 from datetime import datetime, timezone

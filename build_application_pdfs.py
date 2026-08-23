@@ -1,5 +1,6 @@
-from pathlib import Path
 import re
+from pathlib import Path
+
 from fpdf import FPDF
 
 ROOT = Path(__file__).parent

@@ -12,7 +12,6 @@ Strategies tried:
 3. Multiple page load attempts with backoff
 """
 import json
-import re
 import sys
 import time
 from datetime import datetime, timezone
@@ -156,11 +155,11 @@ def scrape_indeed_browser():
                         cloudflare_blocked += 1
                         print(f"    ⚠ Cloudflare blocked (attempt {cloudflare_blocked})")
                         if cloudflare_blocked >= 3:
-                            print(f"    ⛔ Indeed is consistently blocked by Cloudflare.")
-                            print(f"       Skipping remaining keywords.")
+                            print("    ⛔ Indeed is consistently blocked by Cloudflare.")
+                            print("       Skipping remaining keywords.")
                             break
                     else:
-                        print(f"    No results loaded, skipping")
+                        print("    No results loaded, skipping")
                     time.sleep(3)
                     continue
 

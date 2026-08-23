@@ -7,8 +7,8 @@ import json
 import re
 import sys
 import time
-import urllib.request
 import urllib.parse
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -70,7 +70,7 @@ def fetch_seek_api(keyword, page=0):
             req = urllib.request.Request(url, headers=HEADERS)
             with urllib.request.urlopen(req, timeout=15) as resp:
                 return json.loads(resp.read().decode())
-    except Exception as e:
+    except Exception:
         pass
     return None
 
@@ -222,7 +222,7 @@ def scrape_seek():
                     collected += 1
                 print(f"    HTML: {collected} jobs")
             else:
-                print(f"    Failed")
+                print("    Failed")
 
         time.sleep(2)
 

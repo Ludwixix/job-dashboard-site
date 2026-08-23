@@ -6,8 +6,8 @@ Fetches jobs from Adzuna's structured API with proper rate limiting.
 import json
 import sys
 import time
-import urllib.request
 import urllib.parse
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 

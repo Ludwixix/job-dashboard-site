@@ -9,14 +9,13 @@ Outputs markdown into applications/ with the same naming the dashboard expects
 
 Run: python3 generate_packs_batch.py
 """
+import argparse
 import concurrent.futures
 import json
 import os
 import re
-import sys
 import time
 import urllib.request
-import argparse
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -27,11 +26,14 @@ APP.mkdir(exist_ok=True)
 # Prevent concurrent duplicate runs (e.g. after a gateway restart)
 LOCK = ROOT / ".packs_batch.lock"
 import os as _os
+
 if LOCK.exists():
     raise SystemExit("Another batch run is active (.packs_batch.lock exists). Remove it if stale.")
 LOCK.write_text(str(_os.getpid()), encoding="utf-8")
 
 import atexit
+
+
 def _release_lock():
     try:
         LOCK.unlink()

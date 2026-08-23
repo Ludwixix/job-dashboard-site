@@ -10,3 +10,5 @@ _*.mjs
 
 # Environment secrets
 .env
+# Supabase local artifacts
+supabase/.temp/

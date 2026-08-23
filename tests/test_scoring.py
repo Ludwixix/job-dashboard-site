@@ -1,5 +1,5 @@
 """Tests for job scoring and classification logic."""
-import pytest
+from typing import ClassVar
 
 
 class TestJobScoring:
@@ -45,7 +45,7 @@ class TestAuditContract:
 class TestITSubcategories:
     """Tests for the 7-category classification system."""
 
-    EXPECTED_CATEGORIES = {
+    EXPECTED_CATEGORIES: ClassVar[set[str]] = {
         "cloud-devops",
         "security",
         "m365-identity",

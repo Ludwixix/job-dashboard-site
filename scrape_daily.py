@@ -10,7 +10,6 @@ Usage:
 
 import argparse
 import json
-import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -274,7 +273,7 @@ def main():
                     continue
                 if not ok_date(row.get("date_posted")):
                     continue
-                c = non_it_cat(term)
+                c = cat(term)
                 j = {
                     "rank": 0, "score": 75, "company": str(row.get("company", "Unknown")),
                     "title": str(row.get("title", "Unknown")),

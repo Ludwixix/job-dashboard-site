@@ -7,8 +7,8 @@ import json
 import re
 import sys
 import time
-import urllib.request
 import urllib.parse
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -134,7 +134,7 @@ def scrape_rss_feeds():
                         "salary": "",
                         "description": "",
                         "tags": ["rss", source.lower().replace(" ", "_")],
-                        "why": f"RSS feed listing",
+                        "why": "RSS feed listing",
                         "score": 0,
                         "listing_verification": "rss_feed",
                         "application_route": link.group(1).strip(),

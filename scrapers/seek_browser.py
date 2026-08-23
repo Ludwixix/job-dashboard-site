@@ -7,7 +7,6 @@ Selectors updated 2026-08-23 based on live Seek DOM inspection.
 Uses data-automation attributes (stable) as primary, data-testid as fallback.
 """
 import json
-import re
 import sys
 import time
 from datetime import datetime, timezone
@@ -149,7 +148,7 @@ def scrape_seek_browser():
                         timeout=15000,
                     )
                 except Exception:
-                    print(f"    No job cards found, skipping")
+                    print("    No job cards found, skipping")
                     continue
 
                 # Small extra wait for dynamic content

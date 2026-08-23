@@ -6,9 +6,7 @@ Integrated with the existing generate_all_application_materials.py.
 """
 import json
 import re
-import math
 from pathlib import Path
-from typing import Dict, List, Tuple, Optional
 
 # Sam's profile loaded from job_profile.json
 PROFILE_PATH = Path(__file__).parent / "job_profile.json"
@@ -71,7 +69,7 @@ EXPERIENCE_LEVELS = {
 }
 
 
-def extract_job_skills(job: dict) -> Dict[str, float]:
+def extract_job_skills(job: dict) -> dict[str, float]:
     """Extract skills from job listing with confidence scores."""
     text = " ".join([
         job.get("title", ""),
@@ -116,7 +114,7 @@ def determine_experience_level(job: dict) -> str:
     return "mid"
 
 
-def calculate_skill_match(job_skills: Dict[str, float], profile: dict) -> Tuple[float, List[str], List[str]]:
+def calculate_skill_match(job_skills: dict[str, float], profile: dict) -> tuple[float, list[str], list[str]]:
     """Calculate skill match score. Returns: (score, matched_skills, missing_skills)"""
     matched = []
     missing = []
@@ -341,7 +339,7 @@ def generate_tailored_skills_section(job: dict, audit: dict) -> str:
     return " · ".join(skills[:12])
 
 
-def reorder_experience_sections(job: dict, audit: dict, category: str, entries: list) -> List[dict]:
+def reorder_experience_sections(job: dict, audit: dict, category: str, entries: list) -> list[dict]:
     """Reorder experience sections based on job relevance."""
     job_text = " ".join([
         job.get("title", ""),
@@ -367,7 +365,7 @@ def reorder_experience_sections(job: dict, audit: dict, category: str, entries: 
     return [entry for _, entry in scored]
 
 
-def reorder_bullets(bullets: List[str], job: dict, audit: dict) -> List[str]:
+def reorder_bullets(bullets: list[str], job: dict, audit: dict) -> list[str]:
     """Reorder bullets within a section based on job relevance."""
     job_text = " ".join([
         job.get("title", ""),
@@ -397,7 +395,10 @@ def generate_tailored_resume(job: dict, audit: dict, category: str) -> str:
     """Generate a fully tailored resume for this specific job."""
     # Import entries from the main module
     try:
-        from generate_all_application_materials import EXPERIENCE_ENTRIES, PROJECTS_BY_CATEGORY
+        from generate_all_application_materials import (
+            EXPERIENCE_ENTRIES,
+            PROJECTS_BY_CATEGORY,
+        )
     except ImportError:
         from generate_all_application_materials import EXPERIENCE_ENTRIES
         PROJECTS_BY_CATEGORY = {}
@@ -460,16 +461,16 @@ def generate_company_hook(job: dict) -> str:
     if any(w in company for w in ["government", "victorian", "council", "department"]):
         return f"I'm drawn to {job.get('company', 'this organisation')} because of the opportunity to contribute to public service delivery at scale."
     if any(w in company for w in ["health", "hospital", "medical", "clinical"]):
-        return f"I understand the critical importance of reliable technology in healthcare environments, where system uptime directly impacts patient care."
+        return "I understand the critical importance of reliable technology in healthcare environments, where system uptime directly impacts patient care."
     if any(w in company for w in ["education", "university", "school", "college"]):
-        return f"I'm excited about supporting educational technology that enables learning outcomes for students and educators."
+        return "I'm excited about supporting educational technology that enables learning outcomes for students and educators."
     if any(w in title for w in ["cloud", "azure", "m365", "sharepoint"]):
-        return f"I'm passionate about cloud technology and its potential to transform how organisations operate."
+        return "I'm passionate about cloud technology and its potential to transform how organisations operate."
     if any(w in title for w in ["support", "service desk", "help desk"]):
-        return f"I enjoy the direct impact of technical support — solving problems that help people do their jobs more effectively."
+        return "I enjoy the direct impact of technical support — solving problems that help people do their jobs more effectively."
     if any(w in title for w in ["casual", "warehouse", "hospitality", "retail"]):
-        return f"I'm looking for a practical local role where I can contribute reliably and learn new procedures."
-    return f"I'm interested in this role because it aligns with my experience in enterprise technology."
+        return "I'm looking for a practical local role where I can contribute reliably and learn new procedures."
+    return "I'm interested in this role because it aligns with my experience in enterprise technology."
 
 
 def quantify_achievement_for_role(audit: dict) -> str:
@@ -505,7 +506,7 @@ def generate_tailored_cover_letter(job: dict, audit: dict, category: str) -> str
     skills_mention = ", ".join(matched[:3]) if matched else "enterprise technology"
 
     paragraphs = [
-        f"Dear Hiring Manager,",
+        "Dear Hiring Manager,",
         "",
         f"I'm applying for the {title} position with {company}. {company_hook}",
         "",
@@ -544,11 +545,11 @@ def generate_tailored_email(job: dict, audit: dict, category: str) -> str:
         f"Application — {title} — Sam Ludwig",
         "",
         "## Email body",
-        f"Hello Hiring Manager,",
+        "Hello Hiring Manager,",
         "",
         f"I'm writing about the {title} position with {company}. I believe my experience aligns well with the role requirements.",
         "",
-        f"My background includes enterprise technical support, endpoint lifecycle management, and process-focused documentation.",
+        "My background includes enterprise technical support, endpoint lifecycle management, and process-focused documentation.",
         "",
         f"The areas most relevant to the role are {skills_mention}. I'd welcome a brief conversation about the role and any position-specific requirements.",
         "",

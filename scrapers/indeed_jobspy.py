@@ -76,7 +76,7 @@ def scrape_indeed():
                 )
 
                 if results is None or len(results) == 0:
-                    print(f"      -> 0 results")
+                    print("      -> 0 results")
                     continue
 
                 for _, row in results.iterrows():
