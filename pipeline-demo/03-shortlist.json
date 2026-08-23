@@ -1,0 +1,662 @@
+[
+ {
+  "title": "Lead Engineer- Azure Cloud & DevOps",
+  "company": "LAB3",
+  "location": "Melbourne Region, Melbourne",
+  "source": "Adzuna",
+  "salary": "",
+  "url": "https://www.adzuna.com.au/details/5849658100?utm_medium=api&utm_source=cc30c73e",
+  "subcategory": "cloud-devops",
+  "score": 78.0,
+  "low_signal": false,
+  "staffing_firm": false,
+  "reasons": [
+   [
+    "microsoft",
+    2,
+    6
+   ],
+   [
+    "azure",
+    6,
+    24
+   ],
+   [
+    "cloud",
+    6,
+    18
+   ],
+   [
+    "devops",
+    6,
+    18
+   ],
+   [
+    "automation",
+    2,
+    8
+   ],
+   [
+    "security",
+    2,
+    4
+   ]
+  ],
+  "reason_text": "microsoft, azure, cloud, devops, automation, security"
+ },
+ {
+  "title": "SeniorConsultant_CloudAutomation",
+  "company": "XPT Software Australia Pty Ltd",
+  "location": "Melbourne, Melbourne CBD",
+  "source": "Adzuna",
+  "salary": "",
+  "url": "https://www.adzuna.com.au/details/5832205736?utm_medium=api&utm_source=cc30c73e",
+  "subcategory": "cloud-devops",
+  "score": 64.0,
+  "low_signal": false,
+  "staffing_firm": true,
+  "reasons": [
+   [
+    "infrastructure",
+    2,
+    6
+   ],
+   [
+    "configuration management",
+    2,
+    6
+   ],
+   [
+    "deployment",
+    2,
+    6
+   ],
+   [
+    "cloud",
+    6,
+    18
+   ],
+   [
+    "automation",
+    6,
+    24
+   ],
+   [
+    "security",
+    2,
+    4
+   ]
+  ],
+  "reason_text": "infrastructure, configuration management, deployment, cloud, automation, security"
+ },
+ {
+  "title": "M365 Consultant (SharePoint & Power Platform) Hybrid",
+  "company": "Arinco",
+  "location": "Melbourne Region, Melbourne",
+  "source": "Adzuna",
+  "salary": "",
+  "url": "https://www.adzuna.com.au/details/5841913012?utm_medium=api&utm_source=cc30c73e",
+  "subcategory": "m365-identity",
+  "score": 49.0,
+  "low_signal": false,
+  "staffing_firm": false,
+  "reasons": [
+   [
+    "m365",
+    4,
+    20
+   ],
+   [
+    "sharepoint",
+    4,
+    20
+   ],
+   [
+    "microsoft",
+    3,
+    9
+   ]
+  ],
+  "reason_text": "m365, sharepoint, microsoft"
+ },
+ {
+  "title": "Identity Engineer (Okta/ Entra ID)",
+  "company": "Milestone IT",
+  "location": "Melbourne Region, Melbourne",
+  "source": "Adzuna",
+  "salary": "$221,000 \u2013 $221,000",
+  "url": "https://www.adzuna.com.au/details/5841849552?utm_medium=api&utm_source=cc30c73e",
+  "subcategory": "unclassified",
+  "score": 46.0,
+  "low_signal": false,
+  "staffing_firm": true,
+  "reasons": [
+   [
+    "entra",
+    6,
+    30
+   ],
+   [
+    "microsoft",
+    2,
+    6
+   ],
+   [
+    "security",
+    2,
+    4
+   ],
+   [
+    "iam",
+    2,
+    6
+   ]
+  ],
+  "reason_text": "entra, microsoft, security, iam"
+ },
+ {
+  "title": "Cloud R Analyst",
+  "company": "Epicor",
+  "location": "Melbourne Region, Melbourne",
+  "source": "Adzuna",
+  "salary": "",
+  "url": "https://www.adzuna.com.au/details/5838403450?utm_medium=api&utm_source=cc30c73e",
+  "subcategory": "cloud-devops",
+  "score": 45.0,
+  "low_signal": false,
+  "staffing_firm": false,
+  "reasons": [
+   [
+    "servicenow",
+    2,
+    10
+   ],
+   [
+    "infrastructure",
+    2,
+    6
+   ],
+   [
+    "tier 2",
+    2,
+    8
+   ],
+   [
+    "cloud",
+    6,
+    18
+   ],
+   [
+    "devops",
+    1,
+    3
+   ]
+  ],
+  "reason_text": "servicenow, infrastructure, tier 2, cloud, devops"
+ },
+ {
+  "title": "M365 Consultant (SharePoint & Power Platform)Hybrid",
+  "company": "",
+  "location": "",
+  "source": "Seek",
+  "salary": "",
+  "url": "https://au.seek.com/job/93963911?type=standard&ref=search-standalone#sol=69a15555834c7ddf433b3bf4902741da692c3e33",
+  "subcategory": "m365-identity",
+  "score": 43.0,
+  "low_signal": true,
+  "staffing_firm": false,
+  "reasons": [
+   [
+    "m365",
+    4,
+    20
+   ],
+   [
+    "sharepoint",
+    4,
+    20
+   ],
+   [
+    "microsoft",
+    1,
+    3
+   ]
+  ],
+  "reason_text": "m365, sharepoint, microsoft"
+ },
+ {
+  "title": "Azure Data Engineer",
+  "company": "luvo",
+  "location": "Melbourne Region, Melbourne",
+  "source": "Adzuna",
+  "salary": "",
+  "url": "https://www.adzuna.com.au/details/5845186258?utm_medium=api&utm_source=cc30c73e",
+  "subcategory": "software-data",
+  "score": 41.0,
+  "low_signal": false,
+  "staffing_firm": false,
+  "reasons": [
+   [
+    "azure ad",
+    1,
+    5
+   ],
+   [
+    "microsoft",
+    2,
+    6
+   ],
+   [
+    "azure",
+    6,
+    24
+   ],
+   [
+    "cloud",
+    2,
+    6
+   ]
+  ],
+  "reason_text": "azure ad, microsoft, azure, cloud"
+ },
+ {
+  "title": "IT Engineer - Cloud & Entra ID",
+  "company": "Yarra Trams",
+  "location": "Melbourne, Melbourne CBD",
+  "source": "Adzuna",
+  "salary": "",
+  "url": "https://www.adzuna.com.au/details/5851364604?utm_medium=api&utm_source=cc30c73e",
+  "subcategory": "cloud-devops",
+  "score": 38.0,
+  "low_signal": false,
+  "staffing_firm": false,
+  "reasons": [
+   [
+    "entra",
+    4,
+    20
+   ],
+   [
+    "infrastructure",
+    2,
+    6
+   ],
+   [
+    "cloud",
+    4,
+    12
+   ]
+  ],
+  "reason_text": "entra, infrastructure, cloud"
+ },
+ {
+  "title": "IT Engineer - Cloud & Entra ID",
+  "company": "",
+  "location": "",
+  "source": "Seek",
+  "salary": "",
+  "url": "https://au.seek.com/job/94038575?type=standard&ref=search-standalone#sol=ade650746a02fb8d92fc1f923865d180a0b8eb92",
+  "subcategory": "cloud-devops",
+  "score": 37.0,
+  "low_signal": true,
+  "staffing_firm": false,
+  "reasons": [
+   [
+    "entra",
+    4,
+    20
+   ],
+   [
+    "endpoint",
+    1,
+    5
+   ],
+   [
+    "cloud",
+    4,
+    12
+   ]
+  ],
+  "reason_text": "entra, endpoint, cloud"
+ },
+ {
+  "title": "AWS Cloud Engineer - Contract - Melbourne/Sydney",
+  "company": "Hastha Solutions",
+  "location": "Melbourne, Melbourne CBD",
+  "source": "Adzuna",
+  "salary": "",
+  "url": "https://www.adzuna.com.au/details/5849640642?utm_medium=api&utm_source=cc30c73e",
+  "subcategory": "cloud-devops",
+  "score": 36.0,
+  "low_signal": false,
+  "staffing_firm": true,
+  "reasons": [
+   [
+    "deployment",
+    2,
+    6
+   ],
+   [
+    "cloud",
+    6,
+    18
+   ],
+   [
+    "automation",
+    2,
+    8
+   ],
+   [
+    "security",
+    2,
+    4
+   ]
+  ],
+  "reason_text": "deployment, cloud, automation, security"
+ },
+ {
+  "title": "Data Lead Engineer",
+  "company": "XPT Software Australia Pty Ltd",
+  "location": "Melbourne, Melbourne CBD",
+  "source": "Adzuna",
+  "salary": "",
+  "url": "https://www.adzuna.com.au/details/5837140010?utm_medium=api&utm_source=cc30c73e",
+  "subcategory": "cloud-devops",
+  "score": 35.0,
+  "low_signal": false,
+  "staffing_firm": true,
+  "reasons": [
+   [
+    "azure ad",
+    1,
+    5
+   ],
+   [
+    "microsoft",
+    2,
+    6
+   ],
+   [
+    "azure",
+    3,
+    12
+   ],
+   [
+    "cloud",
+    2,
+    6
+   ],
+   [
+    "python",
+    2,
+    6
+   ]
+  ],
+  "reason_text": "azure ad, microsoft, azure, cloud, python"
+ },
+ {
+  "title": "Senior Data Engineer - Azure",
+  "company": "Milestone IT",
+  "location": "Melbourne, Melbourne CBD",
+  "source": "Adzuna",
+  "salary": "$208,000 \u2013 $208,000",
+  "url": "https://www.adzuna.com.au/details/5836729033?utm_medium=api&utm_source=cc30c73e",
+  "subcategory": "software-data",
+  "score": 35.0,
+  "low_signal": false,
+  "staffing_firm": true,
+  "reasons": [
+   [
+    "azure ad",
+    1,
+    5
+   ],
+   [
+    "microsoft",
+    2,
+    6
+   ],
+   [
+    "azure",
+    6,
+    24
+   ]
+  ],
+  "reason_text": "azure ad, microsoft, azure"
+ },
+ {
+  "title": "System Administrator",
+  "company": "Compass Group",
+  "location": "Melbourne, Parkville",
+  "source": "Adzuna",
+  "salary": "",
+  "url": "https://www.adzuna.com.au/details/5835370574?utm_medium=api&utm_source=cc30c73e",
+  "subcategory": "infrastructure-systems",
+  "score": 34.0,
+  "low_signal": false,
+  "staffing_firm": false,
+  "reasons": [
+   [
+    "system administrator",
+    6,
+    24
+   ],
+   [
+    "infrastructure",
+    2,
+    6
+   ],
+   [
+    "security",
+    2,
+    4
+   ]
+  ],
+  "reason_text": "system administrator, infrastructure, security"
+ },
+ {
+  "title": "Senior M365 Consultant | Information Governance",
+  "company": "Rapid Circle HR System",
+  "location": "Melbourne Region, Melbourne",
+  "source": "Adzuna",
+  "salary": "",
+  "url": "https://www.adzuna.com.au/details/5834725768?utm_medium=api&utm_source=cc30c73e",
+  "subcategory": "m365-identity",
+  "score": 34.0,
+  "low_signal": false,
+  "staffing_firm": false,
+  "reasons": [
+   [
+    "m365",
+    4,
+    20
+   ],
+   [
+    "microsoft",
+    2,
+    6
+   ],
+   [
+    "cloud",
+    2,
+    6
+   ],
+   [
+    "security",
+    1,
+    2
+   ]
+  ],
+  "reason_text": "m365, microsoft, cloud, security"
+ },
+ {
+  "title": "Senior Data Engineer - Microsoft Fabric, Power BI, Azure",
+  "company": "Profusion PAC Pty Ltd",
+  "location": "Melbourne Region, Melbourne",
+  "source": "Adzuna",
+  "salary": "$247,000 \u2013 $247,000",
+  "url": "https://www.adzuna.com.au/details/5851041180?utm_medium=api&utm_source=cc30c73e",
+  "subcategory": "software-data",
+  "score": 34.0,
+  "low_signal": false,
+  "staffing_firm": false,
+  "reasons": [
+   [
+    "microsoft",
+    6,
+    18
+   ],
+   [
+    "azure",
+    4,
+    16
+   ]
+  ],
+  "reason_text": "microsoft, azure"
+ },
+ {
+  "title": "IT Support Helpdesk Level 1 / Level 2",
+  "company": "",
+  "location": "",
+  "source": "Seek",
+  "salary": "",
+  "url": "https://au.seek.com/job/94117739?type=standard&ref=search-standalone#sol=d2b7a2f5d3ba2a120313ec4851b2a1be514a529a",
+  "subcategory": "service-desk",
+  "score": 32.0,
+  "low_signal": true,
+  "staffing_firm": false,
+  "reasons": [
+   [
+    "helpdesk",
+    4,
+    16
+   ],
+   [
+    "it support",
+    4,
+    16
+   ]
+  ],
+  "reason_text": "helpdesk, it support"
+ },
+ {
+  "title": "Senior AWS Devops Engineer-Terraform, Security, Cloud delivery",
+  "company": "",
+  "location": "",
+  "source": "Seek",
+  "salary": "",
+  "url": "https://au.seek.com/job/93806437?type=standard&ref=search-standalone#sol=8bd5a4e3e18ce53bafbf0d68d561db35a7f3b31a",
+  "subcategory": "cloud-devops",
+  "score": 32.0,
+  "low_signal": true,
+  "staffing_firm": false,
+  "reasons": [
+   [
+    "cloud",
+    4,
+    12
+   ],
+   [
+    "devops",
+    4,
+    12
+   ],
+   [
+    "security",
+    4,
+    8
+   ]
+  ],
+  "reason_text": "cloud, devops, security"
+ },
+ {
+  "title": "Senior Infrastructure Engineer (AWS + Windows Server)",
+  "company": "",
+  "location": "",
+  "source": "Seek",
+  "salary": "",
+  "url": "https://au.seek.com/job/94083464?type=standard&ref=search-standalone#sol=d5a73e2d578d46cc61f7cf3f9db27b68fab6048b",
+  "subcategory": "infrastructure-systems",
+  "score": 32.0,
+  "low_signal": true,
+  "staffing_firm": false,
+  "reasons": [
+   [
+    "windows",
+    4,
+    16
+   ],
+   [
+    "infrastructure",
+    4,
+    12
+   ],
+   [
+    "azure",
+    1,
+    4
+   ]
+  ],
+  "reason_text": "windows, infrastructure, azure"
+ },
+ {
+  "title": "Information Technology Service Desk analyst (Australia)",
+  "company": "STACK Infrastructure APAC",
+  "location": "Melbourne Region, Melbourne",
+  "source": "Adzuna",
+  "salary": "",
+  "url": "https://www.adzuna.com.au/details/5834727047?utm_medium=api&utm_source=cc30c73e",
+  "subcategory": "service-desk",
+  "score": 31.0,
+  "low_signal": false,
+  "staffing_firm": false,
+  "reasons": [
+   [
+    "infrastructure",
+    3,
+    9
+   ],
+   [
+    "service desk",
+    4,
+    16
+   ],
+   [
+    "cloud",
+    2,
+    6
+   ]
+  ],
+  "reason_text": "infrastructure, service desk, cloud"
+ },
+ {
+  "title": "Azure Infrastructure Engineer",
+  "company": "",
+  "location": "",
+  "source": "Seek",
+  "salary": "",
+  "url": "https://au.seek.com/job/93944445?type=standard&ref=search-standalone#sol=b2eeaaaba48428455fcdac4332d0c9af358eff67",
+  "subcategory": "infrastructure-systems",
+  "score": 31.0,
+  "low_signal": true,
+  "staffing_firm": false,
+  "reasons": [
+   [
+    "infrastructure",
+    4,
+    12
+   ],
+   [
+    "azure",
+    4,
+    16
+   ],
+   [
+    "cloud",
+    1,
+    3
+   ]
+  ],
+  "reason_text": "infrastructure, azure, cloud"
+ }
+]

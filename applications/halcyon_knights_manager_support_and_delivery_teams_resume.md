@@ -1,0 +1,3 @@
+## Professional Summary
+
+Infrastructure and M365 Engineer with 6+ years delivering managed services across government, health, and critical infrastructure sectors — including Victoria Police, the Department of Education Victoria, Australia Post, and St John of God Health Care. Proven record as the ultimate Tier-3 escalation point, coaching junior engineers, and driving measurable service improvements across large enterprise environments. ITIL 4 certified with Certified Scrum Master, combining hands-on technical depth with team leadership, stakeholder management, and a relentless focus on durable, automated outcomes.

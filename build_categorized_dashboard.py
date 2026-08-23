@@ -158,6 +158,7 @@ def render_card(job, stream_id):
     posted = relative_date(job.get("posted", ""))
     source = job.get("source", "")
     why = esc(job.get("why", ""))
+    enriched = esc(job.get("enriched_description", ""))
     tags = job.get("tags", [])
     url = job.get("url", "#")
     work = work_style(job)
@@ -166,11 +167,10 @@ def render_card(job, stream_id):
     verification = job.get("listing_verification", "")
     route_type = job.get("application_route_type", "")
 
-    # Look up application pack
+    # Look up application pack (authoritative paths from application_pack_index.json)
     pack = PACK_INDEX.get(url, {})
     resume_pdf = pack.get("resume", "")
     cover_pdf = pack.get("cover", "")
-    email_md = pack.get("opening_email", "")
 
     tags_html = "".join(f'<span class="tag">{esc(t)}</span>' for t in tags[:4])
 
@@ -182,18 +182,25 @@ def render_card(job, stream_id):
     else:
         score_cls = "score-low"
 
-    # Pack buttons — check if LLM-generated files exist
-    pack_dir = Path(__file__).parent / "applications"
-    company_clean = (job.get("company") or "").replace(" ", "_").lower()[:30]
-    title_clean = (job.get("title") or "").replace(" ", "_").lower()[:40]
-    has_resume = any(pack_dir.glob(f"*{company_clean}*{title_clean}*resume.md"))
-    has_cover = any(pack_dir.glob(f"*{company_clean}*{title_clean}*cover_letter.md"))
-
     pack_buttons = []
-    if has_resume:
-        pack_buttons.append(f'<a href="applications/{esc(company_clean)}_{esc(title_clean)}_resume.md" class="btn btn-pack" title="View tailored resume">📄 Resume</a>')
-    if has_cover:
-        pack_buttons.append(f'<a href="applications/{esc(company_clean)}_{esc(title_clean)}_cover_letter.md" class="btn btn-pack" title="View cover letter">📄 Cover</a>')
+    resume_path = resume_pdf or ""
+    cover_path = cover_pdf or ""
+    # Fallback: glob applications/ dir only when index has no path
+    if not resume_pdf or not cover_pdf:
+        pack_dir = Path(__file__).parent / "applications"
+        company_clean = (job.get("company") or "").replace(" ", "_").lower()[:30]
+        title_clean = (job.get("title") or "").replace(" ", "_").lower()[:40]
+        cand_r = next(pack_dir.glob(f"*{company_clean}*{title_clean}*resume.md"), "")
+        cand_c = next(pack_dir.glob(f"*{company_clean}*{title_clean}*cover_letter.md"), "")
+        if not resume_pdf and cand_r:
+            resume_path = f"applications/{cand_r.name}"
+        if not cover_pdf and cand_c:
+            cover_path = f"applications/{cand_c.name}"
+
+    if resume_path:
+        pack_buttons.append(f'<a href="{esc(resume_path)}" class="btn btn-pack" title="View tailored resume">📄 Resume</a>')
+    if cover_path:
+        pack_buttons.append(f'<a href="{esc(cover_path)}" class="btn btn-pack" title="View cover letter">📄 Cover</a>')
     if not pack_buttons:
         job_data = json.dumps({"title": job.get("title", ""), "company": job.get("company", ""), "description": (job.get("description") or "")[:600], "why": job.get("why", ""), "location": job.get("location", "")})
         pack_buttons.append(f'<button class="btn btn-generate" onclick="generateJob(this, {job_data})" title="Generate tailored resume + cover letter">✨ Generate</button>')
@@ -211,6 +218,7 @@ def render_card(job, stream_id):
     {f'<span class="badge badge-location">📍 {location}</span>' if location else ''}
     {f'<span class="badge badge-date">📅 {posted}</span>' if posted else ''}
   </div>
+  {f'<p class="card-desc">{enriched}</p>' if enriched else ''}
   {f'<p class="card-why">{why}</p>' if why else ''}
   {f'<div class="card-tags">{tags_html}</div>' if tags_html else ''}
   <div class="card-actions">
@@ -490,6 +498,7 @@ a{{color:inherit;text-decoration:none}}
 }}
 
 /* Why text */
+.card-desc{font-size:.85rem;color:var(--text-secondary);line-height:1.55;margin-bottom:4px}
 .card-why{{font-size:.82rem;color:var(--text-muted);font-style:italic;line-height:1.5}}
 
 /* Tags */
