@@ -81,22 +81,38 @@ function sbAuth() {
   };
 }
 
-async function fetchSourceFromStorage(name) {
-  const url = `${SUPABASE_URL}/storage/v1/object/${encodeURIComponent(BUCKET)}/${name}`;
-  const resp = await fetch(url, {
-    headers: { apikey: SERVICE_KEY, Authorization: `Bearer ${SERVICE_KEY}` },
-  });
-  if (!resp.ok) throw new Error(`storage ${BUCKET}/${name}: HTTP ${resp.status}`);
-  return resp.text();
-}
-
 // Read the candidate's master resume + profile. Optional — the prompt tolerates
 // a missing one (LLM just has less context).
+// Source-of-truth fetcher.
+//
+// The candidate's canonical record + generation guidelines live in the repo
+// and are published to raw.githubusercontent.com (public, no auth). The worker
+// pulls them from there instead of Storage so the source-of-truth is a single
+// tracked source (no Storage upload needed). Falls back to the legacy resume.md
+// if the curated Master Resume isn't reachable.
+const SOURCE_BASE = "https://raw.githubusercontent.com/Ludwixix/job-dashboard-site/master/";
+
+// Map the logical source names the worker asks for to public repo paths.
+// Explicitly URL-encoded because paths contain spaces ("Source of truth/Master Resume.md").
+const SOURCE_PATHS = {
+  "master-resume.md": "Source%20of%20truth/Master%20Resume.md",
+  "resume.md": "Source%20of%20truth/resume.md",
+  "job_profile.json": "job_profile.json",
+  "agent_prompt.md": "Guidelines/Resume%20%26%20Cover%20Letter%20Generation%20%E2%80%94%20Combined%20Agent%20Prompt.md",
+};
+
 async function fetchSource(name) {
+  const path = SOURCE_PATHS[name];
+  if (!path) return "";
+  const url = SOURCE_BASE + path;
   try {
-    return await fetchSourceFromStorage(name);
+    const resp = await fetch(url, {
+      headers: { Accept: "text/plain, application/json" },
+    });
+    if (!resp.ok) throw new Error(`source ${url}: HTTP ${resp.status}`);
+    return await resp.text();
   } catch (e) {
-    console.warn(`[generate_worker] could not read ${name} from storage: ${e.message}`);
+    console.warn(`[generate_worker] could not read source '${name}' (${url}): ${e.message}`);
     return "";
   }
 }
@@ -256,10 +272,10 @@ Deno.serve(async (req) => {
   const location = payload.location || "";
 
   try {
-    // Source of truth: prefer the curated "Master Resume" (canonical record for
-    // AI generation), falling back to the legacy resume.md if the new file isn't
-    // uploaded to the bucket yet.
-    const resume = await fetchSource("master-resume.md").catch(() => "") || await fetchSource("resume.md");
+    // Source of truth: prefer the curated Master Resume (canonical record for
+    // AI generation), falling back to the legacy resume.md if unreachable.
+    // Both are pulled from public raw.githubusercontent.com (see fetchSource).
+    const resume = await fetchSource("master-resume.md") || await fetchSource("resume.md");
     const profile = await fetchSource("job_profile.json");
     const guidelines = await fetchSource("agent_prompt.md");
 
