@@ -5,17 +5,15 @@ Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
 
 Dear Hiring Manager,
 
-I am writing to express my interest in the Inspector, Plumbing - Gas Safety Assurance position at Victorian Government. I'm motivated by the opportunity to contribute to Victorian Government technology infrastructure. Having previously delivered enterprise services in a government environment through the Department of Education Victoria, I understand the scale, security requirements, and public-accountability standards involved.
+I'm writing to apply for the Inspector, Plumbing - Gas Safety Assurance role at Victorian Government. I'm motivated by the opportunity to contribute to Victorian Government technology infrastructure. Having previously delivered enterprise services in a government environment through the Department of Education Victoria, I understand the scale, security requirements, and public-accountability standards involved.
 
-The Victorian Government Senior Cloud Engineer role matches my Azure, Microsoft 365, identity, automation, enterprise support, and public-sector delivery experience.
+Recent work directly relevant to this role includes Delivered enterprise infrastructure support across Azure, Microsoft 365, and identity platforms, and Built PowerShell automation solutions that eliminated recurring manual toil. The areas where my background aligns most directly are Compliance. I bring a practical approach to infrastructure problems — rooted in structured diagnostics, automation where it saves time, and documentation that helps the next person pick up the work.
 
-I bring experience delivering enterprise infrastructure support across Azure, Microsoft 365, and identity platforms, building PowerShell automation solutions that eliminated recurring manual toil, and leading root-cause analysis investigations with documented 15% reduction in repeat incidents.
+The scope described in the listing connects with my enterprise infrastructure and service-operations background. Adzuna listing for Inspector, Plumbing - Gas Safety Assurance at Victorian Government The Melbourne, Melbourne CBD based role fits my current situation, and the technical scope described in the listing matches the kind of infrastructure work I want to keep doing.
 
-The areas where my experience aligns most directly with this role are Compliance.
-
-I would welcome the opportunity to discuss how my experience could contribute to your team. I am available for an interview at your convenience and happy to confirm any licence, qualification, or screening requirements before progressing.
+I would welcome the opportunity to discuss how my experience could contribute to your team. I am available for an interview at your convenience.
 
 Yours sincerely,
 Sam Ludwig
 
-<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Inspector, Plumbing - Gas Safety Assurance; Company: Victorian Government; Location: Melbourne, Melbourne CBD | - Achievements highlighted: Compliance | - Adjacent-match framing used: no | - Word count: 188 | - Voice guide check: PASS |  -->
+<!-- ✅ Cover letter summary | - Specific listing details referenced: it_support; adzuna; job description reviewed | - Achievements highlighted: enterprise service delivery; automation building; migration delivery | - Adjacent-match framing used: no | - Word count: 200 | - Voice guide check: PASS |  | ⚠️ Word count 200 below 250 — consider expanding -->

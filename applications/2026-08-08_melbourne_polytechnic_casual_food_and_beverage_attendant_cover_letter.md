@@ -5,17 +5,17 @@ Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
 
 Dear Hiring Manager,
 
-I'm writing to express my interest in the Casual Food and Beverage Attendant position with Melbourne Polytechnic. I'm writing to express my interest in the Casual Food and Beverage Attendant role at Melbourne Polytechnic. My background across enterprise infrastructure, Microsoft 365, and service operations connects well with the requirements outlined.
+I'm writing to apply for the Casual Food and Beverage Attendant role at Melbourne Polytechnic. I'm writing to express my interest in the Casual Food and Beverage Attendant role at Melbourne Polytechnic. My background across enterprise infrastructure, Microsoft 365, and service operations connects well with the requirements outlined.
 
-LinkedIn listing for Casual Food and Beverage Attendant at Melbourne Polytechnic
+Recent work directly relevant to this role includes Delivered enterprise infrastructure support across Azure, Microsoft 365, and identity platforms, and Built PowerShell automation solutions that eliminated recurring manual toil. I bring a practical approach to infrastructure problems — rooted in structured diagnostics, automation where it saves time, and documentation that helps the next person pick up the work.
 
-I bring experience delivering enterprise infrastructure support across Azure, Microsoft 365, and identity platforms, building PowerShell automation solutions that eliminated recurring manual toil, and leading root-cause analysis investigations with documented 15% reduction in repeat incidents.
+I'm interested in contributing to Melbourne Polytechnic's technology operations and bringing my infrastructure and automation experience to the team. LinkedIn listing for Casual Food and Beverage Attendant at Melbourne Polytechnic The Melbourne, Victoria, Australia based role fits my current situation, and the technical scope described in the listing matches the kind of infrastructure work I want to keep doing.
 
-The areas most relevant to the role are core infrastructure, tailored existing materials, verify listing.
+While my background is primarily in enterprise IT infrastructure, the transferable skills from my recent roles — including stakeholder communication, cross-team delivery, and structured problem-solving — connect directly with this position's requirements.
 
-I'd welcome a conversation about how my background could contribute to your team. I'm happy to confirm any licence, qualification, check, roster or prior-industry requirements before progressing.
+I'd welcome a conversation about how my experience could contribute to your team. I'm happy to confirm any qualification or screening requirements before progressing.
 
 Kind regards,
 Sam Ludwig
 
-<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Casual Food and Beverage Attendant; Company: Melbourne Polytechnic; Location: Melbourne, Victoria, Australia | - Achievements highlighted: none | - Adjacent-match framing used: no | - Word count: 165 | - Voice guide check: PASS |  -->
+<!-- ✅ Cover letter summary | - Specific listing details referenced: casual; linkedin; local_bridge | - Achievements highlighted: enterprise service delivery; automation building; migration delivery | - Adjacent-match framing used: yes | - Word count: 221 | - Voice guide check: PASS |  | ⚠️ Word count 221 below 250 — consider expanding -->

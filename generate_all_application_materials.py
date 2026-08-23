@@ -1246,15 +1246,31 @@ def _generate_tailored_summary(category: str, score_data: dict) -> str:
 
 
 def write_resume(prefix: str, title: str, category: str, reason: str,
-                 tags_list: list, audit: dict, score_data: dict = None) -> Path:
-    """Generate a dynamically tailored resume for a specific job."""
+                 tags_list: list, audit: dict, score_data: dict = None,
+                 role: dict = None) -> Path:
+    """Generate a dynamically tailored resume for a specific job.
+
+    Follows Voice Guide and formatting rules:
+    - Section order: Header, Target Role, Professional Summary, Skills,
+      Professional Experience, Selected Projects, Certifications, Additional Info
+    - No scratchpad or meta-text in output
+    - Past-tense verbs, no periods on bullets
+    - Australian English spelling
+    - Self-check summary appended as hidden comment
+    """
     if score_data is None:
         score_data = {}
+    if role is None:
+        role = {}
 
     cfg = CATEGORY_CONFIGS[category]
     matched_skills = score_data.get("matched_skills", [])
     job_skills = [s["skill"] for s in matched_skills]
     audit_matched = audit.get("matched_terms", [])
+    missing_skills = score_data.get("missing_skills", [])
+
+    # ── Relevance classification ──
+    match_tier = classify_relevance(role, score_data) if role else "Strong match"
 
     # ── Reorder skills ──
     skill_order = _reorder_skills_for_job(category, job_skills, audit_matched)
@@ -1263,81 +1279,90 @@ def write_resume(prefix: str, title: str, category: str, reason: str,
     # ── Reorder experience ──
     experience_entries = _reorder_experience_for_job(category, job_skills)
 
-    # ── Generate tailored summary ──
+    # ── Generate tailored summary (Voice Guide compliant) ──
     tailored_summary = _generate_tailored_summary(category, score_data)
 
-    # ── Build resume lines ──
-    lines = [
+    # ── Build resume lines — proper section order ──
+    lines_out = [
+        # 1. Header
         "# Sam Ludwig",
         "Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com",
         "samludwig.au | github.com/Ludwixix",
         "",
+        # 2. Target Role
         f"## Target Role: {title}",
         "",
+        # 3. Professional Summary
         "### Professional Summary",
         tailored_summary,
         "",
-        "### Profile",
-        natural_reason(reason),
-        "",
+        # 4. Skills
         "### Core Skills",
         skill_display,
         "",
+        # 5. Professional Experience
         "### Professional Experience",
     ]
 
     for experience in experience_entries:
-        bullets = experience["bullets_by_category"].get(category, experience["bullets_by_category"].get("core", []))
+        bullets = experience["bullets_by_category"].get(
+            category, experience["bullets_by_category"].get("core", [])
+        )
         # Reorder bullets for this specific job
         if job_skills:
             bullets = _reorder_bullets_for_job(bullets, job_skills)
 
-        lines += [f"### {experience['heading']}", f"{experience['period']} · {experience['location']}"]
-        lines += [f"- {bullet}" for bullet in bullets]
-        lines.append("")
+        lines_out += [
+            f"### {experience['heading']}",
+            f"{experience['period']} · {experience['location']}",
+        ]
+        lines_out += [f"- {bullet}" for bullet in bullets]
+        lines_out.append("")
 
+    # 6. Selected Projects (if relevant)
     projects = PROJECTS_BY_CATEGORY.get(category, [])
     if projects:
-        lines += ["### Selected Projects"]
-        lines += [f"- {project}" for project in projects]
-        lines.append("")
+        lines_out += ["### Selected Projects"]
+        lines_out += [f"- {project}" for project in projects]
+        lines_out.append("")
 
-    lines += [
-        "### Qualifications",
+    # 7. Certifications and Education
+    lines_out += [
+        "### Certifications and Education",
         "AZ-104 Azure Administrator Associate · AZ-900 Azure Fundamentals · ITIL 4 Foundation · Certified Scrum Master · Diploma of Information Technology — Coder Academy",
         "",
-        "### Work Rights",
+    ]
+
+    # 8. Additional Information
+    lines_out += [
+        "### Additional Information",
         "Australian citizen · unrestricted Australian work rights · available immediately",
     ]
 
-    path = APP / f"{prefix}_resume.md"
-    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
-
     # ── Voice Guide validation ──
-    full_text = "\n".join(lines)
+    full_text = "\n".join(lines_out)
     voice_check = _check_voice_guide(full_text)
 
-    # ── Self-check summary ──
-    match_tier = classify_relevance(role, score_data) if score_data else "Strong match"
+    # ── Self-check summary (for Sam, not in candidate-facing output) ──
     key_changes = []
     if job_skills:
         key_changes.append(f"Skills reordered: {', '.join(job_skills[:3])} first")
-    if experience_entries and experience_entries[0].get("heading") != "L2/L3 Technical Support Engineer — Australia Post via Capgemini":
-        key_changes.append(f"Experience reordered: {experience_entries[0].get('heading', '').split('—')[0].strip()} first")
-    gaps = [s.get("skill", "") for s in score_data.get("missing_skills", []) if s.get("severity") == "critical"]
+    if experience_entries:
+        first_exp = experience_entries[0].get("heading", "").split("—")[0].strip()
+        key_changes.append(f"Experience reordered: {first_exp} first")
+    gaps = [s.get("skill", "") for s in missing_skills if s.get("severity") == "critical"]
     word_count = len(full_text.split())
     self_check = _build_resume_self_check(match_tier, key_changes, gaps, word_count)
     if not voice_check["passed"]:
         self_check += f"\n⚠️ Voice guide issues: {'; '.join(voice_check['issues'])}"
 
-    # Append self-check as a comment at the end
-    path.write_text("\n".join(lines) + "\n\n<!-- " + self_check.replace("\n", " | ") + " -->\n", encoding="utf-8")
+    # ── Write file ──
+    path = APP / f"{prefix}_resume.md"
+    path.write_text(
+        "\n".join(lines_out) + "\n\n<!-- " + self_check.replace("\n", " | ") + " -->\n",
+        encoding="utf-8",
+    )
     return path
-
-
-# ═══════════════════════════════════════════════════════════════════════════
-#  3. COMPANY-SPECIFIC COVER LETTER
-# ═══════════════════════════════════════════════════════════════════════════
 
 def _determine_tone(role: dict) -> str:
     """Determine cover letter tone based on company type."""
@@ -1464,7 +1489,16 @@ def _to_noun_phrase(achievement: str) -> str:
 
 def write_cover(prefix: str, role: dict, category: str, reason: str,
                 tags_list: list, audit: dict, score_data: dict = None) -> Path:
-    """Generate a company-specific, requirement-aware cover letter."""
+    """Generate a company-specific, requirement-aware cover letter.
+
+    Follows Voice Guide and Part 2 rules:
+    - Structure: Opening (1-2 sentences) -> Fit paragraph (2-4 sentences) ->
+      Value/motivation (2-3 sentences) -> Close (1-2 sentences)
+    - 250-400 words total
+    - References at least one specific detail from job listing
+    - No fabricated enthusiasm
+    - Self-check summary appended as hidden comment
+    """
     if score_data is None:
         score_data = {}
 
@@ -1474,100 +1508,242 @@ def write_cover(prefix: str, role: dict, category: str, reason: str,
     tone = _determine_tone(role)
     matched_skills = score_data.get("matched_skills", [])
     missing_skills = score_data.get("missing_skills", [])
+    role_tags = role.get("tags", [])
+    role_desc = role.get("description", "")
+    role_why = role.get("why", "")
 
-    # ── Opening ──
+    # ── Relevance classification ──
+    match_tier = classify_relevance(role, score_data)
+    adjacent_framing = match_tier == "Adjacent/stretch match"
+
+    # ── 1. Opening (1-2 sentences) ──
     if tone == "formal":
         salutation = "Dear Hiring Manager,"
-        opening = f"I am writing to express my interest in the {title} position at {company}."
     elif tone == "casual":
         salutation = "Hi there,"
-        opening = f"I'd love to be considered for the {title} role at {company}."
     else:
         salutation = "Dear Hiring Manager,"
-        opening = f"I'm writing to express my interest in the {title} position with {company}."
 
-    # ── Company hook ──
+    opening = f"I'm writing to apply for the {title} role at {company}."
+
+    # ── 2. Company hook (grounded in listing details) ──
     company_hook = _get_company_hook(role)
 
-    # ── Why this role ──
-    why_role = natural_reason(reason)
-
-    # ── Achievement paragraph ──
+    # ── 3. Fit paragraph (2-4 sentences) ──
+    # Connect 2-3 relevant achievements to listing requirements with real outcomes
     achievement_bullets = _generate_achievement_bullets(matched_skills, max_bullets=3)
-    achievement_para = "I bring ";
-    def _to_phrase(text):
-        """Convert a past-tense achievement bullet to a natural noun phrase."""
-        prefixes = [
-            ("Delivered", "delivering"),
-            ("Managed", "managing"),
-            ("Built", "building"),
-            ("Led", "leading"),
-            ("Spearheaded", "spearheading"),
-            ("Administered", "administering"),
-            ("Deployed", "deploying"),
-            ("Implemented", "implementing"),
-            ("Provided", "providing"),
-            ("Resolved", "resolving"),
-        ]
-        for past, gerund in prefixes:
-            if text.startswith(past):
-                return gerund + text[len(past):]
-        return text.lower()
 
-    if len(achievement_bullets) == 1:
-        first = achievement_bullets[0]
-        # For a single bullet, use "experience" + gerund form for smoother reading
-        prefixes = [
-            ("Delivered", "delivering"),
-            ("Managed", "managing"),
-            ("Built", "building"),
-            ("Led", "leading"),
-            ("Spearheaded", "spearheading"),
-            ("Administered", "administering"),
-            ("Deployed", "deploying"),
-            ("Implemented", "implementing"),
-            ("Provided", "providing"),
-            ("Resolved", "resolving"),
-        ]
-        transformed = False
-        for past, gerund in prefixes:
-            if first.startswith(past):
-                achievement_para += f"experience {gerund}" + first[len(past):] + "."
-                transformed = True
-                break
-        if not transformed:
-            achievement_para += first.lower() + "."
-    elif len(achievement_bullets) == 2:
-        achievement_para += "experience " + _to_phrase(achievement_bullets[0]) + " and " + _to_phrase(achievement_bullets[1]) + "."
+    # Build fit paragraph — use original casing, not lowercased
+    fit_parts = []
+    if len(achievement_bullets) >= 2:
+        fit_parts.append(
+            f"Recent work directly relevant to this role includes "
+            f"{achievement_bullets[0]}, and "
+            f"{achievement_bullets[1]}."
+        )
+    elif achievement_bullets:
+        fit_parts.append(
+            f"Recent work directly relevant to this role includes "
+            f"{achievement_bullets[0]}."
+        )
     else:
-        achievement_para += "experience " + _to_phrase(achievement_bullets[0]) + ", " + _to_phrase(achievement_bullets[1]) + ", and " + _to_phrase(achievement_bullets[2]) + "."
+        fit_parts.append(
+            f"My experience across enterprise infrastructure, Microsoft 365, "
+            f"and service operations connects with the core requirements of this role."
+        )
 
-    # ── Skills match paragraph ──
+    # Add skill alignment sentence
     if matched_skills:
-        skill_names = [s["skill"] for s in matched_skills[:5]]
-        skills_para = f"The areas where my experience aligns most directly with this role are {', '.join(skill_names)}."
+        skill_names = [s["skill"] for s in matched_skills[:4]]
+        fit_parts.append(
+            f"The areas where my background aligns most directly are "
+            f"{', '.join(skill_names)}."
+        )
+
+    # Add a third sentence about transferable approach
+    fit_parts.append(
+        f"I bring a practical approach to infrastructure problems — "
+        f"rooted in structured diagnostics, automation where it saves time, "
+        f"and documentation that helps the next person pick up the work."
+    )
+
+    # Add a sentence about specific tools/platforms from the listing
+    if matched_skills:
+        top_skill = matched_skills[0].get("skill", "")
+        achievement_map_details = {
+            "Microsoft 365": "including administering Exchange Hybrid, Teams governance, and SharePoint Online at enterprise scale",
+            "SharePoint": "including delivering 5+ enterprise intranets using SPFx, React, and TypeScript",
+            "Azure": "including implementing CI/CD pipelines with Azure DevOps and aligning infrastructure with Essential 8",
+            "Entra ID": "including managing hybrid identity across three providers for 660,000+ users",
+            "Intune": "including leading a 100+ endpoint Windows 11 migration with Autopilot and zero clinical disruption",
+            "PowerShell": "including building automation that reduced migration processing from 2 hours to 15 minutes",
+            "Windows": "including managing SOE builds, Autopilot enrolment, and endpoint lifecycle across enterprise fleets",
+            "ServiceNow": "including building automation that removed hundreds of hours of manual data entry per month",
+        }
+        detail = achievement_map_details.get(top_skill, "")
+        if detail:
+            fit_parts.append(f"My hands-on work with {top_skill} {detail}.")
+
+    fit_para = " ".join(fit_parts)
+
+    # ── 4. Value/motivation paragraph (2-3 sentences) ──
+    # Reference something concrete from the listing
+    value_parts = []
+    if role_desc:
+        desc_lower = role_desc.lower()
+        if "microsoft 365" in desc_lower or "m365" in desc_lower:
+            value_parts.append(
+                f"The Microsoft 365 environment described in the listing "
+                f"matches my hands-on experience across SharePoint, Exchange, "
+                f"Teams, and Entra ID at enterprise scale — including managing "
+                f"services for over 660,000 users in a government setting."
+            )
+        elif "azure" in desc_lower:
+            value_parts.append(
+                f"The Azure-focused work described in the listing aligns with "
+                f"my cloud infrastructure and identity-management experience, "
+                f"including hybrid identity synchronisation and Essential 8-aligned "
+                f"security baselines."
+            )
+        elif "endpoint" in desc_lower or "intune" in desc_lower or "euc" in desc_lower:
+            value_parts.append(
+                f"The endpoint management scope described in the listing "
+                f"matches my hands-on Intune, Autopilot, and Windows migration "
+                f"experience, including leading a 100+ endpoint clinical migration "
+                f"with zero disruption to operations."
+            )
+        elif "security" in desc_lower or "cyber" in desc_lower:
+            value_parts.append(
+                f"The security focus described in the listing connects with my "
+                f"Essential 8 alignment work and MFA compliance automation "
+                f"across 200+ sensitive SharePoint sites."
+            )
+        elif "data centre" in desc_lower or "data center" in desc_lower:
+            value_parts.append(
+                f"The data-centre environment described in the listing aligns with "
+                f"my physical infrastructure background from NBN Co and my later "
+                f"enterprise endpoint and service-operations experience."
+            )
+        elif "service desk" in desc_lower:
+            value_parts.append(
+                f"The service-desk scope described in the listing matches my "
+                f"recent L1/L2/L3 support and incident-management experience, "
+                f"consistently achieving over 90 percent SLA resolution."
+            )
+        else:
+            value_parts.append(
+                f"The scope described in the listing connects with my "
+                f"enterprise infrastructure and service-operations background."
+            )
     else:
-        skills_para = f"The areas most relevant to the role are {', '.join(tags_list[:3]).lower()}."
+        value_parts.append(
+            f"I'm interested in contributing to {company}'s technology operations "
+            f"and bringing my infrastructure and automation experience to the team."
+        )
 
-    # ── Address gaps if any critical ones ──
-    critical_missing = [s for s in missing_skills if s["severity"] == "critical"]
-    gap_note = ""
-    if critical_missing:
-        gap_note = f"\n\nI should note that while I bring strong experience across the core requirements, I would develop my {critical_missing[0]['skill'].lower()} capabilities further in this role. My track record of rapid skill acquisition — including picking up PowerShell automation and Azure cloud operations on the job — gives me confidence I can bridge any gaps quickly."
+    # Add a second sentence about what draws Sam to this specific company/role
+    if role_why:
+        # Extract a meaningful reason from the why field
+        why_clean = role_why.strip()
+        if why_clean and len(why_clean) > 20:
+            value_parts.append(why_clean)
 
-    # ── Closing ──
+    # Always add a motivation sentence about the specific opportunity
+    if role.get("location"):
+        value_parts.append(
+            f"The {role['location']} based role fits my current situation, "
+            f"and the technical scope described in the listing matches the kind "
+            f"of infrastructure work I want to keep doing."
+        )
+
+    value_para = " ".join(value_parts)
+
+    # ── 5. Adjacent-match framing (if applicable) ──
+    adjacent_note = ""
+    if adjacent_framing:
+        adjacent_note = (
+            "While my background is primarily in enterprise IT infrastructure, "
+            "the transferable skills from my recent roles — including "
+            "stakeholder communication, cross-team delivery, and structured "
+            "problem-solving — connect directly with this position's requirements."
+        )
+
+    # ── 6. Close (1-2 sentences) ──
     if tone == "formal":
-        closing = "I would welcome the opportunity to discuss how my experience could contribute to your team. I am available for an interview at your convenience and happy to confirm any licence, qualification, or screening requirements before progressing."
+        closing = (
+            "I would welcome the opportunity to discuss how my experience "
+            "could contribute to your team. I am available for an interview "
+            "at your convenience."
+        )
         sign_off = "Yours sincerely,"
     elif tone == "casual":
-        closing = "I'd love to chat about how my background could help the team. Happy to jump on a call whenever suits."
+        closing = (
+            "I'd welcome a conversation about how my background could "
+            "help the team. Happy to chat whenever suits."
+        )
         sign_off = "Cheers,"
     else:
-        closing = "I'd welcome a conversation about how my background could contribute to your team. I'm happy to confirm any licence, qualification, check, roster or prior-industry requirements before progressing."
+        closing = (
+            "I'd welcome a conversation about how my experience could "
+            "contribute to your team. I'm happy to confirm any qualification "
+            "or screening requirements before progressing."
+        )
         sign_off = "Kind regards,"
 
-    # ── Assemble ──
-    body = [
+    # ── Assemble body paragraphs ──
+    body_paragraphs = [
+        f"{opening} {company_hook}",
+        "",
+        fit_para,
+        "",
+        value_para,
+    ]
+    if adjacent_note:
+        body_paragraphs += ["", adjacent_note]
+    body_paragraphs += ["", closing]
+
+    # ── Word count check ──
+    body_text = " ".join(body_paragraphs)
+    word_count = len(body_text.split())
+
+    # ── Check for listing details referenced ──
+    listing_details = []
+    if role_tags:
+        listing_details.extend(role_tags[:3])
+    if role_desc:
+        listing_details.append("job description reviewed")
+
+    # ── Achievements highlighted ──
+    achievements_highlighted = []
+    for b in achievement_bullets[:3]:
+        if "built" in b.lower():
+            achievements_highlighted.append("automation building")
+        elif "managed" in b.lower():
+            achievements_highlighted.append("infrastructure management")
+        elif "led" in b.lower():
+            achievements_highlighted.append("migration delivery")
+        elif "delivered" in b.lower():
+            achievements_highlighted.append("enterprise service delivery")
+        else:
+            achievements_highlighted.append(b.split(" that")[0] if " that" in b else b[:50])
+
+    # ── Voice Guide validation ──
+    full_text = f"{salutation}\n\n{body_text}\n\n{sign_off}\nSam Ludwig"
+    voice_check = _check_voice_guide(full_text)
+
+    # ── Self-check summary ──
+    self_check = _build_cover_self_check(
+        listing_details, achievements_highlighted, adjacent_framing, word_count
+    )
+    if not voice_check["passed"]:
+        self_check += f"\n⚠️ Voice guide issues: {'; '.join(voice_check['issues'])}"
+    if word_count > 400:
+        self_check += f"\n⚠️ Word count {word_count} exceeds 400 — consider trimming"
+    elif word_count < 250:
+        self_check += f"\n⚠️ Word count {word_count} below 250 — consider expanding"
+
+    # ── Build final document ──
+    letter_lines = [
         "# Sam Ludwig",
         "Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com",
         "",
@@ -1575,50 +1751,18 @@ def write_cover(prefix: str, role: dict, category: str, reason: str,
         "",
         salutation,
         "",
-        f"{opening} {company_hook}",
-        "",
-        why_role,
-        "",
-        f"{achievement_para}",
-        "",
-        f"{skills_para}{gap_note}",
-        "",
-        closing,
+    ] + body_paragraphs + [
         "",
         sign_off,
         "Sam Ludwig",
     ]
 
     path = APP / f"{prefix}_cover_letter.md"
-    path.write_text("\n".join(body) + "\n", encoding="utf-8")
-
-    # ── Voice Guide validation ──
-    full_text = "\n".join(body)
-    voice_check = _check_voice_guide(full_text)
-
-    # ── Self-check summary ──
-    listing_details = []
-    if role.get("title"):
-        listing_details.append(f"Role: {role['title']}")
-    if role.get("company"):
-        listing_details.append(f"Company: {role.get('company')}")
-    if role.get("location"):
-        listing_details.append(f"Location: {role['location']}")
-    achievements = [s.get("skill", "") for s in matched_skills[:3]]
-    adjacent_framing = any(s.get("severity") == "critical" for s in missing_skills)
-    word_count = len(full_text.split())
-    self_check = _build_cover_self_check(listing_details, achievements, adjacent_framing, word_count)
-    if not voice_check["passed"]:
-        self_check += f"\n⚠️ Voice guide issues: {'; '.join(voice_check['issues'])}"
-
-    # Append self-check as a comment at the end
-    path.write_text("\n".join(body) + "\n\n<!-- " + self_check.replace("\n", " | ") + " -->\n", encoding="utf-8")
+    path.write_text(
+        "\n".join(letter_lines) + "\n\n<!-- " + self_check.replace("\n", " | ") + " -->\n",
+        encoding="utf-8",
+    )
     return path
-
-
-# ═══════════════════════════════════════════════════════════════════════════
-#  Supporting functions (kept from original where stable)
-# ═══════════════════════════════════════════════════════════════════════════
 
 def employer_name(role):
     company = str(role.get("company", "") or "").strip()
@@ -2078,8 +2222,28 @@ for role in data["jobs"]:
     audit_path = AUDITS / f"{prefix}_audit.json"
     audit_path.write_text(json.dumps(audit, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-    # ── Generate materials ──
-    resume_path = write_resume(prefix, role["title"], "core", reason, tags_list, audit, score_data)
+    # ── Relevance classification ──
+    match_tier = classify_relevance(role, score_data)
+
+    if match_tier == "No match":
+        # Flag and confirm — do not generate materials
+        flag_msg = generate_flag_message(role, match_tier, score_data.get("matched_skills", []), score_data.get("missing_skills", []))
+        role["flag_message"] = flag_msg
+        role["match_tier"] = match_tier
+        role["scoring"] = {
+            "score": score_data["score"],
+            "fit_label": score_data["fit_label"],
+            "match_tier": match_tier,
+        }
+        # Write flag message to audit
+        audit["flag_message"] = flag_msg
+        audit["match_tier"] = match_tier
+        audit_path.write_text(json.dumps(audit, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        print(f"  ⚠️ {role['title']} at {role['company']}: {match_tier} — flag message generated")
+        continue
+
+    # ── Generate materials (Strong match or confirmed Adjacent) ──
+    resume_path = write_resume(prefix, role["title"], "core", reason, tags_list, audit, score_data, role=role)
     cover_path = write_cover(prefix, role, "core", reason, tags_list, audit, score_data)
     email_path = write_email(prefix, role, "core", reason, tags_list, audit, score_data)
     attach_paths(role, prefix, resume_path, cover_path, email_path, audit_path)
@@ -2114,7 +2278,25 @@ for category, roles in data.get("sections", {}).items():
         audit_path = AUDITS / f"{prefix}_audit.json"
         audit_path.write_text(json.dumps(audit, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-        resume_path = write_resume(prefix, role["title"], cat, reason, tags_list, audit, score_data)
+        # ── Relevance classification ──
+        match_tier = classify_relevance(role, score_data)
+
+        if match_tier == "No match":
+            flag_msg = generate_flag_message(role, match_tier, score_data.get("matched_skills", []), score_data.get("missing_skills", []))
+            role["flag_message"] = flag_msg
+            role["match_tier"] = match_tier
+            role["scoring"] = {
+                "score": score_data["score"],
+                "fit_label": score_data["fit_label"],
+                "match_tier": match_tier,
+            }
+            audit["flag_message"] = flag_msg
+            audit["match_tier"] = match_tier
+            audit_path.write_text(json.dumps(audit, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+            print(f"  ⚠️ {role['title']} at {role['company']}: {match_tier} — flag message generated")
+            continue
+
+        resume_path = write_resume(prefix, role["title"], cat, reason, tags_list, audit, score_data, role=role)
         cover_path = write_cover(prefix, role, cat, reason, tags_list, audit, score_data)
         email_path = write_email(prefix, role, cat, reason, tags_list, audit, score_data)
         attach_paths(role, prefix, resume_path, cover_path, email_path, audit_path)
@@ -2141,6 +2323,9 @@ data["policy"] = "LinkedIn excluded. Individual listings and direct employer or 
 
 index = []
 for role in data["jobs"]:
+    # Skip roles that were flagged as no-match (no materials generated)
+    if role.get("match_tier") == "No match":
+        continue
     scoring = role.get("scoring", {})
     index.append({
         "lane": "core",

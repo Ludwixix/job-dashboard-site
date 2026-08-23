@@ -21,12 +21,9 @@ HEADERS = {
 }
 
 IT_KEYWORDS = [
-    "IT support", "system administrator", "network engineer",
-    "cloud engineer", "devops", "cyber security", "software engineer",
-    "data engineer", "service desk", "help desk", "desktop support",
-    "microsoft 365", "azure", "intune", "windows server", "linux admin",
-    "vmware", "kubernetes", "terraform", "project manager IT",
-    "endpoint engineer", "infrastructure engineer",
+    "IT support", "system administrator", "cloud engineer",
+    "service desk", "desktop support", "microsoft 365",
+    "azure", "intune", "infrastructure engineer",
 ]
 
 MELBOURNE_WHERE = "Melbourne%2C+VIC"
@@ -130,6 +127,16 @@ def main():
 
     print("Scraping Seek.com.au API...")
     jobs = scrape_seek()
+
+    # If API returned nothing, fall back to browser scraper
+    if not jobs:
+        print("  API returned 0 jobs — falling back to browser scraper...")
+        try:
+            from seek_browser import scrape_seek_browser
+            jobs = scrape_seek_browser()
+            print(f"  Browser scraper returned {len(jobs)} jobs")
+        except Exception as e:
+            print(f"  Browser scraper also failed: {e}")
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump({"source": "seek", "scraped_at": datetime.now(timezone.utc).isoformat(), "count": len(jobs), "jobs": jobs}, f, indent=2, ensure_ascii=False)

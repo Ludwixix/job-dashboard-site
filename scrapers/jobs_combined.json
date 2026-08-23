@@ -2255,46 +2255,10 @@
       "scoring": {
         "score": 68.5,
         "fit_label": "Partial fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 85,
-            "weight": "15%",
-            "work_mode": "hybrid"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (hybrid)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Sales & Operations Specialist at Harris Scarfe Careers\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Level 2 IT Support Officer",
@@ -2823,46 +2787,10 @@
       "scoring": {
         "score": 72.0,
         "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 85,
-            "weight": "15%",
-            "work_mode": "hybrid"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 85,
-            "weight": "10%",
-            "company_size": "enterprise"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (hybrid)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Communications and Outreach Officer at Deakin University\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Personal Assistant",
@@ -3250,46 +3178,10 @@
       "scoring": {
         "score": 65.8,
         "fit_label": "Partial fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.7
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Sales Associate - Casual at Foot Locker\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Casual Sales Associate",
@@ -3388,46 +3280,10 @@
       "scoring": {
         "score": 65.8,
         "fit_label": "Partial fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.7
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Casual Sales Associate at POP MART\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Casual Food and Beverage Attendant",
@@ -3664,46 +3520,10 @@
       "scoring": {
         "score": 67.0,
         "fit_label": "Partial fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 100,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 1,
-            "seniority": "junior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Experience level aligns well (6 years vs 1 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.7
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Casual Sales Assistant | BRAS N THINGS | Cranbourne at Bras n Things\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Front of House Team Member - Elsternwick Casual/Part-Time/Full-Time",
@@ -3940,46 +3760,10 @@
       "scoring": {
         "score": 67.0,
         "fit_label": "Partial fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 100,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 1,
-            "seniority": "junior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Experience level aligns well (6 years vs 1 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.7
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Casual Sales Assistant | BONDS Outlet | Endeavour Hills at Hanes Brands Australasia\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Sales Assistant | Sorrento",
@@ -4078,46 +3862,10 @@
       "scoring": {
         "score": 67.0,
         "fit_label": "Partial fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 100,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 1,
-            "seniority": "junior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Experience level aligns well (6 years vs 1 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.7
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Sales Assistant | Sorrento at Nude Lucy\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Sales Associate (Part-Time)",
@@ -4216,46 +3964,10 @@
       "scoring": {
         "score": 65.8,
         "fit_label": "Partial fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.7
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Sales Associate (Part-Time) at POP MART\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "AOD Support Workers - Multiple Casual Opportunities",
@@ -4647,49 +4359,10 @@
       "scoring": {
         "score": 81.8,
         "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Customer Support"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Counter operator at \n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Customer Support\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Casual Wait Staff",
@@ -4936,49 +4609,10 @@
       "scoring": {
         "score": 81.8,
         "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Customer Support"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Barista/All Rounder at Westbrook Food Store\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Customer Support\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Pastry Cook",
@@ -5078,46 +4712,10 @@
       "scoring": {
         "score": 67.8,
         "fit_label": "Partial fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Pastry Cook at Cafe Francois\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "food and beverage attendant",
@@ -5364,49 +4962,10 @@
       "scoring": {
         "score": 79.8,
         "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Customer Support"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Casual Cook / All-Rounder – Burger Restaurant at Burger Road\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Customer Support\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Bartender",
@@ -5509,49 +5068,10 @@
       "scoring": {
         "score": 84.0,
         "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 95,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Customer Support"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Bartender at \n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Customer Support\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Wait Staff",
@@ -5796,49 +5316,10 @@
       "scoring": {
         "score": 81.8,
         "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Customer Support"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Workshop Technician at Fisher & Paykel\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Customer Support\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "IT Operations Technician",
@@ -6083,49 +5564,10 @@
       "scoring": {
         "score": 89.5,
         "fit_label": "Strong fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 100,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 1,
-            "seniority": "junior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 100,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 85,
-            "weight": "10%",
-            "company_size": "enterprise"
-          }
-        },
-        "matched_skills": [
-          "Customer Support"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 1 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Trainee Graduate at Freighter Group\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Customer Support\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Field Service Technician",
@@ -7422,51 +6864,10 @@
       "scoring": {
         "score": 81.8,
         "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 3,
-            "total": 3
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Network",
-          "Data Centre",
-          "Customer Support"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Strong proficient proficiency in Network",
-          "Strong proficient proficiency in Data Centre"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.9
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Engineering Operations Technician, Data Center Engineering Operations at Amazon\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Network, Data Centre, Customer Support\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Technical Operations Manager - Electrical OEM - Power",
@@ -7869,49 +7270,10 @@
       "scoring": {
         "score": 74.2,
         "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 90.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 65,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 5,
-            "seniority": "senior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Entra ID"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong expert proficiency in Entra ID",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Role targets senior level; candidate is mid-level",
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Senior Project Engineer, Mechanical - MEI | North East Link Project at CPB Contractors\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Entra ID\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Project Engineer, Mechanical - MEI | North East Link Project",
@@ -8012,49 +7374,10 @@
       "scoring": {
         "score": 81.8,
         "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 90.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Entra ID"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong expert proficiency in Entra ID",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Project Engineer, Mechanical - MEI | North East Link Project at CPB Contractors\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Entra ID\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Senior Project Engineer, Electrical - MEI | North East Link Project",
@@ -8156,49 +7479,10 @@
       "scoring": {
         "score": 74.2,
         "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 90.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 65,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 5,
-            "seniority": "senior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Entra ID"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong expert proficiency in Entra ID",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Role targets senior level; candidate is mid-level",
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Senior Project Engineer, Electrical - MEI | North East Link Project at CPB Contractors\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Entra ID\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Senior/Associate Electrical Engineer - Substations / Data Centres",
@@ -8304,49 +7588,10 @@
       "scoring": {
         "score": 74.2,
         "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 65,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 5,
-            "seniority": "senior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Data Centre"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong proficient proficiency in Data Centre",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Role targets senior level; candidate is mid-level",
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Senior/Associate Electrical Engineer - Substations / Data Centres at WSP USA\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Data Centre\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Senior/Associate Electrical Engineer - Substations / Data Centres",
@@ -8452,49 +7697,10 @@
       "scoring": {
         "score": 74.2,
         "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 65,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 5,
-            "seniority": "senior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Data Centre"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong proficient proficiency in Data Centre",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Role targets senior level; candidate is mid-level",
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
+        "match_tier": "No match"
+      },
+      "flag_message": "⚠️ Resume not generated: Senior/Associate Electrical Engineer - Substations / Data Centres at WSP\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Data Centre\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+      "match_tier": "No match"
     },
     {
       "title": "Lead Data Centre Engineers / AI Installation Supervisors - 12M CONTRACT - EXT",
@@ -9660,7 +8866,7 @@
       "status": "search-only; verify original employer route"
     }
   ],
-  "updated": "2026-08-23T20:35:23.558145+10:00",
+  "updated": "2026-08-23T20:47:32.303413+10:00",
   "search_area": "Melbourne, St Kilda area, and remote Australia",
   "policy": "LinkedIn excluded. Individual listings and direct employer or government routes are preferred. Search-only sources are labelled and must be verified manually. No applications or emails are submitted automatically."
 }

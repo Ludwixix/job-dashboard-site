@@ -7,9 +7,6 @@ samludwig.au | github.com/Ludwixix
 ### Professional Summary
 Infrastructure and Microsoft 365 engineer with progressive experience across Azure, Entra ID, Intune, Autopilot, Windows, SharePoint, Exchange, PowerShell, ServiceNow and enterprise service operations. Combines hands-on endpoint delivery with Tier-3 escalation, automation, security-aware change and durable documentation.
 
-### Profile
-
-
 ### Core Skills
 ServiceNow · Customer Support · Microsoft 365 · SharePoint · Azure · Entra ID · Intune · PowerShell · Exchange · Teams · Windows · Autopilot · Active Directory · Security · CI/CD · Git · Documentation
 
@@ -60,10 +57,10 @@ March 2018–December 2020 · Melbourne, Victoria
 - ServiceNow workload tool — browser extension integrating Microsoft 365 presence data with ServiceNow queues to improve ticket allocation.
 - M365 diagnostic GUI — Python tool that helps L1 staff run repeatable PowerShell diagnostics against Exchange and Teams.
 
-### Qualifications
+### Certifications and Education
 AZ-104 Azure Administrator Associate · AZ-900 Azure Fundamentals · ITIL 4 Foundation · Certified Scrum Master · Diploma of Information Technology — Coder Academy
 
-### Work Rights
+### Additional Information
 Australian citizen · unrestricted Australian work rights · available immediately
 
-<!-- ✅ Tailoring summary | - Match tier: Strong match | - Key changes from base resume: Skills reordered: ServiceNow, Customer Support first | - Requirements not fully addressed: none | - Word count: 684 | - Voice guide check: PASS |  -->
+<!-- ✅ Tailoring summary | - Match tier: Strong match | - Key changes from base resume: Skills reordered: ServiceNow, Customer Support first; Experience reordered: L2/L3 Technical Support Engineer first | - Requirements not fully addressed: none | - Word count: 684 | - Voice guide check: PASS |  -->

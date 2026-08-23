@@ -7,9 +7,6 @@ samludwig.au | github.com/Ludwixix
 ### Professional Summary
 Infrastructure and Microsoft 365 engineer with progressive experience across Azure, Entra ID, Intune, Autopilot, Windows, SharePoint, Exchange, PowerShell, ServiceNow and enterprise service operations. Combines hands-on endpoint delivery with Tier-3 escalation, automation, security-aware change and durable documentation.
 
-### Profile
-The FUJIFILM MicroChannel role matches my Azure, Microsoft 365, identity, automation, enterprise support, and customer-facing technical delivery experience.
-
 ### Core Skills
 Azure · Microsoft 365 · Entra ID · PowerShell · SharePoint · Intune · Exchange · Teams · Windows · Autopilot · ServiceNow · Active Directory · Security · CI/CD · Git · Documentation
 
@@ -60,10 +57,10 @@ October 2016–November 2017 · Melbourne, Victoria
 - ServiceNow workload tool — browser extension integrating Microsoft 365 presence data with ServiceNow queues to improve ticket allocation.
 - M365 diagnostic GUI — Python tool that helps L1 staff run repeatable PowerShell diagnostics against Exchange and Teams.
 
-### Qualifications
+### Certifications and Education
 AZ-104 Azure Administrator Associate · AZ-900 Azure Fundamentals · ITIL 4 Foundation · Certified Scrum Master · Diploma of Information Technology — Coder Academy
 
-### Work Rights
+### Additional Information
 Australian citizen · unrestricted Australian work rights · available immediately
 
-<!-- ✅ Tailoring summary | - Match tier: Strong match | - Key changes from base resume: Skills reordered: Azure first; Experience reordered: Senior Managed Services Engineer first | - Requirements not fully addressed: none | - Word count: 696 | - Voice guide check: PASS |  -->
+<!-- ✅ Tailoring summary | - Match tier: Strong match | - Key changes from base resume: Skills reordered: Azure first; Experience reordered: Senior Managed Services Engineer first | - Requirements not fully addressed: none | - Word count: 678 | - Voice guide check: PASS |  -->

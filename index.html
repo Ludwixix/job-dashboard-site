@@ -4,93 +4,298 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Job Dashboard — 3 Streams</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-/* ── Reset & base ─────────────────────────────────── */
+/* ── Reset & Base ─────────────────────────────────── */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:#0f0f23;color:#e0e0e0;line-height:1.5;min-height:100vh}
+:root{
+  --bg-primary:#0a0a1a;
+  --bg-secondary:#111128;
+  --bg-card:#16163a;
+  --bg-card-hover:#1c1c4a;
+  --border:#252560;
+  --border-hover:#3a3a8a;
+  --text-primary:#f0f0ff;
+  --text-secondary:#a0a0cc;
+  --text-muted:#6060a0;
+  --accent-blue:#62d9ff;
+  --accent-green:#61e6a6;
+  --accent-yellow:#ffc857;
+  --accent-purple:#bda7ff;
+  --accent-orange:#ff8a65;
+  --accent-red:#ff6b6b;
+  --glass-bg:rgba(22,22,58,0.7);
+  --glass-border:rgba(100,100,200,0.15);
+  --shadow-sm:0 2px 8px rgba(0,0,0,0.3);
+  --shadow-md:0 4px 20px rgba(0,0,0,0.4);
+  --shadow-lg:0 8px 40px rgba(0,0,0,0.5);
+  --radius-sm:8px;
+  --radius-md:12px;
+  --radius-lg:16px;
+  --radius-full:999px;
+}
+body{
+  font-family:'Inter',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  background:var(--bg-primary);
+  color:var(--text-primary);
+  line-height:1.6;
+  min-height:100vh;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -20%,rgba(98,217,255,0.08),transparent),
+    radial-gradient(ellipse 60% 40% at 80% 100%,rgba(189,167,255,0.06),transparent);
+}
 a{color:inherit;text-decoration:none}
 
 /* ── Layout ───────────────────────────────────────── */
-.wrap{max-width:1200px;margin:0 auto;padding:20px 24px 60px}
-.hero{margin-bottom:24px}
-.hero h1{font-size:1.6rem;font-weight:700;color:#fff;margin-bottom:4px}
-.hero p{color:#888;font-size:.9rem}
+.wrap{max-width:1280px;margin:0 auto;padding:32px 28px 80px}
 
-/* ── Stats bar ────────────────────────────────────── */
-.stats{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:20px}
-.stat{background:#1a1a2e;border:1px solid #2a2a4a;border-radius:10px;padding:12px 20px;text-align:center;min-width:120px}
-.stat b{display:block;font-size:1.3rem;color:#fff}
-.stat span{font-size:.75rem;color:#888}
+/* ── Hero ─────────────────────────────────────────── */
+.hero{margin-bottom:32px;position:relative}
+.hero h1{
+  font-size:2rem;font-weight:800;color:var(--text-primary);
+  letter-spacing:-0.03em;
+  background:linear-gradient(135deg,#fff 0%,var(--accent-blue) 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+.hero p{color:var(--text-muted);font-size:.9rem;margin-top:4px}
 
-/* ── Stream tabs ──────────────────────────────────── */
-.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:20px;border-bottom:1px solid #2a2a4a;padding-bottom:10px}
-.tab{background:#1a1a2e;border:1px solid #2a2a4a;border-radius:8px;padding:8px 16px;color:#aaa;font-size:.85rem;cursor:pointer;transition:all .2s}
-.tab:hover{border-color:var(--tab-color,#62d9ff);color:#fff}
-.tab.active{background:color-mix(in srgb,var(--tab-color) 15%,#1a1a2e);border-color:var(--tab-color);color:#fff;font-weight:600}
-.tab-count{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;border-radius:999px;font-size:.7rem;font-weight:700;background:#0f0f23;border:1px solid var(--tab-color);padding:0 5px;margin-left:4px}
+/* ── Stats Bar ────────────────────────────────────── */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:28px}
+.stat{
+  background:var(--glass-bg);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border:1px solid var(--glass-border);
+  border-radius:var(--radius-md);
+  padding:16px 20px;
+  text-align:center;
+  transition:all .25s ease;
+  position:relative;
+  overflow:hidden;
+}
+.stat::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,transparent,var(--accent-blue),transparent);
+  opacity:0;transition:opacity .25s;
+}
+.stat:hover::before{opacity:1}
+.stat:hover{border-color:var(--border-hover);transform:translateY(-2px);box-shadow:var(--shadow-md)}
+.stat b{display:block;font-size:1.5rem;font-weight:700;color:#fff;margin-bottom:2px}
+.stat span{font-size:.75rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;font-weight:500}
+
+/* ── Tabs ─────────────────────────────────────────── */
+.tabs{
+  display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px;
+  padding-bottom:16px;border-bottom:1px solid var(--border);
+}
+.tab{
+  background:var(--bg-secondary);
+  border:1px solid var(--border);
+  border-radius:var(--radius-full);
+  padding:10px 20px;
+  color:var(--text-secondary);
+  font-size:.85rem;font-weight:500;
+  cursor:pointer;
+  transition:all .2s ease;
+  display:flex;align-items:center;gap:6px;
+}
+.tab:hover{
+  border-color:var(--tab-color,#62d9ff);
+  color:#fff;
+  box-shadow:0 0 20px rgba(98,217,255,0.1);
+}
+.tab.active{
+  background:color-mix(in srgb,var(--tab-color) 15%,var(--bg-secondary));
+  border-color:var(--tab-color);
+  color:#fff;font-weight:600;
+  box-shadow:0 0 24px rgba(98,217,255,0.15);
+}
+.tab-count{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-width:22px;height:22px;border-radius:var(--radius-full);
+  font-size:.7rem;font-weight:700;
+  background:var(--bg-primary);
+  border:1px solid var(--tab-color);
+  padding:0 6px;
+}
 
 /* ── Filters ──────────────────────────────────────── */
-.filters{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px;align-items:center}
-.filters label{font-size:.8rem;color:#888}
-.filters select{background:#1a1a2e;border:1px solid #2a2a4a;border-radius:6px;color:#ddd;padding:5px 10px;font-size:.8rem}
-.filters select:focus{outline:none;border-color:#62d9ff}
+.filters{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:24px;align-items:center}
+.filters label{font-size:.8rem;color:var(--text-muted);font-weight:500}
+.filters select{
+  background:var(--bg-secondary);
+  border:1px solid var(--border);
+  border-radius:var(--radius-sm);
+  color:var(--text-primary);
+  padding:8px 12px;
+  font-size:.8rem;
+  font-family:inherit;
+  cursor:pointer;
+  transition:all .2s;
+}
+.filters select:hover{border-color:var(--border-hover)}
+.filters select:focus{outline:none;border-color:var(--accent-blue);box-shadow:0 0 0 3px rgba(98,217,255,0.15)}
 
-/* ── Stream sections ──────────────────────────────── */
-.stream-section{margin-bottom:32px;display:none}
+/* ── Stream Sections ──────────────────────────────── */
+.stream-section{margin-bottom:36px;display:none}
 .stream-section.visible{display:block}
-.stream-header{border-left:3px solid;padding:0 0 0 16px;margin-bottom:16px}
-.stream-header h2{font-size:1.15rem;margin-bottom:2px}
-.stream-desc{color:#888;font-size:.8rem}
-.count-badge{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;border-radius:999px;font-size:.75rem;font-weight:700;background:#0f0f23;border:1px solid;padding:0 6px;vertical-align:middle}
+.stream-header{
+  border-left:3px solid;padding:0 0 0 20px;margin-bottom:20px;
+}
+.stream-header h2{font-size:1.25rem;font-weight:700;margin-bottom:4px}
+.stream-desc{color:var(--text-muted);font-size:.85rem}
+.count-badge{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-width:26px;height:26px;border-radius:var(--radius-full);
+  font-size:.75rem;font-weight:700;
+  background:var(--bg-primary);border:1px solid;
+  padding:0 8px;vertical-align:middle;margin-left:8px;
+}
 
 /* ── Grid ─────────────────────────────────────────── */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:16px}
 
 /* ── Card ─────────────────────────────────────────── */
-.card{background:#1a1a2e;border:1px solid #2a2a4a;border-radius:10px;padding:16px;transition:border-color .2s,box-shadow .2s;display:flex;flex-direction:column;gap:8px}
-.card:hover{border-color:#3a3a5a;box-shadow:0 2px 12px rgba(0,0,0,.3)}
+.card{
+  background:var(--glass-bg);
+  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+  border:1px solid var(--glass-border);
+  border-radius:var(--radius-lg);
+  padding:20px;
+  transition:all .25s ease;
+  display:flex;flex-direction:column;gap:10px;
+  position:relative;
+  overflow:hidden;
+}
+.card::after{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(98,217,255,0.3),transparent);
+  opacity:0;transition:opacity .25s;
+}
+.card:hover{
+  border-color:var(--border-hover);
+  box-shadow:var(--shadow-lg);
+  transform:translateY(-2px);
+}
+.card:hover::after{opacity:1}
 .card.hidden{display:none}
-.card-header{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
-.card-title{font-size:1rem;font-weight:600;color:#fff;flex:1;line-height:1.3}
-.card-title:hover{color:#62d9ff}
-.card-employer{font-size:.85rem;color:#aaa}
+
+.card-header{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.card-title{
+  font-size:1rem;font-weight:600;color:#fff;flex:1;line-height:1.35;
+  transition:color .2s;
+}
+.card-title:hover{color:var(--accent-blue)}
+.card-employer{font-size:.85rem;color:var(--text-secondary);font-weight:500}
 
 /* Score badge */
-.score-badge{font-size:.75rem;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap;flex-shrink:0}
-.score-high{background:#61e6a620;color:#61e6a6;border:1px solid #61e6a6}
-.score-mid{background:#ffc85720;color:#ffc857;border:1px solid #ffc857}
-.score-low{background:#ff6b6b20;color:#ff6b6b;border:1px solid #ff6b6b}
+.score-badge{
+  font-size:.75rem;font-weight:700;
+  padding:4px 10px;border-radius:var(--radius-full);
+  white-space:nowrap;flex-shrink:0;
+  backdrop-filter:blur(8px);
+}
+.score-high{background:rgba(97,230,166,0.15);color:var(--accent-green);border:1px solid rgba(97,230,166,0.3)}
+.score-mid{background:rgba(255,200,87,0.15);color:var(--accent-yellow);border:1px solid rgba(255,200,87,0.3)}
+.score-low{background:rgba(255,107,107,0.1);color:var(--accent-red);border:1px solid rgba(255,107,107,0.2)}
 
 /* Badges row */
 .card-badges{display:flex;gap:6px;flex-wrap:wrap}
-.badge{font-size:.7rem;padding:2px 8px;border-radius:999px;border:1px solid;font-weight:500;white-space:nowrap}
+.badge{
+  font-size:.7rem;padding:3px 10px;border-radius:var(--radius-full);
+  border:1px solid;font-weight:500;white-space:nowrap;
+  backdrop-filter:blur(4px);
+}
 
 /* Why text */
-.card-why{font-size:.8rem;color:#999;font-style:italic}
+.card-why{font-size:.82rem;color:var(--text-muted);font-style:italic;line-height:1.5}
 
 /* Tags */
 .card-tags{display:flex;gap:4px;flex-wrap:wrap}
-.tag{font-size:.65rem;padding:2px 6px;border-radius:4px;background:#2a2a4a;color:#aaa}
+.tag{
+  font-size:.65rem;padding:3px 8px;border-radius:var(--radius-sm);
+  background:rgba(37,37,96,0.6);color:var(--text-muted);
+  border:1px solid rgba(100,100,200,0.1);
+  transition:all .2s;
+}
+.tag:hover{background:rgba(50,50,120,0.8);color:var(--text-secondary)}
 
 /* Actions row */
-.card-actions{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:4px;border-top:1px solid #2a2a4a;padding-top:8px}
-.btn{font-size:.75rem;padding:4px 10px;border-radius:6px;border:1px solid #3a3a5a;background:#0f0f23;color:#ccc;cursor:pointer;transition:all .15s}
-.btn:hover:not([disabled]){border-color:#62d9ff;color:#fff}
+.card-actions{
+  display:flex;align-items:center;gap:6px;flex-wrap:wrap;
+  margin-top:6px;border-top:1px solid rgba(100,100,200,0.1);
+  padding-top:12px;
+}
+.btn{
+  font-size:.75rem;font-weight:500;
+  padding:6px 12px;border-radius:var(--radius-sm);
+  border:1px solid var(--border);
+  background:var(--bg-primary);
+  color:var(--text-secondary);
+  cursor:pointer;
+  transition:all .2s ease;
+  font-family:inherit;
+}
+.btn:hover:not([disabled]){
+  border-color:var(--accent-blue);
+  color:#fff;
+  box-shadow:0 0 12px rgba(98,217,255,0.15);
+}
 .btn[disabled]{opacity:.35;cursor:not-allowed}
-.btn-apply{border-color:#62d9ff;color:#62d9ff}
-.btn-apply:hover{background:#62d9ff20}
+.btn-apply{border-color:var(--accent-blue);color:var(--accent-blue)}
+.btn-apply:hover{background:rgba(98,217,255,0.1)}
 .card-spacer{flex:1}
-.stage-label{font-size:.75rem;color:#888}
-.status-select{background:#0f0f23;border:1px solid #2a2a4a;border-radius:4px;color:#ccc;padding:3px 6px;font-size:.75rem}
+.stage-label{font-size:.75rem;color:var(--text-muted);font-weight:500}
+.status-select{
+  background:var(--bg-primary);
+  border:1px solid var(--border);
+  border-radius:var(--radius-sm);
+  color:var(--text-secondary);
+  padding:5px 8px;
+  font-size:.75rem;
+  font-family:inherit;
+  cursor:pointer;
+  transition:all .2s;
+}
+.status-select:hover{border-color:var(--border-hover)}
+.status-select:focus{outline:none;border-color:var(--accent-blue)}
 
 /* ── Footer ───────────────────────────────────────── */
-.foot{margin-top:40px;text-align:center;color:#555;font-size:.75rem;border-top:1px solid #2a2a4a;padding-top:16px}
+.foot{
+  margin-top:48px;text-align:center;color:var(--text-muted);
+  font-size:.75rem;
+  border-top:1px solid var(--border);
+  padding-top:20px;
+}
 
 /* ── Responsive ───────────────────────────────────── */
-@media(max-width:480px){
+@media(max-width:768px){
+  .stats{grid-template-columns:repeat(2,1fr)}
   .grid{grid-template-columns:1fr}
-  .stats{flex-direction:column}
+  .hero h1{font-size:1.5rem}
 }
+@media(max-width:480px){
+  .stats{grid-template-columns:1fr}
+  .tabs{gap:6px}
+  .tab{padding:8px 14px;font-size:.8rem}
+  .wrap{padding:20px 16px 60px}
+}
+
+/* ── Animations ───────────────────────────────────── */
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.card{animation:fadeIn .3s ease both}
+.grid .card:nth-child(1){animation-delay:.05s}
+.grid .card:nth-child(2){animation-delay:.1s}
+.grid .card:nth-child(3){animation-delay:.15s}
+.grid .card:nth-child(4){animation-delay:.2s}
+.grid .card:nth-child(5){animation-delay:.25s}
+.grid .card:nth-child(6){animation-delay:.3s}
+.grid .card:nth-child(7){animation-delay:.35s}
+.grid .card:nth-child(8){animation-delay:.4s}
+.grid .card:nth-child(9){animation-delay:.45s}
+.grid .card:nth-child(10){animation-delay:.5s}
 </style>
 </head>
 <body>
@@ -102,38 +307,138 @@ a{color:inherit;text-decoration:none}
 </div>
 
 <section class="stats">
-  <div class="stat"><b>60</b><span>Total Jobs</span></div>
-  <div class="stat"><b>20</b><span>💻 Core IT</span></div>
+  <div class="stat"><b>66</b><span>Total Jobs</span></div>
+  <div class="stat"><b>26</b><span>💻 Core IT</span></div>
   <div class="stat"><b>20</b><span>🌉 Bridge</span></div>
   <div class="stat"><b>20</b><span>🔧 Traineeship</span></div>
 </section>
 
 <nav class="tabs" aria-label="Switch stream">
-  <button class="tab active" data-stream="all" style="--tab-color:#fff">All <span class="tab-count">60</span></button>
-  <button class="tab" data-stream="core-it" style="--tab-color:#62d9ff">💻 Core IT & Systems Engineering <span class="tab-count">20</span></button><button class="tab" data-stream="bridge" style="--tab-color:#ffc857">🌉 Local "Bridge" & Casual Work <span class="tab-count">20</span></button><button class="tab" data-stream="traineeship" style="--tab-color:#bda7ff">🔧 Technical Traineeships & Trade Pathways <span class="tab-count">20</span></button>
+  <button class="tab active" data-stream="all" style="--tab-color:#fff">All <span class="tab-count">66</span></button>
+  <button class="tab" data-stream="core-it" style="--tab-color:#62d9ff">💻 Core IT & Systems Engineering <span class="tab-count">26</span></button><button class="tab" data-stream="bridge" style="--tab-color:#ffc857">🌉 Local "Bridge" & Casual Work <span class="tab-count">20</span></button><button class="tab" data-stream="traineeship" style="--tab-color:#bda7ff">🔧 Technical Traineeships & Trade Pathways <span class="tab-count">20</span></button>
 </nav>
 
 <div class="filters">
   <label>Work Style:
     <select id="filter-work">
       <option value="all">All</option>
-      <option value="hybrid">Hybrid</option><option value="onsite">Onsite</option>
+      <option value="hybrid">Hybrid</option><option value="onsite">Onsite</option><option value="remote">Remote</option>
     </select>
   </label>
   <label>Source:
     <select id="filter-source">
       <option value="all">All</option>
-      <option value="adzuna">Adzuna</option><option value="indeed">Indeed</option><option value="linkedin">LinkedIn</option>
+      <option value="adzuna">Adzuna</option><option value="careers vic">Careers Vic</option><option value="indeed">Indeed</option><option value="lgt careers">LGT Careers</option><option value="linkedin">LinkedIn</option>
     </select>
   </label>
 </div>
 
 <section class="stream-section" id="stream-core-it" data-stream="core-it">
   <div class="stream-header" style="border-color:#62d9ff">
-    <h2 style="color:#62d9ff">💻 Core IT & Systems Engineering <span class="count-badge" style="color:#62d9ff;border-color:#62d9ff">20</span></h2>
+    <h2 style="color:#62d9ff">💻 Core IT & Systems Engineering <span class="count-badge" style="color:#62d9ff;border-color:#62d9ff">26</span></h2>
     <p class="stream-desc">Enterprise IT infrastructure, cloud platforms, identity administration, and technical support.</p>
   </div>
-  <div class="grid"><article class="card" id="role-32d0e61f67fd" data-role-id="32d0e61f67fd" data-score="0" data-work="onsite" data-source="adzuna" data-stream="core-it">
+  <div class="grid"><article class="card" id="role-bf9da6178b9e" data-role-id="bf9da6178b9e" data-score="0" data-work="onsite" data-source="adzuna" data-stream="core-it">
+  <div class="card-header">
+    <a href="https://www.adzuna.com.au/details/5853134547?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">Lead Solution Architect - Home Health</a>
+    <span class="score-badge score-low">0%</span>
+  </div>
+  <div class="card-employer">Australian Unity</div>
+  <div class="card-badges">
+    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
+    <span class="badge badge-source" style="color:#e57200;border-color:#e57200">Adzuna</span>
+    <span class="badge badge-location">📍 Melbourne, Melbourne CBD</span>
+    <span class="badge badge-date">📅 2026-08-23</span>
+  </div>
+  <p class="card-why">Adzuna listing for Lead Solution Architect - Home Health at Australian Unity</p>
+  <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
+  <div class="card-actions">
+    <a href="https://www.adzuna.com.au/details/5853134547?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="applications/2026-08-08_australian_unity_lead_solution_architect_home_health_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_australian_unity_lead_solution_architect_home_health_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_australian_unity_lead_solution_architect_home_health_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
+    <span class="card-spacer"></span>
+    <span class="stage-label">Stage:</span>
+    <select class="status-select" data-role-id="bf9da6178b9e" aria-label="Change application stage">
+      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
+    </select>
+  </div>
+</article>
+<article class="card" id="role-73ed987e8b7f" data-role-id="73ed987e8b7f" data-score="0" data-work="remote" data-source="adzuna" data-stream="core-it">
+  <div class="card-header">
+    <a href="https://www.adzuna.com.au/details/5852546634?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">IT Support Specialist</a>
+    <span class="score-badge score-low">0%</span>
+  </div>
+  <div class="card-employer">STR</div>
+  <div class="card-badges">
+    <span class="badge badge-work" style="color:#61e6a6;border-color:#61e6a6">Remote</span>
+    <span class="badge badge-source" style="color:#e57200;border-color:#e57200">Adzuna</span>
+    <span class="badge badge-location">📍 Melbourne Region, Melbourne</span>
+    <span class="badge badge-date">📅 2026-08-23</span>
+  </div>
+  <p class="card-why">Adzuna listing for IT Support Specialist at STR</p>
+  <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
+  <div class="card-actions">
+    <a href="https://www.adzuna.com.au/details/5852546634?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="applications/2026-08-08_str_it_support_specialist_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_str_it_support_specialist_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_str_it_support_specialist_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
+    <span class="card-spacer"></span>
+    <span class="stage-label">Stage:</span>
+    <select class="status-select" data-role-id="73ed987e8b7f" aria-label="Change application stage">
+      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
+    </select>
+  </div>
+</article>
+<article class="card" id="role-c617c31f45b4" data-role-id="c617c31f45b4" data-score="0" data-work="onsite" data-source="adzuna" data-stream="core-it">
+  <div class="card-header">
+    <a href="https://www.adzuna.com.au/details/5852545054?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">IT Support Analyst</a>
+    <span class="score-badge score-low">0%</span>
+  </div>
+  <div class="card-employer">HPX Group</div>
+  <div class="card-badges">
+    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
+    <span class="badge badge-source" style="color:#e57200;border-color:#e57200">Adzuna</span>
+    <span class="badge badge-location">📍 Melbourne Region, Melbourne</span>
+    <span class="badge badge-date">📅 2026-08-23</span>
+  </div>
+  <p class="card-why">Adzuna listing for IT Support Analyst at HPX Group</p>
+  <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
+  <div class="card-actions">
+    <a href="https://www.adzuna.com.au/details/5852545054?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="applications/2026-08-08_hpx_group_it_support_analyst_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_hpx_group_it_support_analyst_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_hpx_group_it_support_analyst_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
+    <span class="card-spacer"></span>
+    <span class="stage-label">Stage:</span>
+    <select class="status-select" data-role-id="c617c31f45b4" aria-label="Change application stage">
+      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
+    </select>
+  </div>
+</article>
+<article class="card" id="role-a94e99c8d143" data-role-id="a94e99c8d143" data-score="0" data-work="onsite" data-source="adzuna" data-stream="core-it">
+  <div class="card-header">
+    <a href="https://www.adzuna.com.au/details/5852538841?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">Retail IT Student</a>
+    <span class="score-badge score-low">0%</span>
+  </div>
+  <div class="card-employer">Hydro Tasmania</div>
+  <div class="card-badges">
+    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
+    <span class="badge badge-source" style="color:#e57200;border-color:#e57200">Adzuna</span>
+    <span class="badge badge-location">📍 Melbourne Region, Melbourne</span>
+    <span class="badge badge-date">📅 2026-08-23</span>
+  </div>
+  <p class="card-why">Adzuna listing for Retail IT Student at Hydro Tasmania</p>
+  <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
+  <div class="card-actions">
+    <a href="https://www.adzuna.com.au/details/5852538841?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="applications/2026-08-08_hydro_tasmania_retail_it_student_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_hydro_tasmania_retail_it_student_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_hydro_tasmania_retail_it_student_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
+    <span class="card-spacer"></span>
+    <span class="stage-label">Stage:</span>
+    <select class="status-select" data-role-id="a94e99c8d143" aria-label="Change application stage">
+      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
+    </select>
+  </div>
+</article>
+<article class="card" id="role-32d0e61f67fd" data-role-id="32d0e61f67fd" data-score="0" data-work="onsite" data-source="adzuna" data-stream="core-it">
   <div class="card-header">
     <a href="https://www.adzuna.com.au/details/5851364610?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">Professional Services Consultant</a>
     <span class="score-badge score-low">0%</span>
@@ -229,31 +534,6 @@ a{color:inherit;text-decoration:none}
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
     <select class="status-select" data-role-id="5d02ec2b7a42" aria-label="Change application stage">
-      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
-    </select>
-  </div>
-</article>
-<article class="card" id="role-69a99af9baf2" data-role-id="69a99af9baf2" data-score="0" data-work="onsite" data-source="adzuna" data-stream="core-it">
-  <div class="card-header">
-    <a href="https://www.adzuna.com.au/details/5851094266?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">IT Support Specialist</a>
-    <span class="score-badge score-low">0%</span>
-  </div>
-  <div class="card-employer">ctrl:cyber</div>
-  <div class="card-badges">
-    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
-    <span class="badge badge-source" style="color:#e57200;border-color:#e57200">Adzuna</span>
-    <span class="badge badge-location">📍 Melbourne, World Trade Centre</span>
-    <span class="badge badge-date">📅 2026-08-22</span>
-  </div>
-  <p class="card-why">Adzuna listing for IT Support Specialist at ctrl:cyber</p>
-  <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
-  <div class="card-actions">
-    <a href="https://www.adzuna.com.au/details/5851094266?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
-    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
-    <span class="card-spacer"></span>
-    <span class="stage-label">Stage:</span>
-    <select class="status-select" data-role-id="69a99af9baf2" aria-label="Change application stage">
       <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
     </select>
   </div>
@@ -383,6 +663,31 @@ a{color:inherit;text-decoration:none}
     </select>
   </div>
 </article>
+<article class="card" id="role-38f3c06265f0" data-role-id="38f3c06265f0" data-score="0" data-work="onsite" data-source="adzuna" data-stream="core-it">
+  <div class="card-header">
+    <a href="https://www.adzuna.com.au/details/5849648358?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">Service Desk Engineer, Level 2 – CT Group</a>
+    <span class="score-badge score-low">0%</span>
+  </div>
+  <div class="card-employer">Lyra Technology Group</div>
+  <div class="card-badges">
+    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
+    <span class="badge badge-source" style="color:#e57200;border-color:#e57200">Adzuna</span>
+    <span class="badge badge-location">📍 Melbourne, Melbourne CBD</span>
+    <span class="badge badge-date">📅 2026-08-21</span>
+  </div>
+  <p class="card-why">Adzuna listing for Service Desk Engineer, Level 2 – CT Group at Lyra Technology Group</p>
+  <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
+  <div class="card-actions">
+    <a href="https://www.adzuna.com.au/details/5849648358?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="applications/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
+    <span class="card-spacer"></span>
+    <span class="stage-label">Stage:</span>
+    <select class="status-select" data-role-id="38f3c06265f0" aria-label="Change application stage">
+      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
+    </select>
+  </div>
+</article>
 <article class="card" id="role-cd8e9fda5bdb" data-role-id="cd8e9fda5bdb" data-score="0" data-work="onsite" data-source="adzuna" data-stream="core-it">
   <div class="card-header">
     <a href="https://www.adzuna.com.au/details/5849069510?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">Manager, Support &amp; Delivery Teams</a>
@@ -424,7 +729,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5848234169?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_harris_scarfe_careers_sales_and_operations_specialist_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_harris_scarfe_careers_sales_and_operations_specialist_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_harris_scarfe_careers_sales_and_operations_specialist_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -524,7 +829,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5844958461?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_deakin_university_communications_and_outreach_officer_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_deakin_university_communications_and_outreach_officer_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_deakin_university_communications_and_outreach_officer_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -533,102 +838,152 @@ a{color:inherit;text-decoration:none}
     </select>
   </div>
 </article>
-<article class="card" id="role-2502bd609c53" data-role-id="2502bd609c53" data-score="0" data-work="onsite" data-source="adzuna" data-stream="core-it">
+<article class="card" id="role-02ef1135cc8c" data-role-id="02ef1135cc8c" data-score="93" data-work="onsite" data-source="careers vic" data-stream="core-it">
   <div class="card-header">
-    <a href="https://www.adzuna.com.au/details/5842642226?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">IT Technical Support Engineer</a>
-    <span class="score-badge score-low">0%</span>
+    <a href="https://www.careers.vic.gov.au/job/senior-cloud-engineer-77733" target="_blank" rel="noopener" class="card-title">Senior Cloud Engineer</a>
+    <span class="score-badge score-high">93%</span>
   </div>
-  <div class="card-employer">Multiplex</div>
+  <div class="card-employer">Victorian Institute of Teaching</div>
   <div class="card-badges">
     <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
-    <span class="badge badge-source" style="color:#e57200;border-color:#e57200">Adzuna</span>
-    <span class="badge badge-location">📍 Melbourne Region, Melbourne</span>
-    <span class="badge badge-date">📅 2026-08-15</span>
+    <span class="badge badge-source" style="color:#91a7bc;border-color:#91a7bc">Careers Vic</span>
+    <span class="badge badge-location">📍 Melbourne CBD and inner metro suburbs</span>
+    <span class="badge badge-date">📅 2026-08-03</span>
   </div>
-  <p class="card-why">Adzuna listing for IT Technical Support Engineer at Multiplex</p>
-  <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
+  <p class="card-why">Direct Victorian Government career-page route for an ongoing Melbourne Senior Cloud Engineer role. The listing identifies Victorian Institute of Teaching, Melbourne CBD and inner metro suburbs, reference VG/1938562, and a salary range of $118,058–$129,273.</p>
+  <div class="card-tags"><span class="tag">Direct government</span><span class="tag">Azure</span><span class="tag">Microsoft 365</span><span class="tag">Cloud engineering</span></div>
   <div class="card-actions">
-    <a href="https://www.adzuna.com.au/details/5842642226?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <a href="https://www.careers.vic.gov.au/job/senior-cloud-engineer-77733" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="applications/2026-08-08_victorian_institute_of_teaching_senior_cloud_engineer_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_victorian_institute_of_teaching_senior_cloud_engineer_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_victorian_institute_of_teaching_senior_cloud_engineer_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
-    <select class="status-select" data-role-id="2502bd609c53" aria-label="Change application stage">
+    <select class="status-select" data-role-id="02ef1135cc8c" aria-label="Change application stage">
       <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
     </select>
   </div>
 </article>
-<article class="card" id="role-8c36f53ef35e" data-role-id="8c36f53ef35e" data-score="0" data-work="onsite" data-source="adzuna" data-stream="core-it">
+<article class="card" id="role-725690d0ac25" data-role-id="725690d0ac25" data-score="91" data-work="onsite" data-source="indeed" data-stream="core-it">
   <div class="card-header">
-    <a href="https://www.adzuna.com.au/details/5842499167?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">Sleep Scientist</a>
-    <span class="score-badge score-low">0%</span>
+    <a href="https://au.indeed.com/viewjob?jk=b4f4a51940b29ba4" target="_blank" rel="noopener" class="card-title">Tech Support roles</a>
+    <span class="score-badge score-high">91%</span>
   </div>
-  <div class="card-employer">Alfred Health</div>
+  <div class="card-employer">First Focus IT</div>
   <div class="card-badges">
     <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
-    <span class="badge badge-source" style="color:#e57200;border-color:#e57200">Adzuna</span>
-    <span class="badge badge-location">📍 Melbourne, Melbourne CBD</span>
-    <span class="badge badge-date">📅 2026-08-15</span>
+    <span class="badge badge-source" style="color:#2164f3;border-color:#2164f3">Indeed</span>
+    <span class="badge badge-location">📍 Melbourne, VIC</span>
+    <span class="badge badge-date">📅 2026-08-07</span>
   </div>
-  <p class="card-why">Adzuna listing for Sleep Scientist at Alfred Health</p>
-  <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
+  <p class="card-why">Current individual Indeed listing for Microsoft-focused technical support covering Azure, Active Directory, Outlook, troubleshooting, and customer-facing service operations.</p>
+  <div class="card-tags"><span class="tag">Microsoft support</span><span class="tag">Azure</span><span class="tag">Active Directory</span><span class="tag">Customer service</span></div>
   <div class="card-actions">
-    <a href="https://www.adzuna.com.au/details/5842499167?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <a href="https://au.indeed.com/viewjob?jk=b4f4a51940b29ba4" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="applications/2026-08-08_first_focus_it_tech_support_roles_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_first_focus_it_tech_support_roles_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_first_focus_it_tech_support_roles_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
-    <select class="status-select" data-role-id="8c36f53ef35e" aria-label="Change application stage">
+    <select class="status-select" data-role-id="725690d0ac25" aria-label="Change application stage">
       <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
     </select>
   </div>
 </article>
-<article class="card" id="role-d1883f9dc071" data-role-id="d1883f9dc071" data-score="0" data-work="onsite" data-source="adzuna" data-stream="core-it">
+<article class="card" id="role-cbd393281ea0" data-role-id="cbd393281ea0" data-score="89" data-work="remote" data-source="indeed" data-stream="core-it">
   <div class="card-header">
-    <a href="https://www.adzuna.com.au/details/5842371872?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">Quality Officer</a>
-    <span class="score-badge score-low">0%</span>
+    <a href="https://au.indeed.com/viewjob?jk=32d96bb2c221a5a9" target="_blank" rel="noopener" class="card-title">Computer Network and Systems Engineer</a>
+    <span class="score-badge score-high">89%</span>
   </div>
-  <div class="card-employer">Victorian Government</div>
+  <div class="card-employer">Converged Medical Solutions</div>
   <div class="card-badges">
-    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
-    <span class="badge badge-source" style="color:#e57200;border-color:#e57200">Adzuna</span>
-    <span class="badge badge-location">📍 Melbourne, Melbourne CBD</span>
-    <span class="badge badge-date">📅 2026-08-15</span>
+    <span class="badge badge-work" style="color:#61e6a6;border-color:#61e6a6">Remote</span>
+    <span class="badge badge-source" style="color:#2164f3;border-color:#2164f3">Indeed</span>
+    <span class="badge badge-location">📍 Carrum Downs, VIC / remote available</span>
+    <span class="badge badge-date">📅 2026-08-03</span>
   </div>
-  <p class="card-why">Adzuna listing for Quality Officer at Victorian Government</p>
-  <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
+  <p class="card-why">Individual Indeed listing from a managed services provider specialising in cybersecurity and Microsoft 365 for healthcare, government, and commercial organisations across Australia.</p>
+  <div class="card-tags"><span class="tag">Microsoft 365</span><span class="tag">Managed services</span><span class="tag">Healthcare technology</span><span class="tag">Remote available</span></div>
   <div class="card-actions">
-    <a href="https://www.adzuna.com.au/details/5842371872?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <a href="https://au.indeed.com/viewjob?jk=32d96bb2c221a5a9" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="applications/2026-08-08_converged_medical_solutions_computer_network_and_systems_engineer_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_converged_medical_solutions_computer_network_and_systems_engineer_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_converged_medical_solutions_computer_network_and_systems_engineer_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
-    <select class="status-select" data-role-id="d1883f9dc071" aria-label="Change application stage">
+    <select class="status-select" data-role-id="cbd393281ea0" aria-label="Change application stage">
       <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
     </select>
   </div>
 </article>
-<article class="card" id="role-775adf87ecc2" data-role-id="775adf87ecc2" data-score="0" data-work="onsite" data-source="adzuna" data-stream="core-it">
+<article class="card" id="role-7b3777727a80" data-role-id="7b3777727a80" data-score="87" data-work="remote" data-source="indeed" data-stream="core-it">
   <div class="card-header">
-    <a href="https://www.adzuna.com.au/details/5842371912?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">Senior Legislative Advisor</a>
-    <span class="score-badge score-low">0%</span>
+    <a href="https://au.indeed.com/viewjob?jk=6de2dc4817476357" target="_blank" rel="noopener" class="card-title">Microsoft Cloud Solutions Consultant</a>
+    <span class="score-badge score-high">87%</span>
   </div>
-  <div class="card-employer">Victorian Government</div>
+  <div class="card-employer">FUJIFILM MicroChannel</div>
   <div class="card-badges">
-    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
-    <span class="badge badge-source" style="color:#e57200;border-color:#e57200">Adzuna</span>
-    <span class="badge badge-location">📍 Melbourne, Melbourne CBD</span>
-    <span class="badge badge-date">📅 2026-08-15</span>
+    <span class="badge badge-work" style="color:#61e6a6;border-color:#61e6a6">Remote</span>
+    <span class="badge badge-source" style="color:#2164f3;border-color:#2164f3">Indeed</span>
+    <span class="badge badge-location">📍 Melbourne, VIC / hybrid</span>
+    <span class="badge badge-date">📅 2026-07-28</span>
   </div>
-  <p class="card-why">Adzuna listing for Senior Legislative Advisor at Victorian Government</p>
-  <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
+  <p class="card-why">Individual Indeed listing for designing, implementing, and supporting Microsoft Azure cloud solutions for customers, with a hybrid Melbourne arrangement and an established Microsoft consultancy context.</p>
+  <div class="card-tags"><span class="tag">Azure</span><span class="tag">Microsoft cloud</span><span class="tag">Consulting</span><span class="tag">Hybrid</span></div>
   <div class="card-actions">
-    <a href="https://www.adzuna.com.au/details/5842371912?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <a href="https://au.indeed.com/viewjob?jk=6de2dc4817476357" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="applications/2026-08-08_fujifilm_microchannel_microsoft_cloud_solutions_consultant_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_fujifilm_microchannel_microsoft_cloud_solutions_consultant_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_fujifilm_microchannel_microsoft_cloud_solutions_consultant_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
-    <select class="status-select" data-role-id="775adf87ecc2" aria-label="Change application stage">
+    <select class="status-select" data-role-id="7b3777727a80" aria-label="Change application stage">
+      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
+    </select>
+  </div>
+</article>
+<article class="card" id="role-71d71da20b0c" data-role-id="71d71da20b0c" data-score="82" data-work="onsite" data-source="indeed" data-stream="core-it">
+  <div class="card-header">
+    <a href="https://au.indeed.com/viewjob?jk=da9892dd900ea21c" target="_blank" rel="noopener" class="card-title">Data Center IT Support Engineer, MEL - DCO</a>
+    <span class="score-badge score-mid">82%</span>
+  </div>
+  <div class="card-employer">Amazon.com</div>
+  <div class="card-badges">
+    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
+    <span class="badge badge-source" style="color:#2164f3;border-color:#2164f3">Indeed</span>
+    <span class="badge badge-location">📍 Melbourne, VIC</span>
+    <span class="badge badge-date">📅 2026-07-27</span>
+  </div>
+  <p class="card-why">Individual Indeed listing for IT support inside data-centre infrastructure, with a strong overlap to endpoint support, physical infrastructure, hardware diagnostics, incident response, and disciplined operational procedures.</p>
+  <div class="card-tags"><span class="tag">Data centre</span><span class="tag">IT support</span><span class="tag">Physical infrastructure</span><span class="tag">Amazon Web Services</span></div>
+  <div class="card-actions">
+    <a href="https://au.indeed.com/viewjob?jk=da9892dd900ea21c" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="applications/2026-08-08_amazon_com_data_center_it_support_engineer_mel_dco_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_amazon_com_data_center_it_support_engineer_mel_dco_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_amazon_com_data_center_it_support_engineer_mel_dco_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
+    <span class="card-spacer"></span>
+    <span class="stage-label">Stage:</span>
+    <select class="status-select" data-role-id="71d71da20b0c" aria-label="Change application stage">
+      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
+    </select>
+  </div>
+</article>
+<article class="card" id="role-723d790d6122" data-role-id="723d790d6122" data-score="94" data-work="onsite" data-source="lgt careers" data-stream="core-it">
+  <div class="card-header">
+    <a href="https://www.lgtwm.com/au-en/careers/jobs/infrastructure-engineer-364826" target="_blank" rel="noopener" class="card-title">Infrastructure Engineer</a>
+    <span class="score-badge score-high">94%</span>
+  </div>
+  <div class="card-employer">LGT Wealth Management Australia</div>
+  <div class="card-badges">
+    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
+    <span class="badge badge-source" style="color:#91a7bc;border-color:#91a7bc">LGT Careers</span>
+    <span class="badge badge-location">📍 Melbourne, VIC</span>
+    <span class="badge badge-date">📅 2026-07-25</span>
+  </div>
+  <p class="card-why">Direct employer application for a Melbourne infrastructure role covering Windows, Azure, Microsoft 365, Entra ID, PowerShell, incident response, automation, documentation, and production support.</p>
+  <div class="card-tags"><span class="tag">Direct employer</span><span class="tag">Azure</span><span class="tag">Microsoft 365</span><span class="tag">Infrastructure operations</span></div>
+  <div class="card-actions">
+    <a href="https://www.lgtwm.com/au-en/careers/jobs/infrastructure-engineer-364826" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="applications/2026-08-08_lgt_wealth_management_australia_infrastructure_engineer_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_lgt_wealth_management_australia_infrastructure_engineer_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_lgt_wealth_management_australia_infrastructure_engineer_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
+    <span class="card-spacer"></span>
+    <span class="stage-label">Stage:</span>
+    <select class="status-select" data-role-id="723d790d6122" aria-label="Change application stage">
       <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
     </select>
   </div>
@@ -702,10 +1057,10 @@ a{color:inherit;text-decoration:none}
     <span class="badge badge-date">📅 2026-08-20</span>
   </div>
   <p class="card-why">LinkedIn listing for Sales Associate - Casual at Foot Locker</p>
-  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">core_it</span></div>
+  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.linkedin.com/jobs/view/sales-associate-casual-at-foot-locker-4414863870" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_foot_locker_sales_associate_casual_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_foot_locker_sales_associate_casual_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_foot_locker_sales_associate_casual_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -727,7 +1082,7 @@ a{color:inherit;text-decoration:none}
     <span class="badge badge-date">📅 2026-08-19</span>
   </div>
   <p class="card-why">LinkedIn listing for Casual Sales Associate at POP MART</p>
-  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">core_it</span></div>
+  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.linkedin.com/jobs/view/casual-sales-associate-at-pop-mart-4438110773" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
     <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
@@ -752,10 +1107,10 @@ a{color:inherit;text-decoration:none}
     <span class="badge badge-date">📅 2026-08-17</span>
   </div>
   <p class="card-why">LinkedIn listing for Casual Food and Beverage Attendant at Melbourne Polytechnic</p>
-  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">core_it</span></div>
+  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.linkedin.com/jobs/view/casual-food-and-beverage-attendant-at-melbourne-polytechnic-4455526459" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <a href="applications/2026-08-08_melbourne_polytechnic_casual_food_and_beverage_attendant_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_melbourne_polytechnic_casual_food_and_beverage_attendant_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_melbourne_polytechnic_casual_food_and_beverage_attendant_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -777,10 +1132,10 @@ a{color:inherit;text-decoration:none}
     <span class="badge badge-date">📅 2026-08-21</span>
   </div>
   <p class="card-why">LinkedIn listing for Casual Sales Assistant | BRAS N THINGS | Cranbourne at Bras n Things</p>
-  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">core_it</span></div>
+  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.linkedin.com/jobs/view/casual-sales-assistant-bras-n-things-cranbourne-at-bras-n-things-4457041616" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_bras_n_things_casual_sales_assistant_bras_n_things_cranbourne_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_bras_n_things_casual_sales_assistant_bras_n_things_cranbourne_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_bras_n_things_casual_sales_assistant_bras_n_things_cranbourne_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -802,7 +1157,7 @@ a{color:inherit;text-decoration:none}
     <span class="badge badge-date">📅 2026-08-20</span>
   </div>
   <p class="card-why">LinkedIn listing for Front of House Team Member - Elsternwick Casual/Part-Time/Full-Time at Chargrill Charlie&#x27;s</p>
-  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">core_it</span></div>
+  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.linkedin.com/jobs/view/front-of-house-team-member-elsternwick-casual-part-time-full-time-at-chargrill-charlie-s-4454142149" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
     <a href="applications/2026-08-08_chargrill_charlie_s_front_of_house_team_member_elsternwick_casual_part_time_full_time_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_chargrill_charlie_s_front_of_house_team_member_elsternwick_casual_part_time_full_time_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_chargrill_charlie_s_front_of_house_team_member_elsternwick_casual_part_time_full_time_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
@@ -827,10 +1182,10 @@ a{color:inherit;text-decoration:none}
     <span class="badge badge-date">📅 2026-08-21</span>
   </div>
   <p class="card-why">LinkedIn listing for Casual Sales Assistant | BONDS Outlet | Endeavour Hills at Hanes Brands Australasia</p>
-  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">core_it</span></div>
+  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.linkedin.com/jobs/view/casual-sales-assistant-bonds-outlet-endeavour-hills-at-hanes-brands-australasia-4457052496" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_hanes_brands_australasia_casual_sales_assistant_bonds_outlet_endeavour_hills_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_hanes_brands_australasia_casual_sales_assistant_bonds_outlet_endeavour_hills_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_hanes_brands_australasia_casual_sales_assistant_bonds_outlet_endeavour_hills_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -852,7 +1207,7 @@ a{color:inherit;text-decoration:none}
     <span class="badge badge-date">📅 2026-08-21</span>
   </div>
   <p class="card-why">LinkedIn listing for Sales Assistant | Sorrento at Nude Lucy</p>
-  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">core_it</span></div>
+  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.linkedin.com/jobs/view/sales-assistant-sorrento-at-nude-lucy-4454172855" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
     <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
@@ -877,7 +1232,7 @@ a{color:inherit;text-decoration:none}
     <span class="badge badge-date">📅 2026-08-19</span>
   </div>
   <p class="card-why">LinkedIn listing for Sales Associate (Part-Time) at POP MART</p>
-  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">core_it</span></div>
+  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.linkedin.com/jobs/view/sales-associate-part-time-at-pop-mart-4437782644" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
     <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
@@ -885,131 +1240,6 @@ a{color:inherit;text-decoration:none}
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
     <select class="status-select" data-role-id="3008d1034942" aria-label="Change application stage">
-      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
-    </select>
-  </div>
-</article>
-<article class="card" id="role-e0b9210c383f" data-role-id="e0b9210c383f" data-score="0" data-work="onsite" data-source="linkedin" data-stream="bridge">
-  <div class="card-header">
-    <a href="https://au.linkedin.com/jobs/view/food-beverage-attendant-event-service-casual-at-hyatt-place-4457060359" target="_blank" rel="noopener" class="card-title">Food &amp; Beverage Attendant - Event Service (Casual)</a>
-    <span class="score-badge score-low">0%</span>
-  </div>
-  <div class="card-employer">Hyatt Place</div>
-  <div class="card-badges">
-    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
-    <span class="badge badge-source" style="color:#0a66c2;border-color:#0a66c2">LinkedIn</span>
-    <span class="badge badge-location">📍 Melbourne, Victoria, Australia</span>
-    <span class="badge badge-date">📅 2026-08-21</span>
-  </div>
-  <p class="card-why">LinkedIn listing for Food &amp; Beverage Attendant - Event Service (Casual) at Hyatt Place</p>
-  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">core_it</span></div>
-  <div class="card-actions">
-    <a href="https://au.linkedin.com/jobs/view/food-beverage-attendant-event-service-casual-at-hyatt-place-4457060359" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
-    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
-    <span class="card-spacer"></span>
-    <span class="stage-label">Stage:</span>
-    <select class="status-select" data-role-id="e0b9210c383f" aria-label="Change application stage">
-      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
-    </select>
-  </div>
-</article>
-<article class="card" id="role-834c017a779c" data-role-id="834c017a779c" data-score="0" data-work="onsite" data-source="linkedin" data-stream="bridge">
-  <div class="card-header">
-    <a href="https://au.linkedin.com/jobs/view/food-beverage-attendant-restaurant-casual-at-hyatt-place-4457055414" target="_blank" rel="noopener" class="card-title">Food &amp; Beverage Attendant - Restaurant (Casual)</a>
-    <span class="score-badge score-low">0%</span>
-  </div>
-  <div class="card-employer">Hyatt Place</div>
-  <div class="card-badges">
-    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
-    <span class="badge badge-source" style="color:#0a66c2;border-color:#0a66c2">LinkedIn</span>
-    <span class="badge badge-location">📍 Melbourne, Victoria, Australia</span>
-    <span class="badge badge-date">📅 2026-08-21</span>
-  </div>
-  <p class="card-why">LinkedIn listing for Food &amp; Beverage Attendant - Restaurant (Casual) at Hyatt Place</p>
-  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">core_it</span></div>
-  <div class="card-actions">
-    <a href="https://au.linkedin.com/jobs/view/food-beverage-attendant-restaurant-casual-at-hyatt-place-4457055414" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
-    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
-    <span class="card-spacer"></span>
-    <span class="stage-label">Stage:</span>
-    <select class="status-select" data-role-id="834c017a779c" aria-label="Change application stage">
-      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
-    </select>
-  </div>
-</article>
-<article class="card" id="role-18b158b4922c" data-role-id="18b158b4922c" data-score="0" data-work="onsite" data-source="linkedin" data-stream="bridge">
-  <div class="card-header">
-    <a href="https://au.linkedin.com/jobs/view/soho-casual-waiting-staff-bartenders-at-treetop-early-learning-4454462142" target="_blank" rel="noopener" class="card-title">Soho | Casual Waiting Staff &amp; Bartenders</a>
-    <span class="score-badge score-low">0%</span>
-  </div>
-  <div class="card-employer">Treetop Early Learning</div>
-  <div class="card-badges">
-    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
-    <span class="badge badge-source" style="color:#0a66c2;border-color:#0a66c2">LinkedIn</span>
-    <span class="badge badge-location">📍 Melbourne, Victoria, Australia</span>
-    <span class="badge badge-date">📅 2026-08-18</span>
-  </div>
-  <p class="card-why">LinkedIn listing for Soho | Casual Waiting Staff &amp; Bartenders at Treetop Early Learning</p>
-  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">core_it</span></div>
-  <div class="card-actions">
-    <a href="https://au.linkedin.com/jobs/view/soho-casual-waiting-staff-bartenders-at-treetop-early-learning-4454462142" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
-    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
-    <span class="card-spacer"></span>
-    <span class="stage-label">Stage:</span>
-    <select class="status-select" data-role-id="18b158b4922c" aria-label="Change application stage">
-      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
-    </select>
-  </div>
-</article>
-<article class="card" id="role-7567893344fa" data-role-id="7567893344fa" data-score="0" data-work="onsite" data-source="linkedin" data-stream="bridge">
-  <div class="card-header">
-    <a href="https://au.linkedin.com/jobs/view/retail-assistant-elka-collective-brighton-at-brand-collective-4452557968" target="_blank" rel="noopener" class="card-title">Retail Assistant - Elka Collective Brighton</a>
-    <span class="score-badge score-low">0%</span>
-  </div>
-  <div class="card-employer">Brand Collective</div>
-  <div class="card-badges">
-    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
-    <span class="badge badge-source" style="color:#0a66c2;border-color:#0a66c2">LinkedIn</span>
-    <span class="badge badge-location">📍 Brighton, Victoria, Australia</span>
-    <span class="badge badge-date">📅 2026-08-18</span>
-  </div>
-  <p class="card-why">LinkedIn listing for Retail Assistant - Elka Collective Brighton at Brand Collective</p>
-  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">core_it</span></div>
-  <div class="card-actions">
-    <a href="https://au.linkedin.com/jobs/view/retail-assistant-elka-collective-brighton-at-brand-collective-4452557968" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
-    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
-    <span class="card-spacer"></span>
-    <span class="stage-label">Stage:</span>
-    <select class="status-select" data-role-id="7567893344fa" aria-label="Change application stage">
-      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
-    </select>
-  </div>
-</article>
-<article class="card" id="role-061347b27f57" data-role-id="061347b27f57" data-score="0" data-work="onsite" data-source="linkedin" data-stream="bridge">
-  <div class="card-header">
-    <a href="https://au.linkedin.com/jobs/view/casual-guest-service-agent-at-oaks-hotels-resorts-suites-4454467858" target="_blank" rel="noopener" class="card-title">Casual Guest Service Agent</a>
-    <span class="score-badge score-low">0%</span>
-  </div>
-  <div class="card-employer">Oaks Hotels, Resorts &amp; Suites</div>
-  <div class="card-badges">
-    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
-    <span class="badge badge-source" style="color:#0a66c2;border-color:#0a66c2">LinkedIn</span>
-    <span class="badge badge-location">📍 Geelong, Victoria, Australia</span>
-    <span class="badge badge-date">📅 2026-08-18</span>
-  </div>
-  <p class="card-why">LinkedIn listing for Casual Guest Service Agent at Oaks Hotels, Resorts &amp; Suites</p>
-  <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">core_it</span></div>
-  <div class="card-actions">
-    <a href="https://au.linkedin.com/jobs/view/casual-guest-service-agent-at-oaks-hotels-resorts-suites-4454467858" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
-    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
-    <span class="card-spacer"></span>
-    <span class="stage-label">Stage:</span>
-    <select class="status-select" data-role-id="061347b27f57" aria-label="Change application stage">
       <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
     </select>
   </div>
@@ -1030,11 +1260,86 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">service desk</span><span class="tag">indeed</span><span class="tag">core_it</span></div>
   <div class="card-actions">
     <a href="https://au.indeed.com/viewjob?jk=1fd65c0e7c4a5a67" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <a href="applications/2026-08-08_windana_aod_support_workers_multiple_casual_opportunities_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_windana_aod_support_workers_multiple_casual_opportunities_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_windana_aod_support_workers_multiple_casual_opportunities_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
     <select class="status-select" data-role-id="6adad6cb0bb0" aria-label="Change application stage">
+      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
+    </select>
+  </div>
+</article>
+<article class="card" id="role-d1557dde8362" data-role-id="d1557dde8362" data-score="0" data-work="onsite" data-source="indeed" data-stream="bridge">
+  <div class="card-header">
+    <a href="https://au.indeed.com/viewjob?jk=bb72ca1775112768" target="_blank" rel="noopener" class="card-title">Bakers Assistant</a>
+    <span class="score-badge score-low">0%</span>
+  </div>
+  <div class="card-employer">Madeleines Bakery and Cake shop</div>
+  <div class="card-badges">
+    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
+    <span class="badge badge-source" style="color:#2164f3;border-color:#2164f3">Indeed</span>
+    <span class="badge badge-location">📍 Diamond Creek, VIC, AU</span>
+    <span class="badge badge-date">📅 2026-08-23</span>
+  </div>
+  <p class="card-why">Indeed listing for Bakers Assistant at Madeleines Bakery and Cake shop</p>
+  <div class="card-tags"><span class="tag">casual work</span><span class="tag">indeed</span><span class="tag">local_bridge</span></div>
+  <div class="card-actions">
+    <a href="https://au.indeed.com/viewjob?jk=bb72ca1775112768" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="applications/2026-08-08_madeleines_bakery_and_cake_shop_bakers_assistant_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_madeleines_bakery_and_cake_shop_bakers_assistant_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_madeleines_bakery_and_cake_shop_bakers_assistant_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
+    <span class="card-spacer"></span>
+    <span class="stage-label">Stage:</span>
+    <select class="status-select" data-role-id="d1557dde8362" aria-label="Change application stage">
+      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
+    </select>
+  </div>
+</article>
+<article class="card" id="role-321bbad2668f" data-role-id="321bbad2668f" data-score="0" data-work="onsite" data-source="indeed" data-stream="bridge">
+  <div class="card-header">
+    <a href="https://au.indeed.com/viewjob?jk=37d8d9662e9dfcbe" target="_blank" rel="noopener" class="card-title">Counter operator</a>
+    <span class="score-badge score-low">0%</span>
+  </div>
+  <div class="card-employer"></div>
+  <div class="card-badges">
+    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
+    <span class="badge badge-source" style="color:#2164f3;border-color:#2164f3">Indeed</span>
+    <span class="badge badge-location">📍 Fawkner, VIC, AU</span>
+    <span class="badge badge-date">📅 2026-08-23</span>
+  </div>
+  <p class="card-why">Indeed listing for Counter operator at nan</p>
+  <div class="card-tags"><span class="tag">casual work</span><span class="tag">indeed</span><span class="tag">local_bridge</span></div>
+  <div class="card-actions">
+    <a href="https://au.indeed.com/viewjob?jk=37d8d9662e9dfcbe" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
+    <span class="card-spacer"></span>
+    <span class="stage-label">Stage:</span>
+    <select class="status-select" data-role-id="321bbad2668f" aria-label="Change application stage">
+      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
+    </select>
+  </div>
+</article>
+<article class="card" id="role-7a1479930186" data-role-id="7a1479930186" data-score="0" data-work="onsite" data-source="indeed" data-stream="bridge">
+  <div class="card-header">
+    <a href="https://au.indeed.com/viewjob?jk=2912c7e5a5710539" target="_blank" rel="noopener" class="card-title">Casual Wait Staff</a>
+    <span class="score-badge score-low">0%</span>
+  </div>
+  <div class="card-employer">il pizzaioll</div>
+  <div class="card-badges">
+    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
+    <span class="badge badge-source" style="color:#2164f3;border-color:#2164f3">Indeed</span>
+    <span class="badge badge-location">📍 Thornbury, VIC, AU</span>
+    <span class="badge badge-date">📅 2026-08-23</span>
+  </div>
+  <p class="card-why">Indeed listing for Casual Wait Staff at il pizzaioll</p>
+  <div class="card-tags"><span class="tag">casual work</span><span class="tag">indeed</span><span class="tag">local_bridge</span></div>
+  <div class="card-actions">
+    <a href="https://au.indeed.com/viewjob?jk=2912c7e5a5710539" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="applications/2026-08-08_il_pizzaioll_casual_wait_staff_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_il_pizzaioll_casual_wait_staff_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_il_pizzaioll_casual_wait_staff_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
+    <span class="card-spacer"></span>
+    <span class="stage-label">Stage:</span>
+    <select class="status-select" data-role-id="7a1479930186" aria-label="Change application stage">
       <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
     </select>
   </div>
@@ -1105,7 +1410,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual work</span><span class="tag">indeed</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.indeed.com/viewjob?jk=a261590f46875995" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <a href="applications/2026-08-08_olinda_tea_house_food_and_beverage_attendant_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_olinda_tea_house_food_and_beverage_attendant_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_olinda_tea_house_food_and_beverage_attendant_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1138,6 +1443,56 @@ a{color:inherit;text-decoration:none}
       <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
     </select>
   </div>
+</article>
+<article class="card" id="role-05d015e2cdfc" data-role-id="05d015e2cdfc" data-score="0" data-work="onsite" data-source="indeed" data-stream="bridge">
+  <div class="card-header">
+    <a href="https://au.indeed.com/viewjob?jk=37f9ac624b4a9ab1" target="_blank" rel="noopener" class="card-title">Bartender</a>
+    <span class="score-badge score-low">0%</span>
+  </div>
+  <div class="card-employer"></div>
+  <div class="card-badges">
+    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
+    <span class="badge badge-source" style="color:#2164f3;border-color:#2164f3">Indeed</span>
+    <span class="badge badge-location">📍 Prahran, VIC, AU</span>
+    <span class="badge badge-date">📅 2026-08-23</span>
+  </div>
+  <p class="card-why">Indeed listing for Bartender at nan</p>
+  <div class="card-tags"><span class="tag">casual work</span><span class="tag">indeed</span><span class="tag">local_bridge</span></div>
+  <div class="card-actions">
+    <a href="https://au.indeed.com/viewjob?jk=37f9ac624b4a9ab1" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
+    <span class="card-spacer"></span>
+    <span class="stage-label">Stage:</span>
+    <select class="status-select" data-role-id="05d015e2cdfc" aria-label="Change application stage">
+      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
+    </select>
+  </div>
+</article>
+<article class="card" id="role-8cad7875ddc7" data-role-id="8cad7875ddc7" data-score="0" data-work="onsite" data-source="indeed" data-stream="bridge">
+  <div class="card-header">
+    <a href="https://au.indeed.com/viewjob?jk=61df30b370d1e189" target="_blank" rel="noopener" class="card-title">Wait Staff</a>
+    <span class="score-badge score-low">0%</span>
+  </div>
+  <div class="card-employer">PNM FOOD</div>
+  <div class="card-badges">
+    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
+    <span class="badge badge-source" style="color:#2164f3;border-color:#2164f3">Indeed</span>
+    <span class="badge badge-location">📍 South Morang, VIC, AU</span>
+    <span class="badge badge-date">📅 2026-08-23</span>
+  </div>
+  <p class="card-why">Indeed listing for Wait Staff at PNM FOOD</p>
+  <div class="card-tags"><span class="tag">casual work</span><span class="tag">indeed</span><span class="tag">local_bridge</span></div>
+  <div class="card-actions">
+    <a href="https://au.indeed.com/viewjob?jk=61df30b370d1e189" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="applications/2026-08-08_pnm_food_wait_staff_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_pnm_food_wait_staff_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_pnm_food_wait_staff_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
+    <span class="card-spacer"></span>
+    <span class="stage-label">Stage:</span>
+    <select class="status-select" data-role-id="8cad7875ddc7" aria-label="Change application stage">
+      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
+    </select>
+  </div>
 </article></div>
 </section>
 <section class="stream-section" id="stream-traineeship" data-stream="traineeship">
@@ -1145,7 +1500,32 @@ a{color:inherit;text-decoration:none}
     <h2 style="color:#bda7ff">🔧 Technical Traineeships & Trade Pathways <span class="count-badge" style="color:#bda7ff;border-color:#bda7ff">20</span></h2>
     <p class="stream-desc">Structured on-the-job training, apprenticeships, and employer-sponsored certifications.</p>
   </div>
-  <div class="grid"><article class="card" id="role-0d16f78db53f" data-role-id="0d16f78db53f" data-score="0" data-work="hybrid" data-source="adzuna" data-stream="traineeship">
+  <div class="grid"><article class="card" id="role-2b4e0d83c531" data-role-id="2b4e0d83c531" data-score="0" data-work="onsite" data-source="adzuna" data-stream="traineeship">
+  <div class="card-header">
+    <a href="https://www.adzuna.com.au/details/5852545359?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">Workshop Technician</a>
+    <span class="score-badge score-low">0%</span>
+  </div>
+  <div class="card-employer">Fisher &amp; Paykel</div>
+  <div class="card-badges">
+    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
+    <span class="badge badge-source" style="color:#e57200;border-color:#e57200">Adzuna</span>
+    <span class="badge badge-location">📍 Melbourne Region, Melbourne</span>
+    <span class="badge badge-date">📅 2026-08-23</span>
+  </div>
+  <p class="card-why">Adzuna listing for Workshop Technician at Fisher &amp; Paykel</p>
+  <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
+  <div class="card-actions">
+    <a href="https://www.adzuna.com.au/details/5852545359?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
+    <span class="card-spacer"></span>
+    <span class="stage-label">Stage:</span>
+    <select class="status-select" data-role-id="2b4e0d83c531" aria-label="Change application stage">
+      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
+    </select>
+  </div>
+</article>
+<article class="card" id="role-0d16f78db53f" data-role-id="0d16f78db53f" data-score="0" data-work="hybrid" data-source="adzuna" data-stream="traineeship">
   <div class="card-header">
     <a href="https://www.adzuna.com.au/details/5850725916?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">IT Operations Technician</a>
     <span class="score-badge score-low">0%</span>
@@ -1186,7 +1566,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5845193805?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_freighter_group_trainee_graduate_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_freighter_group_trainee_graduate_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_freighter_group_trainee_graduate_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1266,6 +1646,31 @@ a{color:inherit;text-decoration:none}
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
     <select class="status-select" data-role-id="2f4a33092fef" aria-label="Change application stage">
+      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
+    </select>
+  </div>
+</article>
+<article class="card" id="role-89748586ae7a" data-role-id="89748586ae7a" data-score="0" data-work="onsite" data-source="adzuna" data-stream="traineeship">
+  <div class="card-header">
+    <a href="https://www.adzuna.com.au/details/5841916658?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">104 – Completions &amp; Commissioning Manager (internal only)</a>
+    <span class="score-badge score-low">0%</span>
+  </div>
+  <div class="card-employer">Marinus Link Pty</div>
+  <div class="card-badges">
+    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
+    <span class="badge badge-source" style="color:#e57200;border-color:#e57200">Adzuna</span>
+    <span class="badge badge-location">📍 Melbourne, Melbourne CBD</span>
+    <span class="badge badge-date">📅 2026-08-15</span>
+  </div>
+  <p class="card-why">Adzuna listing for 104 – Completions &amp; Commissioning Manager (internal only) at Marinus Link Pty</p>
+  <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
+  <div class="card-actions">
+    <a href="https://www.adzuna.com.au/details/5841916658?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="applications/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
+    <span class="card-spacer"></span>
+    <span class="stage-label">Stage:</span>
+    <select class="status-select" data-role-id="89748586ae7a" aria-label="Change application stage">
       <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
     </select>
   </div>
@@ -1370,9 +1775,9 @@ a{color:inherit;text-decoration:none}
     </select>
   </div>
 </article>
-<article class="card" id="role-04e904058074" data-role-id="04e904058074" data-score="0" data-work="onsite" data-source="adzuna" data-stream="traineeship">
+<article class="card" id="role-ae172309a330" data-role-id="ae172309a330" data-score="0" data-work="onsite" data-source="adzuna" data-stream="traineeship">
   <div class="card-header">
-    <a href="https://www.adzuna.com.au/land/ad/5845923744?se=Utx6CQye8RGSb8VpDRDiVA&amp;utm_medium=api&amp;utm_source=cc30c73e&amp;v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102" target="_blank" rel="noopener" class="card-title">Engineering Operations Technician, Data Center Engineering Operations</a>
+    <a href="https://www.adzuna.com.au/land/ad/5845923744?se=7GBHdtue8RGU6LIjyaRnwA&amp;utm_medium=api&amp;utm_source=cc30c73e&amp;v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102" target="_blank" rel="noopener" class="card-title">Engineering Operations Technician, Data Center Engineering Operations</a>
     <span class="score-badge score-low">0%</span>
   </div>
   <div class="card-employer">Amazon</div>
@@ -1385,12 +1790,12 @@ a{color:inherit;text-decoration:none}
   <p class="card-why">Adzuna listing for Engineering Operations Technician, Data Center Engineering Operations at Amazon</p>
   <div class="card-tags"><span class="tag">network</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
-    <a href="https://www.adzuna.com.au/land/ad/5845923744?se=Utx6CQye8RGSb8VpDRDiVA&amp;utm_medium=api&amp;utm_source=cc30c73e&amp;v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="https://www.adzuna.com.au/land/ad/5845923744?se=7GBHdtue8RGU6LIjyaRnwA&amp;utm_medium=api&amp;utm_source=cc30c73e&amp;v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
     <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
-    <select class="status-select" data-role-id="04e904058074" aria-label="Change application stage">
+    <select class="status-select" data-role-id="ae172309a330" aria-label="Change application stage">
       <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
     </select>
   </div>
@@ -1420,6 +1825,31 @@ a{color:inherit;text-decoration:none}
     </select>
   </div>
 </article>
+<article class="card" id="role-7f22d3fafa4c" data-role-id="7f22d3fafa4c" data-score="0" data-work="onsite" data-source="adzuna" data-stream="traineeship">
+  <div class="card-header">
+    <a href="https://www.adzuna.com.au/details/5838397976?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">Financial Accountant</a>
+    <span class="score-badge score-low">0%</span>
+  </div>
+  <div class="card-employer">5G Networks</div>
+  <div class="card-badges">
+    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
+    <span class="badge badge-source" style="color:#e57200;border-color:#e57200">Adzuna</span>
+    <span class="badge badge-location">📍 Melbourne, Melbourne CBD</span>
+    <span class="badge badge-date">📅 2026-08-13</span>
+  </div>
+  <p class="card-why">Adzuna listing for Financial Accountant at 5G Networks</p>
+  <div class="card-tags"><span class="tag">security</span><span class="tag">adzuna</span></div>
+  <div class="card-actions">
+    <a href="https://www.adzuna.com.au/details/5838397976?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="applications/2026-08-08_5g_networks_financial_accountant_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_5g_networks_financial_accountant_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_5g_networks_financial_accountant_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
+    <span class="card-spacer"></span>
+    <span class="stage-label">Stage:</span>
+    <select class="status-select" data-role-id="7f22d3fafa4c" aria-label="Change application stage">
+      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
+    </select>
+  </div>
+</article>
 <article class="card" id="role-59ee9a0532f2" data-role-id="59ee9a0532f2" data-score="0" data-work="onsite" data-source="adzuna" data-stream="traineeship">
   <div class="card-header">
     <a href="https://www.adzuna.com.au/details/5845680960?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">Senior Project Engineer, Mechanical - MEI | North East Link Project</a>
@@ -1436,7 +1866,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">software</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5845680960?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_cpb_contractors_senior_project_engineer_mechanical_mei_north_east_link_project_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_cpb_contractors_senior_project_engineer_mechanical_mei_north_east_link_project_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_cpb_contractors_senior_project_engineer_mechanical_mei_north_east_link_project_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1461,7 +1891,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">software</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5845680569?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_cpb_contractors_project_engineer_mechanical_mei_north_east_link_project_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_cpb_contractors_project_engineer_mechanical_mei_north_east_link_project_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_cpb_contractors_project_engineer_mechanical_mei_north_east_link_project_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1486,7 +1916,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">software</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5845680561?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_cpb_contractors_senior_project_engineer_electrical_mei_north_east_link_project_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_cpb_contractors_senior_project_engineer_electrical_mei_north_east_link_project_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_cpb_contractors_senior_project_engineer_electrical_mei_north_east_link_project_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1495,9 +1925,9 @@ a{color:inherit;text-decoration:none}
     </select>
   </div>
 </article>
-<article class="card" id="role-4c5ea83a4510" data-role-id="4c5ea83a4510" data-score="0" data-work="onsite" data-source="adzuna" data-stream="traineeship">
+<article class="card" id="role-a562229b2060" data-role-id="a562229b2060" data-score="0" data-work="onsite" data-source="adzuna" data-stream="traineeship">
   <div class="card-header">
-    <a href="https://www.adzuna.com.au/land/ad/5851967463?se=UtSUGgye8RGfYqjUJN_cUg&amp;utm_medium=api&amp;utm_source=cc30c73e&amp;v=B53AB186587AA7126448B920F46E811885DA1285" target="_blank" rel="noopener" class="card-title">Senior/Associate Electrical Engineer - Substations / Data Centres</a>
+    <a href="https://www.adzuna.com.au/land/ad/5851967463?se=0NTzgNue8RGSb8VpDRDiVA&amp;utm_medium=api&amp;utm_source=cc30c73e&amp;v=B53AB186587AA7126448B920F46E811885DA1285" target="_blank" rel="noopener" class="card-title">Senior/Associate Electrical Engineer - Substations / Data Centres</a>
     <span class="score-badge score-low">0%</span>
   </div>
   <div class="card-employer">WSP USA</div>
@@ -1510,12 +1940,12 @@ a{color:inherit;text-decoration:none}
   <p class="card-why">Adzuna listing for Senior/Associate Electrical Engineer - Substations / Data Centres at WSP USA</p>
   <div class="card-tags"><span class="tag">data</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
-    <a href="https://www.adzuna.com.au/land/ad/5851967463?se=UtSUGgye8RGfYqjUJN_cUg&amp;utm_medium=api&amp;utm_source=cc30c73e&amp;v=B53AB186587AA7126448B920F46E811885DA1285" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <a href="https://www.adzuna.com.au/land/ad/5851967463?se=0NTzgNue8RGSb8VpDRDiVA&amp;utm_medium=api&amp;utm_source=cc30c73e&amp;v=B53AB186587AA7126448B920F46E811885DA1285" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
     <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
-    <select class="status-select" data-role-id="4c5ea83a4510" aria-label="Change application stage">
+    <select class="status-select" data-role-id="a562229b2060" aria-label="Change application stage">
       <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
     </select>
   </div>
@@ -1536,7 +1966,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">data</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5851099492?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_wsp_senior_associate_electrical_engineer_substations_data_centres_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_wsp_senior_associate_electrical_engineer_substations_data_centres_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_wsp_senior_associate_electrical_engineer_substations_data_centres_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1569,85 +1999,10 @@ a{color:inherit;text-decoration:none}
       <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
     </select>
   </div>
-</article>
-<article class="card" id="role-d12b2f29062b" data-role-id="d12b2f29062b" data-score="0" data-work="onsite" data-source="adzuna" data-stream="traineeship">
-  <div class="card-header">
-    <a href="https://www.adzuna.com.au/details/5843144778?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">Utilities and Services Engineer - Data Centres</a>
-    <span class="score-badge score-low">0%</span>
-  </div>
-  <div class="card-employer">WSP</div>
-  <div class="card-badges">
-    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
-    <span class="badge badge-source" style="color:#e57200;border-color:#e57200">Adzuna</span>
-    <span class="badge badge-location">📍 Melbourne, Melbourne CBD</span>
-    <span class="badge badge-date">📅 2026-08-16</span>
-  </div>
-  <p class="card-why">Adzuna listing for Utilities and Services Engineer - Data Centres at WSP</p>
-  <div class="card-tags"><span class="tag">data</span><span class="tag">adzuna</span></div>
-  <div class="card-actions">
-    <a href="https://www.adzuna.com.au/details/5843144778?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
-    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
-    <span class="card-spacer"></span>
-    <span class="stage-label">Stage:</span>
-    <select class="status-select" data-role-id="d12b2f29062b" aria-label="Change application stage">
-      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
-    </select>
-  </div>
-</article>
-<article class="card" id="role-03c4a2b117da" data-role-id="03c4a2b117da" data-score="0" data-work="onsite" data-source="adzuna" data-stream="traineeship">
-  <div class="card-header">
-    <a href="https://www.adzuna.com.au/details/5836725688?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">Mechanical Engineer - Internship part time Victoria</a>
-    <span class="score-badge score-low">0%</span>
-  </div>
-  <div class="card-employer">Study and Work</div>
-  <div class="card-badges">
-    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
-    <span class="badge badge-source" style="color:#e57200;border-color:#e57200">Adzuna</span>
-    <span class="badge badge-location">📍 Melbourne Region, Melbourne</span>
-    <span class="badge badge-date">📅 2026-08-11</span>
-  </div>
-  <p class="card-why">Adzuna listing for Mechanical Engineer - Internship part time Victoria at Study and Work</p>
-  <div class="card-tags"><span class="tag">data</span><span class="tag">adzuna</span></div>
-  <div class="card-actions">
-    <a href="https://www.adzuna.com.au/details/5836725688?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
-    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
-    <span class="card-spacer"></span>
-    <span class="stage-label">Stage:</span>
-    <select class="status-select" data-role-id="03c4a2b117da" aria-label="Change application stage">
-      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
-    </select>
-  </div>
-</article>
-<article class="card" id="role-06fb96953010" data-role-id="06fb96953010" data-score="0" data-work="onsite" data-source="adzuna" data-stream="traineeship">
-  <div class="card-header">
-    <a href="https://www.adzuna.com.au/details/5835370467?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="card-title">Project Engineer (Data Centres)</a>
-    <span class="score-badge score-low">0%</span>
-  </div>
-  <div class="card-employer">Hickory</div>
-  <div class="card-badges">
-    <span class="badge badge-work" style="color:#ff8a65;border-color:#ff8a65">Onsite</span>
-    <span class="badge badge-source" style="color:#e57200;border-color:#e57200">Adzuna</span>
-    <span class="badge badge-location">📍 Melbourne, Southbank</span>
-    <span class="badge badge-date">📅 2026-08-10</span>
-  </div>
-  <p class="card-why">Adzuna listing for Project Engineer (Data Centres) at Hickory</p>
-  <div class="card-tags"><span class="tag">data</span><span class="tag">adzuna</span></div>
-  <div class="card-actions">
-    <a href="https://www.adzuna.com.au/details/5835370467?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
-    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
-    <span class="card-spacer"></span>
-    <span class="stage-label">Stage:</span>
-    <select class="status-select" data-role-id="06fb96953010" aria-label="Change application stage">
-      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
-    </select>
-  </div>
 </article></div>
 </section>
 
-<div class="foot">Generated from jobs_combined.json · 60 jobs across 3 streams</div>
+<div class="foot">Generated from jobs_combined.json · 66 jobs across 3 streams</div>
 </div>
 
 <script>

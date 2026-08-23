@@ -63,5 +63,7 @@
     "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
     "Submit manually only after your explicit approval."
   ],
-  "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
+  "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile",
+  "flag_message": "⚠️ Resume not generated: Trainee Graduate at Freighter Group\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Customer Support\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
+  "match_tier": "No match"
 }
