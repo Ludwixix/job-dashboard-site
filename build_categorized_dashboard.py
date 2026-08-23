@@ -146,14 +146,12 @@ def render_section_lane(section_name, section_label, icon, color, jobs):
 # ── Main ──────────────────────────────────────────────────────────────────
 def main():
     base = Path(__file__).parent
-    input_path = base / "jobs_nonlinkedin_2026-08-08_final.json"
+    input_path = base / "jobs_nonlinkedin_2026-08-23_final.json"
     css_path = base / "_style.css"
     output_path = base / "index_categorized.html"
 
     if not input_path.exists():
         input_path = base / "jobs_nonlinkedin_2026-08-08_reclassified.json"
-    if not input_path.exists():
-        input_path = base / "jobs_nonlinkedin_2026-08-08_clean.json"
     if not input_path.exists():
         print(f"Error: no job data found")
         sys.exit(1)
