@@ -325,6 +325,9 @@ a{color:inherit;text-decoration:none}
   <div class="stat"><b>20</b><span>🔧 Traineeship</span></div>
 </section>
 
+<button type="button" id="btn-saved" onclick="toggleSaved(this)" style="margin-bottom:16px;background:var(--bg-card);color:var(--text-primary);border:1px solid var(--border);padding:10px 18px;border-radius:var(--radius-md);cursor:pointer;font-weight:600">📁 Saved applications</button>
+<div id="saved-panel" style="display:none" aria-live="polite"></div>
+
 <nav class="tabs" aria-label="Switch stream">
   <button class="tab active" data-stream="all" style="--tab-color:#fff">All <span class="tab-count">66</span></button>
   <button class="tab" data-stream="core-it" style="--tab-color:#62d9ff">💻 Core IT & Systems Engineering <span class="tab-count">26</span></button><button class="tab" data-stream="bridge" style="--tab-color:#ffc857">🌉 Local "Bridge" & Casual Work <span class="tab-count">20</span></button><button class="tab" data-stream="traineeship" style="--tab-color:#bda7ff">🔧 Technical Traineeships & Trade Pathways <span class="tab-count">20</span></button>
@@ -2137,6 +2140,108 @@ a{color:inherit;text-decoration:none}
       .replace(/\n\n/g, '<br><br>')
       .replace(/\n/g, '<br>');
   }
+})();
+</script><script>
+// ── Saved-applications library ────────────────────────────────────────────
+// Lists the documents generate.mjs persists to Supabase; lets you re-print or
+// delete them. Self-contained print helper (downloadPdf is private to the
+// script above). The service key never leaves the server — this only calls
+// /.netlify/functions/applications.
+(function() {
+  let docOwner = {};   // documentId -> {company,title}
+  let docContent = {}; // documentId -> markdown
+
+  const panel = document.getElementById('saved-panel');
+  const btn = document.getElementById('btn-saved');
+
+  function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function slugFile(s){ return String(s||'').replace(/[^a-zA-Z0-9]+/g,'_').replace(/^_+|_+$/g,''); }
+  function fmtDate(iso){ if(!iso) return ''; try { return new Date(iso).toLocaleDateString(undefined,{day:'numeric',month:'short',year:'numeric'}); } catch(e){ return ''; } }
+
+  async function refresh(){
+    const resp = await fetch('/.netlify/functions/applications');
+    if (!resp.ok) throw new Error('applications HTTP ' + resp.status);
+    const data = await resp.json();
+    render(data.saved || []);
+  }
+
+  function render(saved){
+    docContent = {};
+    docOwner = {};
+    if (!saved.length){
+      panel.innerHTML = '<div style="color:var(--text-secondary);padding:18px;border:1px dashed var(--border);border-radius:var(--radius-md)">Nothing saved yet — hit ✨ Generate on a job card and it will appear here.</div>';
+      return;
+    }
+    panel.innerHTML = saved.map(app => {
+      const owner = { company: app.company, title: app.title };
+      const btns = [];
+      const resume = (app.docs || []).find(d => d.type === 'resume');
+      const cover = (app.docs || []).find(d => d.type === 'cover_letter');
+      if (resume){ docContent[resume.id] = resume.content; docOwner[resume.id] = owner; btns.push('<button class="save-btn" onclick="savedDownload(\''+resume.id+'\',\'resume\')">⬇ Resume</button>'); }
+      if (cover){ docContent[cover.id] = cover.content; docOwner[cover.id] = owner; btns.push('<button class="save-btn" onclick="savedDownload(\''+cover.id+'\',\'cover\')">⬇ Cover letter</button>'); }
+      btns.push('<button class="save-btn danger" onclick="deleteSaved(\''+app.id+'\')">Delete</button>');
+      return '<div style="display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 18px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-md);margin-bottom:10px">'
+        + '<div><strong>'+esc(app.company)+' — '+esc(app.title)+'</strong><div style="font-size:.78rem;color:var(--text-muted)">'+esc(app.location||'Melbourne')+' · saved '+fmtDate(app.createdAt)+'</div></div>'
+        + '<div style="display:flex;gap:8px;flex-shrink:0">'+btns.join('')+'</div>'
+        + '</div>';
+    }).join('');
+  }
+
+  function printMd(markdown, filename){
+    const html = markdown
+      .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+      .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+      .replace(/^# (.+)$/gm, '<h1>$1</h1>')
+      .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+      .replace(/^- (.+)$/gm, '<li>$1</li>')
+      .replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>')
+      .replace(/\n\n/g, '<br><br>')
+      .replace(/\n/g, '<br>');
+    const win = window.open('', '_blank');
+    win.document.write('<!DOCTYPE html><html><head><title>'+filename+'</title><style>'
+      + 'body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;max-width:800px;margin:40px auto;padding:20px;line-height:1.6;color:#1a1a1a}'
+      + 'h1{font-size:1.5rem;margin-bottom:.5rem} h2{font-size:1.1rem;margin-top:1.5rem;border-bottom:1px solid #ddd;padding-bottom:4px}'
+      + 'h3{font-size:1rem;margin-top:1.2rem;color:#333} p{margin:.5rem 0} ul{margin:.5rem 0;padding-left:1.5rem} li{margin:.3rem 0} strong{font-weight:600}'
+      + '@media print{body{margin:0;padding:20px}}'
+      + '</style></head><body>'+html+'</body></html>');
+    win.document.close();
+    setTimeout(() => { win.print(); }, 500);
+  }
+
+  window.toggleSaved = async function(elm){
+    if (panel.style.display === 'block'){
+      panel.style.display = 'none';
+      elm.textContent = '📁 Saved applications';
+      return;
+    }
+    elm.textContent = '⏳ Loading...';
+    try {
+      await refresh();
+      panel.style.display = 'block';
+      elm.textContent = '🙈 Hide saved applications';
+    } catch(e){
+      console.error(e);
+      panel.innerHTML = '<div style="color:var(--accent-red);background:rgba(255,107,107,0.1);padding:12px 16px;border-radius:var(--radius-md)">Failed to load saved applications.</div>';
+      panel.style.display = 'block';
+      elm.textContent = '📁 Saved applications';
+    }
+  };
+
+  window.savedDownload = function(docId, type){
+    const content = docContent[docId];
+    if (!content) return;
+    const owner = docOwner[docId];
+    const parts = owner ? [owner.company, owner.title] : ['application'];
+    printMd(content, parts.map(slugFile).join('_') + (type==='resume' ? '_resume.pdf' : '_cover_letter.pdf'));
+  };
+
+  window.deleteSaved = async function(jobId){
+    try {
+      const resp = await fetch('/.netlify/functions/applications?jobId='+encodeURIComponent(jobId), { method:'DELETE' });
+      if (!resp.ok) throw new Error('delete HTTP ' + resp.status);
+      await refresh();
+    } catch(e){ console.error(e); }
+  };
 })();
 </script>
 </body>
