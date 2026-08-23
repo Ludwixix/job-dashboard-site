@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Service & Systems Support Officer; Company: AFCA; Location: Melbourne Region, Melbourne | - Achievements highlighted: Customer Support | - Adjacent-match framing used: no | - Word count: 126 | - Voice guide check: PASS |  -->

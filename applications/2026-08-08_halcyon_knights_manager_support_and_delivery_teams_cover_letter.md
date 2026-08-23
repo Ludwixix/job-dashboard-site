@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Manager, Support & Delivery Teams; Company: Halcyon Knights; Location: Melbourne, Melbourne CBD | - Achievements highlighted: Teams; Customer Support | - Adjacent-match framing used: no | - Word count: 142 | - Voice guide check: PASS |  -->

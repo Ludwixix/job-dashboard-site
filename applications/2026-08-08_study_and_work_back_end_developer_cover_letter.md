@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Back End Developer; Company: Study and Work; Location: Melbourne Region, Melbourne | - Achievements highlighted: Data Centre | - Adjacent-match framing used: no | - Word count: 150 | - Voice guide check: PASS |  -->

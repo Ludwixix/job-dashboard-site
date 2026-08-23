@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Sales Associate - Casual; Company: Foot Locker; Location: Chadstone, Victoria, Australia | - Achievements highlighted: none | - Adjacent-match framing used: no | - Word count: 161 | - Voice guide check: PASS |  -->

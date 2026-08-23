@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Business Development Manager - HVAC; Company: Lead Group Consultancy; Location: Melbourne Region, Melbourne | - Achievements highlighted: Network; HVAC | - Adjacent-match framing used: no | - Word count: 147 | - Voice guide check: PASS |  -->

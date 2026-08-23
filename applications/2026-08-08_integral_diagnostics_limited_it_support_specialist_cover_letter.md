@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: IT Support Specialist; Company: Integral Diagnostics Limited; Location: Melbourne, East Melbourne | - Achievements highlighted: Customer Support; Endpoint Lifecycle | - Adjacent-match framing used: no | - Word count: 128 | - Voice guide check: PASS |  -->

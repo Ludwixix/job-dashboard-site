@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Technical Operations Manager - Electrical OEM - Power; Company: Engineering Networks Pty Ltd; Location: Melbourne Region, Melbourne | - Achievements highlighted: Network | - Adjacent-match framing used: no | - Word count: 147 | - Voice guide check: PASS |  -->

@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Front of House Team Member - Elsternwick Casual/Part-Time/Full-Time; Company: Chargrill Charlie's; Location: Elsternwick, Victoria, Australia | - Achievements highlighted: none | - Adjacent-match framing used: no | - Word count: 177 | - Voice guide check: PASS |  -->

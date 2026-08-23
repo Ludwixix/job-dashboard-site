@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Senior Project Engineer, Electrical - MEI | North East Link Project; Company: CPB Contractors; Location: Melbourne Region, Melbourne | - Achievements highlighted: Entra ID | - Adjacent-match framing used: no | - Word count: 150 | - Voice guide check: PASS |  -->

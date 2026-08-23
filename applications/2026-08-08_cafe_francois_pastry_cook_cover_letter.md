@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Pastry Cook; Company: Cafe Francois; Location: Malvern, VIC, AU | - Achievements highlighted: none | - Adjacent-match framing used: no | - Word count: 145 | - Voice guide check: PASS |  -->

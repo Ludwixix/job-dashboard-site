@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Data Center IT Support Engineer, MEL - DCO; Company: Amazon.com; Location: Melbourne, VIC | - Achievements highlighted: Intune; Data Centre; Customer Support | - Adjacent-match framing used: no | - Word count: 169 | - Voice guide check: PASS |  -->

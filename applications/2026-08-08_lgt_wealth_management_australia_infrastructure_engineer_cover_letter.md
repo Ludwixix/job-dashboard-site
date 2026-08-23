@@ -9,7 +9,7 @@ I'm writing to express my interest in the Infrastructure Engineer position with 
 
 The LGT Infrastructure Engineer role is a strong match for my experience across Windows, Azure, Microsoft 365, Entra ID, PowerShell automation, incident response, documentation, and production support.
 
-I bring experience delivering enterprise Microsoft 365 services across SharePoint, Exchange, Teams, and Entra ID for 660,000+ users, managing hybrid identity synchronisation across three identity providers for 660,000+ users, and spearheading Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements.
+I bring experience delivering enterprise Microsoft 365 services across SharePoint, Exchange, Teams, and Entra ID for 660,000+ users, managing hybrid identity synchronisation across three identity providers for 660,000+ users, and leading Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements.
 
 The areas where my experience aligns most directly with this role are Microsoft 365, Entra ID, Azure, Windows, PowerShell.
 
@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Infrastructure Engineer; Company: LGT Wealth Management Australia; Location: Melbourne, VIC | - Achievements highlighted: Microsoft 365; Entra ID; Azure | - Adjacent-match framing used: no | - Word count: 197 | - Voice guide check: PASS |  -->

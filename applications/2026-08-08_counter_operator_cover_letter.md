@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Counter operator; Location: Fawkner, VIC, AU | - Achievements highlighted: Customer Support | - Adjacent-match framing used: no | - Word count: 119 | - Voice guide check: PASS |  -->

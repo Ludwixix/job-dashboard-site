@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Junior Business Analyst; Company: Ausimm; Location: Melbourne, Carlton South | - Achievements highlighted: Git | - Adjacent-match framing used: no | - Word count: 143 | - Voice guide check: PASS |  -->

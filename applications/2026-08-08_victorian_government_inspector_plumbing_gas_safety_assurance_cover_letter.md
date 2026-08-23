@@ -17,3 +17,5 @@ I would welcome the opportunity to discuss how my experience could contribute to
 
 Yours sincerely,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Inspector, Plumbing - Gas Safety Assurance; Company: Victorian Government; Location: Melbourne, Melbourne CBD | - Achievements highlighted: Compliance | - Adjacent-match framing used: no | - Word count: 188 | - Voice guide check: PASS |  -->

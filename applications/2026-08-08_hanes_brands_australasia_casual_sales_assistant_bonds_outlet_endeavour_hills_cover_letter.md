@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Casual Sales Assistant | BONDS Outlet | Endeavour Hills; Company: Hanes Brands Australasia; Location: Endeavour Hills, Victoria, Australia | - Achievements highlighted: none | - Adjacent-match framing used: no | - Word count: 185 | - Voice guide check: PASS |  -->

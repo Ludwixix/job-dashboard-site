@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Computer Network and Systems Engineer; Company: Converged Medical Solutions; Location: Carrum Downs, VIC / remote available | - Achievements highlighted: Microsoft 365; Network; Security | - Adjacent-match framing used: no | - Word count: 196 | - Voice guide check: PASS |  -->

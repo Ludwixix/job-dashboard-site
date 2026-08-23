@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Service Desk Engineer, Level 2 – CT Group; Company: Lyra Technology Group; Location: Melbourne, Melbourne CBD | - Achievements highlighted: Teams; ServiceNow; Customer Support | - Adjacent-match framing used: no | - Word count: 168 | - Voice guide check: PASS |  -->

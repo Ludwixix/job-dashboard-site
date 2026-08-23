@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Barista/All Rounder; Company: Westbrook Food Store; Location: Kew East, VIC, AU | - Achievements highlighted: Customer Support | - Adjacent-match framing used: no | - Word count: 123 | - Voice guide check: PASS |  -->

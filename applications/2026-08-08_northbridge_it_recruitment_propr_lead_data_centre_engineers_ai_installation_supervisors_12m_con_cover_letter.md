@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Lead Data Centre Engineers / AI Installation Supervisors - 12M CONTRACT - EXT; Company: Northbridge IT Recruitment Propr; Location: Melbourne Region, Melbourne | - Achievements highlighted: Data Centre | - Adjacent-match framing used: no | - Word count: 183 | - Voice guide check: PASS |  -->

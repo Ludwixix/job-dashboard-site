@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Lead Solution Architect - Home Health; Company: Australian Unity; Location: Melbourne, Melbourne CBD | - Achievements highlighted: Customer Support | - Adjacent-match framing used: no | - Word count: 132 | - Voice guide check: PASS |  -->

@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: AOD Support Workers - Multiple Casual Opportunities; Company: Windana; Location: Geelong, VIC, AU | - Achievements highlighted: ServiceNow; Customer Support | - Adjacent-match framing used: no | - Word count: 147 | - Voice guide check: PASS |  -->

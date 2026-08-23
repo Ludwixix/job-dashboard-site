@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Casual Cook / All-Rounder – Burger Restaurant; Company: Burger Road; Location: Dandenong, VIC, AU | - Achievements highlighted: Customer Support | - Adjacent-match framing used: no | - Word count: 135 | - Voice guide check: PASS |  -->

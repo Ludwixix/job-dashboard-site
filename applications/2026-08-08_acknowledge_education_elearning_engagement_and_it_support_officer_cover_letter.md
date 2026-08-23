@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: eLearning Engagement & IT Support Officer; Company: Acknowledge Education; Location: Melbourne Region, Melbourne | - Achievements highlighted: Teams; Git; Customer Support | - Adjacent-match framing used: no | - Word count: 136 | - Voice guide check: PASS |  -->

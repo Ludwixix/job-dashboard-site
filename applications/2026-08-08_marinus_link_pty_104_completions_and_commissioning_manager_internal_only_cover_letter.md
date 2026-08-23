@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: 104 – Completions & Commissioning Manager (internal only); Company: Marinus Link Pty; Location: Melbourne, Melbourne CBD | - Achievements highlighted: Customer Support | - Adjacent-match framing used: no | - Word count: 141 | - Voice guide check: PASS |  -->

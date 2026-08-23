@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Contracts Manager; Company: Techforce Personnel; Location: Melbourne Region, Melbourne | - Achievements highlighted: Network | - Adjacent-match framing used: no | - Word count: 123 | - Voice guide check: PASS |  -->

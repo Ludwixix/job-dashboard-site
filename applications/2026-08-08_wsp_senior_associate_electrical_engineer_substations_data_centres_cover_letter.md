@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Senior/Associate Electrical Engineer - Substations / Data Centres; Company: WSP; Location: Melbourne, Melbourne CBD | - Achievements highlighted: Data Centre | - Adjacent-match framing used: no | - Word count: 159 | - Voice guide check: PASS |  -->

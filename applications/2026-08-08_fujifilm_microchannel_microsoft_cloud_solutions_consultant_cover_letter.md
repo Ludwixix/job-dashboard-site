@@ -9,7 +9,7 @@ I'm writing to express my interest in the Microsoft Cloud Solutions Consultant p
 
 The FUJIFILM MicroChannel role matches my Azure, Microsoft 365, identity, automation, enterprise support, and customer-facing technical delivery experience.
 
-I bring experience spearheading Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements.
+I bring experience leading Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements.
 
 The areas where my experience aligns most directly with this role are Azure.
 
@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Microsoft Cloud Solutions Consultant; Company: FUJIFILM MicroChannel; Location: Melbourne, VIC / hybrid | - Achievements highlighted: Azure | - Adjacent-match framing used: no | - Word count: 145 | - Voice guide check: PASS |  -->

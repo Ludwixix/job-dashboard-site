@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Level 2 IT Support Officer; Company: Hays; Location: Melbourne Region, Melbourne | - Achievements highlighted: Security; Customer Support | - Adjacent-match framing used: no | - Word count: 141 | - Voice guide check: PASS |  -->

@@ -65,3 +65,5 @@ AZ-104 Azure Administrator Associate · AZ-900 Azure Fundamentals · ITIL 4 Foun
 
 ### Work Rights
 Australian citizen · unrestricted Australian work rights · available immediately
+
+<!-- ✅ Tailoring summary | - Match tier: Strong match | - Key changes from base resume: Skills reordered: Teams, Customer Support first; Experience reordered: Senior Managed Services Engineer first | - Requirements not fully addressed: none | - Word count: 682 | - Voice guide check: PASS |  -->

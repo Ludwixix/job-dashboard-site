@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Client Training Consultant; Company: Solera; Location: Melbourne Region, Melbourne | - Achievements highlighted: Git; Customer Support | - Adjacent-match framing used: no | - Word count: 121 | - Voice guide check: PASS |  -->

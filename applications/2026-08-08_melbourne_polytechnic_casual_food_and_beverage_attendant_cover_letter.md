@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Casual Food and Beverage Attendant; Company: Melbourne Polytechnic; Location: Melbourne, Victoria, Australia | - Achievements highlighted: none | - Adjacent-match framing used: no | - Word count: 165 | - Voice guide check: PASS |  -->

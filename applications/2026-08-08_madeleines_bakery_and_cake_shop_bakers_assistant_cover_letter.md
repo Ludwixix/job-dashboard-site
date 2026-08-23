@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Bakers Assistant; Company: Madeleines Bakery and Cake shop; Location: Diamond Creek, VIC, AU | - Achievements highlighted: none | - Adjacent-match framing used: no | - Word count: 154 | - Voice guide check: PASS |  -->

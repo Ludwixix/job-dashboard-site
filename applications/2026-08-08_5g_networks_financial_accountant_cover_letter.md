@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Financial Accountant; Company: 5G Networks; Location: Melbourne, Melbourne CBD | - Achievements highlighted: Network; Security; Data Centre | - Adjacent-match framing used: no | - Word count: 150 | - Voice guide check: PASS |  -->

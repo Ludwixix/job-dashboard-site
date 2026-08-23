@@ -9,7 +9,7 @@ I'm writing to express my interest in the Tech Support roles position with First
 
 The First Focus IT technical support role matches my Microsoft-focused service operations background across Azure, Active Directory, Outlook, endpoint support, troubleshooting, and customer communication.
 
-I bring experience spearheading Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements, managing Active Directory and Group Policy for enterprise environments supporting 660,000+ users, and delivering L1/L2/L3 support consistently achieving >90% SLA resolution.
+I bring experience leading Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements, managing Active Directory and Group Policy for enterprise environments supporting 660,000+ users, and delivering L1/L2/L3 support consistently achieving >90% SLA resolution.
 
 The areas where my experience aligns most directly with this role are Azure, Active Directory, Customer Support.
 
@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Tech Support roles; Company: First Focus IT; Location: Melbourne, VIC | - Achievements highlighted: Azure; Active Directory; Customer Support | - Adjacent-match framing used: no | - Word count: 177 | - Voice guide check: PASS |  -->

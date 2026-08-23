@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: National Visual Merchandiser; Company: DG Head Office; Location: Melbourne, Melbourne CBD | - Achievements highlighted: Microsoft 365; Teams; Network | - Adjacent-match framing used: no | - Word count: 159 | - Voice guide check: PASS |  -->

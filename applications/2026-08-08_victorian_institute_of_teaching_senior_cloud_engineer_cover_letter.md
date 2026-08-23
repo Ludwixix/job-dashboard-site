@@ -9,7 +9,7 @@ I am writing to express my interest in the Senior Cloud Engineer position at Vic
 
 The Victorian Institute of Teaching Senior Cloud Engineer role matches my Azure, Microsoft 365, Entra ID, hybrid identity, automation, enterprise support, and public-sector delivery experience.
 
-I bring experience delivering enterprise Microsoft 365 services across SharePoint, Exchange, Teams, and Entra ID for 660,000+ users and spearheading Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements.
+I bring experience delivering enterprise Microsoft 365 services across SharePoint, Exchange, Teams, and Entra ID for 660,000+ users and leading Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements.
 
 The areas where my experience aligns most directly with this role are Microsoft 365, Azure.
 
@@ -17,3 +17,5 @@ I would welcome the opportunity to discuss how my experience could contribute to
 
 Yours sincerely,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Senior Cloud Engineer; Company: Victorian Institute of Teaching; Location: Melbourne CBD and inner metro suburbs | - Achievements highlighted: Microsoft 365; Azure | - Adjacent-match framing used: no | - Word count: 181 | - Voice guide check: PASS |  -->

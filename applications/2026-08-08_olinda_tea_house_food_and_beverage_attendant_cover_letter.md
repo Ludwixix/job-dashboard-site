@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: food and beverage attendant; Company: Olinda Tea House; Location: Olinda, VIC, AU | - Achievements highlighted: Customer Support | - Adjacent-match framing used: no | - Word count: 129 | - Voice guide check: PASS |  -->

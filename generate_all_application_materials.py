@@ -1312,6 +1312,26 @@ def write_resume(prefix: str, title: str, category: str, reason: str,
 
     path = APP / f"{prefix}_resume.md"
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    # ── Voice Guide validation ──
+    full_text = "\n".join(lines)
+    voice_check = _check_voice_guide(full_text)
+
+    # ── Self-check summary ──
+    match_tier = classify_relevance(role, score_data) if score_data else "Strong match"
+    key_changes = []
+    if job_skills:
+        key_changes.append(f"Skills reordered: {', '.join(job_skills[:3])} first")
+    if experience_entries and experience_entries[0].get("heading") != "L2/L3 Technical Support Engineer — Australia Post via Capgemini":
+        key_changes.append(f"Experience reordered: {experience_entries[0].get('heading', '').split('—')[0].strip()} first")
+    gaps = [s.get("skill", "") for s in score_data.get("missing_skills", []) if s.get("severity") == "critical"]
+    word_count = len(full_text.split())
+    self_check = _build_resume_self_check(match_tier, key_changes, gaps, word_count)
+    if not voice_check["passed"]:
+        self_check += f"\n⚠️ Voice guide issues: {'; '.join(voice_check['issues'])}"
+
+    # Append self-check as a comment at the end
+    path.write_text("\n".join(lines) + "\n\n<!-- " + self_check.replace("\n", " | ") + " -->\n", encoding="utf-8")
     return path
 
 
@@ -1380,7 +1400,7 @@ def _generate_achievement_bullets(matched_skills: list, max_bullets: int = 3) ->
     achievement_map = {
         "Microsoft 365": "Delivered enterprise Microsoft 365 services across SharePoint, Exchange, Teams, and Entra ID for 660,000+ users",
         "SharePoint": "Managed the Southern Hemisphere's largest SharePoint farm with 660,000+ users and 99.9% uptime",
-        "Azure": "Spearheaded Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements",
+        "Azure": "Led Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements",
         "Entra ID": "Managed hybrid identity synchronisation across three identity providers for 660,000+ users",
         "Intune": "Led Windows 11 migration across 100+ clinical endpoints with zero patient-care disruption",
         "PowerShell": "Built PowerShell automation reducing migration processing time by 87% (2 hours to 15 minutes)",
@@ -1571,6 +1591,28 @@ def write_cover(prefix: str, role: dict, category: str, reason: str,
 
     path = APP / f"{prefix}_cover_letter.md"
     path.write_text("\n".join(body) + "\n", encoding="utf-8")
+
+    # ── Voice Guide validation ──
+    full_text = "\n".join(body)
+    voice_check = _check_voice_guide(full_text)
+
+    # ── Self-check summary ──
+    listing_details = []
+    if role.get("title"):
+        listing_details.append(f"Role: {role['title']}")
+    if role.get("company"):
+        listing_details.append(f"Company: {role.get('company')}")
+    if role.get("location"):
+        listing_details.append(f"Location: {role['location']}")
+    achievements = [s.get("skill", "") for s in matched_skills[:3]]
+    adjacent_framing = any(s.get("severity") == "critical" for s in missing_skills)
+    word_count = len(full_text.split())
+    self_check = _build_cover_self_check(listing_details, achievements, adjacent_framing, word_count)
+    if not voice_check["passed"]:
+        self_check += f"\n⚠️ Voice guide issues: {'; '.join(voice_check['issues'])}"
+
+    # Append self-check as a comment at the end
+    path.write_text("\n".join(body) + "\n\n<!-- " + self_check.replace("\n", " | ") + " -->\n", encoding="utf-8")
     return path
 
 

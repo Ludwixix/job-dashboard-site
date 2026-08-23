@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Engineering Operations Technician, Data Center Engineering Operations; Company: Amazon; Location: Melbourne Region, Melbourne | - Achievements highlighted: Network; Data Centre; Customer Support | - Adjacent-match framing used: no | - Word count: 176 | - Voice guide check: PASS |  -->

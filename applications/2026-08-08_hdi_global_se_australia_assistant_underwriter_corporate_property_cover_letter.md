@@ -17,3 +17,5 @@ I'd welcome a conversation about how my background could contribute to your team
 
 Kind regards,
 Sam Ludwig
+
+<!-- ✅ Cover letter summary | - Specific listing details referenced: Role: Assistant Underwriter – Corporate Property; Company: HDI Global SE, Australia; Location: Melbourne, Melbourne CBD | - Achievements highlighted: Compliance | - Adjacent-match framing used: no | - Word count: 158 | - Voice guide check: PASS |  -->
