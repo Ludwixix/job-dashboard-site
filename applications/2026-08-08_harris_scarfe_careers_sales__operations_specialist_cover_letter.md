@@ -1,0 +1,7 @@
+I am applying for the Sales & Operations Specialist position at Harris Scarfe Careers, as advertised on Adzuna. The role's focus on customer-focused communication within an iconic Australian retail brand aligns with my operational and stakeholder engagement experience.
+
+In previous roles, I have delivered measurable improvements in efficiency and communication. At Australia Post, I automated keystroke injection processes within ServiceNow, which removed hundreds of hours of manual data entry each month. I managed high-volume support queues with over 40 concurrent tickets, consistently achieving a resolution rate exceeding 90% within SLA. I also facilitated client workshops that increased enterprise adoption by 20%, translating technical concepts for non-technical audiences—skills transferable to customer engagement in home improvement.
+
+I am motivated by Harris Scarfe's emphasis on hybrid work flexibility and genuine career progression, as noted in the listing. The opportunity to apply process automation and stakeholder management to sales operations in window furnishings resonates with my practical background, including hands-on HVAC and infrastructure work. Contributing to a growing, team-oriented culture in a vibrant environment offers a clear path for professional development.
+
+I would welcome the opportunity to discuss how my skills can support your Shutters & Made-to-Measure team. Thank you for considering my application.
