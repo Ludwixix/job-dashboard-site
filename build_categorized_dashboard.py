@@ -182,16 +182,20 @@ def render_card(job, stream_id):
     else:
         score_cls = "score-low"
 
-    # Pack buttons
+    # Pack buttons — check if LLM-generated files exist
+    pack_dir = Path(__file__).parent / "applications"
+    company_clean = (job.get("company") or "").replace(" ", "_").lower()[:30]
+    title_clean = (job.get("title") or "").replace(" ", "_").lower()[:40]
+    has_resume = any(pack_dir.glob(f"*{company_clean}*{title_clean}*resume.md"))
+    has_cover = any(pack_dir.glob(f"*{company_clean}*{title_clean}*cover_letter.md"))
+
     pack_buttons = []
-    if resume_pdf:
-        pack_buttons.append(f'<a href="{esc(resume_pdf)}" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a>')
-    if cover_pdf:
-        pack_buttons.append(f'<a href="{esc(cover_pdf)}" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a>')
-    if email_md:
-        pack_buttons.append(f'<a href="{esc(email_md)}" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>')
+    if has_resume:
+        pack_buttons.append(f'<a href="applications/{esc(company_clean)}_{esc(title_clean)}_resume.md" class="btn btn-pack" title="View tailored resume">📄 Resume</a>')
+    if has_cover:
+        pack_buttons.append(f'<a href="applications/{esc(company_clean)}_{esc(title_clean)}_cover_letter.md" class="btn btn-pack" title="View cover letter">📄 Cover</a>')
     if not pack_buttons:
-        pack_buttons.append('<button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>')
+        pack_buttons.append(f'<button class="btn btn-generate" onclick="generateJob(this, {json.dumps(url)})" title="Generate tailored resume + cover letter">✨ Generate</button>')
     pack_html = " ".join(pack_buttons)
 
     return f'''<article class="card" id="role-{rid}" data-role-id="{rid}" data-score="{score}" data-work="{work.lower()}" data-source="{source.lower()}" data-stream="{stream_id}">
@@ -521,6 +525,18 @@ a{{color:inherit;text-decoration:none}}
 .btn[disabled]{{opacity:.35;cursor:not-allowed}}
 .btn-apply{{border-color:var(--accent-blue);color:var(--accent-blue)}}
 .btn-apply:hover{{background:rgba(98,217,255,0.1)}}
+.btn-generate{{
+  background:linear-gradient(135deg,rgba(98,217,255,0.15),rgba(189,167,255,0.15));
+  border-color:var(--accent-purple);color:var(--accent-purple);
+  font-weight:600;
+}}
+.btn-generate:hover{{
+  background:linear-gradient(135deg,rgba(98,217,255,0.25),rgba(189,167,255,0.25));
+  border-color:var(--accent-purple);color:#fff;
+  box-shadow:0 0 16px rgba(189,167,255,0.25);
+}}
+.btn-pack{{border-color:var(--accent-green);color:var(--accent-green)}}
+.btn-pack:hover{{background:rgba(97,230,166,0.1)}}
 .card-spacer{{flex:1}}
 .stage-label{{font-size:.75rem;color:var(--text-muted);font-weight:500}}
 .status-select{{
@@ -668,6 +684,22 @@ a{{color:inherit;text-decoration:none}}
 
   filterWork.onchange = applyFilters;
   filterSource.onchange = applyFilters;
+
+  // ── Generate button ──
+  window.generateJob = function(btn, url) {{
+    const cmd = `cd job-dashboard-site && python3 generate_single.py "${{url}}"`;
+    navigator.clipboard.writeText(cmd).then(() => {{
+      btn.textContent = '✅ Copied!';
+      btn.disabled = true;
+      setTimeout(() => {{
+        btn.textContent = '✨ Generate';
+        btn.disabled = false;
+      }}, 2000);
+    }}).catch(() => {{
+      // Fallback: show in prompt
+      prompt('Copy this command and run it:', cmd);
+    }});
+  }};
 }})();
 </script>
 </body>

@@ -246,6 +246,18 @@ a{color:inherit;text-decoration:none}
 .btn[disabled]{opacity:.35;cursor:not-allowed}
 .btn-apply{border-color:var(--accent-blue);color:var(--accent-blue)}
 .btn-apply:hover{background:rgba(98,217,255,0.1)}
+.btn-generate{
+  background:linear-gradient(135deg,rgba(98,217,255,0.15),rgba(189,167,255,0.15));
+  border-color:var(--accent-purple);color:var(--accent-purple);
+  font-weight:600;
+}
+.btn-generate:hover{
+  background:linear-gradient(135deg,rgba(98,217,255,0.25),rgba(189,167,255,0.25));
+  border-color:var(--accent-purple);color:#fff;
+  box-shadow:0 0 16px rgba(189,167,255,0.25);
+}
+.btn-pack{border-color:var(--accent-green);color:var(--accent-green)}
+.btn-pack:hover{background:rgba(97,230,166,0.1)}
 .card-spacer{flex:1}
 .stage-label{font-size:.75rem;color:var(--text-muted);font-weight:500}
 .status-select{
@@ -354,7 +366,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5853134547?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_australian_unity_lead_solution_architect_home_health_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_australian_unity_lead_solution_architect_home_health_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_australian_unity_lead_solution_architect_home_health_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5853134547?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -379,7 +391,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5852546634?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_str_it_support_specialist_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_str_it_support_specialist_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_str_it_support_specialist_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5852546634?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -404,7 +416,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5852545054?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_hpx_group_it_support_analyst_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_hpx_group_it_support_analyst_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_hpx_group_it_support_analyst_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5852545054?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -429,7 +441,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5852538841?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_hydro_tasmania_retail_it_student_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_hydro_tasmania_retail_it_student_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_hydro_tasmania_retail_it_student_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5852538841?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -454,7 +466,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5851364610?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_tesserent_professional_services_consultant_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_tesserent_professional_services_consultant_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_tesserent_professional_services_consultant_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5851364610?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -479,7 +491,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5851363189?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_integral_diagnostics_limited_it_support_specialist_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_integral_diagnostics_limited_it_support_specialist_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_integral_diagnostics_limited_it_support_specialist_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5851363189?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -504,7 +516,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5851099498?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_computershare_software_engineer_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_computershare_software_engineer_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_computershare_software_engineer_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5851099498?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -529,7 +541,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5851094364?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_ausimm_junior_business_analyst_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_ausimm_junior_business_analyst_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_ausimm_junior_business_analyst_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5851094364?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -554,7 +566,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5851073851?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_afca_service_and_systems_support_officer_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_afca_service_and_systems_support_officer_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_afca_service_and_systems_support_officer_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5851073851?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -579,7 +591,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5851041219?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_burgess_paluch_legal_recruitment_legal_assistant_insurance_litigation_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_burgess_paluch_legal_recruitment_legal_assistant_insurance_litigation_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_burgess_paluch_legal_recruitment_legal_assistant_insurance_litigation_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5851041219?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -604,7 +616,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5849658160?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_hdi_global_se_australia_assistant_underwriter_corporate_property_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_hdi_global_se_australia_assistant_underwriter_corporate_property_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_hdi_global_se_australia_assistant_underwriter_corporate_property_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5849658160?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -629,7 +641,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5849653743?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_solera_client_training_consultant_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_solera_client_training_consultant_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_solera_client_training_consultant_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <a href="applications/solera_client_training_consultant_cover_letter.md" class="btn btn-pack" title="View cover letter">📄 Cover</a>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -654,7 +666,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5849648384?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_study_and_work_back_end_developer_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_study_and_work_back_end_developer_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_study_and_work_back_end_developer_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5849648384?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -679,7 +691,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5849648358?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5849648358?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -704,7 +716,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5849069510?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_halcyon_knights_manager_support_and_delivery_teams_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_halcyon_knights_manager_support_and_delivery_teams_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_halcyon_knights_manager_support_and_delivery_teams_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5849069510?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -729,7 +741,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5848234169?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5848234169?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -754,7 +766,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5847920015?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_hays_level_2_it_support_officer_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_hays_level_2_it_support_officer_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_hays_level_2_it_support_officer_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5847920015?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -779,7 +791,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5846899554?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_keyton_talent_acquisition_business_partner_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_keyton_talent_acquisition_business_partner_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_keyton_talent_acquisition_business_partner_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5846899554?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -804,7 +816,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5844989824?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_acknowledge_education_elearning_engagement_and_it_support_officer_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_acknowledge_education_elearning_engagement_and_it_support_officer_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_acknowledge_education_elearning_engagement_and_it_support_officer_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5844989824?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -829,7 +841,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5844958461?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5844958461?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -854,7 +866,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">Direct government</span><span class="tag">Azure</span><span class="tag">Microsoft 365</span><span class="tag">Cloud engineering</span></div>
   <div class="card-actions">
     <a href="https://www.careers.vic.gov.au/job/senior-cloud-engineer-77733" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_victorian_institute_of_teaching_senior_cloud_engineer_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_victorian_institute_of_teaching_senior_cloud_engineer_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_victorian_institute_of_teaching_senior_cloud_engineer_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.careers.vic.gov.au/job/senior-cloud-engineer-77733")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -879,7 +891,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">Microsoft support</span><span class="tag">Azure</span><span class="tag">Active Directory</span><span class="tag">Customer service</span></div>
   <div class="card-actions">
     <a href="https://au.indeed.com/viewjob?jk=b4f4a51940b29ba4" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_first_focus_it_tech_support_roles_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_first_focus_it_tech_support_roles_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_first_focus_it_tech_support_roles_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.indeed.com/viewjob?jk=b4f4a51940b29ba4")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -904,7 +916,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">Microsoft 365</span><span class="tag">Managed services</span><span class="tag">Healthcare technology</span><span class="tag">Remote available</span></div>
   <div class="card-actions">
     <a href="https://au.indeed.com/viewjob?jk=32d96bb2c221a5a9" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_converged_medical_solutions_computer_network_and_systems_engineer_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_converged_medical_solutions_computer_network_and_systems_engineer_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_converged_medical_solutions_computer_network_and_systems_engineer_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.indeed.com/viewjob?jk=32d96bb2c221a5a9")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -929,7 +941,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">Azure</span><span class="tag">Microsoft cloud</span><span class="tag">Consulting</span><span class="tag">Hybrid</span></div>
   <div class="card-actions">
     <a href="https://au.indeed.com/viewjob?jk=6de2dc4817476357" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_fujifilm_microchannel_microsoft_cloud_solutions_consultant_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_fujifilm_microchannel_microsoft_cloud_solutions_consultant_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_fujifilm_microchannel_microsoft_cloud_solutions_consultant_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.indeed.com/viewjob?jk=6de2dc4817476357")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -954,7 +966,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">Data centre</span><span class="tag">IT support</span><span class="tag">Physical infrastructure</span><span class="tag">Amazon Web Services</span></div>
   <div class="card-actions">
     <a href="https://au.indeed.com/viewjob?jk=da9892dd900ea21c" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_amazon_com_data_center_it_support_engineer_mel_dco_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_amazon_com_data_center_it_support_engineer_mel_dco_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_amazon_com_data_center_it_support_engineer_mel_dco_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.indeed.com/viewjob?jk=da9892dd900ea21c")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -979,7 +991,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">Direct employer</span><span class="tag">Azure</span><span class="tag">Microsoft 365</span><span class="tag">Infrastructure operations</span></div>
   <div class="card-actions">
     <a href="https://www.lgtwm.com/au-en/careers/jobs/infrastructure-engineer-364826" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_lgt_wealth_management_australia_infrastructure_engineer_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_lgt_wealth_management_australia_infrastructure_engineer_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_lgt_wealth_management_australia_infrastructure_engineer_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.lgtwm.com/au-en/careers/jobs/infrastructure-engineer-364826")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1010,7 +1022,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">sysadmin</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5837586378?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_harperlloyd_recruitment_personal_assistant_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_harperlloyd_recruitment_personal_assistant_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_harperlloyd_recruitment_personal_assistant_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5837586378?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1035,7 +1047,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">m365</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5843140334?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_dg_head_office_national_visual_merchandiser_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_dg_head_office_national_visual_merchandiser_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_dg_head_office_national_visual_merchandiser_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5843140334?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1060,7 +1072,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.linkedin.com/jobs/view/sales-associate-casual-at-foot-locker-4414863870" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.linkedin.com/jobs/view/sales-associate-casual-at-foot-locker-4414863870")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1085,7 +1097,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.linkedin.com/jobs/view/casual-sales-associate-at-pop-mart-4438110773" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.linkedin.com/jobs/view/casual-sales-associate-at-pop-mart-4438110773")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1110,7 +1122,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.linkedin.com/jobs/view/casual-food-and-beverage-attendant-at-melbourne-polytechnic-4455526459" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_melbourne_polytechnic_casual_food_and_beverage_attendant_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_melbourne_polytechnic_casual_food_and_beverage_attendant_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_melbourne_polytechnic_casual_food_and_beverage_attendant_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.linkedin.com/jobs/view/casual-food-and-beverage-attendant-at-melbourne-polytechnic-4455526459")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1135,7 +1147,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.linkedin.com/jobs/view/casual-sales-assistant-bras-n-things-cranbourne-at-bras-n-things-4457041616" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.linkedin.com/jobs/view/casual-sales-assistant-bras-n-things-cranbourne-at-bras-n-things-4457041616")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1160,7 +1172,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.linkedin.com/jobs/view/front-of-house-team-member-elsternwick-casual-part-time-full-time-at-chargrill-charlie-s-4454142149" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_chargrill_charlie_s_front_of_house_team_member_elsternwick_casual_part_time_full_time_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_chargrill_charlie_s_front_of_house_team_member_elsternwick_casual_part_time_full_time_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_chargrill_charlie_s_front_of_house_team_member_elsternwick_casual_part_time_full_time_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.linkedin.com/jobs/view/front-of-house-team-member-elsternwick-casual-part-time-full-time-at-chargrill-charlie-s-4454142149")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1185,7 +1197,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.linkedin.com/jobs/view/casual-sales-assistant-bonds-outlet-endeavour-hills-at-hanes-brands-australasia-4457052496" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.linkedin.com/jobs/view/casual-sales-assistant-bonds-outlet-endeavour-hills-at-hanes-brands-australasia-4457052496")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1210,7 +1222,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.linkedin.com/jobs/view/sales-assistant-sorrento-at-nude-lucy-4454172855" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.linkedin.com/jobs/view/sales-assistant-sorrento-at-nude-lucy-4454172855")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1235,7 +1247,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual</span><span class="tag">linkedin</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.linkedin.com/jobs/view/sales-associate-part-time-at-pop-mart-4437782644" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.linkedin.com/jobs/view/sales-associate-part-time-at-pop-mart-4437782644")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1260,7 +1272,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">service desk</span><span class="tag">indeed</span><span class="tag">core_it</span></div>
   <div class="card-actions">
     <a href="https://au.indeed.com/viewjob?jk=1fd65c0e7c4a5a67" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_windana_aod_support_workers_multiple_casual_opportunities_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_windana_aod_support_workers_multiple_casual_opportunities_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_windana_aod_support_workers_multiple_casual_opportunities_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.indeed.com/viewjob?jk=1fd65c0e7c4a5a67")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1285,7 +1297,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual work</span><span class="tag">indeed</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.indeed.com/viewjob?jk=bb72ca1775112768" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_madeleines_bakery_and_cake_shop_bakers_assistant_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_madeleines_bakery_and_cake_shop_bakers_assistant_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_madeleines_bakery_and_cake_shop_bakers_assistant_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.indeed.com/viewjob?jk=bb72ca1775112768")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1310,7 +1322,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual work</span><span class="tag">indeed</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.indeed.com/viewjob?jk=37d8d9662e9dfcbe" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.indeed.com/viewjob?jk=37d8d9662e9dfcbe")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1335,7 +1347,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual work</span><span class="tag">indeed</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.indeed.com/viewjob?jk=2912c7e5a5710539" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_il_pizzaioll_casual_wait_staff_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_il_pizzaioll_casual_wait_staff_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_il_pizzaioll_casual_wait_staff_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.indeed.com/viewjob?jk=2912c7e5a5710539")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1360,7 +1372,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual work</span><span class="tag">indeed</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.indeed.com/viewjob?jk=f575f0e42a0726fb" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.indeed.com/viewjob?jk=f575f0e42a0726fb")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1385,7 +1397,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual work</span><span class="tag">indeed</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.indeed.com/viewjob?jk=a06b0d6683db8eba" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.indeed.com/viewjob?jk=a06b0d6683db8eba")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1410,7 +1422,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual work</span><span class="tag">indeed</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.indeed.com/viewjob?jk=a261590f46875995" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_olinda_tea_house_food_and_beverage_attendant_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_olinda_tea_house_food_and_beverage_attendant_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_olinda_tea_house_food_and_beverage_attendant_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.indeed.com/viewjob?jk=a261590f46875995")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1435,7 +1447,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual work</span><span class="tag">indeed</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.indeed.com/viewjob?jk=54e32ee441d5c1e4" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.indeed.com/viewjob?jk=54e32ee441d5c1e4")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1460,7 +1472,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual work</span><span class="tag">indeed</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.indeed.com/viewjob?jk=37f9ac624b4a9ab1" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.indeed.com/viewjob?jk=37f9ac624b4a9ab1")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1485,7 +1497,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">casual work</span><span class="tag">indeed</span><span class="tag">local_bridge</span></div>
   <div class="card-actions">
     <a href="https://au.indeed.com/viewjob?jk=61df30b370d1e189" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_pnm_food_wait_staff_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_pnm_food_wait_staff_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_pnm_food_wait_staff_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://au.indeed.com/viewjob?jk=61df30b370d1e189")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1516,7 +1528,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5852545359?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5852545359?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1541,7 +1553,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5850725916?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_hays_it_operations_technician_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_hays_it_operations_technician_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_hays_it_operations_technician_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5850725916?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1566,7 +1578,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5845193805?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5845193805?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1591,7 +1603,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5844278727?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_hipac_healthcare_pty_field_service_technician_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_hipac_healthcare_pty_field_service_technician_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_hipac_healthcare_pty_field_service_technician_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5844278727?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1616,7 +1628,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5842371693?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_victorian_government_specialist_inspector_plumbing_performance_solutions_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_victorian_government_specialist_inspector_plumbing_performance_solutions_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_victorian_government_specialist_inspector_plumbing_performance_solutions_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5842371693?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1641,7 +1653,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5842371530?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_victorian_government_inspector_plumbing_gas_safety_assurance_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_victorian_government_inspector_plumbing_gas_safety_assurance_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_victorian_government_inspector_plumbing_gas_safety_assurance_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5842371530?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1666,7 +1678,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">it_support</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5841916658?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5841916658?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1691,7 +1703,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">sysadmin</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5849595209?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_techforce_personnel_contracts_manager_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_techforce_personnel_contracts_manager_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_techforce_personnel_contracts_manager_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5849595209?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1716,7 +1728,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">sysadmin</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5846912190?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_osos_alliance_contracts_manager_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_osos_alliance_contracts_manager_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_osos_alliance_contracts_manager_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5846912190?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1741,7 +1753,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">network</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5851363751?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_lead_group_business_development_manager_hvac_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_lead_group_business_development_manager_hvac_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_lead_group_business_development_manager_hvac_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5851363751?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1766,7 +1778,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">network</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5846911705?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_lead_group_consultancy_business_development_manager_hvac_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_lead_group_consultancy_business_development_manager_hvac_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_lead_group_consultancy_business_development_manager_hvac_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5846911705?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1791,7 +1803,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">network</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/land/ad/5845923744?se=7GBHdtue8RGU6LIjyaRnwA&amp;utm_medium=api&amp;utm_source=cc30c73e&amp;v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/land/ad/5845923744?se=7GBHdtue8RGU6LIjyaRnwA&utm_medium=api&utm_source=cc30c73e&v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1816,7 +1828,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">network</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5840284057?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_engineering_networks_pty_ltd_technical_operations_manager_electrical_oem_power_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_engineering_networks_pty_ltd_technical_operations_manager_electrical_oem_power_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_engineering_networks_pty_ltd_technical_operations_manager_electrical_oem_power_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5840284057?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1841,7 +1853,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">security</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5838397976?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_5g_networks_financial_accountant_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_5g_networks_financial_accountant_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_5g_networks_financial_accountant_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5838397976?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1866,7 +1878,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">software</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5845680960?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5845680960?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1891,7 +1903,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">software</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5845680569?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5845680569?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1916,7 +1928,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">software</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5845680561?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5845680561?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1941,7 +1953,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">data</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/land/ad/5851967463?se=0NTzgNue8RGSb8VpDRDiVA&amp;utm_medium=api&amp;utm_source=cc30c73e&amp;v=B53AB186587AA7126448B920F46E811885DA1285" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/land/ad/5851967463?se=0NTzgNue8RGSb8VpDRDiVA&utm_medium=api&utm_source=cc30c73e&v=B53AB186587AA7126448B920F46E811885DA1285")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1966,7 +1978,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">data</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5851099492?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5851099492?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -1991,7 +2003,7 @@ a{color:inherit;text-decoration:none}
   <div class="card-tags"><span class="tag">data</span><span class="tag">adzuna</span></div>
   <div class="card-actions">
     <a href="https://www.adzuna.com.au/details/5851041189?utm_medium=api&amp;utm_source=cc30c73e" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <a href="applications/2026-08-08_northbridge_it_recruitment_propr_lead_data_centre_engineers_ai_installation_supervisors_12m_con_resume.pdf" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a> <a href="applications/2026-08-08_northbridge_it_recruitment_propr_lead_data_centre_engineers_ai_installation_supervisors_12m_con_cover_letter.pdf" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a> <a href="applications/2026-08-08_northbridge_it_recruitment_propr_lead_data_centre_engineers_ai_installation_supervisors_12m_con_opening_email.md" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>
+    <button class="btn btn-generate" onclick="generateJob(this, "https://www.adzuna.com.au/details/5851041189?utm_medium=api&utm_source=cc30c73e")" title="Generate tailored resume + cover letter">✨ Generate</button>
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>
@@ -2060,6 +2072,22 @@ a{color:inherit;text-decoration:none}
 
   filterWork.onchange = applyFilters;
   filterSource.onchange = applyFilters;
+
+  // ── Generate button ──
+  window.generateJob = function(btn, url) {
+    const cmd = `cd job-dashboard-site && python3 generate_single.py "${url}"`;
+    navigator.clipboard.writeText(cmd).then(() => {
+      btn.textContent = '✅ Copied!';
+      btn.disabled = true;
+      setTimeout(() => {
+        btn.textContent = '✨ Generate';
+        btn.disabled = false;
+      }, 2000);
+    }).catch(() => {
+      // Fallback: show in prompt
+      prompt('Copy this command and run it:', cmd);
+    });
+  };
 })();
 </script>
 </body>

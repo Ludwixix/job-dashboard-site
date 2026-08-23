@@ -1,19 +1,7 @@
-# Sam Ludwig
-Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
+I am applying for the Client Training Consultant position at Solera, as I am motivated by your commitment to transforming every touchpoint of the vehicle lifecycle into a connected digital experience. My experience in delivering technical training and client facilitation aligns directly with the requirements of this role.
 
-**Re: Client Training Consultant — Solera**
+In previous roles, I have built a strong track record in client training and stakeholder communication. At Engage Squared, I facilitated over 10 client-facing technical workshops for organisations including Victoria Police and Transurban, which drove a 20% increase in M365 platform adoption. During the Windows 11 migration at St John of God Health Care, I served as the primary liaison for clinical staff, translating complex technical issues into clear, actionable guidance that ensured zero patient care disruption. I also developed the PySPO diagnostic tool, which trained Tier-1 support teams to run advanced system checks autonomously, reducing L3 escalations and improving efficiency. At Capgemini, I produced comprehensive runbooks and knowledge bases that streamlined team onboarding and incident resolution, demonstrating my ability to create training resources that deliver lasting impact.
 
-Dear Hiring Manager,
+Solera's global scale and focus on digital innovation, with over 300 million transactions annually for 235,000 partners, resonate with my background in enterprise software services. I am drawn to the opportunity to develop and deliver training programmes that support your diverse client network across 90 countries, ensuring they effectively utilise Solera's data and software solutions to achieve their goals.
 
-The Client Training Consultant role at Solera aligns with my recent enterprise infrastructure and service-operations work. I'm writing to express my interest in the Client Training Consultant role at Solera. My background across enterprise infrastructure, Microsoft 365, and service operations connects well with the requirements outlined.
-
-Recent work directly relevant to this role includes Delivered L1/L2/L3 support consistently achieving >90% SLA resolution. The areas where my background aligns most directly are Git, Customer Support.
-
-The scope described in the listing connects with my enterprise infrastructure and service-operations background. The listing's focus on who we are solera is a global leader in data and software services that strives to transform every touchpoint of the vehicle lifecycle into a connected digital experience connects with my background. The Melbourne Region, Melbourne location is practical for my current situation. I am looking for a role where I can continue building enterprise infrastructure and service operations skills while contributing to a team that values reliable, well-documented technical delivery. My experience across government, healthcare, and enterprise environments has given me a practical understanding of what it takes to deliver technology services at scale.
-
-I'd welcome a conversation about how my experience could contribute to your team. I'm happy to confirm any qualification or screening requirements before progressing.
-
-Kind regards,
-Sam Ludwig
-
-<!-- ✅ Cover letter summary | - Specific listing details referenced: it_support; adzuna; job description reviewed | - Achievements highlighted: enterprise service delivery | - Adjacent-match framing used: no | - Word count: 211 | - Voice guide check: PASS |  | ⚠️ Word count 211 below 250 — consider expanding -->
+I am confident that my skills in stakeholder engagement and technical communication can contribute to Solera's client training initiatives, and I look forward to discussing this further.
