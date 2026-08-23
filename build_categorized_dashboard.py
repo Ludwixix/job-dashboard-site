@@ -195,7 +195,8 @@ def render_card(job, stream_id):
     if has_cover:
         pack_buttons.append(f'<a href="applications/{esc(company_clean)}_{esc(title_clean)}_cover_letter.md" class="btn btn-pack" title="View cover letter">📄 Cover</a>')
     if not pack_buttons:
-        pack_buttons.append(f'<button class="btn btn-generate" onclick="generateJob(this, {json.dumps(url)})" title="Generate tailored resume + cover letter">✨ Generate</button>')
+        job_data = json.dumps({"title": job.get("title", ""), "company": job.get("company", ""), "description": (job.get("description") or "")[:600], "why": job.get("why", ""), "location": job.get("location", "")})
+        pack_buttons.append(f'<button class="btn btn-generate" onclick="generateJob(this, {job_data})" title="Generate tailored resume + cover letter">✨ Generate</button>')
     pack_html = " ".join(pack_buttons)
 
     return f'''<article class="card" id="role-{rid}" data-role-id="{rid}" data-score="{score}" data-work="{work.lower()}" data-source="{source.lower()}" data-stream="{stream_id}">
@@ -686,20 +687,69 @@ a{{color:inherit;text-decoration:none}}
   filterSource.onchange = applyFilters;
 
   // ── Generate button ──
-  window.generateJob = function(btn, url) {{
-    const cmd = `cd job-dashboard-site && python3 generate_single.py "${{url}}"`;
-    navigator.clipboard.writeText(cmd).then(() => {{
-      btn.textContent = '✅ Copied!';
-      btn.disabled = true;
-      setTimeout(() => {{
-        btn.textContent = '✨ Generate';
-        btn.disabled = false;
-      }}, 2000);
-    }}).catch(() => {{
-      // Fallback: show in prompt
-      prompt('Copy this command and run it:', cmd);
-    }});
+  window.generateJob = async function(btn, jobData) {{
+    btn.textContent = '⏳ Generating...';
+    btn.disabled = true;
+    
+    try {{
+      const resp = await fetch('/.netlify/functions/generate', {{
+        method: 'POST',
+        headers: {{ 'Content-Type': 'application/json' }},
+        body: JSON.stringify(jobData),
+      }});
+      
+      if (!resp.ok) throw new Error('API error: ' + resp.status);
+      const data = await resp.json();
+      
+      const filename = (jobData.company + '_' + jobData.title).replace(/[^a-zA-Z0-9]/g, '_');
+      if (data.resume) {{
+        downloadPdf(data.resume, filename + '_resume.pdf');
+      }}
+      if (data.cover_letter) {{
+        downloadPdf(data.cover_letter, filename + '_cover_letter.pdf');
+      }}
+      
+      btn.textContent = '✅ Done!';
+      setTimeout(() => {{ btn.textContent = '✨ Generate'; btn.disabled = false; }}, 2000);
+    }} catch(e) {{
+      btn.textContent = '❌ Failed';
+      console.error(e);
+      setTimeout(() => {{ btn.textContent = '✨ Generate'; btn.disabled = false; }}, 2000);
+    }}
   }};
+  
+  function downloadPdf(markdown, filename) {{
+    // Convert markdown to simple HTML, then to PDF via print
+    const html = markdownToHtml(markdown);
+    const win = window.open('', '_blank');
+    win.document.write(`<!DOCTYPE html><html><head><title>${{filename}}</title>
+      <style>
+        body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; color: #1a1a1a; }}
+        h1 {{ font-size: 1.5rem; margin-bottom: 0.5rem; }}
+        h2 {{ font-size: 1.1rem; margin-top: 1.5rem; border-bottom: 1px solid #ddd; padding-bottom: 4px; }}
+        h3 {{ font-size: 1rem; margin-top: 1.2rem; color: #333; }}
+        p {{ margin: 0.5rem 0; }}
+        ul {{ margin: 0.5rem 0; padding-left: 1.5rem; }}
+        li {{ margin: 0.3rem 0; }}
+        strong {{ font-weight: 600; }}
+        @media print {{ body {{ margin: 0; padding: 20px; }} }}
+      </style>
+    </head><body>${{html}}</body></html>`);
+    win.document.close();
+    setTimeout(() => {{ win.print(); }}, 500);
+  }}
+  
+  function markdownToHtml(md) {{
+    return md
+      .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+      .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+      .replace(/^# (.+)$/gm, '<h1>$1</h1>')
+      .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+      .replace(/^- (.+)$/gm, '<li>$1</li>')
+      .replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>')
+      .replace(/\n\n/g, '<br><br>')
+      .replace(/\n/g, '<br>');
+  }}
 }})();
 </script>
 </body>
