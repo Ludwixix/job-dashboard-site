@@ -1,16 +1,16 @@
-# Opening Email — Workshop Technician
+# Opening Email — Counter operator
 
-**Company:** Fisher & Paykel
-**Location:** Melbourne Region, Melbourne
-**Application link:** https://www.adzuna.com.au/details/5852545359?utm_medium=api&utm_source=cc30c73e
+**Company:** your organisation
+**Location:** Fawkner, VIC, AU
+**Application link:** https://au.indeed.com/viewjob?jk=37d8d9662e9dfcbe
 
 ## Subject
-Application — Workshop Technician — Sam Ludwig
+Application — Counter operator — Sam Ludwig
 
 ## Email body
 Hello Hiring Manager,
 
-I'm writing about the Workshop Technician position with Fisher & Paykel. 
+I'm writing about the Counter operator position with your organisation. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 

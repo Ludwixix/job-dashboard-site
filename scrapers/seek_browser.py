@@ -82,7 +82,7 @@ EXTRACT_JS = """() => {
 
         if (titleEl) {
             const href = linkEl ? linkEl.getAttribute('href') : '';
-            const url = href.startsWith('http') ? href : (href ? 'https://www.seek.com.au' + href : '');
+            const url = href.startsWith('http') ? href : (href ? 'https://au.seek.com' + href : '');
 
             jobs.push({
                 title: titleEl.textContent.trim(),
@@ -136,7 +136,7 @@ def scrape_seek_browser():
             try:
                 # Build search URL
                 slug = keyword.replace(" ", "-")
-                search_url = f"https://www.seek.com.au/{slug}-jobs/in-All-Melbourne-VIC"
+                search_url = f"https://au.seek.com/{slug}-jobs/in-Melbourne-VIC"
                 page.goto(search_url, wait_until="domcontentloaded", timeout=30000)
 
                 # Wait for Cloudflare challenge to settle

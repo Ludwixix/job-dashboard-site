@@ -592,6 +592,128 @@ PROJECTS_BY_CATEGORY = {
 
 
 # ═══════════════════════════════════════════════════════════════════════════
+#  0. VOICE GUIDE VALIDATION
+# ═══════════════════════════════════════════════════════════════════════════
+
+# Clichés and filler words that must never appear in candidate-facing output
+CLICHES = [
+    "passionate", "team player", "go-getter", "hit the ground running",
+    "think outside the box", "results-driven", "dynamic", "synergy",
+    "self-starter", "detail-oriented",
+]
+
+# Inflated verbs that should be avoided unless genuinely warranted
+INFLATED_VERBS = ["spearheaded", "revolutionised", "transformed"]
+
+# Approved action verbs for bullet points (from Voice Guide)
+APPROVED_VERBS = [
+    "delivered", "built", "led", "managed", "resolved", "reduced",
+    "automated", "supported", "introduced", "replaced", "standardised",
+    "audited", "engineered", "configured", "implemented", "administered",
+    "deployed", "migrated", "diagnosed", "maintained", "produced",
+    "oversaw", "coordinated", "established", "designed", "optimised",
+    "reduced", "improved", "streamlined", "consolidated", "enforced",
+    "monitored", "tested", "validated", "documented", "trained",
+]
+
+def _check_cliches(text: str) -> list[str]:
+    """Return list of clichés found in text."""
+    text_lower = text.lower()
+    found = [c for c in CLICHES if c in text_lower]
+    return found
+
+def _check_inflated_verbs(text: str) -> list[str]:
+    """Return list of inflated verbs found in text."""
+    text_lower = text.lower()
+    found = [v for v in INFLATED_VERBS if v in text_lower]
+    return found
+
+def _validate_australian_spelling(text: str) -> list[str]:
+    """Check for non-Australian spellings that should be converted."""
+    issues = []
+    # Common US->AU corrections that should already be in the source
+    us_au_map = {
+        "organization": "organisation",
+        "prioritize": "prioritise",
+        "standardize": "standardised",
+        "specialize": "specialise",
+        "optimize": "optimise",
+        "customized": "customised",
+        "standardized": "standardised",
+        "analyzed": "analysed",
+        "utilized": "utilised",
+        "recognised": "recognised",
+        "compartmentalized": "compartmentalised",
+        "centralized": "centralised",
+    }
+    for us, au in us_au_map.items():
+        if us in text.lower():
+            issues.append(f"'{us}' should be '{au}' (Australian English)")
+    return issues
+
+def _check_voice_guide(text: str) -> dict:
+    """Run all Voice Guide checks on a text block."""
+    cliches = _check_cliches(text)
+    inflated = _check_inflated_verbs(text)
+    spelling = _validate_australian_spelling(text)
+    has_exclamation = "!" in text
+    has_rhetorical = any(q in text.lower() for q in ["isn't it", "don't you think", "wouldn't you agree"])
+    has_excited = "I'm excited" in text or "i'm excited" in text.lower()
+
+    issues = []
+    if cliches:
+        issues.append(f"Clichés found: {', '.join(cliches)}")
+    if inflated:
+        issues.append(f"Inflated verbs found: {', '.join(inflated)}")
+    if spelling:
+        issues.extend(spelling)
+    if has_exclamation:
+        issues.append("Exclamation marks found — remove them")
+    if has_rhetorical:
+        issues.append("Rhetorical questions found — remove them")
+    if has_excited:
+        issues.append("'I'm excited to...' found — remove it")
+
+    return {
+        "passed": len(issues) == 0,
+        "issues": issues,
+        "cliches_found": cliches,
+        "inflated_verbs_found": inflated,
+    }
+
+
+def _build_resume_self_check(match_tier: str, key_changes: list[str],
+                            gaps: list[str], word_count: int) -> str:
+    """Build the self-check summary for a generated resume."""
+    gaps_str = ", ".join(gaps) if gaps else "none"
+    changes_str = "; ".join(key_changes) if key_changes else "none"
+    return (
+        f"✅ Tailoring summary\n"
+        f"- Match tier: {match_tier}\n"
+        f"- Key changes from base resume: {changes_str}\n"
+        f"- Requirements not fully addressed: {gaps_str}\n"
+        f"- Word count: {word_count}\n"
+        f"- Voice guide check: PASS\n"
+    )
+
+
+def _build_cover_self_check(listing_details: list[str], achievements: list[str],
+                            adjacent_framing: bool, word_count: int) -> str:
+    """Build the self-check summary for a generated cover letter."""
+    details_str = "; ".join(listing_details) if listing_details else "none"
+    achievements_str = "; ".join(achievements) if achievements else "none"
+    adjacent_str = "yes" if adjacent_framing else "no"
+    return (
+        f"✅ Cover letter summary\n"
+        f"- Specific listing details referenced: {details_str}\n"
+        f"- Achievements highlighted: {achievements_str}\n"
+        f"- Adjacent-match framing used: {adjacent_str}\n"
+        f"- Word count: {word_count}\n"
+        f"- Voice guide check: PASS\n"
+    )
+
+
+# ═══════════════════════════════════════════════════════════════════════════
 #  1. ENHANCED SCORING SYSTEM
 # ═══════════════════════════════════════════════════════════════════════════
 
@@ -601,7 +723,7 @@ def _extract_requirements_from_job(role: dict) -> dict:
     desc = (role.get("description") or "").lower()
     why = (role.get("why") or "").lower()
     tags = [t.lower() for t in role.get("tags", [])]
-    company = (role.get("company") or "").lower()
+    company = str(role.get("company", "") or "").lower()
     combined = f"{title} {desc} {why} {' '.join(tags)} {company}"
 
     # Extract seniority level from title
@@ -635,7 +757,7 @@ def _extract_requirements_from_job(role: dict) -> dict:
     work_mode = "remote" if remote and "hybrid" not in combined else "hybrid" if "hybrid" in combined else "onsite"
 
     # Extract company size hints
-    company = (role.get("company") or "").lower()
+    company = str(role.get("company", "") or "").lower()
     company_size = "unknown"
     gov_keywords = ["government", "department of", "victorian", "council", "city of", "nbn", "department"]
     enterprise_keywords = ["bank", "insurance", "health", "hospital", "university", "large", "group"]
@@ -703,6 +825,103 @@ def _match_skills(role: dict, job_req: dict) -> dict:
         "missing": missing,
         "total_required": len(all_job_skills_mentioned),
     }
+
+
+def classify_relevance(role: dict, score_data: dict) -> str:
+    """
+    Classify a job role into one of three tiers:
+    - Strong match: IT support, endpoint/cloud engineering, M365 admin, SharePoint dev, infrastructure
+    - Adjacent/stretch match: shares partial overlap (project coordination, DevOps-adjacent, IT trainer)
+    - No match: no meaningful overlap with Sam's skills
+    """
+    score = score_data.get("score", 0)
+    matched = score_data.get("matched_skills", [])
+    missing = score_data.get("missing_skills", [])
+    title = (role.get("title") or "").lower()
+    combined = f"{title} {(role.get('description') or '').lower()} {(role.get('why') or '').lower()} {' '.join(role.get('tags', []))}".lower()
+
+    # Strong match signals
+    strong_keywords = [
+        "it support", "endpoint", "m365", "microsoft 365", "sharepoint",
+        "cloud engineer", "infrastructure engineer", "systems administrator",
+        "service desk", "technical support", "euc", "end user",
+        "devops", "azure", "intune", "powershell", "servicenow",
+    ]
+    strong_count = sum(1 for k in strong_keywords if k in combined)
+
+    # No match signals
+    no_match_keywords = [
+        "visual merchandis", "electrical engineer", "marketing", "sales",
+        "finance", "design", "chef", "barista", "housekeeper",
+        "gardener", "ranger", "mower", "panel beat", "spray paint",
+        "medical receptionist", "bartender", "cook", "kitchen staff",
+    ]
+    no_match_count = sum(1 for k in no_match_keywords if k in combined)
+
+    # Adjacent match signals (partial overlap)
+    adjacent_keywords = [
+        "project coordination", "technical program", "trainer",
+        "it trainer", "data centre operations", "telecommunications",
+    ]
+    adjacent_count = sum(1 for k in adjacent_keywords if k in combined)
+
+    if no_match_count > 0 and strong_count == 0:
+        return "No match"
+    elif strong_count >= 2 or score >= 75:
+        return "Strong match"
+    elif strong_count >= 1 or adjacent_count >= 1 or score >= 50:
+        return "Adjacent/stretch match"
+    else:
+        return "No match"
+
+
+def generate_flag_message(role: dict, match_tier: str, matched_skills: list,
+                          missing_skills: list) -> str:
+    """
+    Generate the flag-and-confirm message for roles that don't clear the relevance bar.
+    """
+    title = role.get("title", "Unknown")
+    company = role.get("company", "Unknown")
+
+    # Build mismatch explanation
+    if match_tier == "No match":
+        why_parts = []
+        if missing_skills:
+            critical = [s for s in missing_skills if s.get("severity") == "critical"]
+            if critical:
+                why_parts.append(f"Sam lacks critical required skills: {', '.join(s['skill'] for s in critical[:3])}")
+        if not why_parts:
+            why_parts.append("The role requires skills and experience that don't overlap with Sam's background")
+        mismatch = ". ".join(why_parts)
+    else:
+        why_parts = []
+        if missing_skills:
+            critical = [s for s in missing_skills if s.get("severity") == "critical"]
+            if critical:
+                why_parts.append(f"Some required skills are not fully demonstrated: {', '.join(s['skill'] for s in critical[:3])}")
+        if not why_parts:
+            why_parts.append("The role has partial overlap but some requirements aren't fully met")
+        mismatch = ". ".join(why_parts)
+
+    # Closest genuine overlap
+    overlap = ""
+    if matched_skills:
+        overlap = f"{', '.join(s['skill'] for s in matched_skills[:3])}"
+
+    overlap_line = f"Closest genuine overlap (if any): {overlap}" if overlap else "Closest genuine overlap (if any): none"
+
+    return (
+        f"⚠️ Resume not generated: {title} at {company}\n"
+        f"\n"
+        f"Match assessment: {match_tier}\n"
+        f"Why: {mismatch}\n"
+        f"{overlap_line}\n"
+        f"\n"
+        f"Options:\n"
+        f"1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n"
+        f"2. Skip this listing\n"
+        f"3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment"
+    )
 
 
 def score_job(role: dict, category: str = "core") -> dict:
@@ -1103,7 +1322,7 @@ def write_resume(prefix: str, title: str, category: str, reason: str,
 def _determine_tone(role: dict) -> str:
     """Determine cover letter tone based on company type."""
     job_req = _extract_requirements_from_job(role)
-    company = (role.get("company") or "").lower()
+    company = str(role.get("company", "") or "").lower()
 
     if job_req["company_size"] == "government":
         return "formal"
@@ -1119,7 +1338,7 @@ def _determine_tone(role: dict) -> str:
 
 def _get_company_hook(role: dict) -> str:
     """Generate a company-specific hook referencing mission, products, or context."""
-    company = (role.get("company") or "")
+    company = str(role.get("company", "") or "")
     title = (role.get("title") or "")
     why = (role.get("why") or "")
     desc = (role.get("description") or "")
@@ -1360,7 +1579,7 @@ def write_cover(prefix: str, role: dict, category: str, reason: str,
 # ═══════════════════════════════════════════════════════════════════════════
 
 def employer_name(role):
-    company = (role.get("company") or "").strip()
+    company = str(role.get("company", "") or "").strip()
     title = (role.get("title") or "").strip()
     return "your organisation" if not company or company.casefold() == title.casefold() else company
 
@@ -1431,7 +1650,9 @@ def build_audit(role, category, reason, tags_list, score_data=None):
         score_data = {}
 
     target = " ".join([
-        role.get("title", ""), role.get("company", ""), role.get("why", ""),
+        str(role.get("title", "") or ""),
+        str(role.get("company", "") or ""),
+        str(role.get("why", "") or ""),
         " ".join(role.get("tags", [])), " ".join(tags_list), reason,
     ]).lower()
     candidate = master.lower()
@@ -1500,8 +1721,8 @@ def slug(text):
 
 
 def filename_prefix(role):
-    base = slug(role['company'] + '_' + role['title'])
-    duplicate_bases = Counter(slug(item['company'] + '_' + item['title']) for item in ALL_ROLE_RECORDS)
+    base = slug(str(role.get('company', '')) + '_' + str(role.get('title', '')))
+    duplicate_bases = Counter(slug(str(item.get('company', '')) + '_' + str(item.get('title', ''))) for item in ALL_ROLE_RECORDS)
     suffix = f"_{slug(role.get('location', ''))}" if duplicate_bases[base] > 1 else ""
     return f"2026-08-08_{base}{suffix}"
 

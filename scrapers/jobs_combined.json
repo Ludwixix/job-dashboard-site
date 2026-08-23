@@ -1,13 +1,567 @@
 {
-  "scraped_at": "2026-08-23T08:54:19.184099+00:00",
+  "scraped_at": "2026-08-23T10:18:37.813472+00:00",
   "sources": {
     "Adzuna": 42,
-    "LinkedIn": 13,
+    "LinkedIn": 8,
     "Seek": 0,
-    "Indeed": 5
+    "Indeed": 10
   },
   "total": 60,
   "jobs": [
+    {
+      "title": "Lead Solution Architect - Home Health",
+      "company": "Australian Unity",
+      "url": "https://www.adzuna.com.au/details/5853134547?utm_medium=api&utm_source=cc30c73e",
+      "location": "Melbourne, Melbourne CBD",
+      "posted": "2026-08-23",
+      "source": "Adzuna",
+      "salary": "",
+      "description": "About us Established in 1840, we are Australia’s first wellbeing company, delivering health, wealth and care services for our members and the community. As a social enterprise, we’re motivated by our purpose to positively impact the wellbeing of millions. We reinvest profits to deliver products and services sustainably that matter most to our members, customers and the Australian community. For us, Real Wellbeing encompasses the whole experience of life. It’s about feeling supported in your hea…",
+      "tags": [
+        "it_support",
+        "adzuna"
+      ],
+      "why": "Adzuna listing for Lead Solution Architect - Home Health at Australian Unity",
+      "score": 0,
+      "listing_verification": "api_verified",
+      "application_route": "https://www.adzuna.com.au/details/5853134547?utm_medium=api&utm_source=cc30c73e",
+      "application_route_type": "adzuna_api",
+      "remote": false,
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_australian_unity_lead_solution_architect_home_health_resume.pdf",
+      "cover": "applications/2026-08-08_australian_unity_lead_solution_architect_home_health_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_australian_unity_lead_solution_architect_home_health_resume.md",
+      "cover_md": "applications/2026-08-08_australian_unity_lead_solution_architect_home_health_cover_letter.md",
+      "email_md": "applications/2026-08-08_australian_unity_lead_solution_architect_home_health_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_australian_unity_lead_solution_architect_home_health_audit.json",
+      "audit": {
+        "audit_version": "2.0",
+        "fit": "Good fit",
+        "score": 74.2,
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 1,
+            "total": 1
+          },
+          "experience_alignment": {
+            "score": 65,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 5,
+            "seniority": "senior"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 70,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Customer Support",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Role targets senior level; candidate is mid-level",
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5853134547?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5853134547?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn't sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email",
+      "scoring": {
+        "score": 74.2,
+        "fit_label": "Good fit",
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 1,
+            "total": 1
+          },
+          "experience_alignment": {
+            "score": 65,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 5,
+            "seniority": "senior"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 70,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Customer Support",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Role targets senior level; candidate is mid-level",
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "title": "IT Support Specialist",
+      "company": "STR",
+      "url": "https://www.adzuna.com.au/details/5852546634?utm_medium=api&utm_source=cc30c73e",
+      "location": "Melbourne Region, Melbourne",
+      "posted": "2026-08-23",
+      "source": "Adzuna",
+      "salary": "$72,000 – $90,000",
+      "description": "STR is seeking an IT Support Specialist with ACTIVE SECRET CLEARANCE to play a hands-on role in keeping our employees productive and our technology running smoothly. In this role, you’ll be the front line of IT support—solving problems, supporting local and remote staff, and partnering with a collaborative IT team in a mission-driven, technical environment. If you enjoy troubleshooting, working directly with users, and learning new technologies, this role offers meaningful impact and growth. Wh…",
+      "tags": [
+        "it_support",
+        "adzuna"
+      ],
+      "why": "Adzuna listing for IT Support Specialist at STR",
+      "score": 0,
+      "listing_verification": "api_verified",
+      "application_route": "https://www.adzuna.com.au/details/5852546634?utm_medium=api&utm_source=cc30c73e",
+      "application_route_type": "adzuna_api",
+      "remote": false,
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_str_it_support_specialist_resume.pdf",
+      "cover": "applications/2026-08-08_str_it_support_specialist_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_str_it_support_specialist_resume.md",
+      "cover_md": "applications/2026-08-08_str_it_support_specialist_cover_letter.md",
+      "email_md": "applications/2026-08-08_str_it_support_specialist_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_str_it_support_specialist_audit.json",
+      "audit": {
+        "audit_version": "2.0",
+        "fit": "Good fit",
+        "score": 72.0,
+        "dimensions": {
+          "skill_match": {
+            "score": 50,
+            "weight": "40%",
+            "matched": 0,
+            "total": 0
+          },
+          "experience_alignment": {
+            "score": 95,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 3,
+            "seniority": "mid"
+          },
+          "location_remote_fit": {
+            "score": 95,
+            "weight": "15%",
+            "work_mode": "remote"
+          },
+          "growth_potential": {
+            "score": 90,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [],
+        "missing_skills": [],
+        "strengths": [
+          "Experience level aligns well (6 years vs 3 required)",
+          "Location arrangement is practical (remote)"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5852546634?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5852546634?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn't sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email",
+      "scoring": {
+        "score": 72.0,
+        "fit_label": "Good fit",
+        "dimensions": {
+          "skill_match": {
+            "score": 50,
+            "weight": "40%",
+            "matched": 0,
+            "total": 0
+          },
+          "experience_alignment": {
+            "score": 95,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 3,
+            "seniority": "mid"
+          },
+          "location_remote_fit": {
+            "score": 95,
+            "weight": "15%",
+            "work_mode": "remote"
+          },
+          "growth_potential": {
+            "score": 90,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [],
+        "missing_skills": [],
+        "strengths": [
+          "Experience level aligns well (6 years vs 3 required)",
+          "Location arrangement is practical (remote)"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "title": "IT Support Analyst",
+      "company": "HPX Group",
+      "url": "https://www.adzuna.com.au/details/5852545054?utm_medium=api&utm_source=cc30c73e",
+      "location": "Melbourne Region, Melbourne",
+      "posted": "2026-08-23",
+      "source": "Adzuna",
+      "salary": "",
+      "description": "The Role We’re looking for an experienced IT Support Analyst with exceptional troubleshooting skills to drive IT Support outcomes across our group. Reporting to our IT Support Lead, you will be the point of contact for IT issues and will either work directly with users to resolve technical problems, or coordinate the resolution with support staff from our IT provider. We are a high performing team looking for someone with drive and initiative to join us on our continued journey of growth and ex…",
+      "tags": [
+        "it_support",
+        "adzuna"
+      ],
+      "why": "Adzuna listing for IT Support Analyst at HPX Group",
+      "score": 0,
+      "listing_verification": "api_verified",
+      "application_route": "https://www.adzuna.com.au/details/5852545054?utm_medium=api&utm_source=cc30c73e",
+      "application_route_type": "adzuna_api",
+      "remote": false,
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_hpx_group_it_support_analyst_resume.pdf",
+      "cover": "applications/2026-08-08_hpx_group_it_support_analyst_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_hpx_group_it_support_analyst_resume.md",
+      "cover_md": "applications/2026-08-08_hpx_group_it_support_analyst_cover_letter.md",
+      "email_md": "applications/2026-08-08_hpx_group_it_support_analyst_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_hpx_group_it_support_analyst_audit.json",
+      "audit": {
+        "audit_version": "2.0",
+        "fit": "Partial fit",
+        "score": 69.2,
+        "dimensions": {
+          "skill_match": {
+            "score": 50,
+            "weight": "40%",
+            "matched": 0,
+            "total": 0
+          },
+          "experience_alignment": {
+            "score": 95,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 3,
+            "seniority": "mid"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 50,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 85,
+            "weight": "10%",
+            "company_size": "enterprise"
+          }
+        },
+        "matched_skills": [],
+        "missing_skills": [],
+        "strengths": [
+          "Experience level aligns well (6 years vs 3 required)",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5852545054?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5852545054?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn't sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email",
+      "scoring": {
+        "score": 69.2,
+        "fit_label": "Partial fit",
+        "dimensions": {
+          "skill_match": {
+            "score": 50,
+            "weight": "40%",
+            "matched": 0,
+            "total": 0
+          },
+          "experience_alignment": {
+            "score": 95,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 3,
+            "seniority": "mid"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 50,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 85,
+            "weight": "10%",
+            "company_size": "enterprise"
+          }
+        },
+        "matched_skills": [],
+        "missing_skills": [],
+        "strengths": [
+          "Experience level aligns well (6 years vs 3 required)",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "title": "Retail IT Student",
+      "company": "Hydro Tasmania",
+      "url": "https://www.adzuna.com.au/details/5852538841?utm_medium=api&utm_source=cc30c73e",
+      "location": "Melbourne Region, Melbourne",
+      "posted": "2026-08-23",
+      "source": "Adzuna",
+      "salary": "",
+      "description": "We’re Momentum Energy – a power company owned by Hydro Tasmania, Australia’s largest generator of renewable energy. We’re on a mission to make energy simpler, and more human for customers. And it starts with our people: as we grow, we’re nurturing a culture of belonging, where diverse views and experiences are embraced and everyone is valued and respected. We encourage applications from qualified candidates of all ages, cultural backgrounds, abilities, genders and sexual orientations and are ha…",
+      "tags": [
+        "it_support",
+        "adzuna"
+      ],
+      "why": "Adzuna listing for Retail IT Student at Hydro Tasmania",
+      "score": 0,
+      "listing_verification": "api_verified",
+      "application_route": "https://www.adzuna.com.au/details/5852538841?utm_medium=api&utm_source=cc30c73e",
+      "application_route_type": "adzuna_api",
+      "remote": false,
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_hydro_tasmania_retail_it_student_resume.pdf",
+      "cover": "applications/2026-08-08_hydro_tasmania_retail_it_student_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_hydro_tasmania_retail_it_student_resume.md",
+      "cover_md": "applications/2026-08-08_hydro_tasmania_retail_it_student_cover_letter.md",
+      "email_md": "applications/2026-08-08_hydro_tasmania_retail_it_student_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_hydro_tasmania_retail_it_student_audit.json",
+      "audit": {
+        "audit_version": "2.0",
+        "fit": "Partial fit",
+        "score": 67.8,
+        "dimensions": {
+          "skill_match": {
+            "score": 50,
+            "weight": "40%",
+            "matched": 0,
+            "total": 0
+          },
+          "experience_alignment": {
+            "score": 95,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 3,
+            "seniority": "mid"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 70,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [],
+        "missing_skills": [],
+        "strengths": [
+          "Experience level aligns well (6 years vs 3 required)",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5852538841?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5852538841?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn't sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email",
+      "scoring": {
+        "score": 67.8,
+        "fit_label": "Partial fit",
+        "dimensions": {
+          "skill_match": {
+            "score": 50,
+            "weight": "40%",
+            "matched": 0,
+            "total": 0
+          },
+          "experience_alignment": {
+            "score": 95,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 3,
+            "seniority": "mid"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 70,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [],
+        "missing_skills": [],
+        "strengths": [
+          "Experience level aligns well (6 years vs 3 required)",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8
+      }
+    },
     {
       "title": "Professional Services Consultant",
       "company": "TESSERENT",
@@ -580,149 +1134,6 @@
         "strengths": [
           "Strong advanced proficiency in Git",
           "Experience level aligns well (6 years vs 1 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
-    },
-    {
-      "title": "IT Support Specialist",
-      "company": "ctrl:cyber",
-      "url": "https://www.adzuna.com.au/details/5851094266?utm_medium=api&utm_source=cc30c73e",
-      "location": "Melbourne, World Trade Centre",
-      "posted": "2026-08-22",
-      "source": "Adzuna",
-      "salary": "",
-      "description": "The Mission We are here to find those who strive for excellence, go the extra mile, and crave continuous growth. We’re an all-Australian cybersecurity firm helping some of the country’s biggest organisations stay ahead of cyber risk. Proudly recognised as a 2026 Great Place to Work®, we’ve built a culture that champions growth, celebrates initiative, and supports people who are motivated to make an impact. We’re looking for people who share our drive to learn relentlessly, act with integrity, a…",
-      "tags": [
-        "it_support",
-        "adzuna"
-      ],
-      "why": "Adzuna listing for IT Support Specialist at ctrl:cyber",
-      "score": 0,
-      "listing_verification": "api_verified",
-      "application_route": "https://www.adzuna.com.au/details/5851094266?utm_medium=api&utm_source=cc30c73e",
-      "application_route_type": "adzuna_api",
-      "remote": false,
-      "stream": "Core IT",
-      "resume": "applications/2026-08-08_ctrl_cyber_it_support_specialist_resume.pdf",
-      "cover": "applications/2026-08-08_ctrl_cyber_it_support_specialist_cover_letter.pdf",
-      "resume_md": "applications/2026-08-08_ctrl_cyber_it_support_specialist_resume.md",
-      "cover_md": "applications/2026-08-08_ctrl_cyber_it_support_specialist_cover_letter.md",
-      "email_md": "applications/2026-08-08_ctrl_cyber_it_support_specialist_opening_email.md",
-      "audit_json": "application_audits/2026-08-08_ctrl_cyber_it_support_specialist_audit.json",
-      "audit": {
-        "audit_version": "2.0",
-        "fit": "Good fit",
-        "score": 81.8,
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Security"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Security",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8,
-        "source": "Adzuna",
-        "source_url": "https://www.adzuna.com.au/details/5851094266?utm_medium=api&utm_source=cc30c73e",
-        "application_route": "https://www.adzuna.com.au/details/5851094266?utm_medium=api&utm_source=cc30c73e",
-        "application_route_type": "adzuna_api",
-        "listing_verification": "api_verified",
-        "matched_terms": [],
-        "requested_terms": [],
-        "unsupported_or_unverified_terms": [],
-        "requirements_to_confirm": [
-          "Confirm the listing is still open and review the exact job description."
-        ],
-        "recommendation": "Review the listing and requirements before applying.",
-        "human_review": [
-          "Check the listing date, closing date, location, roster, and application route.",
-          "Read the tailored documents once and edit any wording that doesn't sound like you.",
-          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
-          "Submit manually only after your explicit approval."
-        ],
-        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
-      },
-      "contact_email": null,
-      "contact_phone": null,
-      "hiring_manager": null,
-      "application_materials": "Tailored résumé, cover letter and opening email",
-      "scoring": {
-        "score": 81.8,
-        "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Security"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Security",
-          "Experience level aligns well (6 years vs 3 required)",
           "Location arrangement is practical (onsite)"
         ],
         "risks": [
@@ -1444,6 +1855,159 @@
           "Confirm listing availability and exact requirements before applying"
         ],
         "confidence": 0.8
+      }
+    },
+    {
+      "title": "Service Desk Engineer, Level 2 – CT Group",
+      "company": "Lyra Technology Group",
+      "url": "https://www.adzuna.com.au/details/5849648358?utm_medium=api&utm_source=cc30c73e",
+      "location": "Melbourne, Melbourne CBD",
+      "posted": "2026-08-21",
+      "source": "Adzuna",
+      "salary": "",
+      "description": "Lyra Technology Group is a private equity-backed holding company that invests in and operates industry leading technology service businesses. Our companies are operated independently by exceptional management teams. Companies that join our group retain the employees, name, and culture that have made them successful. As a platform of Evergreen Services Group, we never divest from businesses we partner with and approach every decision with the goal of driving sustainable and healthy growth over t…",
+      "tags": [
+        "it_support",
+        "adzuna"
+      ],
+      "why": "Adzuna listing for Service Desk Engineer, Level 2 – CT Group at Lyra Technology Group",
+      "score": 0,
+      "listing_verification": "api_verified",
+      "application_route": "https://www.adzuna.com.au/details/5849648358?utm_medium=api&utm_source=cc30c73e",
+      "application_route_type": "adzuna_api",
+      "remote": false,
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_resume.pdf",
+      "cover": "applications/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_resume.md",
+      "cover_md": "applications/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_cover_letter.md",
+      "email_md": "applications/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_audit.json",
+      "audit": {
+        "audit_version": "2.0",
+        "fit": "Strong fit",
+        "score": 85.2,
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 3,
+            "total": 3
+          },
+          "experience_alignment": {
+            "score": 95,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 3,
+            "seniority": "mid"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 70,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 85,
+            "weight": "10%",
+            "company_size": "enterprise"
+          }
+        },
+        "matched_skills": [
+          "Teams",
+          "ServiceNow",
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Teams",
+          "Strong advanced proficiency in ServiceNow",
+          "Strong advanced proficiency in Customer Support"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5849648358?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5849648358?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "ServiceNow",
+          "Customer support"
+        ],
+        "requested_terms": [
+          "ServiceNow",
+          "Customer support"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn't sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email",
+      "scoring": {
+        "score": 85.2,
+        "fit_label": "Strong fit",
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 3,
+            "total": 3
+          },
+          "experience_alignment": {
+            "score": 95,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 3,
+            "seniority": "mid"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 70,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 85,
+            "weight": "10%",
+            "company_size": "enterprise"
+          }
+        },
+        "matched_skills": [
+          "Teams",
+          "ServiceNow",
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Teams",
+          "Strong advanced proficiency in ServiceNow",
+          "Strong advanced proficiency in Customer Support"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.9
       }
     },
     {
@@ -2301,588 +2865,6 @@
       }
     },
     {
-      "title": "IT Technical Support Engineer",
-      "company": "Multiplex",
-      "url": "https://www.adzuna.com.au/details/5842642226?utm_medium=api&utm_source=cc30c73e",
-      "location": "Melbourne Region, Melbourne",
-      "posted": "2026-08-15",
-      "source": "Adzuna",
-      "salary": "",
-      "description": "Who we are and what we offer: Interested in shaping skylines across the globe? Multiplex is a premier construction company with a simple purpose: to construct a better future. As part of our team, you'll have the opportunity to help deliver some of the world's most iconic projects, supported by approachable leadership and an inclusive culture that puts our people first. With 110 colleagues in the Multiplex Global IT division, we have roles across the full IT lifecycle from designing IT solution…",
-      "tags": [
-        "it_support",
-        "adzuna"
-      ],
-      "why": "Adzuna listing for IT Technical Support Engineer at Multiplex",
-      "score": 0,
-      "listing_verification": "api_verified",
-      "application_route": "https://www.adzuna.com.au/details/5842642226?utm_medium=api&utm_source=cc30c73e",
-      "application_route_type": "adzuna_api",
-      "remote": false,
-      "stream": "Core IT",
-      "resume": "applications/2026-08-08_multiplex_it_technical_support_engineer_resume.pdf",
-      "cover": "applications/2026-08-08_multiplex_it_technical_support_engineer_cover_letter.pdf",
-      "resume_md": "applications/2026-08-08_multiplex_it_technical_support_engineer_resume.md",
-      "cover_md": "applications/2026-08-08_multiplex_it_technical_support_engineer_cover_letter.md",
-      "email_md": "applications/2026-08-08_multiplex_it_technical_support_engineer_opening_email.md",
-      "audit_json": "application_audits/2026-08-08_multiplex_it_technical_support_engineer_audit.json",
-      "audit": {
-        "audit_version": "2.0",
-        "fit": "Partial fit",
-        "score": 65.8,
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8,
-        "source": "Adzuna",
-        "source_url": "https://www.adzuna.com.au/details/5842642226?utm_medium=api&utm_source=cc30c73e",
-        "application_route": "https://www.adzuna.com.au/details/5842642226?utm_medium=api&utm_source=cc30c73e",
-        "application_route_type": "adzuna_api",
-        "listing_verification": "api_verified",
-        "matched_terms": [],
-        "requested_terms": [],
-        "unsupported_or_unverified_terms": [],
-        "requirements_to_confirm": [
-          "Confirm the listing is still open and review the exact job description."
-        ],
-        "recommendation": "Review the listing and requirements before applying.",
-        "human_review": [
-          "Check the listing date, closing date, location, roster, and application route.",
-          "Read the tailored documents once and edit any wording that doesn't sound like you.",
-          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
-          "Submit manually only after your explicit approval."
-        ],
-        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
-      },
-      "contact_email": null,
-      "contact_phone": null,
-      "hiring_manager": null,
-      "application_materials": "Tailored résumé, cover letter and opening email",
-      "scoring": {
-        "score": 65.8,
-        "fit_label": "Partial fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
-    },
-    {
-      "title": "Sleep Scientist",
-      "company": "Alfred Health",
-      "url": "https://www.adzuna.com.au/details/5842499167?utm_medium=api&utm_source=cc30c73e",
-      "location": "Melbourne, Melbourne CBD",
-      "posted": "2026-08-15",
-      "source": "Adzuna",
-      "salary": "",
-      "description": "Bayside Health Bayside Health is a public health service delivering high-quality care across every stage of life for close to 1.2 million people living in metropolitan Melbourne, the Mornington Peninsula, Koo Wee Rup, Bass Coast and Southern Gippsland. We have more than 15 main sites, including hospitals, centres and clinics that provide comprehensive care from welcoming newborns to supporting older people and a full range of services in between. More than 22,000 dedicated staff are focused on …",
-      "tags": [
-        "it_support",
-        "adzuna"
-      ],
-      "why": "Adzuna listing for Sleep Scientist at Alfred Health",
-      "score": 0,
-      "listing_verification": "api_verified",
-      "application_route": "https://www.adzuna.com.au/details/5842499167?utm_medium=api&utm_source=cc30c73e",
-      "application_route_type": "adzuna_api",
-      "remote": false,
-      "stream": "Core IT",
-      "resume": "applications/2026-08-08_alfred_health_sleep_scientist_resume.pdf",
-      "cover": "applications/2026-08-08_alfred_health_sleep_scientist_cover_letter.pdf",
-      "resume_md": "applications/2026-08-08_alfred_health_sleep_scientist_resume.md",
-      "cover_md": "applications/2026-08-08_alfred_health_sleep_scientist_cover_letter.md",
-      "email_md": "applications/2026-08-08_alfred_health_sleep_scientist_opening_email.md",
-      "audit_json": "application_audits/2026-08-08_alfred_health_sleep_scientist_audit.json",
-      "audit": {
-        "audit_version": "2.0",
-        "fit": "Strong fit",
-        "score": 85.2,
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 85,
-            "weight": "10%",
-            "company_size": "enterprise"
-          }
-        },
-        "matched_skills": [
-          "Customer Support"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8,
-        "source": "Adzuna",
-        "source_url": "https://www.adzuna.com.au/details/5842499167?utm_medium=api&utm_source=cc30c73e",
-        "application_route": "https://www.adzuna.com.au/details/5842499167?utm_medium=api&utm_source=cc30c73e",
-        "application_route_type": "adzuna_api",
-        "listing_verification": "api_verified",
-        "matched_terms": [],
-        "requested_terms": [],
-        "unsupported_or_unverified_terms": [],
-        "requirements_to_confirm": [
-          "Confirm the listing is still open and review the exact job description."
-        ],
-        "recommendation": "Review the listing and requirements before applying.",
-        "human_review": [
-          "Check the listing date, closing date, location, roster, and application route.",
-          "Read the tailored documents once and edit any wording that doesn't sound like you.",
-          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
-          "Submit manually only after your explicit approval."
-        ],
-        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
-      },
-      "contact_email": null,
-      "contact_phone": null,
-      "hiring_manager": null,
-      "application_materials": "Tailored résumé, cover letter and opening email",
-      "scoring": {
-        "score": 85.2,
-        "fit_label": "Strong fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 85,
-            "weight": "10%",
-            "company_size": "enterprise"
-          }
-        },
-        "matched_skills": [
-          "Customer Support"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
-    },
-    {
-      "title": "Quality Officer",
-      "company": "Victorian Government",
-      "url": "https://www.adzuna.com.au/details/5842371872?utm_medium=api&utm_source=cc30c73e",
-      "location": "Melbourne, Melbourne CBD",
-      "posted": "2026-08-15",
-      "source": "Adzuna",
-      "salary": "",
-      "description": "About the Role: The Quality Officer leads quality and continuous improvement initiatives across the Building and Plumbing Commission (BPC). The role is responsible for maintaining and enhancing ISO 9001 Quality Management System, applying Lean process improvement methodologies, and using data analysis and reporting to inform decision-making and drive measurable improvements in performance, compliance and quality outcomes. What we are looking for: * Experience maintaining and enhancing an ISO 90…",
-      "tags": [
-        "it_support",
-        "adzuna"
-      ],
-      "why": "Adzuna listing for Quality Officer at Victorian Government",
-      "score": 0,
-      "listing_verification": "api_verified",
-      "application_route": "https://www.adzuna.com.au/details/5842371872?utm_medium=api&utm_source=cc30c73e",
-      "application_route_type": "adzuna_api",
-      "remote": false,
-      "stream": "Core IT",
-      "resume": "applications/2026-08-08_victorian_government_quality_officer_resume.pdf",
-      "cover": "applications/2026-08-08_victorian_government_quality_officer_cover_letter.pdf",
-      "resume_md": "applications/2026-08-08_victorian_government_quality_officer_resume.md",
-      "cover_md": "applications/2026-08-08_victorian_government_quality_officer_cover_letter.md",
-      "email_md": "applications/2026-08-08_victorian_government_quality_officer_opening_email.md",
-      "audit_json": "application_audits/2026-08-08_victorian_government_quality_officer_audit.json",
-      "audit": {
-        "audit_version": "2.0",
-        "fit": "Strong fit",
-        "score": 85.8,
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 80,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 80,
-            "weight": "10%",
-            "company_size": "government"
-          }
-        },
-        "matched_skills": [
-          "Compliance"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Compliance",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8,
-        "source": "Adzuna",
-        "source_url": "https://www.adzuna.com.au/details/5842371872?utm_medium=api&utm_source=cc30c73e",
-        "application_route": "https://www.adzuna.com.au/details/5842371872?utm_medium=api&utm_source=cc30c73e",
-        "application_route_type": "adzuna_api",
-        "listing_verification": "api_verified",
-        "matched_terms": [
-          "Azure",
-          "Microsoft 365",
-          "Entra ID",
-          "PowerShell"
-        ],
-        "requested_terms": [
-          "Azure",
-          "Microsoft 365",
-          "Entra ID",
-          "PowerShell"
-        ],
-        "unsupported_or_unverified_terms": [],
-        "requirements_to_confirm": [
-          "Confirm the listing is still open and review the exact job description.",
-          "Confirm any security-clearance, police-check, or government screening requirement."
-        ],
-        "recommendation": "Review the listing and requirements before applying.",
-        "human_review": [
-          "Check the listing date, closing date, location, roster, and application route.",
-          "Read the tailored documents once and edit any wording that doesn't sound like you.",
-          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
-          "Submit manually only after your explicit approval."
-        ],
-        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
-      },
-      "contact_email": null,
-      "contact_phone": null,
-      "hiring_manager": null,
-      "application_materials": "Tailored résumé, cover letter and opening email",
-      "scoring": {
-        "score": 85.8,
-        "fit_label": "Strong fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 80,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 80,
-            "weight": "10%",
-            "company_size": "government"
-          }
-        },
-        "matched_skills": [
-          "Compliance"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Compliance",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
-    },
-    {
-      "title": "Senior Legislative Advisor",
-      "company": "Victorian Government",
-      "url": "https://www.adzuna.com.au/details/5842371912?utm_medium=api&utm_source=cc30c73e",
-      "location": "Melbourne, Melbourne CBD",
-      "posted": "2026-08-15",
-      "source": "Adzuna",
-      "salary": "",
-      "description": "About the Role: We are seeking a Senior Legislative Advisor to play a key role in delivering on the development and implementation of legislative and regulatory reforms that support a fair, efficient and sustainable building and construction sector. This is an exciting opportunity for a legislative and regulatory professional who is passionate about driving meaningful reform and influencing outcomes that make a difference. Working collaboratively with stakeholders, you will contribute to the de…",
-      "tags": [
-        "it_support",
-        "adzuna"
-      ],
-      "why": "Adzuna listing for Senior Legislative Advisor at Victorian Government",
-      "score": 0,
-      "listing_verification": "api_verified",
-      "application_route": "https://www.adzuna.com.au/details/5842371912?utm_medium=api&utm_source=cc30c73e",
-      "application_route_type": "adzuna_api",
-      "remote": false,
-      "stream": "Core IT",
-      "resume": "applications/2026-08-08_victorian_government_senior_legislative_advisor_resume.pdf",
-      "cover": "applications/2026-08-08_victorian_government_senior_legislative_advisor_cover_letter.pdf",
-      "resume_md": "applications/2026-08-08_victorian_government_senior_legislative_advisor_resume.md",
-      "cover_md": "applications/2026-08-08_victorian_government_senior_legislative_advisor_cover_letter.md",
-      "email_md": "applications/2026-08-08_victorian_government_senior_legislative_advisor_opening_email.md",
-      "audit_json": "application_audits/2026-08-08_victorian_government_senior_legislative_advisor_audit.json",
-      "audit": {
-        "audit_version": "2.0",
-        "fit": "Partial fit",
-        "score": 64.2,
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 65,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 5,
-            "seniority": "senior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 80,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 80,
-            "weight": "10%",
-            "company_size": "government"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Role targets senior level; candidate is mid-level",
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8,
-        "source": "Adzuna",
-        "source_url": "https://www.adzuna.com.au/details/5842371912?utm_medium=api&utm_source=cc30c73e",
-        "application_route": "https://www.adzuna.com.au/details/5842371912?utm_medium=api&utm_source=cc30c73e",
-        "application_route_type": "adzuna_api",
-        "listing_verification": "api_verified",
-        "matched_terms": [
-          "Azure",
-          "Microsoft 365",
-          "Entra ID",
-          "PowerShell"
-        ],
-        "requested_terms": [
-          "Azure",
-          "Microsoft 365",
-          "Entra ID",
-          "PowerShell"
-        ],
-        "unsupported_or_unverified_terms": [],
-        "requirements_to_confirm": [
-          "Confirm the listing is still open and review the exact job description.",
-          "Confirm any security-clearance, police-check, or government screening requirement."
-        ],
-        "recommendation": "Review the listing and requirements before applying.",
-        "human_review": [
-          "Check the listing date, closing date, location, roster, and application route.",
-          "Read the tailored documents once and edit any wording that doesn't sound like you.",
-          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
-          "Submit manually only after your explicit approval."
-        ],
-        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
-      },
-      "contact_email": null,
-      "contact_phone": null,
-      "hiring_manager": null,
-      "application_materials": "Tailored résumé, cover letter and opening email",
-      "scoring": {
-        "score": 64.2,
-        "fit_label": "Partial fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 65,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 5,
-            "seniority": "senior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 80,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 80,
-            "weight": "10%",
-            "company_size": "government"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Role targets senior level; candidate is mid-level",
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
-    },
-    {
       "title": "Personal Assistant",
       "company": "HarperLloyd Recruitment",
       "url": "https://www.adzuna.com.au/details/5837586378?utm_medium=api&utm_source=cc30c73e",
@@ -3183,7 +3165,7 @@
       "tags": [
         "casual",
         "linkedin",
-        "core_it"
+        "local_bridge"
       ],
       "why": "LinkedIn listing for Sales Associate - Casual at Foot Locker",
       "score": 0,
@@ -3321,7 +3303,7 @@
       "tags": [
         "casual",
         "linkedin",
-        "core_it"
+        "local_bridge"
       ],
       "why": "LinkedIn listing for Casual Sales Associate at POP MART",
       "score": 0,
@@ -3459,7 +3441,7 @@
       "tags": [
         "casual",
         "linkedin",
-        "core_it"
+        "local_bridge"
       ],
       "why": "LinkedIn listing for Casual Food and Beverage Attendant at Melbourne Polytechnic",
       "score": 0,
@@ -3597,7 +3579,7 @@
       "tags": [
         "casual",
         "linkedin",
-        "core_it"
+        "local_bridge"
       ],
       "why": "LinkedIn listing for Casual Sales Assistant | BRAS N THINGS | Cranbourne at Bras n Things",
       "score": 0,
@@ -3735,7 +3717,7 @@
       "tags": [
         "casual",
         "linkedin",
-        "core_it"
+        "local_bridge"
       ],
       "why": "LinkedIn listing for Front of House Team Member - Elsternwick Casual/Part-Time/Full-Time at Chargrill Charlie's",
       "score": 0,
@@ -3873,7 +3855,7 @@
       "tags": [
         "casual",
         "linkedin",
-        "core_it"
+        "local_bridge"
       ],
       "why": "LinkedIn listing for Casual Sales Assistant | BONDS Outlet | Endeavour Hills at Hanes Brands Australasia",
       "score": 0,
@@ -4011,7 +3993,7 @@
       "tags": [
         "casual",
         "linkedin",
-        "core_it"
+        "local_bridge"
       ],
       "why": "LinkedIn listing for Sales Assistant | Sorrento at Nude Lucy",
       "score": 0,
@@ -4149,7 +4131,7 @@
       "tags": [
         "casual",
         "linkedin",
-        "core_it"
+        "local_bridge"
       ],
       "why": "LinkedIn listing for Sales Associate (Part-Time) at POP MART",
       "score": 0,
@@ -4266,717 +4248,6 @@
         "matched_skills": [],
         "missing_skills": [],
         "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.7
-      }
-    },
-    {
-      "title": "Food & Beverage Attendant - Event Service (Casual)",
-      "company": "Hyatt Place",
-      "url": "https://au.linkedin.com/jobs/view/food-beverage-attendant-event-service-casual-at-hyatt-place-4457060359",
-      "location": "Melbourne, Victoria, Australia",
-      "posted": "2026-08-21",
-      "source": "LinkedIn",
-      "salary": "",
-      "description": "",
-      "tags": [
-        "casual",
-        "linkedin",
-        "core_it"
-      ],
-      "why": "LinkedIn listing for Food & Beverage Attendant - Event Service (Casual) at Hyatt Place",
-      "score": 0,
-      "listing_verification": "linkedin_public",
-      "application_route": "https://au.linkedin.com/jobs/view/food-beverage-attendant-event-service-casual-at-hyatt-place-4457060359",
-      "application_route_type": "linkedin_direct",
-      "remote": false,
-      "stream": "Local Bridge",
-      "resume": "applications/2026-08-08_hyatt_place_food_and_beverage_attendant_event_service_casual_resume.pdf",
-      "cover": "applications/2026-08-08_hyatt_place_food_and_beverage_attendant_event_service_casual_cover_letter.pdf",
-      "resume_md": "applications/2026-08-08_hyatt_place_food_and_beverage_attendant_event_service_casual_resume.md",
-      "cover_md": "applications/2026-08-08_hyatt_place_food_and_beverage_attendant_event_service_casual_cover_letter.md",
-      "email_md": "applications/2026-08-08_hyatt_place_food_and_beverage_attendant_event_service_casual_opening_email.md",
-      "audit_json": "application_audits/2026-08-08_hyatt_place_food_and_beverage_attendant_event_service_casual_audit.json",
-      "audit": {
-        "audit_version": "2.0",
-        "fit": "Good fit",
-        "score": 79.8,
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Customer Support"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.7,
-        "source": "LinkedIn",
-        "source_url": "https://au.linkedin.com/jobs/view/food-beverage-attendant-event-service-casual-at-hyatt-place-4457060359",
-        "application_route": "https://au.linkedin.com/jobs/view/food-beverage-attendant-event-service-casual-at-hyatt-place-4457060359",
-        "application_route_type": "linkedin_direct",
-        "listing_verification": "linkedin_public",
-        "matched_terms": [
-          "Customer support"
-        ],
-        "requested_terms": [
-          "Customer support"
-        ],
-        "unsupported_or_unverified_terms": [],
-        "requirements_to_confirm": [
-          "Confirm the listing is still open and review the exact job description."
-        ],
-        "recommendation": "Review the listing and requirements before applying.",
-        "human_review": [
-          "Check the listing date, closing date, location, roster, and application route.",
-          "Read the tailored documents once and edit any wording that doesn't sound like you.",
-          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
-          "Submit manually only after your explicit approval."
-        ],
-        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
-      },
-      "contact_email": null,
-      "contact_phone": null,
-      "hiring_manager": null,
-      "application_materials": "Tailored résumé, cover letter and opening email",
-      "scoring": {
-        "score": 79.8,
-        "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Customer Support"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.7
-      }
-    },
-    {
-      "title": "Food & Beverage Attendant - Restaurant (Casual)",
-      "company": "Hyatt Place",
-      "url": "https://au.linkedin.com/jobs/view/food-beverage-attendant-restaurant-casual-at-hyatt-place-4457055414",
-      "location": "Melbourne, Victoria, Australia",
-      "posted": "2026-08-21",
-      "source": "LinkedIn",
-      "salary": "",
-      "description": "",
-      "tags": [
-        "casual",
-        "linkedin",
-        "core_it"
-      ],
-      "why": "LinkedIn listing for Food & Beverage Attendant - Restaurant (Casual) at Hyatt Place",
-      "score": 0,
-      "listing_verification": "linkedin_public",
-      "application_route": "https://au.linkedin.com/jobs/view/food-beverage-attendant-restaurant-casual-at-hyatt-place-4457055414",
-      "application_route_type": "linkedin_direct",
-      "remote": false,
-      "stream": "Local Bridge",
-      "resume": "applications/2026-08-08_hyatt_place_food_and_beverage_attendant_restaurant_casual_resume.pdf",
-      "cover": "applications/2026-08-08_hyatt_place_food_and_beverage_attendant_restaurant_casual_cover_letter.pdf",
-      "resume_md": "applications/2026-08-08_hyatt_place_food_and_beverage_attendant_restaurant_casual_resume.md",
-      "cover_md": "applications/2026-08-08_hyatt_place_food_and_beverage_attendant_restaurant_casual_cover_letter.md",
-      "email_md": "applications/2026-08-08_hyatt_place_food_and_beverage_attendant_restaurant_casual_opening_email.md",
-      "audit_json": "application_audits/2026-08-08_hyatt_place_food_and_beverage_attendant_restaurant_casual_audit.json",
-      "audit": {
-        "audit_version": "2.0",
-        "fit": "Partial fit",
-        "score": 65.8,
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.7,
-        "source": "LinkedIn",
-        "source_url": "https://au.linkedin.com/jobs/view/food-beverage-attendant-restaurant-casual-at-hyatt-place-4457055414",
-        "application_route": "https://au.linkedin.com/jobs/view/food-beverage-attendant-restaurant-casual-at-hyatt-place-4457055414",
-        "application_route_type": "linkedin_direct",
-        "listing_verification": "linkedin_public",
-        "matched_terms": [],
-        "requested_terms": [],
-        "unsupported_or_unverified_terms": [],
-        "requirements_to_confirm": [
-          "Confirm the listing is still open and review the exact job description."
-        ],
-        "recommendation": "Review the listing and requirements before applying.",
-        "human_review": [
-          "Check the listing date, closing date, location, roster, and application route.",
-          "Read the tailored documents once and edit any wording that doesn't sound like you.",
-          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
-          "Submit manually only after your explicit approval."
-        ],
-        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
-      },
-      "contact_email": null,
-      "contact_phone": null,
-      "hiring_manager": null,
-      "application_materials": "Tailored résumé, cover letter and opening email",
-      "scoring": {
-        "score": 65.8,
-        "fit_label": "Partial fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.7
-      }
-    },
-    {
-      "title": "Soho | Casual Waiting Staff & Bartenders",
-      "company": "Treetop Early Learning",
-      "url": "https://au.linkedin.com/jobs/view/soho-casual-waiting-staff-bartenders-at-treetop-early-learning-4454462142",
-      "location": "Melbourne, Victoria, Australia",
-      "posted": "2026-08-18",
-      "source": "LinkedIn",
-      "salary": "",
-      "description": "",
-      "tags": [
-        "casual",
-        "linkedin",
-        "core_it"
-      ],
-      "why": "LinkedIn listing for Soho | Casual Waiting Staff & Bartenders at Treetop Early Learning",
-      "score": 0,
-      "listing_verification": "linkedin_public",
-      "application_route": "https://au.linkedin.com/jobs/view/soho-casual-waiting-staff-bartenders-at-treetop-early-learning-4454462142",
-      "application_route_type": "linkedin_direct",
-      "remote": false,
-      "stream": "Local Bridge",
-      "resume": "applications/2026-08-08_treetop_early_learning_soho_casual_waiting_staff_and_bartenders_resume.pdf",
-      "cover": "applications/2026-08-08_treetop_early_learning_soho_casual_waiting_staff_and_bartenders_cover_letter.pdf",
-      "resume_md": "applications/2026-08-08_treetop_early_learning_soho_casual_waiting_staff_and_bartenders_resume.md",
-      "cover_md": "applications/2026-08-08_treetop_early_learning_soho_casual_waiting_staff_and_bartenders_cover_letter.md",
-      "email_md": "applications/2026-08-08_treetop_early_learning_soho_casual_waiting_staff_and_bartenders_opening_email.md",
-      "audit_json": "application_audits/2026-08-08_treetop_early_learning_soho_casual_waiting_staff_and_bartenders_audit.json",
-      "audit": {
-        "audit_version": "2.0",
-        "fit": "Partial fit",
-        "score": 63.2,
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 65,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 5,
-            "seniority": "senior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 100,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Role targets senior level; candidate is mid-level",
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.7,
-        "source": "LinkedIn",
-        "source_url": "https://au.linkedin.com/jobs/view/soho-casual-waiting-staff-bartenders-at-treetop-early-learning-4454462142",
-        "application_route": "https://au.linkedin.com/jobs/view/soho-casual-waiting-staff-bartenders-at-treetop-early-learning-4454462142",
-        "application_route_type": "linkedin_direct",
-        "listing_verification": "linkedin_public",
-        "matched_terms": [],
-        "requested_terms": [],
-        "unsupported_or_unverified_terms": [],
-        "requirements_to_confirm": [
-          "Confirm the listing is still open and review the exact job description.",
-          "Confirm hospitality experience, RSA or food-safety requirements, and roster conditions."
-        ],
-        "recommendation": "Review the listing and requirements before applying.",
-        "human_review": [
-          "Check the listing date, closing date, location, roster, and application route.",
-          "Read the tailored documents once and edit any wording that doesn't sound like you.",
-          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
-          "Submit manually only after your explicit approval."
-        ],
-        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
-      },
-      "contact_email": null,
-      "contact_phone": null,
-      "hiring_manager": null,
-      "application_materials": "Tailored résumé, cover letter and opening email",
-      "scoring": {
-        "score": 63.2,
-        "fit_label": "Partial fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 65,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 5,
-            "seniority": "senior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 100,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Role targets senior level; candidate is mid-level",
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.7
-      }
-    },
-    {
-      "title": "Retail Assistant - Elka Collective Brighton",
-      "company": "Brand Collective",
-      "url": "https://au.linkedin.com/jobs/view/retail-assistant-elka-collective-brighton-at-brand-collective-4452557968",
-      "location": "Brighton, Victoria, Australia",
-      "posted": "2026-08-18",
-      "source": "LinkedIn",
-      "salary": "",
-      "description": "",
-      "tags": [
-        "casual",
-        "linkedin",
-        "core_it"
-      ],
-      "why": "LinkedIn listing for Retail Assistant - Elka Collective Brighton at Brand Collective",
-      "score": 0,
-      "listing_verification": "linkedin_public",
-      "application_route": "https://au.linkedin.com/jobs/view/retail-assistant-elka-collective-brighton-at-brand-collective-4452557968",
-      "application_route_type": "linkedin_direct",
-      "remote": false,
-      "stream": "Local Bridge",
-      "resume": "applications/2026-08-08_brand_collective_retail_assistant_elka_collective_brighton_resume.pdf",
-      "cover": "applications/2026-08-08_brand_collective_retail_assistant_elka_collective_brighton_cover_letter.pdf",
-      "resume_md": "applications/2026-08-08_brand_collective_retail_assistant_elka_collective_brighton_resume.md",
-      "cover_md": "applications/2026-08-08_brand_collective_retail_assistant_elka_collective_brighton_cover_letter.md",
-      "email_md": "applications/2026-08-08_brand_collective_retail_assistant_elka_collective_brighton_opening_email.md",
-      "audit_json": "application_audits/2026-08-08_brand_collective_retail_assistant_elka_collective_brighton_audit.json",
-      "audit": {
-        "audit_version": "2.0",
-        "fit": "Partial fit",
-        "score": 69.0,
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 100,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 1,
-            "seniority": "junior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Experience level aligns well (6 years vs 1 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.7,
-        "source": "LinkedIn",
-        "source_url": "https://au.linkedin.com/jobs/view/retail-assistant-elka-collective-brighton-at-brand-collective-4452557968",
-        "application_route": "https://au.linkedin.com/jobs/view/retail-assistant-elka-collective-brighton-at-brand-collective-4452557968",
-        "application_route_type": "linkedin_direct",
-        "listing_verification": "linkedin_public",
-        "matched_terms": [],
-        "requested_terms": [],
-        "unsupported_or_unverified_terms": [],
-        "requirements_to_confirm": [
-          "Confirm the listing is still open and review the exact job description."
-        ],
-        "recommendation": "Review the listing and requirements before applying.",
-        "human_review": [
-          "Check the listing date, closing date, location, roster, and application route.",
-          "Read the tailored documents once and edit any wording that doesn't sound like you.",
-          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
-          "Submit manually only after your explicit approval."
-        ],
-        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
-      },
-      "contact_email": null,
-      "contact_phone": null,
-      "hiring_manager": null,
-      "application_materials": "Tailored résumé, cover letter and opening email",
-      "scoring": {
-        "score": 69.0,
-        "fit_label": "Partial fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 100,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 1,
-            "seniority": "junior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Experience level aligns well (6 years vs 1 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.7
-      }
-    },
-    {
-      "title": "Casual Guest Service Agent",
-      "company": "Oaks Hotels, Resorts & Suites",
-      "url": "https://au.linkedin.com/jobs/view/casual-guest-service-agent-at-oaks-hotels-resorts-suites-4454467858",
-      "location": "Geelong, Victoria, Australia",
-      "posted": "2026-08-18",
-      "source": "LinkedIn",
-      "salary": "",
-      "description": "",
-      "tags": [
-        "casual",
-        "linkedin",
-        "core_it"
-      ],
-      "why": "LinkedIn listing for Casual Guest Service Agent at Oaks Hotels, Resorts & Suites",
-      "score": 0,
-      "listing_verification": "linkedin_public",
-      "application_route": "https://au.linkedin.com/jobs/view/casual-guest-service-agent-at-oaks-hotels-resorts-suites-4454467858",
-      "application_route_type": "linkedin_direct",
-      "remote": false,
-      "stream": "Local Bridge",
-      "resume": "applications/2026-08-08_oaks_hotels_resorts_and_suites_casual_guest_service_agent_resume.pdf",
-      "cover": "applications/2026-08-08_oaks_hotels_resorts_and_suites_casual_guest_service_agent_cover_letter.pdf",
-      "resume_md": "applications/2026-08-08_oaks_hotels_resorts_and_suites_casual_guest_service_agent_resume.md",
-      "cover_md": "applications/2026-08-08_oaks_hotels_resorts_and_suites_casual_guest_service_agent_cover_letter.md",
-      "email_md": "applications/2026-08-08_oaks_hotels_resorts_and_suites_casual_guest_service_agent_opening_email.md",
-      "audit_json": "application_audits/2026-08-08_oaks_hotels_resorts_and_suites_casual_guest_service_agent_audit.json",
-      "audit": {
-        "audit_version": "2.0",
-        "fit": "Good fit",
-        "score": 79.8,
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Customer Support"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.7,
-        "source": "LinkedIn",
-        "source_url": "https://au.linkedin.com/jobs/view/casual-guest-service-agent-at-oaks-hotels-resorts-suites-4454467858",
-        "application_route": "https://au.linkedin.com/jobs/view/casual-guest-service-agent-at-oaks-hotels-resorts-suites-4454467858",
-        "application_route_type": "linkedin_direct",
-        "listing_verification": "linkedin_public",
-        "matched_terms": [
-          "Customer support"
-        ],
-        "requested_terms": [
-          "Customer support"
-        ],
-        "unsupported_or_unverified_terms": [],
-        "requirements_to_confirm": [
-          "Confirm the listing is still open and review the exact job description."
-        ],
-        "recommendation": "Review the listing and requirements before applying.",
-        "human_review": [
-          "Check the listing date, closing date, location, roster, and application route.",
-          "Read the tailored documents once and edit any wording that doesn't sound like you.",
-          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
-          "Submit manually only after your explicit approval."
-        ],
-        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
-      },
-      "contact_email": null,
-      "contact_phone": null,
-      "hiring_manager": null,
-      "application_materials": "Tailored résumé, cover letter and opening email",
-      "scoring": {
-        "score": 79.8,
-        "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Customer Support"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Customer Support",
           "Experience level aligns well (6 years vs 3 required)",
           "Location arrangement is practical (onsite)"
         ],
@@ -5133,6 +4404,432 @@
           "Experience level aligns well (6 years vs 3 required)"
         ],
         "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "title": "Bakers Assistant",
+      "company": "Madeleines Bakery and Cake shop",
+      "url": "https://au.indeed.com/viewjob?jk=bb72ca1775112768",
+      "location": "Diamond Creek, VIC, AU",
+      "posted": "2026-08-23",
+      "source": "Indeed",
+      "salary": "",
+      "description": "ASSISTANT BAKER WANTED\n\nMadeleines Bakery is looking for a reliable and hardworking Assistant Baker to join our team.\n\nLocation: Diamond Creek, VIC, 38 hours per week\n\nEarly morning starts required. Must have own car and reliable transport\n\nWe’re looking for someone who:\n\n* Has bakery experience (preferred)\n* Can assist with bread, pastries and general bakery production\n* Is comfortable with early morning starts\n* Is reliable, punctual and hardworking\n* Is willing to learn and works well in a te",
+      "tags": [
+        "casual work",
+        "indeed",
+        "local_bridge"
+      ],
+      "why": "Indeed listing for Bakers Assistant at Madeleines Bakery and Cake shop",
+      "score": 0,
+      "listing_verification": "indeed_jobspy",
+      "application_route": "https://au.indeed.com/viewjob?jk=bb72ca1775112768",
+      "application_route_type": "indeed_direct",
+      "remote": false,
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_madeleines_bakery_and_cake_shop_bakers_assistant_resume.pdf",
+      "cover": "applications/2026-08-08_madeleines_bakery_and_cake_shop_bakers_assistant_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_madeleines_bakery_and_cake_shop_bakers_assistant_resume.md",
+      "cover_md": "applications/2026-08-08_madeleines_bakery_and_cake_shop_bakers_assistant_cover_letter.md",
+      "email_md": "applications/2026-08-08_madeleines_bakery_and_cake_shop_bakers_assistant_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_madeleines_bakery_and_cake_shop_bakers_assistant_audit.json",
+      "audit": {
+        "audit_version": "2.0",
+        "fit": "Partial fit",
+        "score": 67.0,
+        "dimensions": {
+          "skill_match": {
+            "score": 50,
+            "weight": "40%",
+            "matched": 0,
+            "total": 0
+          },
+          "experience_alignment": {
+            "score": 100,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 1,
+            "seniority": "junior"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 50,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [],
+        "missing_skills": [],
+        "strengths": [
+          "Experience level aligns well (6 years vs 1 required)",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8,
+        "source": "Indeed",
+        "source_url": "https://au.indeed.com/viewjob?jk=bb72ca1775112768",
+        "application_route": "https://au.indeed.com/viewjob?jk=bb72ca1775112768",
+        "application_route_type": "indeed_direct",
+        "listing_verification": "indeed_jobspy",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn't sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email",
+      "scoring": {
+        "score": 67.0,
+        "fit_label": "Partial fit",
+        "dimensions": {
+          "skill_match": {
+            "score": 50,
+            "weight": "40%",
+            "matched": 0,
+            "total": 0
+          },
+          "experience_alignment": {
+            "score": 100,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 1,
+            "seniority": "junior"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 50,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [],
+        "missing_skills": [],
+        "strengths": [
+          "Experience level aligns well (6 years vs 1 required)",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "title": "Counter operator",
+      "company": "",
+      "url": "https://au.indeed.com/viewjob?jk=37d8d9662e9dfcbe",
+      "location": "Fawkner, VIC, AU",
+      "posted": "2026-08-23",
+      "source": "Indeed",
+      "salary": "",
+      "description": "We are looking for a friendly, reliable and customer-focused casual team member to join our busy Post Office.\n\nThis is a great opportunity for someone with Australia Post, banking, retail or strong customer service/sales experience. Previous Australia Post retail experience is highly desirable.\n\nHours: Approximately 6–20 hours per week, depending on experience and availability.\n\nPosition: Casual/Part- time opportunity.\n\n**Key Responsibilities:**\n\n\\* Providing friendly and efficient customer serv",
+      "tags": [
+        "casual work",
+        "indeed",
+        "local_bridge"
+      ],
+      "why": "Indeed listing for Counter operator at nan",
+      "score": 0,
+      "listing_verification": "indeed_jobspy",
+      "application_route": "https://au.indeed.com/viewjob?jk=37d8d9662e9dfcbe",
+      "application_route_type": "indeed_direct",
+      "remote": false,
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_counter_operator_resume.pdf",
+      "cover": "applications/2026-08-08_counter_operator_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_counter_operator_resume.md",
+      "cover_md": "applications/2026-08-08_counter_operator_cover_letter.md",
+      "email_md": "applications/2026-08-08_counter_operator_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_counter_operator_audit.json",
+      "audit": {
+        "audit_version": "2.0",
+        "fit": "Good fit",
+        "score": 81.8,
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 1,
+            "total": 1
+          },
+          "experience_alignment": {
+            "score": 95,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 3,
+            "seniority": "mid"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 70,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Customer Support",
+          "Experience level aligns well (6 years vs 3 required)",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8,
+        "source": "Indeed",
+        "source_url": "https://au.indeed.com/viewjob?jk=37d8d9662e9dfcbe",
+        "application_route": "https://au.indeed.com/viewjob?jk=37d8d9662e9dfcbe",
+        "application_route_type": "indeed_direct",
+        "listing_verification": "indeed_jobspy",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn't sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email",
+      "scoring": {
+        "score": 81.8,
+        "fit_label": "Good fit",
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 1,
+            "total": 1
+          },
+          "experience_alignment": {
+            "score": 95,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 3,
+            "seniority": "mid"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 70,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Customer Support",
+          "Experience level aligns well (6 years vs 3 required)",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "title": "Casual Wait Staff",
+      "company": "il pizzaioll",
+      "url": "https://au.indeed.com/viewjob?jk=2912c7e5a5710539",
+      "location": "Thornbury, VIC, AU",
+      "posted": "2026-08-23",
+      "source": "Indeed",
+      "salary": "",
+      "description": "We're looking for friendly, reliable wait staff to join our team at our pizza restaurant on  \nFriday & Saturday nights from 5:00 pm – 10:00 pm. Additional hours may be available\n\n**We're looking for someone who:**\n\n* Has a positive attitude and great customer service skills\n* Works well in a busy team environment\n* Is reliable and punctual\n* Experience is preferred\n\nPay: $32.00 – $34.00 per hour\n\nWork Location: In person",
+      "tags": [
+        "casual work",
+        "indeed",
+        "local_bridge"
+      ],
+      "why": "Indeed listing for Casual Wait Staff at il pizzaioll",
+      "score": 0,
+      "listing_verification": "indeed_jobspy",
+      "application_route": "https://au.indeed.com/viewjob?jk=2912c7e5a5710539",
+      "application_route_type": "indeed_direct",
+      "remote": false,
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_il_pizzaioll_casual_wait_staff_resume.pdf",
+      "cover": "applications/2026-08-08_il_pizzaioll_casual_wait_staff_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_il_pizzaioll_casual_wait_staff_resume.md",
+      "cover_md": "applications/2026-08-08_il_pizzaioll_casual_wait_staff_cover_letter.md",
+      "email_md": "applications/2026-08-08_il_pizzaioll_casual_wait_staff_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_il_pizzaioll_casual_wait_staff_audit.json",
+      "audit": {
+        "audit_version": "2.0",
+        "fit": "Good fit",
+        "score": 74.2,
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 1,
+            "total": 1
+          },
+          "experience_alignment": {
+            "score": 65,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 5,
+            "seniority": "senior"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 70,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Customer Support",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Role targets senior level; candidate is mid-level",
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8,
+        "source": "Indeed",
+        "source_url": "https://au.indeed.com/viewjob?jk=2912c7e5a5710539",
+        "application_route": "https://au.indeed.com/viewjob?jk=2912c7e5a5710539",
+        "application_route_type": "indeed_direct",
+        "listing_verification": "indeed_jobspy",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn't sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email",
+      "scoring": {
+        "score": 74.2,
+        "fit_label": "Good fit",
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 1,
+            "total": 1
+          },
+          "experience_alignment": {
+            "score": 65,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 5,
+            "seniority": "senior"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 70,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Customer Support",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Role targets senior level; candidate is mid-level",
           "Confirm listing availability and exact requirements before applying"
         ],
         "confidence": 0.8
@@ -5688,6 +5385,438 @@
           },
           "growth_potential": {
             "score": 50,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Customer Support",
+          "Experience level aligns well (6 years vs 3 required)",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "title": "Bartender",
+      "company": "",
+      "url": "https://au.indeed.com/viewjob?jk=37f9ac624b4a9ab1",
+      "location": "Prahran, VIC, AU",
+      "posted": "2026-08-23",
+      "source": "Indeed",
+      "salary": "",
+      "description": "Bartender – CANAI Malaysian Fusion Restaurant\n\n**About the Role**  \nCANAI is a Malaysian fusion restaurant looking for a reliable and enthusiastic **Bartender** to join our team. The role involves delivering high-quality drinks and customer service while maintaining a clean, organised and efficient bar in a fast-paced restaurant environment.\n\nKey Responsibilities\n\n* Prepare and serve alcoholic and non-alcoholic beverages to a high standard.\n* Follow all **Victorian RSA requirements** and respons",
+      "tags": [
+        "casual work",
+        "indeed",
+        "local_bridge"
+      ],
+      "why": "Indeed listing for Bartender at nan",
+      "score": 0,
+      "listing_verification": "indeed_jobspy",
+      "application_route": "https://au.indeed.com/viewjob?jk=37f9ac624b4a9ab1",
+      "application_route_type": "indeed_direct",
+      "remote": false,
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_bartender_resume.pdf",
+      "cover": "applications/2026-08-08_bartender_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_bartender_resume.md",
+      "cover_md": "applications/2026-08-08_bartender_cover_letter.md",
+      "email_md": "applications/2026-08-08_bartender_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_bartender_audit.json",
+      "audit": {
+        "audit_version": "2.0",
+        "fit": "Good fit",
+        "score": 84.0,
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 1,
+            "total": 1
+          },
+          "experience_alignment": {
+            "score": 95,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 3,
+            "seniority": "mid"
+          },
+          "location_remote_fit": {
+            "score": 95,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 70,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Customer Support",
+          "Experience level aligns well (6 years vs 3 required)",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8,
+        "source": "Indeed",
+        "source_url": "https://au.indeed.com/viewjob?jk=37f9ac624b4a9ab1",
+        "application_route": "https://au.indeed.com/viewjob?jk=37f9ac624b4a9ab1",
+        "application_route_type": "indeed_direct",
+        "listing_verification": "indeed_jobspy",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description.",
+          "Confirm hospitality experience, RSA or food-safety requirements, and roster conditions."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn't sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email",
+      "scoring": {
+        "score": 84.0,
+        "fit_label": "Good fit",
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 1,
+            "total": 1
+          },
+          "experience_alignment": {
+            "score": 95,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 3,
+            "seniority": "mid"
+          },
+          "location_remote_fit": {
+            "score": 95,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 70,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Customer Support",
+          "Experience level aligns well (6 years vs 3 required)",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "title": "Wait Staff",
+      "company": "PNM FOOD",
+      "url": "https://au.indeed.com/viewjob?jk=61df30b370d1e189",
+      "location": "South Morang, VIC, AU",
+      "posted": "2026-08-23",
+      "source": "Indeed",
+      "salary": "",
+      "description": "Are you passionate about service and taking care of guests? We are looking for WAIT STAFF for our NEW Restaurant in South Morang .\n\nWe are a Greek Restaurant with 4 locations across Melbourne. Our people play a major part in our success and that's why we want our people to be our brand ambassadors. You need to love serving guests and providing a true hospitality experience.\n\nWe are a high volume restaurant environment, so we are seeking vibrant, dynamic and hard-working staff who would add to th",
+      "tags": [
+        "casual work",
+        "indeed",
+        "local_bridge"
+      ],
+      "why": "Indeed listing for Wait Staff at PNM FOOD",
+      "score": 0,
+      "listing_verification": "indeed_jobspy",
+      "application_route": "https://au.indeed.com/viewjob?jk=61df30b370d1e189",
+      "application_route_type": "indeed_direct",
+      "remote": false,
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_pnm_food_wait_staff_resume.pdf",
+      "cover": "applications/2026-08-08_pnm_food_wait_staff_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_pnm_food_wait_staff_resume.md",
+      "cover_md": "applications/2026-08-08_pnm_food_wait_staff_cover_letter.md",
+      "email_md": "applications/2026-08-08_pnm_food_wait_staff_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_pnm_food_wait_staff_audit.json",
+      "audit": {
+        "audit_version": "2.0",
+        "fit": "Good fit",
+        "score": 74.2,
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 1,
+            "total": 1
+          },
+          "experience_alignment": {
+            "score": 65,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 5,
+            "seniority": "senior"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 70,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Customer Support",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Role targets senior level; candidate is mid-level",
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8,
+        "source": "Indeed",
+        "source_url": "https://au.indeed.com/viewjob?jk=61df30b370d1e189",
+        "application_route": "https://au.indeed.com/viewjob?jk=61df30b370d1e189",
+        "application_route_type": "indeed_direct",
+        "listing_verification": "indeed_jobspy",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn't sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email",
+      "scoring": {
+        "score": 74.2,
+        "fit_label": "Good fit",
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 1,
+            "total": 1
+          },
+          "experience_alignment": {
+            "score": 65,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 5,
+            "seniority": "senior"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 70,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Customer Support",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Role targets senior level; candidate is mid-level",
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
+      "title": "Workshop Technician",
+      "company": "Fisher & Paykel",
+      "url": "https://www.adzuna.com.au/details/5852545359?utm_medium=api&utm_source=cc30c73e",
+      "location": "Melbourne Region, Melbourne",
+      "posted": "2026-08-23",
+      "source": "Adzuna",
+      "salary": "",
+      "description": "The Role Fisher & Paykel is an iconic New Zealand brand with a global footprint and a strong local heritage. Our origins inspire a culture of curiosity and passion to create solutions designed around people. These qualities, alongside our values of being trusted, sustainably minded, innovative, generous, and curious, are what make us unique. At Fisher & Paykel, we're committed to delivering exceptional experiences through quality products and outstanding service. As we work towards becoming the…",
+      "tags": [
+        "it_support",
+        "adzuna"
+      ],
+      "why": "Adzuna listing for Workshop Technician at Fisher & Paykel",
+      "score": 0,
+      "listing_verification": "api_verified",
+      "application_route": "https://www.adzuna.com.au/details/5852545359?utm_medium=api&utm_source=cc30c73e",
+      "application_route_type": "adzuna_api",
+      "remote": false,
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_fisher_and_paykel_workshop_technician_resume.pdf",
+      "cover": "applications/2026-08-08_fisher_and_paykel_workshop_technician_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_fisher_and_paykel_workshop_technician_resume.md",
+      "cover_md": "applications/2026-08-08_fisher_and_paykel_workshop_technician_cover_letter.md",
+      "email_md": "applications/2026-08-08_fisher_and_paykel_workshop_technician_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_fisher_and_paykel_workshop_technician_audit.json",
+      "audit": {
+        "audit_version": "2.0",
+        "fit": "Good fit",
+        "score": 81.8,
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 1,
+            "total": 1
+          },
+          "experience_alignment": {
+            "score": 95,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 3,
+            "seniority": "mid"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 70,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Customer Support",
+          "Experience level aligns well (6 years vs 3 required)",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5852545359?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5852545359?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn't sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email",
+      "scoring": {
+        "score": 81.8,
+        "fit_label": "Good fit",
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 1,
+            "total": 1
+          },
+          "experience_alignment": {
+            "score": 95,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 3,
+            "seniority": "mid"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 70,
             "weight": "10%"
           },
           "company_size_fit": {
@@ -6456,6 +6585,147 @@
       }
     },
     {
+      "title": "104 – Completions & Commissioning Manager (internal only)",
+      "company": "Marinus Link Pty",
+      "url": "https://www.adzuna.com.au/details/5841916658?utm_medium=api&utm_source=cc30c73e",
+      "location": "Melbourne, Melbourne CBD",
+      "posted": "2026-08-15",
+      "source": "Adzuna",
+      "salary": "",
+      "description": "Completions & Commissioning Manager Location: Melbourne, VIC At Marinus Link, we value our people and their contributions to our shared success. As we continue to advance this nationally significant project, we are seeking a strategic and solutions-focused Completions & Commissioning Manager to lead the development and delivery of the completions and commissioning program for Marinus Link, ensuring all assets are constructed, tested and safely placed into service. This role presents an exciting…",
+      "tags": [
+        "it_support",
+        "adzuna"
+      ],
+      "why": "Adzuna listing for 104 – Completions & Commissioning Manager (internal only) at Marinus Link Pty",
+      "score": 0,
+      "listing_verification": "api_verified",
+      "application_route": "https://www.adzuna.com.au/details/5841916658?utm_medium=api&utm_source=cc30c73e",
+      "application_route_type": "adzuna_api",
+      "remote": false,
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_resume.pdf",
+      "cover": "applications/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_resume.md",
+      "cover_md": "applications/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_cover_letter.md",
+      "email_md": "applications/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_audit.json",
+      "audit": {
+        "audit_version": "2.0",
+        "fit": "Good fit",
+        "score": 74.8,
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 1,
+            "total": 1
+          },
+          "experience_alignment": {
+            "score": 75,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 0,
+            "seniority": "trainee"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 50,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Customer Support",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5841916658?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5841916658?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn't sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email",
+      "scoring": {
+        "score": 74.8,
+        "fit_label": "Good fit",
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 1,
+            "total": 1
+          },
+          "experience_alignment": {
+            "score": 75,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 0,
+            "seniority": "trainee"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 50,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Customer Support",
+          "Location arrangement is practical (onsite)"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.8
+      }
+    },
+    {
       "title": "Contracts Manager",
       "company": "Techforce Personnel",
       "url": "https://www.adzuna.com.au/details/5849595209?utm_medium=api&utm_source=cc30c73e",
@@ -7046,7 +7316,7 @@
     {
       "title": "Engineering Operations Technician, Data Center Engineering Operations",
       "company": "Amazon",
-      "url": "https://www.adzuna.com.au/land/ad/5845923744?se=Utx6CQye8RGSb8VpDRDiVA&utm_medium=api&utm_source=cc30c73e&v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102",
+      "url": "https://www.adzuna.com.au/land/ad/5845923744?se=7GBHdtue8RGU6LIjyaRnwA&utm_medium=api&utm_source=cc30c73e&v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102",
       "location": "Melbourne Region, Melbourne",
       "posted": "2026-08-18",
       "source": "Adzuna",
@@ -7059,7 +7329,7 @@
       "why": "Adzuna listing for Engineering Operations Technician, Data Center Engineering Operations at Amazon",
       "score": 0,
       "listing_verification": "api_verified",
-      "application_route": "https://www.adzuna.com.au/land/ad/5845923744?se=Utx6CQye8RGSb8VpDRDiVA&utm_medium=api&utm_source=cc30c73e&v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102",
+      "application_route": "https://www.adzuna.com.au/land/ad/5845923744?se=7GBHdtue8RGU6LIjyaRnwA&utm_medium=api&utm_source=cc30c73e&v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102",
       "application_route_type": "adzuna_api",
       "remote": false,
       "stream": "Trade Pathways",
@@ -7118,8 +7388,8 @@
         ],
         "confidence": 0.9,
         "source": "Adzuna",
-        "source_url": "https://www.adzuna.com.au/land/ad/5845923744?se=Utx6CQye8RGSb8VpDRDiVA&utm_medium=api&utm_source=cc30c73e&v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102",
-        "application_route": "https://www.adzuna.com.au/land/ad/5845923744?se=Utx6CQye8RGSb8VpDRDiVA&utm_medium=api&utm_source=cc30c73e&v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102",
+        "source_url": "https://www.adzuna.com.au/land/ad/5845923744?se=7GBHdtue8RGU6LIjyaRnwA&utm_medium=api&utm_source=cc30c73e&v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102",
+        "application_route": "https://www.adzuna.com.au/land/ad/5845923744?se=7GBHdtue8RGU6LIjyaRnwA&utm_medium=api&utm_source=cc30c73e&v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102",
         "application_route_type": "adzuna_api",
         "listing_verification": "api_verified",
         "matched_terms": [
@@ -7344,6 +7614,160 @@
           "Confirm listing availability and exact requirements before applying"
         ],
         "confidence": 0.8
+      }
+    },
+    {
+      "title": "Financial Accountant",
+      "company": "5G Networks",
+      "url": "https://www.adzuna.com.au/details/5838397976?utm_medium=api&utm_source=cc30c73e",
+      "location": "Melbourne, Melbourne CBD",
+      "posted": "2026-08-13",
+      "source": "Adzuna",
+      "salary": "",
+      "description": "Financial Accountant 5GN Group | Melbourne | Full Time About Us 5GN Group is a collective of companies including 5G Networks, a licensed telecommunications carrier providing network and data centre services across Australia and internationally, and AUCyber, a Managed Service Provider (MSP) and Managed Security Service Provider (MSSP) specialising in IT solutions for mid-market corporate clients and government entities. We’re on a mission to empower organisations of every size with secure, fit-f…",
+      "tags": [
+        "security",
+        "adzuna"
+      ],
+      "why": "Adzuna listing for Financial Accountant at 5G Networks",
+      "score": 0,
+      "listing_verification": "api_verified",
+      "application_route": "https://www.adzuna.com.au/details/5838397976?utm_medium=api&utm_source=cc30c73e",
+      "application_route_type": "adzuna_api",
+      "remote": false,
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_5g_networks_financial_accountant_resume.pdf",
+      "cover": "applications/2026-08-08_5g_networks_financial_accountant_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_5g_networks_financial_accountant_resume.md",
+      "cover_md": "applications/2026-08-08_5g_networks_financial_accountant_cover_letter.md",
+      "email_md": "applications/2026-08-08_5g_networks_financial_accountant_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_5g_networks_financial_accountant_audit.json",
+      "audit": {
+        "audit_version": "2.0",
+        "fit": "Good fit",
+        "score": 79.8,
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 4,
+            "total": 4
+          },
+          "experience_alignment": {
+            "score": 95,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 3,
+            "seniority": "mid"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 50,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [
+          "Network",
+          "Security",
+          "Data Centre",
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Security",
+          "Strong advanced proficiency in Customer Support",
+          "Strong proficient proficiency in Network"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5838397976?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5838397976?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "Layer 1 networking"
+        ],
+        "requested_terms": [
+          "Layer 1 networking"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description.",
+          "Confirm any security-clearance, police-check, or government screening requirement."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn't sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email",
+      "scoring": {
+        "score": 79.8,
+        "fit_label": "Good fit",
+        "dimensions": {
+          "skill_match": {
+            "score": 85.0,
+            "weight": "40%",
+            "matched": 4,
+            "total": 4
+          },
+          "experience_alignment": {
+            "score": 95,
+            "weight": "25%",
+            "candidate_years": 6,
+            "required_years": 3,
+            "seniority": "mid"
+          },
+          "location_remote_fit": {
+            "score": 80,
+            "weight": "15%",
+            "work_mode": "onsite"
+          },
+          "growth_potential": {
+            "score": 50,
+            "weight": "10%"
+          },
+          "company_size_fit": {
+            "score": 50,
+            "weight": "10%",
+            "company_size": "unknown"
+          }
+        },
+        "matched_skills": [
+          "Network",
+          "Security",
+          "Data Centre",
+          "Customer Support"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong advanced proficiency in Security",
+          "Strong advanced proficiency in Customer Support",
+          "Strong proficient proficiency in Network"
+        ],
+        "risks": [
+          "Confirm listing availability and exact requirements before applying"
+        ],
+        "confidence": 0.9
       }
     },
     {
@@ -7779,7 +8203,7 @@
     {
       "title": "Senior/Associate Electrical Engineer - Substations / Data Centres",
       "company": "WSP USA",
-      "url": "https://www.adzuna.com.au/land/ad/5851967463?se=UtSUGgye8RGfYqjUJN_cUg&utm_medium=api&utm_source=cc30c73e&v=B53AB186587AA7126448B920F46E811885DA1285",
+      "url": "https://www.adzuna.com.au/land/ad/5851967463?se=0NTzgNue8RGSb8VpDRDiVA&utm_medium=api&utm_source=cc30c73e&v=B53AB186587AA7126448B920F46E811885DA1285",
       "location": "Melbourne Region, Melbourne",
       "posted": "2026-08-22",
       "source": "Adzuna",
@@ -7792,7 +8216,7 @@
       "why": "Adzuna listing for Senior/Associate Electrical Engineer - Substations / Data Centres at WSP USA",
       "score": 0,
       "listing_verification": "api_verified",
-      "application_route": "https://www.adzuna.com.au/land/ad/5851967463?se=UtSUGgye8RGfYqjUJN_cUg&utm_medium=api&utm_source=cc30c73e&v=B53AB186587AA7126448B920F46E811885DA1285",
+      "application_route": "https://www.adzuna.com.au/land/ad/5851967463?se=0NTzgNue8RGSb8VpDRDiVA&utm_medium=api&utm_source=cc30c73e&v=B53AB186587AA7126448B920F46E811885DA1285",
       "application_route_type": "adzuna_api",
       "remote": false,
       "stream": "Trade Pathways",
@@ -7849,8 +8273,8 @@
         ],
         "confidence": 0.8,
         "source": "Adzuna",
-        "source_url": "https://www.adzuna.com.au/land/ad/5851967463?se=UtSUGgye8RGfYqjUJN_cUg&utm_medium=api&utm_source=cc30c73e&v=B53AB186587AA7126448B920F46E811885DA1285",
-        "application_route": "https://www.adzuna.com.au/land/ad/5851967463?se=UtSUGgye8RGfYqjUJN_cUg&utm_medium=api&utm_source=cc30c73e&v=B53AB186587AA7126448B920F46E811885DA1285",
+        "source_url": "https://www.adzuna.com.au/land/ad/5851967463?se=0NTzgNue8RGSb8VpDRDiVA&utm_medium=api&utm_source=cc30c73e&v=B53AB186587AA7126448B920F46E811885DA1285",
+        "application_route": "https://www.adzuna.com.au/land/ad/5851967463?se=0NTzgNue8RGSb8VpDRDiVA&utm_medium=api&utm_source=cc30c73e&v=B53AB186587AA7126448B920F46E811885DA1285",
         "application_route_type": "adzuna_api",
         "listing_verification": "api_verified",
         "matched_terms": [
@@ -8214,439 +8638,6 @@
         ],
         "risks": [
           "Role targets senior level; candidate is mid-level",
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
-    },
-    {
-      "title": "Utilities and Services Engineer - Data Centres",
-      "company": "WSP",
-      "url": "https://www.adzuna.com.au/details/5843144778?utm_medium=api&utm_source=cc30c73e",
-      "location": "Melbourne, Melbourne CBD",
-      "posted": "2026-08-16",
-      "source": "Adzuna",
-      "salary": "",
-      "description": "Description What if your next role gave you the chance to be right at the centre of major infrastructure delivery, helping coordinate the services and interfaces that keep complex projects moving? We are seeking a Utilities and Services Engineer to join our team, based in either Melbourne or Sydney, supporting the delivery of complex infrastructure projects across site, design and contractor interfaces. This is a hands-on project coordination role for someone who enjoys working close to deliver…",
-      "tags": [
-        "data",
-        "adzuna"
-      ],
-      "why": "Adzuna listing for Utilities and Services Engineer - Data Centres at WSP",
-      "score": 0,
-      "listing_verification": "api_verified",
-      "application_route": "https://www.adzuna.com.au/details/5843144778?utm_medium=api&utm_source=cc30c73e",
-      "application_route_type": "adzuna_api",
-      "remote": false,
-      "stream": "Trade Pathways",
-      "resume": "applications/2026-08-08_wsp_utilities_and_services_engineer_data_centres_resume.pdf",
-      "cover": "applications/2026-08-08_wsp_utilities_and_services_engineer_data_centres_cover_letter.pdf",
-      "resume_md": "applications/2026-08-08_wsp_utilities_and_services_engineer_data_centres_resume.md",
-      "cover_md": "applications/2026-08-08_wsp_utilities_and_services_engineer_data_centres_cover_letter.md",
-      "email_md": "applications/2026-08-08_wsp_utilities_and_services_engineer_data_centres_opening_email.md",
-      "audit_json": "application_audits/2026-08-08_wsp_utilities_and_services_engineer_data_centres_audit.json",
-      "audit": {
-        "audit_version": "2.0",
-        "fit": "Good fit",
-        "score": 79.8,
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 2,
-            "total": 2
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Data Centre",
-          "Customer Support"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Strong proficient proficiency in Data Centre",
-          "Experience level aligns well (6 years vs 3 required)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8,
-        "source": "Adzuna",
-        "source_url": "https://www.adzuna.com.au/details/5843144778?utm_medium=api&utm_source=cc30c73e",
-        "application_route": "https://www.adzuna.com.au/details/5843144778?utm_medium=api&utm_source=cc30c73e",
-        "application_route_type": "adzuna_api",
-        "listing_verification": "api_verified",
-        "matched_terms": [
-          "Data-centre operations",
-          "Customer support"
-        ],
-        "requested_terms": [
-          "Data-centre operations",
-          "Customer support"
-        ],
-        "unsupported_or_unverified_terms": [],
-        "requirements_to_confirm": [
-          "Confirm the listing is still open and review the exact job description."
-        ],
-        "recommendation": "Review the listing and requirements before applying.",
-        "human_review": [
-          "Check the listing date, closing date, location, roster, and application route.",
-          "Read the tailored documents once and edit any wording that doesn't sound like you.",
-          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
-          "Submit manually only after your explicit approval."
-        ],
-        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
-      },
-      "contact_email": null,
-      "contact_phone": null,
-      "hiring_manager": null,
-      "application_materials": "Tailored résumé, cover letter and opening email",
-      "scoring": {
-        "score": 79.8,
-        "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 2,
-            "total": 2
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Data Centre",
-          "Customer Support"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Strong proficient proficiency in Data Centre",
-          "Experience level aligns well (6 years vs 3 required)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
-    },
-    {
-      "title": "Mechanical Engineer - Internship part time Victoria",
-      "company": "Study and Work",
-      "url": "https://www.adzuna.com.au/details/5836725688?utm_medium=api&utm_source=cc30c73e",
-      "location": "Melbourne Region, Melbourne",
-      "posted": "2026-08-11",
-      "source": "Adzuna",
-      "salary": "",
-      "description": "Mechanical Engineer - Internship part time Victoria Location: Victoria, Australia Employment Type: Unpaid Internship Duration: Up to 3 months Hours: Part-time We are seeking a motivated and enthusiastic Mechanical Engineering Intern to join our team for an unpaid internship of up to three months. This opportunity is ideal for students or recent graduates looking to gain practical, hands-on industry experience in a professional engineering environment. Key Responsibilities Assist with mechanical…",
-      "tags": [
-        "data",
-        "adzuna"
-      ],
-      "why": "Adzuna listing for Mechanical Engineer - Internship part time Victoria at Study and Work",
-      "score": 0,
-      "listing_verification": "api_verified",
-      "application_route": "https://www.adzuna.com.au/details/5836725688?utm_medium=api&utm_source=cc30c73e",
-      "application_route_type": "adzuna_api",
-      "remote": false,
-      "stream": "Trade Pathways",
-      "resume": "applications/2026-08-08_study_and_work_mechanical_engineer_internship_part_time_victoria_resume.pdf",
-      "cover": "applications/2026-08-08_study_and_work_mechanical_engineer_internship_part_time_victoria_cover_letter.pdf",
-      "resume_md": "applications/2026-08-08_study_and_work_mechanical_engineer_internship_part_time_victoria_resume.md",
-      "cover_md": "applications/2026-08-08_study_and_work_mechanical_engineer_internship_part_time_victoria_cover_letter.md",
-      "email_md": "applications/2026-08-08_study_and_work_mechanical_engineer_internship_part_time_victoria_opening_email.md",
-      "audit_json": "application_audits/2026-08-08_study_and_work_mechanical_engineer_internship_part_time_victoria_audit.json",
-      "audit": {
-        "audit_version": "2.0",
-        "fit": "Partial fit",
-        "score": 62.8,
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 75,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 0,
-            "seniority": "trainee"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8,
-        "source": "Adzuna",
-        "source_url": "https://www.adzuna.com.au/details/5836725688?utm_medium=api&utm_source=cc30c73e",
-        "application_route": "https://www.adzuna.com.au/details/5836725688?utm_medium=api&utm_source=cc30c73e",
-        "application_route_type": "adzuna_api",
-        "listing_verification": "api_verified",
-        "matched_terms": [],
-        "requested_terms": [],
-        "unsupported_or_unverified_terms": [],
-        "requirements_to_confirm": [
-          "Confirm the listing is still open and review the exact job description."
-        ],
-        "recommendation": "Review the listing and requirements before applying.",
-        "human_review": [
-          "Check the listing date, closing date, location, roster, and application route.",
-          "Read the tailored documents once and edit any wording that doesn't sound like you.",
-          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
-          "Submit manually only after your explicit approval."
-        ],
-        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
-      },
-      "contact_email": null,
-      "contact_phone": null,
-      "hiring_manager": null,
-      "application_materials": "Tailored résumé, cover letter and opening email",
-      "scoring": {
-        "score": 62.8,
-        "fit_label": "Partial fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 75,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 0,
-            "seniority": "trainee"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [],
-        "missing_skills": [],
-        "strengths": [
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8
-      }
-    },
-    {
-      "title": "Project Engineer (Data Centres)",
-      "company": "Hickory",
-      "url": "https://www.adzuna.com.au/details/5835370467?utm_medium=api&utm_source=cc30c73e",
-      "location": "Melbourne, Southbank",
-      "posted": "2026-08-10",
-      "source": "Adzuna",
-      "salary": "",
-      "description": "At Hickory, we don’t believe in standing still, for over three decades we have continually invested in researching and developing systems and products to improve the way we build. Our philosophy is ‘MADE for LIFE’ – it’s a commitment we honour, each day. Everything we do and everything we build is ‘MADE for LIFE.’ Whether it’s refining our patented, prefabricated building products, developing more efficient and sustainable construction practices, or bringing expertise inhouse to supply critical…",
-      "tags": [
-        "data",
-        "adzuna"
-      ],
-      "why": "Adzuna listing for Project Engineer (Data Centres) at Hickory",
-      "score": 0,
-      "listing_verification": "api_verified",
-      "application_route": "https://www.adzuna.com.au/details/5835370467?utm_medium=api&utm_source=cc30c73e",
-      "application_route_type": "adzuna_api",
-      "remote": false,
-      "stream": "Trade Pathways",
-      "resume": "applications/2026-08-08_hickory_project_engineer_data_centres_resume.pdf",
-      "cover": "applications/2026-08-08_hickory_project_engineer_data_centres_cover_letter.pdf",
-      "resume_md": "applications/2026-08-08_hickory_project_engineer_data_centres_resume.md",
-      "cover_md": "applications/2026-08-08_hickory_project_engineer_data_centres_cover_letter.md",
-      "email_md": "applications/2026-08-08_hickory_project_engineer_data_centres_opening_email.md",
-      "audit_json": "application_audits/2026-08-08_hickory_project_engineer_data_centres_audit.json",
-      "audit": {
-        "audit_version": "2.0",
-        "fit": "Good fit",
-        "score": 81.8,
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Data Centre"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong proficient proficiency in Data Centre",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
-          "Confirm listing availability and exact requirements before applying"
-        ],
-        "confidence": 0.8,
-        "source": "Adzuna",
-        "source_url": "https://www.adzuna.com.au/details/5835370467?utm_medium=api&utm_source=cc30c73e",
-        "application_route": "https://www.adzuna.com.au/details/5835370467?utm_medium=api&utm_source=cc30c73e",
-        "application_route_type": "adzuna_api",
-        "listing_verification": "api_verified",
-        "matched_terms": [
-          "Data-centre operations"
-        ],
-        "requested_terms": [
-          "Data-centre operations"
-        ],
-        "unsupported_or_unverified_terms": [],
-        "requirements_to_confirm": [
-          "Confirm the listing is still open and review the exact job description."
-        ],
-        "recommendation": "Review the listing and requirements before applying.",
-        "human_review": [
-          "Check the listing date, closing date, location, roster, and application route.",
-          "Read the tailored documents once and edit any wording that doesn't sound like you.",
-          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
-          "Submit manually only after your explicit approval."
-        ],
-        "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
-      },
-      "contact_email": null,
-      "contact_phone": null,
-      "hiring_manager": null,
-      "application_materials": "Tailored résumé, cover letter and opening email",
-      "scoring": {
-        "score": 81.8,
-        "fit_label": "Good fit",
-        "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
-        },
-        "matched_skills": [
-          "Data Centre"
-        ],
-        "missing_skills": [],
-        "strengths": [
-          "Strong proficient proficiency in Data Centre",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
-        ],
-        "risks": [
           "Confirm listing availability and exact requirements before applying"
         ],
         "confidence": 0.8
@@ -9669,7 +9660,7 @@
       "status": "search-only; verify original employer route"
     }
   ],
-  "updated": "2026-08-23T19:25:12.589847+10:00",
+  "updated": "2026-08-23T20:27:59.908301+10:00",
   "search_area": "Melbourne, St Kilda area, and remote Australia",
   "policy": "LinkedIn excluded. Individual listings and direct employer or government routes are preferred. Search-only sources are labelled and must be verified manually. No applications or emails are submitted automatically."
 }

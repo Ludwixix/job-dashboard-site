@@ -1,16 +1,16 @@
-# Opening Email — IT Support Analyst
+# Opening Email — Bakers Assistant
 
-**Company:** HPX Group
-**Location:** Melbourne Region, Melbourne
-**Application link:** https://www.adzuna.com.au/details/5852545054?utm_medium=api&utm_source=cc30c73e
+**Company:** Madeleines Bakery and Cake shop
+**Location:** Diamond Creek, VIC, AU
+**Application link:** https://au.indeed.com/viewjob?jk=bb72ca1775112768
 
 ## Subject
-Application — IT Support Analyst — Sam Ludwig
+Application — Bakers Assistant — Sam Ludwig
 
 ## Email body
 Hello Hiring Manager,
 
-I'm writing about the IT Support Analyst position with HPX Group. 
+I'm writing about the Bakers Assistant position with Madeleines Bakery and Cake shop. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 

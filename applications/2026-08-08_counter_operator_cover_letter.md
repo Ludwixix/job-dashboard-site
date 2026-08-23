@@ -1,11 +1,11 @@
 # Sam Ludwig
 Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
 
-**Re: Lead Solution Architect - Home Health — Australian Unity**
+**Re: Counter operator — your organisation**
 
 Dear Hiring Manager,
 
-I'm writing to express my interest in the Lead Solution Architect - Home Health position with Australian Unity. I'm writing to express my interest in the Lead Solution Architect - Home Health role at Australian Unity. My background across enterprise infrastructure, Microsoft 365, and service operations connects well with the requirements outlined.
+I'm writing to express my interest in the Counter operator position with your organisation. I'm writing to express my interest in the Counter operator role at . My background across enterprise infrastructure, Microsoft 365, and service operations connects well with the requirements outlined.
 
 
 

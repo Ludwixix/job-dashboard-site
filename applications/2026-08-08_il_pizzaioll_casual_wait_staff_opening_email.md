@@ -1,16 +1,16 @@
-# Opening Email — Workshop Technician
+# Opening Email — Casual Wait Staff
 
-**Company:** Fisher & Paykel
-**Location:** Melbourne Region, Melbourne
-**Application link:** https://www.adzuna.com.au/details/5852545359?utm_medium=api&utm_source=cc30c73e
+**Company:** il pizzaioll
+**Location:** Thornbury, VIC, AU
+**Application link:** https://au.indeed.com/viewjob?jk=2912c7e5a5710539
 
 ## Subject
-Application — Workshop Technician — Sam Ludwig
+Application — Casual Wait Staff — Sam Ludwig
 
 ## Email body
 Hello Hiring Manager,
 
-I'm writing about the Workshop Technician position with Fisher & Paykel. 
+I'm writing about the Casual Wait Staff position with il pizzaioll. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 

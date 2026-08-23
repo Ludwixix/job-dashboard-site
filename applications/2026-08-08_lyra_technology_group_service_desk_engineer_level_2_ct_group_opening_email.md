@@ -10,13 +10,13 @@ Application — Service Desk Engineer, Level 2 – CT Group — Sam Ludwig
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Service Desk Engineer, Level 2 – CT Group position with Lyra Technology Group. Adzuna listing for Service Desk Engineer, Level 2 – CT Group at Lyra Technology Group
+I'm writing about the Service Desk Engineer, Level 2 – CT Group position with Lyra Technology Group. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are servicenow, customer support.
+The areas most relevant to the role are teams, servicenow, customer support.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig
