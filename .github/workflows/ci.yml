@@ -36,9 +36,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Verify serverless function parses
+      - name: Verify Supabase Edge Functions parse
         run: |
-          node --check netlify/functions/generate.mjs
+          node --check supabase/functions/generate/index.ts
+          node --check supabase/functions/applications/index.ts
       - name: Verify index.html exists
         run: |
           test -f index.html && echo "index.html present" || (echo "MISSING index.html" && exit 1)

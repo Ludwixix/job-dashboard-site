@@ -2082,7 +2082,7 @@ a{color:inherit;text-decoration:none}
     btn.disabled = true;
     
     try {
-      const resp = await fetch('/.netlify/functions/generate', {
+      const resp = await fetch('https://piussupjoajcxumtmzpp.supabase.co/functions/v1/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(jobData),
@@ -2146,7 +2146,7 @@ a{color:inherit;text-decoration:none}
 // Lists the documents generate.mjs persists to Supabase; lets you re-print or
 // delete them. Self-contained print helper (downloadPdf is private to the
 // script above). The service key never leaves the server — this only calls
-// /.netlify/functions/applications.
+// Supabase edge function (backend).
 (function() {
   let docOwner = {};   // documentId -> {company,title}
   let docContent = {}; // documentId -> markdown
@@ -2159,7 +2159,7 @@ a{color:inherit;text-decoration:none}
   function fmtDate(iso){ if(!iso) return ''; try { return new Date(iso).toLocaleDateString(undefined,{day:'numeric',month:'short',year:'numeric'}); } catch(e){ return ''; } }
 
   async function refresh(){
-    const resp = await fetch('/.netlify/functions/applications');
+    const resp = await fetch('https://piussupjoajcxumtmzpp.supabase.co/functions/v1/applications');
     if (!resp.ok) throw new Error('applications HTTP ' + resp.status);
     const data = await resp.json();
     render(data.saved || []);
@@ -2237,7 +2237,7 @@ a{color:inherit;text-decoration:none}
 
   window.deleteSaved = async function(jobId){
     try {
-      const resp = await fetch('/.netlify/functions/applications?jobId='+encodeURIComponent(jobId), { method:'DELETE' });
+      const resp = await fetch('https://piussupjoajcxumtmzpp.supabase.co/functions/v1/applications?jobId='+encodeURIComponent(jobId), { method:'DELETE' });
       if (!resp.ok) throw new Error('delete HTTP ' + resp.status);
       await refresh();
     } catch(e){ console.error(e); }
