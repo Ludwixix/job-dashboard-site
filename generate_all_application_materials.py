@@ -4,10 +4,10 @@ import re
 from collections import Counter
 from datetime import datetime
 
-ROOT = Path(r"C:\Users\samlu\.openclaw\workspace")
+ROOT = Path(__file__).parent
 APP = ROOT / "applications"
 AUDITS = ROOT / "application_audits"
-DATA_PATH = ROOT / "jobs_nonlinkedin_2026-08-08.json"
+DATA_PATH = ROOT / "scrapers" / "jobs_combined.json"
 MASTER = ROOT / "resume.md"
 
 APP.mkdir(exist_ok=True)
@@ -769,7 +769,7 @@ for role in data["jobs"]:
     attach_paths(role, prefix, resume_path, cover_path, email_path, audit_path)
     count_emails += 1
 
-for category, roles in data["sections"].items():
+for category, roles in data.get("sections", {}).items():
     for role in roles:
         override = ROLE_OVERRIDES.get(role["title"])
         if not override:
@@ -793,7 +793,7 @@ data["policy"] = "LinkedIn excluded. Individual listings and direct employer or 
 index = []
 for role in data["jobs"]:
     index.append({"lane":"core", "company":role["company"], "title":role["title"], "location":role["location"], "source":role.get("source"), "application_route":role.get("application_route", role.get("url")), "application_route_type":role.get("application_route_type"), "listing_verification":role.get("listing_verification"), "application_url":role["url"], "resume":role.get("resume"), "cover":role.get("cover"), "resume_source":role.get("resume_md"), "cover_source":role.get("cover_md"), "opening_email":role.get("email_md"), "audit":role.get("audit_json"), "fit":role.get("audit", {}).get("fit"), "matched_terms":role.get("audit", {}).get("matched_terms", []), "gaps":role.get("audit", {}).get("unsupported_or_unverified_terms", []), "requirements_to_confirm":role.get("audit", {}).get("requirements_to_confirm", []), "contact_email":role.get("contact_email"), "contact_phone":role.get("contact_phone"), "hiring_manager":role.get("hiring_manager")})
-for category, roles in data["sections"].items():
+for category, roles in data.get("sections", {}).items():
     for role in roles:
         index.append({"lane":category, "company":role["company"], "title":role["title"], "location":role["location"], "source":role.get("source"), "application_route":role.get("application_route", role.get("url")), "application_route_type":role.get("application_route_type"), "listing_verification":role.get("listing_verification"), "application_url":role["url"], "resume":role.get("resume"), "cover":role.get("cover"), "resume_source":role.get("resume_md"), "cover_source":role.get("cover_md"), "opening_email":role.get("email_md"), "audit":role.get("audit_json"), "fit":role.get("audit", {}).get("fit"), "matched_terms":role.get("audit", {}).get("matched_terms", []), "gaps":role.get("audit", {}).get("unsupported_or_unverified_terms", []), "requirements_to_confirm":role.get("audit", {}).get("requirements_to_confirm", []), "contact_email":role.get("contact_email"), "contact_phone":role.get("contact_phone"), "hiring_manager":role.get("hiring_manager")})
 (ROOT / "application_pack_index.json").write_text(json.dumps({"generated":data["updated"], "applications_submitted":False, "roles":index}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

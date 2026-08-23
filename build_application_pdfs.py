@@ -2,7 +2,7 @@ from pathlib import Path
 import re
 from fpdf import FPDF
 
-ROOT = Path(r"C:\Users\samlu\.openclaw\workspace")
+ROOT = Path(__file__).parent
 APP = ROOT / "applications"
 
 NAVY = (31, 45, 61)

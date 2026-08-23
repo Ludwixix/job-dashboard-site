@@ -2,6 +2,8 @@
 Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
 samludwig.au | github.com/Ludwixix
 
+## Target Role: Data Center IT Support Engineer, MEL - DCO
+
 ### Professional Summary
 Infrastructure and Microsoft 365 engineer with progressive experience across Azure, Entra ID, Intune, Autopilot, Windows, SharePoint, Exchange, PowerShell, ServiceNow and enterprise service operations. Combines hands-on endpoint delivery with Tier-3 escalation, automation, security-aware change and durable documentation.
 

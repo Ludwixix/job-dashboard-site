@@ -1,0 +1,30 @@
+{
+  "audit_version": "1.0",
+  "fit": "Partial fit",
+  "score": 0,
+  "source": "Adzuna",
+  "source_url": "https://www.adzuna.com.au/details/5846911705?utm_medium=api&utm_source=cc30c73e",
+  "application_route": "https://www.adzuna.com.au/details/5846911705?utm_medium=api&utm_source=cc30c73e",
+  "application_route_type": "adzuna_api",
+  "listing_verification": "api_verified",
+  "matched_terms": [
+    "Layer 1 networking",
+    "HVAC"
+  ],
+  "requested_terms": [
+    "Layer 1 networking",
+    "HVAC"
+  ],
+  "unsupported_or_unverified_terms": [],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+}

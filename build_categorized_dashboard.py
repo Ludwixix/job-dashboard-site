@@ -59,6 +59,24 @@ def esc(text):
     return html_mod.escape(str(text))
 
 
+def load_pack_index():
+    """Load application_pack_index.json and build a lookup by URL."""
+    base = Path(__file__).parent
+    index_path = base / "application_pack_index.json"
+    if not index_path.exists():
+        return {}
+    with open(index_path, encoding="utf-8") as f:
+        data = json.load(f)
+    packs = {}
+    for role in data.get("roles", []):
+        url = role.get("application_url") or role.get("application_route") or ""
+        if url:
+            packs[url] = role
+    return packs
+
+PACK_INDEX = load_pack_index()
+
+
 def role_id(job):
     route = job.get("application_route") or job.get("url") or ""
     return hashlib.sha256(route.encode()).hexdigest()[:12]
@@ -148,6 +166,12 @@ def render_card(job, stream_id):
     verification = job.get("listing_verification", "")
     route_type = job.get("application_route_type", "")
 
+    # Look up application pack
+    pack = PACK_INDEX.get(url, {})
+    resume_pdf = pack.get("resume", "")
+    cover_pdf = pack.get("cover", "")
+    email_md = pack.get("opening_email", "")
+
     tags_html = "".join(f'<span class="tag">{esc(t)}</span>' for t in tags[:4])
 
     # Score visual
@@ -157,6 +181,18 @@ def render_card(job, stream_id):
         score_cls = "score-mid"
     else:
         score_cls = "score-low"
+
+    # Pack buttons
+    pack_buttons = []
+    if resume_pdf:
+        pack_buttons.append(f'<a href="{esc(resume_pdf)}" download class="btn btn-pack" title="Download tailored resume (PDF)">⬇ Resume</a>')
+    if cover_pdf:
+        pack_buttons.append(f'<a href="{esc(cover_pdf)}" download class="btn btn-pack" title="Download cover letter (PDF)">⬇ Cover</a>')
+    if email_md:
+        pack_buttons.append(f'<a href="{esc(email_md)}" download class="btn btn-pack" title="Download opening email (MD)">⬇ Email</a>')
+    if not pack_buttons:
+        pack_buttons.append('<button class="btn btn-pack" disabled title="No pack available">⬇ Pack</button>')
+    pack_html = " ".join(pack_buttons)
 
     return f'''<article class="card" id="role-{rid}" data-role-id="{rid}" data-score="{score}" data-work="{work.lower()}" data-source="{source.lower()}" data-stream="{stream_id}">
   <div class="card-header">
@@ -174,7 +210,7 @@ def render_card(job, stream_id):
   {f'<div class="card-tags">{tags_html}</div>' if tags_html else ''}
   <div class="card-actions">
     <a href="{esc(url)}" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
-    <button class="btn btn-pack" disabled title="Coming soon">⬇ Pack</button>
+    {pack_html}
     <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
     <span class="card-spacer"></span>
     <span class="stage-label">Stage:</span>

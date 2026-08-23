@@ -27,7 +27,41 @@
       "application_route": "https://www.adzuna.com.au/details/5853134547?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_australian_unity_lead_solution_architect_home_health_resume.pdf",
+      "cover": "applications/2026-08-08_australian_unity_lead_solution_architect_home_health_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_australian_unity_lead_solution_architect_home_health_resume.md",
+      "cover_md": "applications/2026-08-08_australian_unity_lead_solution_architect_home_health_cover_letter.md",
+      "email_md": "applications/2026-08-08_australian_unity_lead_solution_architect_home_health_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_australian_unity_lead_solution_architect_home_health_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5853134547?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5853134547?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "IT Support Specialist",
@@ -48,7 +82,41 @@
       "application_route": "https://www.adzuna.com.au/details/5852546634?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_str_it_support_specialist_resume.pdf",
+      "cover": "applications/2026-08-08_str_it_support_specialist_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_str_it_support_specialist_resume.md",
+      "cover_md": "applications/2026-08-08_str_it_support_specialist_cover_letter.md",
+      "email_md": "applications/2026-08-08_str_it_support_specialist_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_str_it_support_specialist_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5852546634?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5852546634?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "IT Support Analyst",
@@ -69,7 +137,41 @@
       "application_route": "https://www.adzuna.com.au/details/5852545054?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_hpx_group_it_support_analyst_resume.pdf",
+      "cover": "applications/2026-08-08_hpx_group_it_support_analyst_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_hpx_group_it_support_analyst_resume.md",
+      "cover_md": "applications/2026-08-08_hpx_group_it_support_analyst_cover_letter.md",
+      "email_md": "applications/2026-08-08_hpx_group_it_support_analyst_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_hpx_group_it_support_analyst_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5852545054?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5852545054?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Retail IT Student",
@@ -90,7 +192,41 @@
       "application_route": "https://www.adzuna.com.au/details/5852538841?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_hydro_tasmania_retail_it_student_resume.pdf",
+      "cover": "applications/2026-08-08_hydro_tasmania_retail_it_student_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_hydro_tasmania_retail_it_student_resume.md",
+      "cover_md": "applications/2026-08-08_hydro_tasmania_retail_it_student_cover_letter.md",
+      "email_md": "applications/2026-08-08_hydro_tasmania_retail_it_student_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_hydro_tasmania_retail_it_student_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5852538841?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5852538841?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Professional Services Consultant",
@@ -111,7 +247,45 @@
       "application_route": "https://www.adzuna.com.au/details/5851364610?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_tesserent_professional_services_consultant_resume.pdf",
+      "cover": "applications/2026-08-08_tesserent_professional_services_consultant_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_tesserent_professional_services_consultant_resume.md",
+      "cover_md": "applications/2026-08-08_tesserent_professional_services_consultant_cover_letter.md",
+      "email_md": "applications/2026-08-08_tesserent_professional_services_consultant_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_tesserent_professional_services_consultant_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5851364610?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5851364610?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "Customer support"
+        ],
+        "requested_terms": [
+          "Customer support"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "IT Support Specialist",
@@ -132,7 +306,41 @@
       "application_route": "https://www.adzuna.com.au/details/5851363189?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_integral_diagnostics_limited_it_support_specialist_resume.pdf",
+      "cover": "applications/2026-08-08_integral_diagnostics_limited_it_support_specialist_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_integral_diagnostics_limited_it_support_specialist_resume.md",
+      "cover_md": "applications/2026-08-08_integral_diagnostics_limited_it_support_specialist_cover_letter.md",
+      "email_md": "applications/2026-08-08_integral_diagnostics_limited_it_support_specialist_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_integral_diagnostics_limited_it_support_specialist_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5851363189?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5851363189?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Software Engineer",
@@ -153,7 +361,41 @@
       "application_route": "https://www.adzuna.com.au/details/5851099498?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_computershare_software_engineer_resume.pdf",
+      "cover": "applications/2026-08-08_computershare_software_engineer_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_computershare_software_engineer_resume.md",
+      "cover_md": "applications/2026-08-08_computershare_software_engineer_cover_letter.md",
+      "email_md": "applications/2026-08-08_computershare_software_engineer_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_computershare_software_engineer_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5851099498?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5851099498?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Junior Business Analyst",
@@ -174,7 +416,41 @@
       "application_route": "https://www.adzuna.com.au/details/5851094364?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_ausimm_junior_business_analyst_resume.pdf",
+      "cover": "applications/2026-08-08_ausimm_junior_business_analyst_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_ausimm_junior_business_analyst_resume.md",
+      "cover_md": "applications/2026-08-08_ausimm_junior_business_analyst_cover_letter.md",
+      "email_md": "applications/2026-08-08_ausimm_junior_business_analyst_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_ausimm_junior_business_analyst_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5851094364?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5851094364?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Service & Systems Support Officer",
@@ -195,7 +471,45 @@
       "application_route": "https://www.adzuna.com.au/details/5851073851?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_afca_service_and_systems_support_officer_resume.pdf",
+      "cover": "applications/2026-08-08_afca_service_and_systems_support_officer_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_afca_service_and_systems_support_officer_resume.md",
+      "cover_md": "applications/2026-08-08_afca_service_and_systems_support_officer_cover_letter.md",
+      "email_md": "applications/2026-08-08_afca_service_and_systems_support_officer_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_afca_service_and_systems_support_officer_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5851073851?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5851073851?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "Customer support"
+        ],
+        "requested_terms": [
+          "Customer support"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Legal Assistant- Insurance Litigation",
@@ -216,7 +530,41 @@
       "application_route": "https://www.adzuna.com.au/details/5851041219?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_burgess_paluch_legal_recruitment_legal_assistant_insurance_litigation_resume.pdf",
+      "cover": "applications/2026-08-08_burgess_paluch_legal_recruitment_legal_assistant_insurance_litigation_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_burgess_paluch_legal_recruitment_legal_assistant_insurance_litigation_resume.md",
+      "cover_md": "applications/2026-08-08_burgess_paluch_legal_recruitment_legal_assistant_insurance_litigation_cover_letter.md",
+      "email_md": "applications/2026-08-08_burgess_paluch_legal_recruitment_legal_assistant_insurance_litigation_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_burgess_paluch_legal_recruitment_legal_assistant_insurance_litigation_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5851041219?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5851041219?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Assistant Underwriter – Corporate Property",
@@ -237,7 +585,41 @@
       "application_route": "https://www.adzuna.com.au/details/5849658160?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_hdi_global_se_australia_assistant_underwriter_corporate_property_resume.pdf",
+      "cover": "applications/2026-08-08_hdi_global_se_australia_assistant_underwriter_corporate_property_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_hdi_global_se_australia_assistant_underwriter_corporate_property_resume.md",
+      "cover_md": "applications/2026-08-08_hdi_global_se_australia_assistant_underwriter_corporate_property_cover_letter.md",
+      "email_md": "applications/2026-08-08_hdi_global_se_australia_assistant_underwriter_corporate_property_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_hdi_global_se_australia_assistant_underwriter_corporate_property_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5849658160?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5849658160?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Client Training Consultant",
@@ -258,7 +640,41 @@
       "application_route": "https://www.adzuna.com.au/details/5849653743?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_solera_client_training_consultant_resume.pdf",
+      "cover": "applications/2026-08-08_solera_client_training_consultant_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_solera_client_training_consultant_resume.md",
+      "cover_md": "applications/2026-08-08_solera_client_training_consultant_cover_letter.md",
+      "email_md": "applications/2026-08-08_solera_client_training_consultant_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_solera_client_training_consultant_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5849653743?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5849653743?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Back End Developer",
@@ -279,7 +695,41 @@
       "application_route": "https://www.adzuna.com.au/details/5849648384?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_study_and_work_back_end_developer_resume.pdf",
+      "cover": "applications/2026-08-08_study_and_work_back_end_developer_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_study_and_work_back_end_developer_resume.md",
+      "cover_md": "applications/2026-08-08_study_and_work_back_end_developer_cover_letter.md",
+      "email_md": "applications/2026-08-08_study_and_work_back_end_developer_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_study_and_work_back_end_developer_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5849648384?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5849648384?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Service Desk Engineer, Level 2 – CT Group",
@@ -300,7 +750,47 @@
       "application_route": "https://www.adzuna.com.au/details/5849648358?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_resume.pdf",
+      "cover": "applications/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_resume.md",
+      "cover_md": "applications/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_cover_letter.md",
+      "email_md": "applications/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_lyra_technology_group_service_desk_engineer_level_2_ct_group_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5849648358?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5849648358?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "ServiceNow",
+          "Customer support"
+        ],
+        "requested_terms": [
+          "ServiceNow",
+          "Customer support"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Manager, Support & Delivery Teams",
@@ -321,7 +811,45 @@
       "application_route": "https://www.adzuna.com.au/details/5849069510?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_halcyon_knights_manager_support_and_delivery_teams_resume.pdf",
+      "cover": "applications/2026-08-08_halcyon_knights_manager_support_and_delivery_teams_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_halcyon_knights_manager_support_and_delivery_teams_resume.md",
+      "cover_md": "applications/2026-08-08_halcyon_knights_manager_support_and_delivery_teams_cover_letter.md",
+      "email_md": "applications/2026-08-08_halcyon_knights_manager_support_and_delivery_teams_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_halcyon_knights_manager_support_and_delivery_teams_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5849069510?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5849069510?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "Teams"
+        ],
+        "requested_terms": [
+          "Teams"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Sales & Operations Specialist",
@@ -342,7 +870,41 @@
       "application_route": "https://www.adzuna.com.au/details/5848234169?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_harris_scarfe_careers_sales_and_operations_specialist_resume.pdf",
+      "cover": "applications/2026-08-08_harris_scarfe_careers_sales_and_operations_specialist_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_harris_scarfe_careers_sales_and_operations_specialist_resume.md",
+      "cover_md": "applications/2026-08-08_harris_scarfe_careers_sales_and_operations_specialist_cover_letter.md",
+      "email_md": "applications/2026-08-08_harris_scarfe_careers_sales_and_operations_specialist_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_harris_scarfe_careers_sales_and_operations_specialist_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5848234169?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5848234169?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Level 2 IT Support Officer",
@@ -363,7 +925,41 @@
       "application_route": "https://www.adzuna.com.au/details/5847920015?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_hays_level_2_it_support_officer_resume.pdf",
+      "cover": "applications/2026-08-08_hays_level_2_it_support_officer_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_hays_level_2_it_support_officer_resume.md",
+      "cover_md": "applications/2026-08-08_hays_level_2_it_support_officer_cover_letter.md",
+      "email_md": "applications/2026-08-08_hays_level_2_it_support_officer_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_hays_level_2_it_support_officer_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5847920015?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5847920015?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Talent Acquisition Business Partner",
@@ -384,7 +980,41 @@
       "application_route": "https://www.adzuna.com.au/details/5846899554?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_keyton_talent_acquisition_business_partner_resume.pdf",
+      "cover": "applications/2026-08-08_keyton_talent_acquisition_business_partner_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_keyton_talent_acquisition_business_partner_resume.md",
+      "cover_md": "applications/2026-08-08_keyton_talent_acquisition_business_partner_cover_letter.md",
+      "email_md": "applications/2026-08-08_keyton_talent_acquisition_business_partner_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_keyton_talent_acquisition_business_partner_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5846899554?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5846899554?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "eLearning Engagement & IT Support Officer",
@@ -405,7 +1035,41 @@
       "application_route": "https://www.adzuna.com.au/details/5844989824?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_acknowledge_education_elearning_engagement_and_it_support_officer_resume.pdf",
+      "cover": "applications/2026-08-08_acknowledge_education_elearning_engagement_and_it_support_officer_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_acknowledge_education_elearning_engagement_and_it_support_officer_resume.md",
+      "cover_md": "applications/2026-08-08_acknowledge_education_elearning_engagement_and_it_support_officer_cover_letter.md",
+      "email_md": "applications/2026-08-08_acknowledge_education_elearning_engagement_and_it_support_officer_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_acknowledge_education_elearning_engagement_and_it_support_officer_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5844989824?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5844989824?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Communications and Outreach Officer",
@@ -426,7 +1090,41 @@
       "application_route": "https://www.adzuna.com.au/details/5844958461?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Core IT"
+      "stream": "Core IT",
+      "resume": "applications/2026-08-08_deakin_university_communications_and_outreach_officer_resume.pdf",
+      "cover": "applications/2026-08-08_deakin_university_communications_and_outreach_officer_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_deakin_university_communications_and_outreach_officer_resume.md",
+      "cover_md": "applications/2026-08-08_deakin_university_communications_and_outreach_officer_cover_letter.md",
+      "email_md": "applications/2026-08-08_deakin_university_communications_and_outreach_officer_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_deakin_university_communications_and_outreach_officer_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5844958461?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5844958461?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Personal Assistant",
@@ -447,7 +1145,41 @@
       "application_route": "https://www.adzuna.com.au/details/5837586378?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_harperlloyd_recruitment_personal_assistant_resume.pdf",
+      "cover": "applications/2026-08-08_harperlloyd_recruitment_personal_assistant_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_harperlloyd_recruitment_personal_assistant_resume.md",
+      "cover_md": "applications/2026-08-08_harperlloyd_recruitment_personal_assistant_cover_letter.md",
+      "email_md": "applications/2026-08-08_harperlloyd_recruitment_personal_assistant_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_harperlloyd_recruitment_personal_assistant_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5837586378?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5837586378?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "National Visual Merchandiser",
@@ -468,7 +1200,46 @@
       "application_route": "https://www.adzuna.com.au/details/5843140334?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_dg_head_office_national_visual_merchandiser_resume.pdf",
+      "cover": "applications/2026-08-08_dg_head_office_national_visual_merchandiser_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_dg_head_office_national_visual_merchandiser_resume.md",
+      "cover_md": "applications/2026-08-08_dg_head_office_national_visual_merchandiser_cover_letter.md",
+      "email_md": "applications/2026-08-08_dg_head_office_national_visual_merchandiser_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_dg_head_office_national_visual_merchandiser_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5843140334?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5843140334?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "Microsoft 365"
+        ],
+        "requested_terms": [
+          "Microsoft 365"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description.",
+          "Confirm vehicle, driver's-licence, travel, and stock-handling requirements."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Casual General Labourer",
@@ -490,7 +1261,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/casual-general-labourer-at-show-support-4456433204",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_show_support_casual_general_labourer_resume.pdf",
+      "cover": "applications/2026-08-08_show_support_casual_general_labourer_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_show_support_casual_general_labourer_resume.md",
+      "cover_md": "applications/2026-08-08_show_support_casual_general_labourer_cover_letter.md",
+      "email_md": "applications/2026-08-08_show_support_casual_general_labourer_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_show_support_casual_general_labourer_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/casual-general-labourer-at-show-support-4456433204",
+        "application_route": "https://au.linkedin.com/jobs/view/casual-general-labourer-at-show-support-4456433204",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Christmas Casual Sales Assistant | Angus & Coote Doncaster",
@@ -512,7 +1317,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/christmas-casual-sales-assistant-angus-coote-doncaster-at-jpl-group-4456192007",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_jpl_group_christmas_casual_sales_assistant_angus_and_coote_doncaster_resume.pdf",
+      "cover": "applications/2026-08-08_jpl_group_christmas_casual_sales_assistant_angus_and_coote_doncaster_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_jpl_group_christmas_casual_sales_assistant_angus_and_coote_doncaster_resume.md",
+      "cover_md": "applications/2026-08-08_jpl_group_christmas_casual_sales_assistant_angus_and_coote_doncaster_cover_letter.md",
+      "email_md": "applications/2026-08-08_jpl_group_christmas_casual_sales_assistant_angus_and_coote_doncaster_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_jpl_group_christmas_casual_sales_assistant_angus_and_coote_doncaster_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/christmas-casual-sales-assistant-angus-coote-doncaster-at-jpl-group-4456192007",
+        "application_route": "https://au.linkedin.com/jobs/view/christmas-casual-sales-assistant-angus-coote-doncaster-at-jpl-group-4456192007",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Christmas Casual Sales Assistant | Angus & Coote Werribee",
@@ -534,7 +1373,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/christmas-casual-sales-assistant-angus-coote-werribee-at-jpl-group-4456188053",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_jpl_group_christmas_casual_sales_assistant_angus_and_coote_werribee_resume.pdf",
+      "cover": "applications/2026-08-08_jpl_group_christmas_casual_sales_assistant_angus_and_coote_werribee_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_jpl_group_christmas_casual_sales_assistant_angus_and_coote_werribee_resume.md",
+      "cover_md": "applications/2026-08-08_jpl_group_christmas_casual_sales_assistant_angus_and_coote_werribee_cover_letter.md",
+      "email_md": "applications/2026-08-08_jpl_group_christmas_casual_sales_assistant_angus_and_coote_werribee_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_jpl_group_christmas_casual_sales_assistant_angus_and_coote_werribee_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/christmas-casual-sales-assistant-angus-coote-werribee-at-jpl-group-4456188053",
+        "application_route": "https://au.linkedin.com/jobs/view/christmas-casual-sales-assistant-angus-coote-werribee-at-jpl-group-4456188053",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Casual Sales Assistant | BONDS Outlet | Endeavour Hills",
@@ -556,7 +1429,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/casual-sales-assistant-bonds-outlet-endeavour-hills-at-hanes-brands-australasia-4457052496",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_hanes_brands_australasia_casual_sales_assistant_bonds_outlet_endeavour_hills_resume.pdf",
+      "cover": "applications/2026-08-08_hanes_brands_australasia_casual_sales_assistant_bonds_outlet_endeavour_hills_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_hanes_brands_australasia_casual_sales_assistant_bonds_outlet_endeavour_hills_resume.md",
+      "cover_md": "applications/2026-08-08_hanes_brands_australasia_casual_sales_assistant_bonds_outlet_endeavour_hills_cover_letter.md",
+      "email_md": "applications/2026-08-08_hanes_brands_australasia_casual_sales_assistant_bonds_outlet_endeavour_hills_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_hanes_brands_australasia_casual_sales_assistant_bonds_outlet_endeavour_hills_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/casual-sales-assistant-bonds-outlet-endeavour-hills-at-hanes-brands-australasia-4457052496",
+        "application_route": "https://au.linkedin.com/jobs/view/casual-sales-assistant-bonds-outlet-endeavour-hills-at-hanes-brands-australasia-4457052496",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "OSHC Vacation Care Educator - Narre Warren, VIC",
@@ -578,7 +1485,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/oshc-vacation-care-educator-narre-warren-vic-at-the-extend-group-4456468639",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_the_extend_group_oshc_vacation_care_educator_narre_warren_vic_resume.pdf",
+      "cover": "applications/2026-08-08_the_extend_group_oshc_vacation_care_educator_narre_warren_vic_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_the_extend_group_oshc_vacation_care_educator_narre_warren_vic_resume.md",
+      "cover_md": "applications/2026-08-08_the_extend_group_oshc_vacation_care_educator_narre_warren_vic_cover_letter.md",
+      "email_md": "applications/2026-08-08_the_extend_group_oshc_vacation_care_educator_narre_warren_vic_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_the_extend_group_oshc_vacation_care_educator_narre_warren_vic_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/oshc-vacation-care-educator-narre-warren-vic-at-the-extend-group-4456468639",
+        "application_route": "https://au.linkedin.com/jobs/view/oshc-vacation-care-educator-narre-warren-vic-at-the-extend-group-4456468639",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Casual Sales Assistant | BRAS N THINGS | Cranbourne",
@@ -600,7 +1541,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/casual-sales-assistant-bras-n-things-cranbourne-at-bras-n-things-4457041616",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_bras_n_things_casual_sales_assistant_bras_n_things_cranbourne_resume.pdf",
+      "cover": "applications/2026-08-08_bras_n_things_casual_sales_assistant_bras_n_things_cranbourne_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_bras_n_things_casual_sales_assistant_bras_n_things_cranbourne_resume.md",
+      "cover_md": "applications/2026-08-08_bras_n_things_casual_sales_assistant_bras_n_things_cranbourne_cover_letter.md",
+      "email_md": "applications/2026-08-08_bras_n_things_casual_sales_assistant_bras_n_things_cranbourne_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_bras_n_things_casual_sales_assistant_bras_n_things_cranbourne_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/casual-sales-assistant-bras-n-things-cranbourne-at-bras-n-things-4457041616",
+        "application_route": "https://au.linkedin.com/jobs/view/casual-sales-assistant-bras-n-things-cranbourne-at-bras-n-things-4457041616",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Cleaner - Ringwood",
@@ -622,7 +1597,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/cleaner-ringwood-at-regis-aged-care-4454710137",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_regis_aged_care_cleaner_ringwood_resume.pdf",
+      "cover": "applications/2026-08-08_regis_aged_care_cleaner_ringwood_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_regis_aged_care_cleaner_ringwood_resume.md",
+      "cover_md": "applications/2026-08-08_regis_aged_care_cleaner_ringwood_cover_letter.md",
+      "email_md": "applications/2026-08-08_regis_aged_care_cleaner_ringwood_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_regis_aged_care_cleaner_ringwood_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/cleaner-ringwood-at-regis-aged-care-4454710137",
+        "application_route": "https://au.linkedin.com/jobs/view/cleaner-ringwood-at-regis-aged-care-4454710137",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Front of House Team Member - Elsternwick Casual/Part-Time/Full-Time",
@@ -644,7 +1653,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/front-of-house-team-member-elsternwick-casual-part-time-full-time-at-chargrill-charlie-s-4454142149",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_chargrill_charlie_s_front_of_house_team_member_elsternwick_casual_part_time_full_time_resume.pdf",
+      "cover": "applications/2026-08-08_chargrill_charlie_s_front_of_house_team_member_elsternwick_casual_part_time_full_time_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_chargrill_charlie_s_front_of_house_team_member_elsternwick_casual_part_time_full_time_resume.md",
+      "cover_md": "applications/2026-08-08_chargrill_charlie_s_front_of_house_team_member_elsternwick_casual_part_time_full_time_cover_letter.md",
+      "email_md": "applications/2026-08-08_chargrill_charlie_s_front_of_house_team_member_elsternwick_casual_part_time_full_time_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_chargrill_charlie_s_front_of_house_team_member_elsternwick_casual_part_time_full_time_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/front-of-house-team-member-elsternwick-casual-part-time-full-time-at-chargrill-charlie-s-4454142149",
+        "application_route": "https://au.linkedin.com/jobs/view/front-of-house-team-member-elsternwick-casual-part-time-full-time-at-chargrill-charlie-s-4454142149",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Student Casual Crew Member",
@@ -666,7 +1709,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/student-casual-crew-member-at-guzman-y-gomez-mexican-kitchen-4453420680",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_guzman_y_gomez_mexican_kitchen_student_casual_crew_member_resume.pdf",
+      "cover": "applications/2026-08-08_guzman_y_gomez_mexican_kitchen_student_casual_crew_member_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_guzman_y_gomez_mexican_kitchen_student_casual_crew_member_resume.md",
+      "cover_md": "applications/2026-08-08_guzman_y_gomez_mexican_kitchen_student_casual_crew_member_cover_letter.md",
+      "email_md": "applications/2026-08-08_guzman_y_gomez_mexican_kitchen_student_casual_crew_member_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_guzman_y_gomez_mexican_kitchen_student_casual_crew_member_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/student-casual-crew-member-at-guzman-y-gomez-mexican-kitchen-4453420680",
+        "application_route": "https://au.linkedin.com/jobs/view/student-casual-crew-member-at-guzman-y-gomez-mexican-kitchen-4453420680",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Sales Associate - Casual",
@@ -688,7 +1765,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/sales-associate-casual-at-foot-locker-4414863870",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_foot_locker_sales_associate_casual_resume.pdf",
+      "cover": "applications/2026-08-08_foot_locker_sales_associate_casual_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_foot_locker_sales_associate_casual_resume.md",
+      "cover_md": "applications/2026-08-08_foot_locker_sales_associate_casual_cover_letter.md",
+      "email_md": "applications/2026-08-08_foot_locker_sales_associate_casual_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_foot_locker_sales_associate_casual_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/sales-associate-casual-at-foot-locker-4414863870",
+        "application_route": "https://au.linkedin.com/jobs/view/sales-associate-casual-at-foot-locker-4414863870",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Casual Crew - Lunch & Closes",
@@ -710,7 +1821,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/casual-crew-lunch-closes-at-guzman-y-gomez-mexican-kitchen-4454189926",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_guzman_y_gomez_mexican_kitchen_casual_crew_lunch_and_closes_resume.pdf",
+      "cover": "applications/2026-08-08_guzman_y_gomez_mexican_kitchen_casual_crew_lunch_and_closes_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_guzman_y_gomez_mexican_kitchen_casual_crew_lunch_and_closes_resume.md",
+      "cover_md": "applications/2026-08-08_guzman_y_gomez_mexican_kitchen_casual_crew_lunch_and_closes_cover_letter.md",
+      "email_md": "applications/2026-08-08_guzman_y_gomez_mexican_kitchen_casual_crew_lunch_and_closes_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_guzman_y_gomez_mexican_kitchen_casual_crew_lunch_and_closes_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/casual-crew-lunch-closes-at-guzman-y-gomez-mexican-kitchen-4454189926",
+        "application_route": "https://au.linkedin.com/jobs/view/casual-crew-lunch-closes-at-guzman-y-gomez-mexican-kitchen-4454189926",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Kitchen Hand/Dishwasher - Casual Lancemore Mansion Hotel Werribee Park",
@@ -732,7 +1877,42 @@
       "application_route": "https://au.linkedin.com/jobs/view/kitchen-hand-dishwasher-casual-lancemore-mansion-hotel-werribee-park-at-lancemore-hotel-group-4453477892",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_lancemore_hotel_group_kitchen_hand_dishwasher_casual_lancemore_mansion_hotel_werribee_park_resume.pdf",
+      "cover": "applications/2026-08-08_lancemore_hotel_group_kitchen_hand_dishwasher_casual_lancemore_mansion_hotel_werribee_park_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_lancemore_hotel_group_kitchen_hand_dishwasher_casual_lancemore_mansion_hotel_werribee_park_resume.md",
+      "cover_md": "applications/2026-08-08_lancemore_hotel_group_kitchen_hand_dishwasher_casual_lancemore_mansion_hotel_werribee_park_cover_letter.md",
+      "email_md": "applications/2026-08-08_lancemore_hotel_group_kitchen_hand_dishwasher_casual_lancemore_mansion_hotel_werribee_park_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_lancemore_hotel_group_kitchen_hand_dishwasher_casual_lancemore_mansion_hotel_werribee_park_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/kitchen-hand-dishwasher-casual-lancemore-mansion-hotel-werribee-park-at-lancemore-hotel-group-4453477892",
+        "application_route": "https://au.linkedin.com/jobs/view/kitchen-hand-dishwasher-casual-lancemore-mansion-hotel-werribee-park-at-lancemore-hotel-group-4453477892",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description.",
+          "Confirm hospitality experience, RSA or food-safety requirements, and roster conditions."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Casual Sales Assistant | Sheridan BTQ | Doncaster",
@@ -754,7 +1934,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/casual-sales-assistant-sheridan-btq-doncaster-at-sheridan-hanes-brands-australasia-4456142934",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_sheridan_hanes_brands_australasia_casual_sales_assistant_sheridan_btq_doncaster_resume.pdf",
+      "cover": "applications/2026-08-08_sheridan_hanes_brands_australasia_casual_sales_assistant_sheridan_btq_doncaster_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_sheridan_hanes_brands_australasia_casual_sales_assistant_sheridan_btq_doncaster_resume.md",
+      "cover_md": "applications/2026-08-08_sheridan_hanes_brands_australasia_casual_sales_assistant_sheridan_btq_doncaster_cover_letter.md",
+      "email_md": "applications/2026-08-08_sheridan_hanes_brands_australasia_casual_sales_assistant_sheridan_btq_doncaster_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_sheridan_hanes_brands_australasia_casual_sales_assistant_sheridan_btq_doncaster_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/casual-sales-assistant-sheridan-btq-doncaster-at-sheridan-hanes-brands-australasia-4456142934",
+        "application_route": "https://au.linkedin.com/jobs/view/casual-sales-assistant-sheridan-btq-doncaster-at-sheridan-hanes-brands-australasia-4456142934",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Laundry Assistant",
@@ -776,7 +1990,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/laundry-assistant-at-mercy-health-australia-4454952620",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_mercy_health_australia_laundry_assistant_resume.pdf",
+      "cover": "applications/2026-08-08_mercy_health_australia_laundry_assistant_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_mercy_health_australia_laundry_assistant_resume.md",
+      "cover_md": "applications/2026-08-08_mercy_health_australia_laundry_assistant_cover_letter.md",
+      "email_md": "applications/2026-08-08_mercy_health_australia_laundry_assistant_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_mercy_health_australia_laundry_assistant_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/laundry-assistant-at-mercy-health-australia-4454952620",
+        "application_route": "https://au.linkedin.com/jobs/view/laundry-assistant-at-mercy-health-australia-4454952620",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Cleaner - Blackburn",
@@ -798,7 +2046,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/cleaner-blackburn-at-regis-aged-care-4454244161",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_regis_aged_care_cleaner_blackburn_resume.pdf",
+      "cover": "applications/2026-08-08_regis_aged_care_cleaner_blackburn_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_regis_aged_care_cleaner_blackburn_resume.md",
+      "cover_md": "applications/2026-08-08_regis_aged_care_cleaner_blackburn_cover_letter.md",
+      "email_md": "applications/2026-08-08_regis_aged_care_cleaner_blackburn_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_regis_aged_care_cleaner_blackburn_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/cleaner-blackburn-at-regis-aged-care-4454244161",
+        "application_route": "https://au.linkedin.com/jobs/view/cleaner-blackburn-at-regis-aged-care-4454244161",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Casual Retail Stylist",
@@ -820,7 +2102,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/casual-retail-stylist-at-assembly-label-4455592152",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_assembly_label_casual_retail_stylist_resume.pdf",
+      "cover": "applications/2026-08-08_assembly_label_casual_retail_stylist_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_assembly_label_casual_retail_stylist_resume.md",
+      "cover_md": "applications/2026-08-08_assembly_label_casual_retail_stylist_cover_letter.md",
+      "email_md": "applications/2026-08-08_assembly_label_casual_retail_stylist_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_assembly_label_casual_retail_stylist_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/casual-retail-stylist-at-assembly-label-4455592152",
+        "application_route": "https://au.linkedin.com/jobs/view/casual-retail-stylist-at-assembly-label-4455592152",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Casual Sales Assistant | SHERIDAN Factory Outlet | Torquay",
@@ -842,7 +2158,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/casual-sales-assistant-sheridan-factory-outlet-torquay-at-sheridan-hanes-brands-australasia-4456142948",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_sheridan_hanes_brands_australasia_casual_sales_assistant_sheridan_factory_outlet_torquay_resume.pdf",
+      "cover": "applications/2026-08-08_sheridan_hanes_brands_australasia_casual_sales_assistant_sheridan_factory_outlet_torquay_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_sheridan_hanes_brands_australasia_casual_sales_assistant_sheridan_factory_outlet_torquay_resume.md",
+      "cover_md": "applications/2026-08-08_sheridan_hanes_brands_australasia_casual_sales_assistant_sheridan_factory_outlet_torquay_cover_letter.md",
+      "email_md": "applications/2026-08-08_sheridan_hanes_brands_australasia_casual_sales_assistant_sheridan_factory_outlet_torquay_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_sheridan_hanes_brands_australasia_casual_sales_assistant_sheridan_factory_outlet_torquay_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/casual-sales-assistant-sheridan-factory-outlet-torquay-at-sheridan-hanes-brands-australasia-4456142948",
+        "application_route": "https://au.linkedin.com/jobs/view/casual-sales-assistant-sheridan-factory-outlet-torquay-at-sheridan-hanes-brands-australasia-4456142948",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Warehouse Operator - Forklift Driver",
@@ -864,7 +2214,41 @@
       "application_route": "https://au.linkedin.com/jobs/view/warehouse-operator-forklift-driver-at-koko-black-chocolate-4453426061",
       "application_route_type": "linkedin_direct",
       "remote": false,
-      "stream": "Local Bridge"
+      "stream": "Local Bridge",
+      "resume": "applications/2026-08-08_koko_black_chocolate_warehouse_operator_forklift_driver_resume.pdf",
+      "cover": "applications/2026-08-08_koko_black_chocolate_warehouse_operator_forklift_driver_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_koko_black_chocolate_warehouse_operator_forklift_driver_resume.md",
+      "cover_md": "applications/2026-08-08_koko_black_chocolate_warehouse_operator_forklift_driver_cover_letter.md",
+      "email_md": "applications/2026-08-08_koko_black_chocolate_warehouse_operator_forklift_driver_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_koko_black_chocolate_warehouse_operator_forklift_driver_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "LinkedIn",
+        "source_url": "https://au.linkedin.com/jobs/view/warehouse-operator-forklift-driver-at-koko-black-chocolate-4453426061",
+        "application_route": "https://au.linkedin.com/jobs/view/warehouse-operator-forklift-driver-at-koko-black-chocolate-4453426061",
+        "application_route_type": "linkedin_direct",
+        "listing_verification": "linkedin_public",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Workshop Technician",
@@ -885,7 +2269,41 @@
       "application_route": "https://www.adzuna.com.au/details/5852545359?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_fisher_and_paykel_workshop_technician_resume.pdf",
+      "cover": "applications/2026-08-08_fisher_and_paykel_workshop_technician_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_fisher_and_paykel_workshop_technician_resume.md",
+      "cover_md": "applications/2026-08-08_fisher_and_paykel_workshop_technician_cover_letter.md",
+      "email_md": "applications/2026-08-08_fisher_and_paykel_workshop_technician_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_fisher_and_paykel_workshop_technician_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5852545359?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5852545359?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "IT Operations Technician",
@@ -906,7 +2324,41 @@
       "application_route": "https://www.adzuna.com.au/details/5850725916?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_hays_it_operations_technician_resume.pdf",
+      "cover": "applications/2026-08-08_hays_it_operations_technician_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_hays_it_operations_technician_resume.md",
+      "cover_md": "applications/2026-08-08_hays_it_operations_technician_cover_letter.md",
+      "email_md": "applications/2026-08-08_hays_it_operations_technician_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_hays_it_operations_technician_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5850725916?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5850725916?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Trainee Graduate",
@@ -927,7 +2379,42 @@
       "application_route": "https://www.adzuna.com.au/details/5845193805?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_freighter_group_trainee_graduate_resume.pdf",
+      "cover": "applications/2026-08-08_freighter_group_trainee_graduate_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_freighter_group_trainee_graduate_resume.md",
+      "cover_md": "applications/2026-08-08_freighter_group_trainee_graduate_cover_letter.md",
+      "email_md": "applications/2026-08-08_freighter_group_trainee_graduate_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_freighter_group_trainee_graduate_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5845193805?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5845193805?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description.",
+          "Confirm the required apprenticeship stage, training pathway, and prior qualification requirements."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Field Service Technician",
@@ -948,7 +2435,47 @@
       "application_route": "https://www.adzuna.com.au/details/5844278727?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_hipac_healthcare_pty_field_service_technician_resume.pdf",
+      "cover": "applications/2026-08-08_hipac_healthcare_pty_field_service_technician_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_hipac_healthcare_pty_field_service_technician_resume.md",
+      "cover_md": "applications/2026-08-08_hipac_healthcare_pty_field_service_technician_cover_letter.md",
+      "email_md": "applications/2026-08-08_hipac_healthcare_pty_field_service_technician_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_hipac_healthcare_pty_field_service_technician_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5844278727?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5844278727?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "Healthcare technology",
+          "Customer support"
+        ],
+        "requested_terms": [
+          "Healthcare technology",
+          "Customer support"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Specialist Inspector, Plumbing - Performance Solutions",
@@ -969,7 +2496,52 @@
       "application_route": "https://www.adzuna.com.au/details/5842371693?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_victorian_government_specialist_inspector_plumbing_performance_solutions_resume.pdf",
+      "cover": "applications/2026-08-08_victorian_government_specialist_inspector_plumbing_performance_solutions_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_victorian_government_specialist_inspector_plumbing_performance_solutions_resume.md",
+      "cover_md": "applications/2026-08-08_victorian_government_specialist_inspector_plumbing_performance_solutions_cover_letter.md",
+      "email_md": "applications/2026-08-08_victorian_government_specialist_inspector_plumbing_performance_solutions_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_victorian_government_specialist_inspector_plumbing_performance_solutions_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5842371693?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5842371693?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "Azure",
+          "Microsoft 365",
+          "Entra ID",
+          "PowerShell"
+        ],
+        "requested_terms": [
+          "Azure",
+          "Microsoft 365",
+          "Entra ID",
+          "PowerShell"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description.",
+          "Confirm any security-clearance, police-check, or government screening requirement."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Inspector, Plumbing - Gas Safety Assurance",
@@ -990,7 +2562,52 @@
       "application_route": "https://www.adzuna.com.au/details/5842371530?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_victorian_government_inspector_plumbing_gas_safety_assurance_resume.pdf",
+      "cover": "applications/2026-08-08_victorian_government_inspector_plumbing_gas_safety_assurance_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_victorian_government_inspector_plumbing_gas_safety_assurance_resume.md",
+      "cover_md": "applications/2026-08-08_victorian_government_inspector_plumbing_gas_safety_assurance_cover_letter.md",
+      "email_md": "applications/2026-08-08_victorian_government_inspector_plumbing_gas_safety_assurance_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_victorian_government_inspector_plumbing_gas_safety_assurance_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5842371530?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5842371530?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "Azure",
+          "Microsoft 365",
+          "Entra ID",
+          "PowerShell"
+        ],
+        "requested_terms": [
+          "Azure",
+          "Microsoft 365",
+          "Entra ID",
+          "PowerShell"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description.",
+          "Confirm any security-clearance, police-check, or government screening requirement."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "104 – Completions & Commissioning Manager (internal only)",
@@ -1011,7 +2628,41 @@
       "application_route": "https://www.adzuna.com.au/details/5841916658?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_resume.pdf",
+      "cover": "applications/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_resume.md",
+      "cover_md": "applications/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_cover_letter.md",
+      "email_md": "applications/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_marinus_link_pty_104_completions_and_commissioning_manager_internal_only_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5841916658?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5841916658?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Contracts Manager",
@@ -1032,7 +2683,41 @@
       "application_route": "https://www.adzuna.com.au/details/5849595209?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_techforce_personnel_contracts_manager_resume.pdf",
+      "cover": "applications/2026-08-08_techforce_personnel_contracts_manager_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_techforce_personnel_contracts_manager_resume.md",
+      "cover_md": "applications/2026-08-08_techforce_personnel_contracts_manager_cover_letter.md",
+      "email_md": "applications/2026-08-08_techforce_personnel_contracts_manager_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_techforce_personnel_contracts_manager_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5849595209?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5849595209?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Contracts Manager",
@@ -1053,7 +2738,41 @@
       "application_route": "https://www.adzuna.com.au/details/5846912190?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_osos_alliance_contracts_manager_resume.pdf",
+      "cover": "applications/2026-08-08_osos_alliance_contracts_manager_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_osos_alliance_contracts_manager_resume.md",
+      "cover_md": "applications/2026-08-08_osos_alliance_contracts_manager_cover_letter.md",
+      "email_md": "applications/2026-08-08_osos_alliance_contracts_manager_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_osos_alliance_contracts_manager_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5846912190?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5846912190?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Business Development Manager - HVAC",
@@ -1074,7 +2793,47 @@
       "application_route": "https://www.adzuna.com.au/details/5851363751?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_lead_group_business_development_manager_hvac_resume.pdf",
+      "cover": "applications/2026-08-08_lead_group_business_development_manager_hvac_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_lead_group_business_development_manager_hvac_resume.md",
+      "cover_md": "applications/2026-08-08_lead_group_business_development_manager_hvac_cover_letter.md",
+      "email_md": "applications/2026-08-08_lead_group_business_development_manager_hvac_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_lead_group_business_development_manager_hvac_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5851363751?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5851363751?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "Layer 1 networking",
+          "HVAC"
+        ],
+        "requested_terms": [
+          "Layer 1 networking",
+          "HVAC"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Business Development Manager - HVAC",
@@ -1095,7 +2854,47 @@
       "application_route": "https://www.adzuna.com.au/details/5846911705?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_lead_group_consultancy_business_development_manager_hvac_resume.pdf",
+      "cover": "applications/2026-08-08_lead_group_consultancy_business_development_manager_hvac_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_lead_group_consultancy_business_development_manager_hvac_resume.md",
+      "cover_md": "applications/2026-08-08_lead_group_consultancy_business_development_manager_hvac_cover_letter.md",
+      "email_md": "applications/2026-08-08_lead_group_consultancy_business_development_manager_hvac_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_lead_group_consultancy_business_development_manager_hvac_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5846911705?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5846911705?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "Layer 1 networking",
+          "HVAC"
+        ],
+        "requested_terms": [
+          "Layer 1 networking",
+          "HVAC"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Engineering Operations Technician, Data Center Engineering Operations",
@@ -1116,7 +2915,47 @@
       "application_route": "https://www.adzuna.com.au/land/ad/5845923744?se=GM6bMMWe8RGU6LIjyaRnwA&utm_medium=api&utm_source=cc30c73e&v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_amazon_engineering_operations_technician_data_center_engineering_operations_resume.pdf",
+      "cover": "applications/2026-08-08_amazon_engineering_operations_technician_data_center_engineering_operations_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_amazon_engineering_operations_technician_data_center_engineering_operations_resume.md",
+      "cover_md": "applications/2026-08-08_amazon_engineering_operations_technician_data_center_engineering_operations_cover_letter.md",
+      "email_md": "applications/2026-08-08_amazon_engineering_operations_technician_data_center_engineering_operations_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_amazon_engineering_operations_technician_data_center_engineering_operations_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/land/ad/5845923744?se=GM6bMMWe8RGU6LIjyaRnwA&utm_medium=api&utm_source=cc30c73e&v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102",
+        "application_route": "https://www.adzuna.com.au/land/ad/5845923744?se=GM6bMMWe8RGU6LIjyaRnwA&utm_medium=api&utm_source=cc30c73e&v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "Layer 1 networking",
+          "Data-centre operations"
+        ],
+        "requested_terms": [
+          "Layer 1 networking",
+          "Data-centre operations"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Technical Operations Manager - Electrical OEM - Power",
@@ -1137,7 +2976,46 @@
       "application_route": "https://www.adzuna.com.au/details/5840284057?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_engineering_networks_pty_ltd_technical_operations_manager_electrical_oem_power_resume.pdf",
+      "cover": "applications/2026-08-08_engineering_networks_pty_ltd_technical_operations_manager_electrical_oem_power_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_engineering_networks_pty_ltd_technical_operations_manager_electrical_oem_power_resume.md",
+      "cover_md": "applications/2026-08-08_engineering_networks_pty_ltd_technical_operations_manager_electrical_oem_power_cover_letter.md",
+      "email_md": "applications/2026-08-08_engineering_networks_pty_ltd_technical_operations_manager_electrical_oem_power_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_engineering_networks_pty_ltd_technical_operations_manager_electrical_oem_power_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5840284057?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5840284057?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "Layer 1 networking"
+        ],
+        "requested_terms": [
+          "Layer 1 networking"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description.",
+          "Confirm the required trade licence, apprenticeship stage, tools, and practical experience."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Financial Accountant",
@@ -1158,7 +3036,46 @@
       "application_route": "https://www.adzuna.com.au/details/5838397976?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_5g_networks_financial_accountant_resume.pdf",
+      "cover": "applications/2026-08-08_5g_networks_financial_accountant_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_5g_networks_financial_accountant_resume.md",
+      "cover_md": "applications/2026-08-08_5g_networks_financial_accountant_cover_letter.md",
+      "email_md": "applications/2026-08-08_5g_networks_financial_accountant_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_5g_networks_financial_accountant_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5838397976?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5838397976?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "Layer 1 networking"
+        ],
+        "requested_terms": [
+          "Layer 1 networking"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description.",
+          "Confirm any security-clearance, police-check, or government screening requirement."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Senior Project Engineer, Mechanical - MEI | North East Link Project",
@@ -1179,7 +3096,41 @@
       "application_route": "https://www.adzuna.com.au/details/5845680960?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_cpb_contractors_senior_project_engineer_mechanical_mei_north_east_link_project_resume.pdf",
+      "cover": "applications/2026-08-08_cpb_contractors_senior_project_engineer_mechanical_mei_north_east_link_project_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_cpb_contractors_senior_project_engineer_mechanical_mei_north_east_link_project_resume.md",
+      "cover_md": "applications/2026-08-08_cpb_contractors_senior_project_engineer_mechanical_mei_north_east_link_project_cover_letter.md",
+      "email_md": "applications/2026-08-08_cpb_contractors_senior_project_engineer_mechanical_mei_north_east_link_project_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_cpb_contractors_senior_project_engineer_mechanical_mei_north_east_link_project_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5845680960?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5845680960?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Project Engineer, Mechanical - MEI | North East Link Project",
@@ -1200,7 +3151,41 @@
       "application_route": "https://www.adzuna.com.au/details/5845680569?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_cpb_contractors_project_engineer_mechanical_mei_north_east_link_project_resume.pdf",
+      "cover": "applications/2026-08-08_cpb_contractors_project_engineer_mechanical_mei_north_east_link_project_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_cpb_contractors_project_engineer_mechanical_mei_north_east_link_project_resume.md",
+      "cover_md": "applications/2026-08-08_cpb_contractors_project_engineer_mechanical_mei_north_east_link_project_cover_letter.md",
+      "email_md": "applications/2026-08-08_cpb_contractors_project_engineer_mechanical_mei_north_east_link_project_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_cpb_contractors_project_engineer_mechanical_mei_north_east_link_project_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5845680569?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5845680569?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Senior Project Engineer, Electrical - MEI | North East Link Project",
@@ -1221,7 +3206,42 @@
       "application_route": "https://www.adzuna.com.au/details/5845680561?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_cpb_contractors_senior_project_engineer_electrical_mei_north_east_link_project_resume.pdf",
+      "cover": "applications/2026-08-08_cpb_contractors_senior_project_engineer_electrical_mei_north_east_link_project_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_cpb_contractors_senior_project_engineer_electrical_mei_north_east_link_project_resume.md",
+      "cover_md": "applications/2026-08-08_cpb_contractors_senior_project_engineer_electrical_mei_north_east_link_project_cover_letter.md",
+      "email_md": "applications/2026-08-08_cpb_contractors_senior_project_engineer_electrical_mei_north_east_link_project_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_cpb_contractors_senior_project_engineer_electrical_mei_north_east_link_project_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5845680561?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5845680561?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [],
+        "requested_terms": [],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description.",
+          "Confirm the required trade licence, apprenticeship stage, tools, and practical experience."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Senior/Associate Electrical Engineer - Substations / Data Centres",
@@ -1242,7 +3262,46 @@
       "application_route": "https://www.adzuna.com.au/land/ad/5851967463?se=SpPzO8We8RGfQpohglHoaw&utm_medium=api&utm_source=cc30c73e&v=B53AB186587AA7126448B920F46E811885DA1285",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_wsp_usa_senior_associate_electrical_engineer_substations_data_centres_resume.pdf",
+      "cover": "applications/2026-08-08_wsp_usa_senior_associate_electrical_engineer_substations_data_centres_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_wsp_usa_senior_associate_electrical_engineer_substations_data_centres_resume.md",
+      "cover_md": "applications/2026-08-08_wsp_usa_senior_associate_electrical_engineer_substations_data_centres_cover_letter.md",
+      "email_md": "applications/2026-08-08_wsp_usa_senior_associate_electrical_engineer_substations_data_centres_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_wsp_usa_senior_associate_electrical_engineer_substations_data_centres_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/land/ad/5851967463?se=SpPzO8We8RGfQpohglHoaw&utm_medium=api&utm_source=cc30c73e&v=B53AB186587AA7126448B920F46E811885DA1285",
+        "application_route": "https://www.adzuna.com.au/land/ad/5851967463?se=SpPzO8We8RGfQpohglHoaw&utm_medium=api&utm_source=cc30c73e&v=B53AB186587AA7126448B920F46E811885DA1285",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "Data-centre operations"
+        ],
+        "requested_terms": [
+          "Data-centre operations"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description.",
+          "Confirm the required trade licence, apprenticeship stage, tools, and practical experience."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Senior/Associate Electrical Engineer - Substations / Data Centres",
@@ -1263,7 +3322,46 @@
       "application_route": "https://www.adzuna.com.au/details/5851099492?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_wsp_senior_associate_electrical_engineer_substations_data_centres_resume.pdf",
+      "cover": "applications/2026-08-08_wsp_senior_associate_electrical_engineer_substations_data_centres_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_wsp_senior_associate_electrical_engineer_substations_data_centres_resume.md",
+      "cover_md": "applications/2026-08-08_wsp_senior_associate_electrical_engineer_substations_data_centres_cover_letter.md",
+      "email_md": "applications/2026-08-08_wsp_senior_associate_electrical_engineer_substations_data_centres_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_wsp_senior_associate_electrical_engineer_substations_data_centres_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5851099492?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5851099492?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "Data-centre operations"
+        ],
+        "requested_terms": [
+          "Data-centre operations"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description.",
+          "Confirm the required trade licence, apprenticeship stage, tools, and practical experience."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     },
     {
       "title": "Lead Data Centre Engineers / AI Installation Supervisors - 12M CONTRACT - EXT",
@@ -1284,7 +3382,508 @@
       "application_route": "https://www.adzuna.com.au/details/5851041189?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
       "remote": false,
-      "stream": "Trade Pathways"
+      "stream": "Trade Pathways",
+      "resume": "applications/2026-08-08_northbridge_it_recruitment_propr_lead_data_centre_engineers_ai_installation_supervisors_12m_con_resume.pdf",
+      "cover": "applications/2026-08-08_northbridge_it_recruitment_propr_lead_data_centre_engineers_ai_installation_supervisors_12m_con_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_northbridge_it_recruitment_propr_lead_data_centre_engineers_ai_installation_supervisors_12m_con_resume.md",
+      "cover_md": "applications/2026-08-08_northbridge_it_recruitment_propr_lead_data_centre_engineers_ai_installation_supervisors_12m_con_cover_letter.md",
+      "email_md": "applications/2026-08-08_northbridge_it_recruitment_propr_lead_data_centre_engineers_ai_installation_supervisors_12m_con_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_northbridge_it_recruitment_propr_lead_data_centre_engineers_ai_installation_supervisors_12m_con_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Partial fit",
+        "score": 0,
+        "source": "Adzuna",
+        "source_url": "https://www.adzuna.com.au/details/5851041189?utm_medium=api&utm_source=cc30c73e",
+        "application_route": "https://www.adzuna.com.au/details/5851041189?utm_medium=api&utm_source=cc30c73e",
+        "application_route_type": "adzuna_api",
+        "listing_verification": "api_verified",
+        "matched_terms": [
+          "Data-centre operations"
+        ],
+        "requested_terms": [
+          "Data-centre operations"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
+    },
+    {
+      "rank": 61,
+      "score": 93,
+      "company": "Victorian Institute of Teaching",
+      "title": "Senior Cloud Engineer",
+      "location": "Melbourne CBD and inner metro suburbs",
+      "posted": "2026-08-03",
+      "source": "Careers Vic",
+      "url": "https://www.careers.vic.gov.au/job/senior-cloud-engineer-77733",
+      "remote": false,
+      "why": "Direct Victorian Government career-page route for an ongoing Melbourne Senior Cloud Engineer role. The listing identifies Victorian Institute of Teaching, Melbourne CBD and inner metro suburbs, reference VG/1938562, and a salary range of $118,058–$129,273.",
+      "tags": [
+        "Direct government",
+        "Azure",
+        "Microsoft 365",
+        "Cloud engineering"
+      ],
+      "status": "Direct government listing",
+      "application_route": "https://www.careers.vic.gov.au/job/senior-cloud-engineer-77733",
+      "application_route_type": "Direct government route",
+      "listing_verification": "Current Careers Vic search result verified the individual listing and role reference on August 10, 2026; confirm closing status and exact requirements before applying.",
+      "resume": "applications/2026-08-08_victorian_institute_of_teaching_senior_cloud_engineer_resume.pdf",
+      "cover": "applications/2026-08-08_victorian_institute_of_teaching_senior_cloud_engineer_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_victorian_institute_of_teaching_senior_cloud_engineer_resume.md",
+      "cover_md": "applications/2026-08-08_victorian_institute_of_teaching_senior_cloud_engineer_cover_letter.md",
+      "email_md": "applications/2026-08-08_victorian_institute_of_teaching_senior_cloud_engineer_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_victorian_institute_of_teaching_senior_cloud_engineer_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Strong fit",
+        "score": 93,
+        "source": "Careers Vic",
+        "source_url": "https://www.careers.vic.gov.au/job/senior-cloud-engineer-77733",
+        "application_route": "https://www.careers.vic.gov.au/job/senior-cloud-engineer-77733",
+        "application_route_type": "Direct government route",
+        "listing_verification": "Current Careers Vic search result verified the individual listing and role reference on August 10, 2026; confirm closing status and exact requirements before applying.",
+        "matched_terms": [
+          "Azure",
+          "Microsoft 365",
+          "Entra ID",
+          "PowerShell",
+          "Active Directory"
+        ],
+        "requested_terms": [
+          "Azure",
+          "Microsoft 365",
+          "Entra ID",
+          "PowerShell",
+          "Active Directory"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description.",
+          "Confirm any security-clearance, police-check, or government screening requirement."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
+    },
+    {
+      "rank": 62,
+      "score": 91,
+      "company": "First Focus IT",
+      "title": "Tech Support roles",
+      "location": "Melbourne, VIC",
+      "posted": "2026-08-07",
+      "source": "Indeed",
+      "url": "https://au.indeed.com/viewjob?jk=b4f4a51940b29ba4",
+      "remote": false,
+      "why": "Current individual Indeed listing for Microsoft-focused technical support covering Azure, Active Directory, Outlook, troubleshooting, and customer-facing service operations.",
+      "tags": [
+        "Microsoft support",
+        "Azure",
+        "Active Directory",
+        "Customer service"
+      ],
+      "status": "Individual listing",
+      "application_route": "https://au.indeed.com/viewjob?jk=b4f4a51940b29ba4",
+      "application_route_type": "Indeed listing",
+      "listing_verification": "Individual Indeed listing returned in the August 10, 2026 non-LinkedIn search; confirm the employer route and availability before applying.",
+      "resume": "applications/2026-08-08_first_focus_it_tech_support_roles_resume.pdf",
+      "cover": "applications/2026-08-08_first_focus_it_tech_support_roles_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_first_focus_it_tech_support_roles_resume.md",
+      "cover_md": "applications/2026-08-08_first_focus_it_tech_support_roles_cover_letter.md",
+      "email_md": "applications/2026-08-08_first_focus_it_tech_support_roles_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_first_focus_it_tech_support_roles_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Strong fit",
+        "score": 91,
+        "source": "Indeed",
+        "source_url": "https://au.indeed.com/viewjob?jk=b4f4a51940b29ba4",
+        "application_route": "https://au.indeed.com/viewjob?jk=b4f4a51940b29ba4",
+        "application_route_type": "Indeed listing",
+        "listing_verification": "Individual Indeed listing returned in the August 10, 2026 non-LinkedIn search; confirm the employer route and availability before applying.",
+        "matched_terms": [
+          "Azure",
+          "Intune",
+          "Active Directory",
+          "Customer support"
+        ],
+        "requested_terms": [
+          "Azure",
+          "Intune",
+          "Active Directory",
+          "Customer support"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
+    },
+    {
+      "rank": 63,
+      "score": 89,
+      "company": "Converged Medical Solutions",
+      "title": "Computer Network and Systems Engineer",
+      "location": "Carrum Downs, VIC / remote available",
+      "posted": "2026-08-03",
+      "source": "Indeed",
+      "url": "https://au.indeed.com/viewjob?jk=32d96bb2c221a5a9",
+      "remote": true,
+      "why": "Individual Indeed listing from a managed services provider specialising in cybersecurity and Microsoft 365 for healthcare, government, and commercial organisations across Australia.",
+      "tags": [
+        "Microsoft 365",
+        "Managed services",
+        "Healthcare technology",
+        "Remote available"
+      ],
+      "status": "Individual listing",
+      "application_route": "https://au.indeed.com/viewjob?jk=32d96bb2c221a5a9",
+      "application_route_type": "Indeed listing",
+      "listing_verification": "Individual Indeed listing returned in the August 10, 2026 non-LinkedIn search; confirm the full description, location, and employer route before applying.",
+      "resume": "applications/2026-08-08_converged_medical_solutions_computer_network_and_systems_engineer_resume.pdf",
+      "cover": "applications/2026-08-08_converged_medical_solutions_computer_network_and_systems_engineer_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_converged_medical_solutions_computer_network_and_systems_engineer_resume.md",
+      "cover_md": "applications/2026-08-08_converged_medical_solutions_computer_network_and_systems_engineer_cover_letter.md",
+      "email_md": "applications/2026-08-08_converged_medical_solutions_computer_network_and_systems_engineer_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_converged_medical_solutions_computer_network_and_systems_engineer_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Good fit",
+        "score": 89,
+        "source": "Indeed",
+        "source_url": "https://au.indeed.com/viewjob?jk=32d96bb2c221a5a9",
+        "application_route": "https://au.indeed.com/viewjob?jk=32d96bb2c221a5a9",
+        "application_route_type": "Indeed listing",
+        "listing_verification": "Individual Indeed listing returned in the August 10, 2026 non-LinkedIn search; confirm the full description, location, and employer route before applying.",
+        "matched_terms": [
+          "Microsoft 365",
+          "Entra ID",
+          "Intune",
+          "Layer 1 networking",
+          "Healthcare technology",
+          "Customer support"
+        ],
+        "requested_terms": [
+          "Microsoft 365",
+          "Entra ID",
+          "Intune",
+          "Layer 1 networking",
+          "Healthcare technology",
+          "Customer support"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description.",
+          "Confirm any security-clearance, police-check, or government screening requirement."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
+    },
+    {
+      "rank": 64,
+      "score": 87,
+      "company": "FUJIFILM MicroChannel",
+      "title": "Microsoft Cloud Solutions Consultant",
+      "location": "Melbourne, VIC / hybrid",
+      "posted": "2026-07-28",
+      "source": "Indeed",
+      "url": "https://au.indeed.com/viewjob?jk=6de2dc4817476357",
+      "remote": true,
+      "why": "Individual Indeed listing for designing, implementing, and supporting Microsoft Azure cloud solutions for customers, with a hybrid Melbourne arrangement and an established Microsoft consultancy context.",
+      "tags": [
+        "Azure",
+        "Microsoft cloud",
+        "Consulting",
+        "Hybrid"
+      ],
+      "status": "Individual listing",
+      "application_route": "https://au.indeed.com/viewjob?jk=6de2dc4817476357",
+      "application_route_type": "Indeed listing",
+      "listing_verification": "Individual Indeed listing returned in the August 10, 2026 non-LinkedIn search; the listing is older, so confirm availability and the direct employer route first.",
+      "resume": "applications/2026-08-08_fujifilm_microchannel_microsoft_cloud_solutions_consultant_resume.pdf",
+      "cover": "applications/2026-08-08_fujifilm_microchannel_microsoft_cloud_solutions_consultant_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_fujifilm_microchannel_microsoft_cloud_solutions_consultant_resume.md",
+      "cover_md": "applications/2026-08-08_fujifilm_microchannel_microsoft_cloud_solutions_consultant_cover_letter.md",
+      "email_md": "applications/2026-08-08_fujifilm_microchannel_microsoft_cloud_solutions_consultant_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_fujifilm_microchannel_microsoft_cloud_solutions_consultant_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Good fit",
+        "score": 87,
+        "source": "Indeed",
+        "source_url": "https://au.indeed.com/viewjob?jk=6de2dc4817476357",
+        "application_route": "https://au.indeed.com/viewjob?jk=6de2dc4817476357",
+        "application_route_type": "Indeed listing",
+        "listing_verification": "Individual Indeed listing returned in the August 10, 2026 non-LinkedIn search; the listing is older, so confirm availability and the direct employer route first.",
+        "matched_terms": [
+          "Azure",
+          "Microsoft 365",
+          "Entra ID",
+          "PowerShell",
+          "Customer support"
+        ],
+        "requested_terms": [
+          "Azure",
+          "Microsoft 365",
+          "Entra ID",
+          "PowerShell",
+          "Customer support"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
+    },
+    {
+      "rank": 65,
+      "score": 82,
+      "company": "Amazon.com",
+      "title": "Data Center IT Support Engineer, MEL - DCO",
+      "location": "Melbourne, VIC",
+      "posted": "2026-07-27",
+      "source": "Indeed",
+      "url": "https://au.indeed.com/viewjob?jk=da9892dd900ea21c",
+      "remote": false,
+      "why": "Individual Indeed listing for IT support inside data-centre infrastructure, with a strong overlap to endpoint support, physical infrastructure, hardware diagnostics, incident response, and disciplined operational procedures.",
+      "tags": [
+        "Data centre",
+        "IT support",
+        "Physical infrastructure",
+        "Amazon Web Services"
+      ],
+      "status": "Individual listing",
+      "application_route": "https://au.indeed.com/viewjob?jk=da9892dd900ea21c",
+      "application_route_type": "Indeed listing",
+      "listing_verification": "Individual Indeed listing returned in the August 10, 2026 non-LinkedIn search; confirm the direct Amazon route, shift pattern, and technical requirements before applying.",
+      "resume": "applications/2026-08-08_amazon_com_data_center_it_support_engineer_mel_dco_resume.pdf",
+      "cover": "applications/2026-08-08_amazon_com_data_center_it_support_engineer_mel_dco_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_amazon_com_data_center_it_support_engineer_mel_dco_resume.md",
+      "cover_md": "applications/2026-08-08_amazon_com_data_center_it_support_engineer_mel_dco_cover_letter.md",
+      "email_md": "applications/2026-08-08_amazon_com_data_center_it_support_engineer_mel_dco_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_amazon_com_data_center_it_support_engineer_mel_dco_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Good fit",
+        "score": 82,
+        "source": "Indeed",
+        "source_url": "https://au.indeed.com/viewjob?jk=da9892dd900ea21c",
+        "application_route": "https://au.indeed.com/viewjob?jk=da9892dd900ea21c",
+        "application_route_type": "Indeed listing",
+        "listing_verification": "Individual Indeed listing returned in the August 10, 2026 non-LinkedIn search; confirm the direct Amazon route, shift pattern, and technical requirements before applying.",
+        "matched_terms": [
+          "Intune",
+          "ITIL",
+          "Data-centre operations",
+          "Customer support"
+        ],
+        "requested_terms": [
+          "Intune",
+          "ITIL",
+          "Data-centre operations",
+          "Customer support"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
+    },
+    {
+      "rank": 66,
+      "score": 94,
+      "company": "LGT Wealth Management Australia",
+      "title": "Infrastructure Engineer",
+      "location": "Melbourne, VIC",
+      "posted": "2026-07-25",
+      "source": "LGT Careers",
+      "url": "https://www.lgtwm.com/au-en/careers/jobs/infrastructure-engineer-364826",
+      "remote": false,
+      "why": "Direct employer application for a Melbourne infrastructure role covering Windows, Azure, Microsoft 365, Entra ID, PowerShell, incident response, automation, documentation, and production support.",
+      "tags": [
+        "Direct employer",
+        "Azure",
+        "Microsoft 365",
+        "Infrastructure operations"
+      ],
+      "status": "Direct employer listing",
+      "application_route": "https://www.lgtwm.com/au-en/careers/jobs/infrastructure-engineer-364826",
+      "application_route_type": "Direct employer route",
+      "listing_verification": "Direct LGT employer page captured; confirm availability and closing status before applying.",
+      "resume": "applications/2026-08-08_lgt_wealth_management_australia_infrastructure_engineer_resume.pdf",
+      "cover": "applications/2026-08-08_lgt_wealth_management_australia_infrastructure_engineer_cover_letter.pdf",
+      "resume_md": "applications/2026-08-08_lgt_wealth_management_australia_infrastructure_engineer_resume.md",
+      "cover_md": "applications/2026-08-08_lgt_wealth_management_australia_infrastructure_engineer_cover_letter.md",
+      "email_md": "applications/2026-08-08_lgt_wealth_management_australia_infrastructure_engineer_opening_email.md",
+      "audit_json": "application_audits/2026-08-08_lgt_wealth_management_australia_infrastructure_engineer_audit.json",
+      "audit": {
+        "audit_version": "1.0",
+        "fit": "Strong fit",
+        "score": 94,
+        "source": "LGT Careers",
+        "source_url": "https://www.lgtwm.com/au-en/careers/jobs/infrastructure-engineer-364826",
+        "application_route": "https://www.lgtwm.com/au-en/careers/jobs/infrastructure-engineer-364826",
+        "application_route_type": "Direct employer route",
+        "listing_verification": "Direct LGT employer page captured; confirm availability and closing status before applying.",
+        "matched_terms": [
+          "Azure",
+          "Microsoft 365",
+          "Entra ID",
+          "Windows",
+          "PowerShell",
+          "ITIL"
+        ],
+        "requested_terms": [
+          "Azure",
+          "Microsoft 365",
+          "Entra ID",
+          "Windows",
+          "PowerShell",
+          "ITIL"
+        ],
+        "unsupported_or_unverified_terms": [],
+        "requirements_to_confirm": [
+          "Confirm the listing is still open and review the exact job description."
+        ],
+        "recommendation": "Review the listing and requirements before applying.",
+        "human_review": [
+          "Check the listing date, closing date, location, roster, and application route.",
+          "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+          "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+          "Submit manually only after your explicit approval."
+        ],
+        "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+      },
+      "contact_email": null,
+      "contact_phone": null,
+      "hiring_manager": null,
+      "application_materials": "Tailored résumé, cover letter and opening email"
     }
-  ]
+  ],
+  "source_searches": [
+    {
+      "name": "Indeed",
+      "type": "job board",
+      "url": "https://au.indeed.com/jobs?q=Azure+Microsoft+365+Intune&l=Melbourne+VIC",
+      "status": "individual listings used where available"
+    },
+    {
+      "name": "SEEK",
+      "type": "job board",
+      "url": "https://au.seek.com/Melbourne-IT-jobs",
+      "status": "search-only; individual access blocked by human verification"
+    },
+    {
+      "name": "Glassdoor",
+      "type": "job board",
+      "url": "https://www.glassdoor.com.au/Job/melbourne-it-jobs-SRCH_IL.0,9_IC2264754_KO10,12.htm",
+      "status": "search route; verify individual listings"
+    },
+    {
+      "name": "Jora",
+      "type": "aggregator",
+      "url": "https://au.jora.com/jobs-in-Melbourne-VIC",
+      "status": "search route; verify original employer listing"
+    },
+    {
+      "name": "Careers Vic",
+      "type": "government careers",
+      "url": "https://www.careers.vic.gov.au/search",
+      "status": "direct government applications"
+    },
+    {
+      "name": "Employer career pages",
+      "type": "direct employer",
+      "url": "https://www.lgtwm.com/au-en/careers/jobs/infrastructure-engineer-364826",
+      "status": "direct employer route; verify listing"
+    },
+    {
+      "name": "Victorian Institute of Teaching",
+      "type": "government employer",
+      "url": "https://www.careers.vic.gov.au/job/senior-cloud-engineer-77733",
+      "status": "individual government listing verified in current search"
+    },
+    {
+      "name": "Remote Australia",
+      "type": "job board search",
+      "url": "https://au.indeed.com/jobs?q=Azure&l=Remote&fromage=30",
+      "status": "search-only; verify original employer route"
+    }
+  ],
+  "updated": "2026-08-10T12:23:00+10:00",
+  "search_area": "Melbourne, St Kilda area, and remote Australia",
+  "policy": "LinkedIn excluded. Individual listings and direct employer or government routes are preferred. Search-only sources are labelled and must be verified manually. No applications or emails are submitted automatically."
 }
