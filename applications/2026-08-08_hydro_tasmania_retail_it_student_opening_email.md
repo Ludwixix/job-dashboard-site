@@ -1,25 +1,15 @@
-# Opening Email — Retail IT Student
+Subject: Application for Retail IT Student — Sam Ludwig
 
-**Company:** Hydro Tasmania
-**Location:** Melbourne Region, Melbourne
-**Application link:** https://www.adzuna.com.au/details/5852538841?utm_medium=api&utm_source=cc30c73e
+Dear Hiring Manager,
 
-## Subject
-Application — Retail IT Student — Sam Ludwig
+I am writing to express my interest in the Retail IT Student position at Hydro Tasmania.
 
-## Email body
-Hello Hiring Manager,
+Adzuna listing for Retail IT Student at Hydro Tasmania
 
-I'm writing about the Retail IT Student position with Hydro Tasmania. 
+I have attached my tailored resume and cover letter for your review. I would welcome the opportunity to discuss how my experience could contribute to your team.
 
-My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
-
-The areas most relevant to the role are core infrastructure, tailored existing materials, verify listing.
-
-I'd welcome a brief conversation about the role and any position-specific requirements.
-
-Regards,
+Kind regards,
 Sam Ludwig
 0405 993 245
 sam.ludwig@gmail.com
-
+samludwig.au

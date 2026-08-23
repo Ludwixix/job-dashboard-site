@@ -1,21 +1,7 @@
-# Sam Ludwig
-Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
+I am applying for the Retail IT Student position at Hydro Tasmania. Your mission to make energy simpler and more human for customers aligns with my focus on delivering efficient, user-centric IT solutions.
 
-**Re: Retail IT Student — Hydro Tasmania**
+At Australia Post, I built a keystroke injection automation within ServiceNow that removed hundreds of hours of manual data entry per month, streamlining support operations for a national service centre. I also managed the Windows 11 migration for 100+ clinical endpoints at St John of God Health Care, ensuring 100% Autopilot compliance and zero disruption to critical patient care. Additionally, I consistently achieved over 90% SLA resolution while handling 40+ concurrent tickets in a high-volume queue, demonstrating my ability to maintain service quality under pressure.
 
-Dear Hiring Manager,
+Hydro Tasmania’s commitment to renewable energy and its culture of belonging, where diverse views are embraced as stated in your listing, strongly appeals to me. I am motivated to apply my skills in automation and endpoint management to support energy retail operations, helping to make IT interactions more seamless for customers and staff.
 
-The Retail IT Student role at Hydro Tasmania aligns with my recent enterprise infrastructure and service-operations work. I'm writing to express my interest in the Retail IT Student role at Hydro Tasmania. My background across enterprise infrastructure, Microsoft 365, and service operations connects well with the requirements outlined.
-
-Recent work directly relevant to this role includes Delivered enterprise infrastructure support across Azure, Microsoft 365, and identity platforms, and Built PowerShell automation solutions that eliminated recurring manual toil.
-
-The scope described in the listing connects with my enterprise infrastructure and service-operations background. The listing's focus on we’re momentum energy – a power company owned by hydro tasmania, australia’s largest generator of renewable energy connects with my background. The Melbourne Region, Melbourne location is practical for my current situation. I am looking for a role where I can continue building enterprise infrastructure and service operations skills while contributing to a team that values reliable, well-documented technical delivery. My experience across government, healthcare, and enterprise environments has given me a practical understanding of what it takes to deliver technology services at scale.
-
-While my background is primarily in enterprise IT infrastructure, the transferable skills from my recent roles — including stakeholder communication, cross-team delivery, and structured problem-solving — connect directly with this position's requirements.
-
-I'd welcome a conversation about how my experience could contribute to your team. I'm happy to confirm any qualification or screening requirements before progressing.
-
-Kind regards,
-Sam Ludwig
-
-<!-- ✅ Cover letter summary | - Specific listing details referenced: it_support; adzuna; job description reviewed | - Achievements highlighted: enterprise service delivery; automation building; migration delivery | - Adjacent-match framing used: yes | - Word count: 235 | - Voice guide check: PASS |  | ⚠️ Word count 235 below 250 — consider expanding -->
+I am confident that my background in enterprise IT support and automation can contribute to your efforts in simplifying energy services. I look forward to discussing how my experience aligns with your needs.

@@ -1,21 +1,11 @@
-# Sam Ludwig
-Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
-
-**Re: IT Support Analyst — HPX Group**
-
 Dear Hiring Manager,
 
-The IT Support Analyst role at HPX Group aligns with my recent enterprise infrastructure and service-operations work. I'm writing to express my interest in the IT Support Analyst role at HPX Group. My background across enterprise infrastructure, Microsoft 365, and service operations connects well with the requirements outlined.
+I am applying for the IT Support Analyst position at HPX Group, as advertised on Adzuna, because my experience in high-volume enterprise support and solving complex technical problems directly aligns with the requirements of this role.
 
-Recent work directly relevant to this role includes Delivered enterprise infrastructure support across Azure, Microsoft 365, and identity platforms, and Built PowerShell automation solutions that eliminated recurring manual toil.
+At Australia Post, I delivered comprehensive L2 support within the MyITHub service centre, acting as the primary escalation point for complex infrastructure faults and coordinating resolutions with L3 engineering teams. To address a critical inefficiency, I engineered a keystroke injection automation within ServiceNow that programmatically created and modified ITSM tickets, eliminating hundreds of hours of manual data entry per month. This work required the exact blend of direct user support, technical problem-solving, and coordination with wider support teams described in your listing.
 
-The scope described in the listing connects with my enterprise infrastructure and service-operations background. The support scope matches my recent L1/L2/L3 experience, consistently achieving over 90 percent SLA resolution. The Melbourne Region, Melbourne location is practical for my current situation. I am looking for a role where I can continue building enterprise infrastructure and service operations skills while contributing to a team that values reliable, well-documented technical delivery. My experience across government, healthcare, and enterprise environments has given me a practical understanding of what it takes to deliver technology services at scale.
+I am motivated by HPX Group's position as a high-performing team focused on growth. My proven ability to manage high-volume queues—consistently achieving over 90% resolution within SLA—and to proactively identify and automate recurring pain points means I can contribute immediately to driving strong IT Support outcomes. I thrive in environments where I can take ownership of issues from first contact through to permanent resolution.
 
-While my background is primarily in enterprise IT infrastructure, the transferable skills from my recent roles — including stakeholder communication, cross-team delivery, and structured problem-solving — connect directly with this position's requirements.
+I would welcome the opportunity to discuss how my technical skills and hands-on support experience can benefit your team. Thank you for your consideration.
 
-I'd welcome a conversation about how my experience could contribute to your team. I'm happy to confirm any qualification or screening requirements before progressing.
-
-Kind regards,
 Sam Ludwig
-
-<!-- ✅ Cover letter summary | - Specific listing details referenced: it_support; adzuna; job description reviewed | - Achievements highlighted: enterprise service delivery; automation building; migration delivery | - Adjacent-match framing used: yes | - Word count: 225 | - Voice guide check: PASS |  | ⚠️ Word count 225 below 250 — consider expanding -->
