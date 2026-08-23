@@ -1,0 +1,43 @@
+# Supabase Configuration — Job Dashboard
+# This file is the manifest read by the Supabase GitHub integration.
+# It declares which Edge Functions are auto-deployed on push to the linked branch,
+# and the working-directory anchor that locates this supabase/ folder.
+
+# Linked project ref (Job Dashboard, org vcgfeyxfsmoxrfvjvagm)
+project_id = "piussupjoajcxumtmzpp"
+
+# ---------------------------------------------------------------------------
+# Edge Functions
+# ---------------------------------------------------------------------------
+# Each function declared here is deployed to the production project by the
+# GitHub integration when this branch is pushed (Deploy to production enabled).
+# verify_jwt = false  -> function is publicly reachable (this dashboard has no
+#                        anon-key client auth; the frontend calls it directly).
+# All 4 functions are deployed live with verify_jwt=false; mirror that here so
+# the integration redeploys them with the same access policy.
+
+[functions.generate]
+verify_jwt = false
+
+[functions.status]
+verify_jwt = false
+
+[functions.generate_worker]
+verify_jwt = false
+
+[functions.applications]
+verify_jwt = false
+
+# ---------------------------------------------------------------------------
+# Database
+# ---------------------------------------------------------------------------
+[db]
+# Default schema roles used by the local dev server (not required for
+# integration deploys, but harmless to declare).
+
+# ---------------------------------------------------------------------------
+# Environment secrets are NOT stored in this repo. They are set directly on
+# the Supabase project dashboard (project settings -> Vault/Secrets) as:
+#   OPENROUTER_API_KEY, SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, LLM_MODEL
+# The edge functions read them from process.env at runtime.
+# ---------------------------------------------------------------------------
