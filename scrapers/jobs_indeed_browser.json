@@ -1,0 +1,327 @@
+{
+  "source": "indeed_browser",
+  "scraped_at": "2026-08-23T06:23:19.124110+00:00",
+  "count": 16,
+  "jobs": [
+    {
+      "title": "Mainframe CICS/MQ admin",
+      "company": "Infosys",
+      "url": "https://au.indeed.com/rc/clk?jk=6f3d56610b7b4f72&bb=Uhj4tYgxffYs4_7owy8wKkwswkDuPClUJiYwIprE8eyGU9F7zUPz5zvXqmyqQZHEjp-GvFWaLboN7yhoBYFLWwyyga9Tu_n9XoL2wZJp81_hvR_qSXoNPkbCBo8e9g_-&xkcb=SoCN67M2fWgmVhxO4h0LbzkdCdPP&fccid=c67533a523c83a4c&vjs=3",
+      "location": "Melbourne VIC",
+      "posted": "",
+      "source": "Indeed",
+      "salary": "$108,571 - $119,893 a year",
+      "description": "",
+      "tags": [
+        "system",
+        "indeed"
+      ],
+      "why": "Indeed listing for Mainframe CICS/MQ admin at Infosys",
+      "score": 0,
+      "listing_verification": "web_scraped",
+      "application_route": "https://au.indeed.com/rc/clk?jk=6f3d56610b7b4f72&bb=Uhj4tYgxffYs4_7owy8wKkwswkDuPClUJiYwIprE8eyGU9F7zUPz5zvXqmyqQZHEjp-GvFWaLboN7yhoBYFLWwyyga9Tu_n9XoL2wZJp81_hvR_qSXoNPkbCBo8e9g_-&xkcb=SoCN67M2fWgmVhxO4h0LbzkdCdPP&fccid=c67533a523c83a4c&vjs=3",
+      "application_route_type": "indeed_direct",
+      "remote": false
+    },
+    {
+      "title": "ICT Daily Operations Manager",
+      "company": "Plenty Valley Christian College",
+      "url": "https://au.indeed.com/rc/clk?jk=9d00331b9aabffe8&bb=Uhj4tYgxffYs4_7owy8wKl90Byo308QItqT6prMSfXcubOymEvjiPgEtYzvRgB8H07VT5PXiFsOdLuQWxxy2EeGjz7ELw9vO2TbFWJd2d4vNodsY4dzWTwjKNX_Ccct8&xkcb=SoA567M2fWgmVhxO4h0KbzkdCdPP&fccid=531fdb3eb39d217c&vjs=3",
+      "location": "Doreen VIC 3754",
+      "posted": "",
+      "source": "Indeed",
+      "salary": "$90,000 - $110,000 a year",
+      "description": "",
+      "tags": [
+        "system",
+        "indeed"
+      ],
+      "why": "Indeed listing for ICT Daily Operations Manager at Plenty Valley Christian College",
+      "score": 0,
+      "listing_verification": "web_scraped",
+      "application_route": "https://au.indeed.com/rc/clk?jk=9d00331b9aabffe8&bb=Uhj4tYgxffYs4_7owy8wKl90Byo308QItqT6prMSfXcubOymEvjiPgEtYzvRgB8H07VT5PXiFsOdLuQWxxy2EeGjz7ELw9vO2TbFWJd2d4vNodsY4dzWTwjKNX_Ccct8&xkcb=SoA567M2fWgmVhxO4h0KbzkdCdPP&fccid=531fdb3eb39d217c&vjs=3",
+      "application_route_type": "indeed_direct",
+      "remote": false
+    },
+    {
+      "title": "System Engineer",
+      "company": "Service Stream",
+      "url": "https://au.indeed.com/rc/clk?jk=db6c628f04099ad6&bb=Uhj4tYgxffYs4_7owy8wKoo2FiKgXCEjLNVFhc7rKpPe_YaMUdwGUTUWXi6LLyT5jAtCvRZL5XsHvct3btTTQsyXQiOudppQZu3rzuvy4UW_cCYrpElyxCPcs5zcjBZD&xkcb=SoCk67M2fWgmVhxO4h0JbzkdCdPP&fccid=7599edd8820e6c4b&vjs=3",
+      "location": "Melbourne VIC",
+      "posted": "",
+      "source": "Indeed",
+      "salary": "",
+      "description": "",
+      "tags": [
+        "system",
+        "indeed"
+      ],
+      "why": "Indeed listing for System Engineer at Service Stream",
+      "score": 0,
+      "listing_verification": "web_scraped",
+      "application_route": "https://au.indeed.com/rc/clk?jk=db6c628f04099ad6&bb=Uhj4tYgxffYs4_7owy8wKoo2FiKgXCEjLNVFhc7rKpPe_YaMUdwGUTUWXi6LLyT5jAtCvRZL5XsHvct3btTTQsyXQiOudppQZu3rzuvy4UW_cCYrpElyxCPcs5zcjBZD&xkcb=SoCk67M2fWgmVhxO4h0JbzkdCdPP&fccid=7599edd8820e6c4b&vjs=3",
+      "application_route_type": "indeed_direct",
+      "remote": false
+    },
+    {
+      "title": "ELK Administrator",
+      "company": "Accenture",
+      "url": "https://au.indeed.com/rc/clk?jk=22352a87e2f69213&bb=Uhj4tYgxffYs4_7owy8wKpa3LlGV0CQgJjKgZ_9MzJzjB-_RIE8uNR14DhyQ47dZ3234l1j0y8YuD2zU6UdZJs38p7H0gQhkrqx_LuLAdSuOrvb84SW2x53Tbmg2GfES&xkcb=SoAQ67M2fWgmVhxO4h0IbzkdCdPP&fccid=a4e4e2eaf26690c9&vjs=3",
+      "location": "Melbourne VIC",
+      "posted": "",
+      "source": "Indeed",
+      "salary": "",
+      "description": "",
+      "tags": [
+        "system",
+        "indeed"
+      ],
+      "why": "Indeed listing for ELK Administrator at Accenture",
+      "score": 0,
+      "listing_verification": "web_scraped",
+      "application_route": "https://au.indeed.com/rc/clk?jk=22352a87e2f69213&bb=Uhj4tYgxffYs4_7owy8wKpa3LlGV0CQgJjKgZ_9MzJzjB-_RIE8uNR14DhyQ47dZ3234l1j0y8YuD2zU6UdZJs38p7H0gQhkrqx_LuLAdSuOrvb84SW2x53Tbmg2GfES&xkcb=SoAQ67M2fWgmVhxO4h0IbzkdCdPP&fccid=a4e4e2eaf26690c9&vjs=3",
+      "application_route_type": "indeed_direct",
+      "remote": false
+    },
+    {
+      "title": "Systems Development Engineer, Route 53",
+      "company": "Amazon Support Services Pty Ltd",
+      "url": "https://au.indeed.com/rc/clk?jk=77f8b2d69110049a&bb=Uhj4tYgxffYs4_7owy8wKqsg30wNMf60UC34yTrz8xkAaKK0uS5jXBPhXYn2z1htFdmBZncSw4ZLjJCpz8hAzgiLgwWl3lS3BMkeQWYuKCKr4nt6WvD8Zcv-OyTqFMr6&xkcb=SoCe67M2fWgmVhxO4h0PbzkdCdPP&fccid=5cc0cdc6dbb121cc&vjs=3",
+      "location": "Melbourne VIC",
+      "posted": "",
+      "source": "Indeed",
+      "salary": "",
+      "description": "",
+      "tags": [
+        "system",
+        "indeed"
+      ],
+      "why": "Indeed listing for Systems Development Engineer, Route 53 at Amazon Support Services Pty Ltd",
+      "score": 0,
+      "listing_verification": "web_scraped",
+      "application_route": "https://au.indeed.com/rc/clk?jk=77f8b2d69110049a&bb=Uhj4tYgxffYs4_7owy8wKqsg30wNMf60UC34yTrz8xkAaKK0uS5jXBPhXYn2z1htFdmBZncSw4ZLjJCpz8hAzgiLgwWl3lS3BMkeQWYuKCKr4nt6WvD8Zcv-OyTqFMr6&xkcb=SoCe67M2fWgmVhxO4h0PbzkdCdPP&fccid=5cc0cdc6dbb121cc&vjs=3",
+      "application_route_type": "indeed_direct",
+      "remote": false
+    },
+    {
+      "title": "Senior Engineer, Security Systems, APAC",
+      "company": "Vantage Data Centers Australia Pty Ltd",
+      "url": "https://au.indeed.com/rc/clk?jk=a5ba17d2b187719d&bb=Uhj4tYgxffYs4_7owy8wKl90Byo308QI0ZXde7FH5J-MM9UXTaumokW1SVkzRZsaJhT_AD4w30Pjj3VmRYrps8Hgsweq226pO9gVDhdW2kwk3zOd54K2_Cjh5XaxxNsE&xkcb=SoAq67M2fWgmVhxO4h0ObzkdCdPP&fccid=b3ab58850909672a&vjs=3",
+      "location": "Melbourne VIC",
+      "posted": "",
+      "source": "Indeed",
+      "salary": "",
+      "description": "",
+      "tags": [
+        "system",
+        "indeed"
+      ],
+      "why": "Indeed listing for Senior Engineer, Security Systems, APAC at Vantage Data Centers Australia Pty Ltd",
+      "score": 0,
+      "listing_verification": "web_scraped",
+      "application_route": "https://au.indeed.com/rc/clk?jk=a5ba17d2b187719d&bb=Uhj4tYgxffYs4_7owy8wKl90Byo308QI0ZXde7FH5J-MM9UXTaumokW1SVkzRZsaJhT_AD4w30Pjj3VmRYrps8Hgsweq226pO9gVDhdW2kwk3zOd54K2_Cjh5XaxxNsE&xkcb=SoAq67M2fWgmVhxO4h0ObzkdCdPP&fccid=b3ab58850909672a&vjs=3",
+      "application_route_type": "indeed_direct",
+      "remote": false
+    },
+    {
+      "title": "Administrator - Education & Programs",
+      "company": "Horner Recruitment",
+      "url": "https://au.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0A09sVWPtENjFKtDa_PLF8dqqz4-UWj2TsQrlM2JU6E-Y_zYvXIVfEoFnXHw7ojZsPpQCYdXnT0hhbW5zUNLiLle9ATWcYe9XglnS7r3bQGPldX1bRl_0nKnhOhcw_5xc1onE0tvOtTknqJ07274Uxn-mKC4MqnXebraX_hkM1PyDEK4AAIcM2Ai1UBvzhPQhDVXSz0RvtuiBq5JcAIuaLFFslsZ7W5EEXGOb2Vq8YnNKSmtFSg1RY9-Fq60S_vfLt3gmvrsyuLQn2W2_MI3LHR2cRjMjz2b3S6qu32xHJ9UZ4pZus0B11XKp6Ks30cq_UJSoc1a7nmkBAuI6nnj08jgo0ZYRInU4bIPBYaktO5n2mpwEcV-DEnXVE0ug9AfdER8BygueTDsONpBne0EM-UmAItcHCsk82OEJUGD9wtGETJYtH11nbczZ_9Etwc_E5OAnMc7-9wZjPEQN0bIArBXodh9hVYYWM_PqYiIAdGYH9KV6uXu3M0E6SGOcih2KFg8foG0YwvA2nJRMyx4uRmpF2b1mk1AhZ1C4n9iJSdP4x-Kld2nB-NBYvtW7ZG5wyfn1EKYuWxB4mLoI1yvA8MqU-ZQO5nhzp3U9kX0wQ9NeySfUZhzG55xLYjHw0gOcj3blowrnfYl92EtTg6Y1d4KeA-lYKzdigQMJ_nyZrkHkd33BEu0jAGENtkV2Dq-7uENRugV4A4UqA2V-oRbrmuQgixyiwMdAJ8EMBRuKmkfjcusnc9TZSlyUDwRqkOhwpCDANvWyRh00Jr3E7qhGQIH8OEoa7j4cKK5_7xxebfInlBZV2HoJNE2Xl2Mhw_kEhNsr4Z9KwPX0lwyq7pF-viPD925Cvfv5g=&xkcb=SoBD6_M2fWgmVhxO4h0NbzkdCdPP&p=6&camk=f416UQcMBpBRemFdzLnPaw==&vjs=3",
+      "location": "Melbourne VIC 3000",
+      "posted": "",
+      "source": "Indeed",
+      "salary": "$80,000 - $85,000 a year",
+      "description": "",
+      "tags": [
+        "system",
+        "indeed"
+      ],
+      "why": "Indeed listing for Administrator - Education & Programs at Horner Recruitment",
+      "score": 0,
+      "listing_verification": "web_scraped",
+      "application_route": "https://au.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0A09sVWPtENjFKtDa_PLF8dqqz4-UWj2TsQrlM2JU6E-Y_zYvXIVfEoFnXHw7ojZsPpQCYdXnT0hhbW5zUNLiLle9ATWcYe9XglnS7r3bQGPldX1bRl_0nKnhOhcw_5xc1onE0tvOtTknqJ07274Uxn-mKC4MqnXebraX_hkM1PyDEK4AAIcM2Ai1UBvzhPQhDVXSz0RvtuiBq5JcAIuaLFFslsZ7W5EEXGOb2Vq8YnNKSmtFSg1RY9-Fq60S_vfLt3gmvrsyuLQn2W2_MI3LHR2cRjMjz2b3S6qu32xHJ9UZ4pZus0B11XKp6Ks30cq_UJSoc1a7nmkBAuI6nnj08jgo0ZYRInU4bIPBYaktO5n2mpwEcV-DEnXVE0ug9AfdER8BygueTDsONpBne0EM-UmAItcHCsk82OEJUGD9wtGETJYtH11nbczZ_9Etwc_E5OAnMc7-9wZjPEQN0bIArBXodh9hVYYWM_PqYiIAdGYH9KV6uXu3M0E6SGOcih2KFg8foG0YwvA2nJRMyx4uRmpF2b1mk1AhZ1C4n9iJSdP4x-Kld2nB-NBYvtW7ZG5wyfn1EKYuWxB4mLoI1yvA8MqU-ZQO5nhzp3U9kX0wQ9NeySfUZhzG55xLYjHw0gOcj3blowrnfYl92EtTg6Y1d4KeA-lYKzdigQMJ_nyZrkHkd33BEu0jAGENtkV2Dq-7uENRugV4A4UqA2V-oRbrmuQgixyiwMdAJ8EMBRuKmkfjcusnc9TZSlyUDwRqkOhwpCDANvWyRh00Jr3E7qhGQIH8OEoa7j4cKK5_7xxebfInlBZV2HoJNE2Xl2Mhw_kEhNsr4Z9KwPX0lwyq7pF-viPD925Cvfv5g=&xkcb=SoBD6_M2fWgmVhxO4h0NbzkdCdPP&p=6&camk=f416UQcMBpBRemFdzLnPaw==&vjs=3",
+      "application_route_type": "indeed_direct",
+      "remote": false
+    },
+    {
+      "title": "System Administrator",
+      "company": "Oasis Services Australia Pty Ltd",
+      "url": "https://au.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0AdaO4F3kLFe1qihpO4JBy6Hr_8wlilnKNv1ZqXaflUBolJPMoZjnfVT5F0nVinzCNeLoFkSgdJNC0M6SgrWOtskZOghwPOdoRjCG8kQpVnY-6_ObdJzrKeLQBNLbIm_PLwGR3QBu0qe8H28e-2dUbTV4zxoDtl7TrQvN6LaCE-jThbCgi0iKbGnYkoOpx-TC5vUPMKatctRahyPk63iEV40fRW7E-7rEfx9O4-6HlQQb3dbadkiDI8DGNWiU4bjtoaMTDgwJPLobvHtVYgoNzepks6-_2BJF_vIl4JlwcSxwahW0A9wo_kZSCgje28LPY3OflYgn0f3_VSF4jG3VXSosKwUYtebRADcCRlfmSKmektIJPXMesoH5SBuuRJa4Hru4oz0bV7LE15ssXsSGGXHeExtJ7yHcilanFs5zNdcd5iumKBOKOwe92CUWx-FXdBsoG6WMalasbFuTt8QJqKoQ2qVzq4qlMFwp2lyRxfFbGGOfH5EHazcd6Gkx-Ppn_LaaEduB2IPzjxjCVXUkyyj06mvgb4OrDF6HR7de-nUpe-bjtENXVWUR61K4z54yEa6-uRpJoOoPdzxBt5uPl2zKodw5in49uaP-dy8SAwJ91-gG9PcN7XhFrzVLHRZTe8LS0IkvK6V7oGj2yu-QeWrMKG7PrVGdyAOQYZWWBDNrhjmso_sXPyYJgiOrgUq-ACTGrTb16tzS9TgYqpY9RZ&xkcb=SoD36_M2fWgmVhxO4h0MbzkdCdPP&p=7&camk=C3EPSzFlQw_Bp41ZupjA7Q==&vjs=3",
+      "location": "Preston VIC",
+      "posted": "",
+      "source": "Indeed",
+      "salary": "$100,000 - $115,000 a year",
+      "description": "",
+      "tags": [
+        "system",
+        "indeed"
+      ],
+      "why": "Indeed listing for System Administrator at Oasis Services Australia Pty Ltd",
+      "score": 0,
+      "listing_verification": "web_scraped",
+      "application_route": "https://au.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0AdaO4F3kLFe1qihpO4JBy6Hr_8wlilnKNv1ZqXaflUBolJPMoZjnfVT5F0nVinzCNeLoFkSgdJNC0M6SgrWOtskZOghwPOdoRjCG8kQpVnY-6_ObdJzrKeLQBNLbIm_PLwGR3QBu0qe8H28e-2dUbTV4zxoDtl7TrQvN6LaCE-jThbCgi0iKbGnYkoOpx-TC5vUPMKatctRahyPk63iEV40fRW7E-7rEfx9O4-6HlQQb3dbadkiDI8DGNWiU4bjtoaMTDgwJPLobvHtVYgoNzepks6-_2BJF_vIl4JlwcSxwahW0A9wo_kZSCgje28LPY3OflYgn0f3_VSF4jG3VXSosKwUYtebRADcCRlfmSKmektIJPXMesoH5SBuuRJa4Hru4oz0bV7LE15ssXsSGGXHeExtJ7yHcilanFs5zNdcd5iumKBOKOwe92CUWx-FXdBsoG6WMalasbFuTt8QJqKoQ2qVzq4qlMFwp2lyRxfFbGGOfH5EHazcd6Gkx-Ppn_LaaEduB2IPzjxjCVXUkyyj06mvgb4OrDF6HR7de-nUpe-bjtENXVWUR61K4z54yEa6-uRpJoOoPdzxBt5uPl2zKodw5in49uaP-dy8SAwJ91-gG9PcN7XhFrzVLHRZTe8LS0IkvK6V7oGj2yu-QeWrMKG7PrVGdyAOQYZWWBDNrhjmso_sXPyYJgiOrgUq-ACTGrTb16tzS9TgYqpY9RZ&xkcb=SoD36_M2fWgmVhxO4h0MbzkdCdPP&p=7&camk=C3EPSzFlQw_Bp41ZupjA7Q==&vjs=3",
+      "application_route_type": "indeed_direct",
+      "remote": false
+    },
+    {
+      "title": "Senior Systems Administrator",
+      "company": "NTT",
+      "url": "https://au.indeed.com/rc/clk?jk=8b3f5ee02ca5e86a&bb=Uhj4tYgxffYs4_7owy8wKluETQGf8lBKk0xk1BF0Eo9R7039gDUTTGIYyEC35ODNCr1_yufxxf4BRcsHYf4VHMX_99aduMswhEyz_BZNLQaxaIF4LSFPdBx5TPNj__Yp&xkcb=SoDq67M2fWgmVhxO4h0DbzkdCdPP&fccid=91444a28cb181211&vjs=3",
+      "location": "Melbourne VIC",
+      "posted": "",
+      "source": "Indeed",
+      "salary": "",
+      "description": "",
+      "tags": [
+        "system",
+        "indeed"
+      ],
+      "why": "Indeed listing for Senior Systems Administrator at NTT",
+      "score": 0,
+      "listing_verification": "web_scraped",
+      "application_route": "https://au.indeed.com/rc/clk?jk=8b3f5ee02ca5e86a&bb=Uhj4tYgxffYs4_7owy8wKluETQGf8lBKk0xk1BF0Eo9R7039gDUTTGIYyEC35ODNCr1_yufxxf4BRcsHYf4VHMX_99aduMswhEyz_BZNLQaxaIF4LSFPdBx5TPNj__Yp&xkcb=SoDq67M2fWgmVhxO4h0DbzkdCdPP&fccid=91444a28cb181211&vjs=3",
+      "application_route_type": "indeed_direct",
+      "remote": false
+    },
+    {
+      "title": "Systems Engineer",
+      "company": "NCS Australia",
+      "url": "https://au.indeed.com/rc/clk?jk=12be1e002f545f4e&bb=Uhj4tYgxffYs4_7owy8wKl37qiPDLtCT5kdV34h4l4FTf-UQHfgOr38yAlTJi0h4t7Azj3jNXgDFkdA5TKBWQQn1S39gk61lamGvzxIV_CTbRlo3xgYnHQHlIUeNnycw&xkcb=SoBe67M2fWgmVhxO4h0CbzkdCdPP&fccid=4fa8e9e68050e827&vjs=3",
+      "location": "Preston VIC 3072",
+      "posted": "",
+      "source": "Indeed",
+      "salary": "",
+      "description": "",
+      "tags": [
+        "system",
+        "indeed"
+      ],
+      "why": "Indeed listing for Systems Engineer at NCS Australia",
+      "score": 0,
+      "listing_verification": "web_scraped",
+      "application_route": "https://au.indeed.com/rc/clk?jk=12be1e002f545f4e&bb=Uhj4tYgxffYs4_7owy8wKl37qiPDLtCT5kdV34h4l4FTf-UQHfgOr38yAlTJi0h4t7Azj3jNXgDFkdA5TKBWQQn1S39gk61lamGvzxIV_CTbRlo3xgYnHQHlIUeNnycw&xkcb=SoBe67M2fWgmVhxO4h0CbzkdCdPP&fccid=4fa8e9e68050e827&vjs=3",
+      "application_route_type": "indeed_direct",
+      "remote": false
+    },
+    {
+      "title": "Network Administrator",
+      "company": "Country Fire Authority",
+      "url": "https://au.indeed.com/rc/clk?jk=fd431253aa8e8b77&bb=Uhj4tYgxffYs4_7owy8wKovNc9T17Huw7WlG0uqomABA9ButggrN-SYtcdFyl_q3l7dDiCrBrVJ3ogJ373KM4JWfwVLahuDCumTtRwLNFkHszVXu-VAXtmAAaI0EMSu8&xkcb=SoDD67M2fWgmVhxO4h0BbzkdCdPP&fccid=4ec533131570bd07&vjs=3",
+      "location": "Burwood East VIC",
+      "posted": "",
+      "source": "Indeed",
+      "salary": "",
+      "description": "",
+      "tags": [
+        "system",
+        "indeed"
+      ],
+      "why": "Indeed listing for Network Administrator at Country Fire Authority",
+      "score": 0,
+      "listing_verification": "web_scraped",
+      "application_route": "https://au.indeed.com/rc/clk?jk=fd431253aa8e8b77&bb=Uhj4tYgxffYs4_7owy8wKovNc9T17Huw7WlG0uqomABA9ButggrN-SYtcdFyl_q3l7dDiCrBrVJ3ogJ373KM4JWfwVLahuDCumTtRwLNFkHszVXu-VAXtmAAaI0EMSu8&xkcb=SoDD67M2fWgmVhxO4h0BbzkdCdPP&fccid=4ec533131570bd07&vjs=3",
+      "application_route_type": "indeed_direct",
+      "remote": false
+    },
+    {
+      "title": "Network Administrator",
+      "company": "Victorian Government",
+      "url": "https://au.indeed.com/rc/clk?jk=10fb786f98929e81&bb=Uhj4tYgxffYs4_7owy8wKnRqZSe6wXUQLU-eFdsKlCzO-F3cmlbYoajAK74AfE5ltbaJ5kj3YJnl8jRv6wl-1Db1M1Dt8rV400mvML9n56dWqI3Sw11Gawkz_v3Fic_V&xkcb=SoB367M2fWgmVhxO4h0AbzkdCdPP&fccid=1818d10a60db56b4&vjs=3",
+      "location": "Melbourne Eastern Suburbs VIC",
+      "posted": "",
+      "source": "Indeed",
+      "salary": "$113,257 a year",
+      "description": "",
+      "tags": [
+        "system",
+        "indeed"
+      ],
+      "why": "Indeed listing for Network Administrator at Victorian Government",
+      "score": 0,
+      "listing_verification": "web_scraped",
+      "application_route": "https://au.indeed.com/rc/clk?jk=10fb786f98929e81&bb=Uhj4tYgxffYs4_7owy8wKnRqZSe6wXUQLU-eFdsKlCzO-F3cmlbYoajAK74AfE5ltbaJ5kj3YJnl8jRv6wl-1Db1M1Dt8rV400mvML9n56dWqI3Sw11Gawkz_v3Fic_V&xkcb=SoB367M2fWgmVhxO4h0AbzkdCdPP&fccid=1818d10a60db56b4&vjs=3",
+      "application_route_type": "indeed_direct",
+      "remote": false
+    },
+    {
+      "title": "Mainframe System Programmer",
+      "company": "DXC Technology",
+      "url": "https://au.indeed.com/rc/clk?jk=4ca2b22c4d5585b1&bb=Uhj4tYgxffYs4_7owy8wKuS5JLflQ_e_vv51K2-ldmbyAJp95pbarKscW4Szn1aU9nYyE6W69ruv5_BSNNVvsIvAjltEbpX4l2xiEjGiXWfE-YC2Z1w-VR7kX2PHGRfR&xkcb=SoD567M2fWgmVhxO4h0HbzkdCdPP&fccid=feaabf8e6a699d3c&vjs=3",
+      "location": "Melbourne VIC",
+      "posted": "",
+      "source": "Indeed",
+      "salary": "",
+      "description": "",
+      "tags": [
+        "system",
+        "indeed"
+      ],
+      "why": "Indeed listing for Mainframe System Programmer at DXC Technology",
+      "score": 0,
+      "listing_verification": "web_scraped",
+      "application_route": "https://au.indeed.com/rc/clk?jk=4ca2b22c4d5585b1&bb=Uhj4tYgxffYs4_7owy8wKuS5JLflQ_e_vv51K2-ldmbyAJp95pbarKscW4Szn1aU9nYyE6W69ruv5_BSNNVvsIvAjltEbpX4l2xiEjGiXWfE-YC2Z1w-VR7kX2PHGRfR&xkcb=SoD567M2fWgmVhxO4h0HbzkdCdPP&fccid=feaabf8e6a699d3c&vjs=3",
+      "application_route_type": "indeed_direct",
+      "remote": false
+    },
+    {
+      "title": "Senior IT Analyst - Systems",
+      "company": "Crown Resorts",
+      "url": "https://au.indeed.com/rc/clk?jk=a38d270691a29841&bb=Uhj4tYgxffYs4_7owy8wKj0FC0j8lb_mQdJi3Jx6e5FpwcT3zZGcZFaTBVB1T5sFUBWMi1o9ZFIW2Fy8xiHOd_ifNRjbjzhgDo1c_0NiOLNXnJW_M3W5WRiC4AFBmAZr&xkcb=SoBN67M2fWgmVhxO4h0GbzkdCdPP&fccid=32d3b6d90b111de9&vjs=3",
+      "location": "Melbourne VIC",
+      "posted": "",
+      "source": "Indeed",
+      "salary": "",
+      "description": "",
+      "tags": [
+        "system",
+        "indeed"
+      ],
+      "why": "Indeed listing for Senior IT Analyst - Systems at Crown Resorts",
+      "score": 0,
+      "listing_verification": "web_scraped",
+      "application_route": "https://au.indeed.com/rc/clk?jk=a38d270691a29841&bb=Uhj4tYgxffYs4_7owy8wKj0FC0j8lb_mQdJi3Jx6e5FpwcT3zZGcZFaTBVB1T5sFUBWMi1o9ZFIW2Fy8xiHOd_ifNRjbjzhgDo1c_0NiOLNXnJW_M3W5WRiC4AFBmAZr&xkcb=SoBN67M2fWgmVhxO4h0GbzkdCdPP&fccid=32d3b6d90b111de9&vjs=3",
+      "application_route_type": "indeed_direct",
+      "remote": false
+    },
+    {
+      "title": "Senior IT Analyst - Systems",
+      "company": "Crown Resorts",
+      "url": "https://au.indeed.com/viewjob?jk=0f1e2d3c4b5a6978",
+      "location": "Melbourne VIC",
+      "posted": "",
+      "source": "Indeed",
+      "salary": "",
+      "description": "",
+      "tags": [
+        "system",
+        "indeed"
+      ],
+      "why": "Indeed listing for Senior IT Analyst - Systems at Crown Resorts",
+      "score": 0,
+      "listing_verification": "web_scraped",
+      "application_route": "https://au.indeed.com/viewjob?jk=0f1e2d3c4b5a6978",
+      "application_route_type": "indeed_direct",
+      "remote": false
+    },
+    {
+      "title": "Salesforce Administrator",
+      "company": "Victorian Gambling and Casino Control Commission",
+      "url": "https://au.indeed.com/rc/clk?jk=67cb65acec148e5a&bb=Uhj4tYgxffYs4_7owy8wKij5LvwZnN74Myxv9_kC8hikPGKejfYwNTa-iHYEdRLmrJDkr77FvbI-1iUyE3ZYHNTFI2dozCLvbEd31AjvhGij4LdcUIYApoUSkFdXu2Ik&xkcb=SoDQ67M2fWgmVhxO4h0FbzkdCdPP&fccid=dd616958bd9ddc12&vjs=3",
+      "location": "Melbourne City Centre VIC",
+      "posted": "",
+      "source": "Indeed",
+      "salary": "",
+      "description": "",
+      "tags": [
+        "system",
+        "indeed"
+      ],
+      "why": "Indeed listing for Salesforce Administrator at Victorian Gambling and Casino Control Commission",
+      "score": 0,
+      "listing_verification": "web_scraped",
+      "application_route": "https://au.indeed.com/rc/clk?jk=67cb65acec148e5a&bb=Uhj4tYgxffYs4_7owy8wKij5LvwZnN74Myxv9_kC8hikPGKejfYwNTa-iHYEdRLmrJDkr77FvbI-1iUyE3ZYHNTFI2dozCLvbEd31AjvhGij4LdcUIYApoUSkFdXu2Ik&xkcb=SoDQ67M2fWgmVhxO4h0FbzkdCdPP&fccid=dd616958bd9ddc12&vjs=3",
+      "application_route_type": "indeed_direct",
+      "remote": false
+    }
+  ]
+}
