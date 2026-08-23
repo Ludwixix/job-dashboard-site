@@ -1,0 +1,45 @@
+{
+  "_comment": "Job scraping configuration — proxy rotation, rate limits, retries",
+  "proxy": {
+    "enabled": true,
+    "mode": "wireguard",
+    "_modes": ["none", "free-rotate", "static-list", "paid-api", "wireguard"],
+    "static_proxies": [],
+    "_static_format": "Format: 'http://ip:port' or 'http://user:pass@ip:port'",
+    "paid_api_url": "",
+    "_paid_note": "If mode=paid-api, set paid_api_url to your proxy provider's endpoint (e.g. ScraperAPI, Bright Data)",
+    "fetch_timeout_seconds": 5,
+    "max_proxies": 10,
+    "exclude_countries": [],
+    "wireguard": {
+      "_note": "WireGuard is a VPN tunnel, not natively an HTTP/SOCKS proxy. Two ways to expose it:",
+      "_note_endpoints": "'endpoints' = local SOCKS5/HTTP proxy ports exposed by WireSock/tun2socks that route via a WG tunnel (format: 'socks5://127.0.0.1:1080' or 'http://127.0.0.1:1080')",
+      "_note_tunnels": "'tunnels' = WireGuard tunnel NAMES (as in the WG app) to toggle between system-VPN style. Wraps each scrape batch in an activate/deactivate cycle.",
+      "endpoints": [],
+      "tunnels": [],
+      "activate_script": "",
+      "deactivate_script": ""
+    }
+  },
+  "rate_limit": {
+    "delay_between_searches_seconds": 8,
+    "delay_between_sites_seconds": 15,
+    "jitter_seconds": 4,
+    "_jitter_note": "Random additional delay up to this many seconds to avoid predictable patterns",
+    "max_results_per_search": 20
+  },
+  "retry": {
+    "max_retries": 3,
+    "backoff_base_seconds": 10,
+    "backoff_multiplier": 2.0,
+    "retry_on_empty_results": false,
+    "_retry_on_empty_note": "If true, retries even when 0 results returned (may indicate blocking)",
+    "cooldown_after_failure_seconds": 30
+  },
+  "scraping": {
+    "hours_old": 336,
+    "country_indeed": "australia",
+    "verbose": 0,
+    "description_format": "markdown"
+  }
+}
