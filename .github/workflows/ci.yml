@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: [master]
 
+env:
+  RUFF_VERSION: "0.16.4"
+
 jobs:
   lint:
     runs-on: ubuntu-latest
@@ -15,7 +18,7 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-      - run: pip install ruff
+      - run: pip install ruff==${{ env.RUFF_VERSION }}
       - run: ruff check . --exclude _archive/
 
   test:

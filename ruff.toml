@@ -7,6 +7,13 @@
 # exclusions document the debt without weakening checks on code we own.
 #
 # To see everything within reason:  ruff check . --exclude _archive/
+# EXE001/EXE002 (exec-bit vs shebang mismatch) are platform artifacts - with
+# core.filemode=false (e.g. WSL) local checkouts see different exec bits than
+# CI's fresh Linux checkout, so these rules are non-reproducible locally.
+# These are one-off scripts run via `python3 script.py`; exec bit is irrelevant.
+[lint]
+ignore = ["EXE001", "EXE002"]
+
 [lint.per-file-ignores]
 # Legacy scrapers: broad `except Exception` around flaky network / rate-limit
 # code is intentional; unused vars come from dead feature flags. Not worth the
