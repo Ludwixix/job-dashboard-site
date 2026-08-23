@@ -9,8 +9,8 @@ requests>=2.31.0
 beautifulsoup4>=4.12.0
 pyyaml>=6.0
 
-# PDF generation
-weasyprint>=60.0
+# PDF generation (build_application_pdfs.py imports fpdf)
+fpdf2>=2.7
 
 # Supabase backend
 supabase>=2.0.0

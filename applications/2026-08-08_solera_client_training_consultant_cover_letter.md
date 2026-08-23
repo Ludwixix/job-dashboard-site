@@ -1,7 +1,0 @@
-I am writing to apply for the Client Training Consultant position at Solera, as advertised. My background in bridging technical implementation with end-user adoption aligns with Solera’s mission to connect complex software services with the people who use them.
-
-At the Department of Education Victoria, I facilitated technical workshops that translated M365 capabilities into tangible business value, driving a 20% increase in platform adoption. This experience is directly applicable to developing and delivering client training that ensures Solera’s partners can fully leverage your software solutions. Additionally, my work engineering a self-service kiosk programme at Australia Post reduced service desk volume by empowering users with autonomous tools—a model for creating effective, scalable training resources.
-
-I am drawn to Solera’s work in transforming every touchpoint of the vehicle lifecycle into a connected digital experience. My history of supporting large-scale, mission-critical systems for organisations like Victoria Police and Australia Post has prepared me to engage with your diverse partner network, understanding that effective training is the key to successful digital transformation for clients in over 90 countries.
-
-I would welcome the opportunity to discuss how my experience in technical facilitation and user enablement can contribute to the success of Solera’s clients.

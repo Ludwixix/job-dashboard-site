@@ -1,8 +1,7 @@
 .netlify
-netlify
+node_modules
 *.bak
 __pycache__
-node_modules
 _*.py
 _*.json
 _*.ps1

@@ -1,7 +1,0 @@
-I am writing to apply for the Service Desk Engineer, Level 2 position at CT Group, part of Lyra Technology Group. Lyra's model of independently operating technology service businesses while driving sustainable growth resonates with my focus on delivering durable technical solutions.
-
-In my recent role as an L2/L3 Technical Support Engineer at Australia Post, I provided comprehensive service desk support across device repair, OS reimaging, and access provisioning, managing high-volume queues with consistent over 90% SLA resolution. I engineered a custom keystroke injection automation in ServiceNow that programmatically created and modified ITSM tickets, eliminating hundreds of hours of manual data entry per month. Furthermore, I acted as the primary escalation point for complex infrastructure faults, collaborating with L3 teams to ensure permanent resolutions and prevent recurrence.
-
-Lyra Technology Group's commitment to retaining the employees, name, and culture of its portfolio companies, as stated in your listing, aligns with my value of building systems that last and supporting team continuity. I am motivated by the opportunity to contribute to a private equity-backed group that prioritises sustainable, healthy growth in the technology service sector.
-
-I am confident that my experience in service desk operations, automation, and escalation management can contribute to CT Group's success. I welcome the opportunity to discuss my application further.
