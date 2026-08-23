@@ -9,7 +9,7 @@ I'm writing to express my interest in the Barista/All Rounder position with West
 
 
 
-I bring delivered L1/L2/L3 support consistently achieving >90% SLA resolution.
+I bring experience delivering L1/L2/L3 support consistently achieving >90% SLA resolution.
 
 The areas where my experience aligns most directly with this role are Customer Support.
 

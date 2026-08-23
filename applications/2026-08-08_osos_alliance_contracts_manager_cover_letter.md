@@ -9,7 +9,7 @@ I'm writing to express my interest in the Contracts Manager position with OSOS A
 
 
 
-I bring delivered enterprise Teams rollout with governance, meeting policies, and federation management.
+I bring experience delivering enterprise Teams rollout with governance, meeting policies, and federation management.
 
 The areas where my experience aligns most directly with this role are Teams.
 

@@ -9,7 +9,7 @@ I'm writing to express my interest in the Business Development Manager - HVAC po
 
 
 
-I bring deployed fibre and copper Layer 1 infrastructure across residential and commercial environments and installed, maintained, and repaired commercial hvac systems with systematic fault-finding.
+I bring experience deploying fibre and copper Layer 1 infrastructure across residential and commercial environments and installed, maintained, and repaired commercial hvac systems with systematic fault-finding.
 
 The areas where my experience aligns most directly with this role are Network, HVAC.
 

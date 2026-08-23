@@ -9,7 +9,7 @@ I'm writing to express my interest in the Soho | Casual Waiting Staff & Bartende
 
 LinkedIn listing for Soho | Casual Waiting Staff & Bartenders at Treetop Early Learning
 
-I bring delivered enterprise infrastructure support across Azure, Microsoft 365, and identity platforms, built PowerShell automation solutions that eliminated recurring manual toil, and led root-cause analysis investigations with documented 15% reduction in repeat incidents.
+I bring experience delivering enterprise infrastructure support across Azure, Microsoft 365, and identity platforms, building PowerShell automation solutions that eliminated recurring manual toil, and leading root-cause analysis investigations with documented 15% reduction in repeat incidents.
 
 The areas most relevant to the role are core infrastructure, tailored existing materials, verify listing.
 

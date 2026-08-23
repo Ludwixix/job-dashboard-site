@@ -9,7 +9,7 @@ I am writing to express my interest in the Senior Cloud Engineer position at Vic
 
 The Victorian Institute of Teaching Senior Cloud Engineer role matches my Azure, Microsoft 365, Entra ID, hybrid identity, automation, enterprise support, and public-sector delivery experience.
 
-I bring delivered enterprise Microsoft 365 services across SharePoint, Exchange, Teams, and Entra ID for 660,000+ users and spearheaded Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements.
+I bring experience delivering enterprise Microsoft 365 services across SharePoint, Exchange, Teams, and Entra ID for 660,000+ users and spearheading Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements.
 
 The areas where my experience aligns most directly with this role are Microsoft 365, Azure.
 

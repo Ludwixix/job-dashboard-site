@@ -9,7 +9,7 @@ I'm writing to express my interest in the Data Center IT Support Engineer, MEL -
 
 The Amazon data-centre IT support role matches my endpoint support, hardware diagnostics, physical infrastructure, incident response, and disciplined operational-procedure experience.
 
-I bring led Windows 11 migration across 100+ clinical endpoints with zero patient-care disruption and delivered L1/L2/L3 support consistently achieving >90% SLA resolution.
+I bring experience leading Windows 11 migration across 100+ clinical endpoints with zero patient-care disruption and delivering L1/L2/L3 support consistently achieving >90% SLA resolution.
 
 The areas where my experience aligns most directly with this role are Intune, Data Centre, Customer Support.
 

@@ -9,7 +9,7 @@ I'm writing to express my interest in the Tech Support roles position with First
 
 The First Focus IT technical support role matches my Microsoft-focused service operations background across Azure, Active Directory, Outlook, endpoint support, troubleshooting, and customer communication.
 
-I bring spearheaded Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements, managed Active Directory and Group Policy for enterprise environments supporting 660,000+ users, and delivered L1/L2/L3 support consistently achieving >90% SLA resolution.
+I bring experience spearheading Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements, managing Active Directory and Group Policy for enterprise environments supporting 660,000+ users, and delivering L1/L2/L3 support consistently achieving >90% SLA resolution.
 
 The areas where my experience aligns most directly with this role are Azure, Active Directory, Customer Support.
 

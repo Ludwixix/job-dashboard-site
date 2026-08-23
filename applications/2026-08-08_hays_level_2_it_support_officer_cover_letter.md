@@ -9,7 +9,7 @@ I'm writing to express my interest in the Level 2 IT Support Officer position wi
 
 
 
-I bring aligned infrastructure with acsc essential 8 and implemented mfa compliance across 200+ sites and delivered L1/L2/L3 support consistently achieving >90% SLA resolution.
+I bring experience aligned infrastructure with acsc essential 8 and implemented mfa compliance across 200+ sites and delivering L1/L2/L3 support consistently achieving >90% SLA resolution.
 
 The areas where my experience aligns most directly with this role are Security, Customer Support.
 

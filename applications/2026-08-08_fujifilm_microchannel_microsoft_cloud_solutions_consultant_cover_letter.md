@@ -9,7 +9,7 @@ I'm writing to express my interest in the Microsoft Cloud Solutions Consultant p
 
 The FUJIFILM MicroChannel role matches my Azure, Microsoft 365, identity, automation, enterprise support, and customer-facing technical delivery experience.
 
-I bring spearheaded Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements.
+I bring experience spearheading Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements.
 
 The areas where my experience aligns most directly with this role are Azure.
 

@@ -9,7 +9,7 @@ I'm writing to express my interest in the Manager, Support & Delivery Teams posi
 
 
 
-I bring delivered enterprise Teams rollout with governance, meeting policies, and federation management and delivered L1/L2/L3 support consistently achieving >90% SLA resolution.
+I bring experience delivering enterprise Teams rollout with governance, meeting policies, and federation management and delivering L1/L2/L3 support consistently achieving >90% SLA resolution.
 
 The areas where my experience aligns most directly with this role are Teams, Customer Support.
 

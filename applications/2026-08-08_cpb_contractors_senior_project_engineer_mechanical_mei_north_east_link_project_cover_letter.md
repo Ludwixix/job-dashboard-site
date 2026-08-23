@@ -9,7 +9,7 @@ I'm writing to express my interest in the Senior Project Engineer, Mechanical - 
 
 
 
-I bring managed hybrid identity synchronisation across three identity providers for 660,000+ users.
+I bring experience managing hybrid identity synchronisation across three identity providers for 660,000+ users.
 
 The areas where my experience aligns most directly with this role are Entra ID.
 

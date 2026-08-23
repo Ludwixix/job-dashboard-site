@@ -9,7 +9,7 @@ I'm writing to express my interest in the National Visual Merchandiser position 
 
 
 
-I bring delivered enterprise Microsoft 365 services across SharePoint, Exchange, Teams, and Entra ID for 660,000+ users, delivered enterprise Teams rollout with governance, meeting policies, and federation management, and deployed fibre and copper Layer 1 infrastructure across residential and commercial environments.
+I bring experience delivering enterprise Microsoft 365 services across SharePoint, Exchange, Teams, and Entra ID for 660,000+ users, delivering enterprise Teams rollout with governance, meeting policies, and federation management, and deploying fibre and copper Layer 1 infrastructure across residential and commercial environments.
 
 The areas where my experience aligns most directly with this role are Microsoft 365, Teams, Network.
 

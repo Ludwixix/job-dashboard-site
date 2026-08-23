@@ -9,7 +9,7 @@ I'm writing to express my interest in the Contracts Manager position with Techfo
 
 
 
-I bring deployed fibre and copper Layer 1 infrastructure across residential and commercial environments.
+I bring experience deploying fibre and copper Layer 1 infrastructure across residential and commercial environments.
 
 The areas where my experience aligns most directly with this role are Network.
 

@@ -1257,41 +1257,51 @@ def write_cover(prefix: str, role: dict, category: str, reason: str,
     achievement_bullets = _generate_achievement_bullets(matched_skills, max_bullets=3)
     achievement_para = "I bring ";
     def _to_phrase(text):
-        """Convert a past-tense achievement bullet to a natural phrase."""
+        """Convert a past-tense achievement bullet to a natural noun phrase."""
         prefixes = [
-            ("Delivered", "delivered"),
-            ("Managed", "managed"),
-            ("Built", "built"),
-            ("Led", "led"),
-            ("Spearheaded", "spearheaded"),
-            ("Administered", "administered"),
-            ("Deployed", "deployed"),
-            ("Implemented", "implemented"),
-            ("Provided", "provided"),
-            ("Resolved", "resolved"),
+            ("Delivered", "delivering"),
+            ("Managed", "managing"),
+            ("Built", "building"),
+            ("Led", "leading"),
+            ("Spearheaded", "spearheading"),
+            ("Administered", "administering"),
+            ("Deployed", "deploying"),
+            ("Implemented", "implementing"),
+            ("Provided", "providing"),
+            ("Resolved", "resolving"),
         ]
-        for past, phrase in prefixes:
+        for past, gerund in prefixes:
             if text.startswith(past):
-                return phrase + text[len(past):]
+                return gerund + text[len(past):]
         return text.lower()
 
     if len(achievement_bullets) == 1:
         first = achievement_bullets[0]
-        # Transform into noun phrase
-        prefixes = ["Delivered", "Managed", "Built", "Led", "Spearheaded",
-                    "Administered", "Deployed", "Implemented", "Provided", "Resolved"]
+        # For a single bullet, use "experience" + gerund form for smoother reading
+        prefixes = [
+            ("Delivered", "delivering"),
+            ("Managed", "managing"),
+            ("Built", "building"),
+            ("Led", "leading"),
+            ("Spearheaded", "spearheading"),
+            ("Administered", "administering"),
+            ("Deployed", "deploying"),
+            ("Implemented", "implementing"),
+            ("Provided", "providing"),
+            ("Resolved", "resolving"),
+        ]
         transformed = False
-        for p in prefixes:
-            if first.startswith(p):
-                achievement_para += p.lower() + first[len(p):] + "."
+        for past, gerund in prefixes:
+            if first.startswith(past):
+                achievement_para += f"experience {gerund}" + first[len(past):] + "."
                 transformed = True
                 break
         if not transformed:
             achievement_para += first.lower() + "."
     elif len(achievement_bullets) == 2:
-        achievement_para += _to_phrase(achievement_bullets[0]) + " and " + _to_phrase(achievement_bullets[1]) + "."
+        achievement_para += "experience " + _to_phrase(achievement_bullets[0]) + " and " + _to_phrase(achievement_bullets[1]) + "."
     else:
-        achievement_para += _to_phrase(achievement_bullets[0]) + ", " + _to_phrase(achievement_bullets[1]) + ", and " + _to_phrase(achievement_bullets[2]) + "."
+        achievement_para += "experience " + _to_phrase(achievement_bullets[0]) + ", " + _to_phrase(achievement_bullets[1]) + ", and " + _to_phrase(achievement_bullets[2]) + "."
 
     # ── Skills match paragraph ──
     if matched_skills:

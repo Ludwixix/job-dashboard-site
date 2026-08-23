@@ -9,7 +9,7 @@ I'm writing to express my interest in the Computer Network and Systems Engineer 
 
 The Converged Medical Solutions role matches my Microsoft 365, managed-services, healthcare-technology, endpoint, identity, and structured troubleshooting experience.
 
-I bring delivered enterprise Microsoft 365 services across SharePoint, Exchange, Teams, and Entra ID for 660,000+ users, deployed fibre and copper Layer 1 infrastructure across residential and commercial environments, and aligned infrastructure with acsc essential 8 and implemented mfa compliance across 200+ sites.
+I bring experience delivering enterprise Microsoft 365 services across SharePoint, Exchange, Teams, and Entra ID for 660,000+ users, deploying fibre and copper Layer 1 infrastructure across residential and commercial environments, and aligned infrastructure with acsc essential 8 and implemented mfa compliance across 200+ sites.
 
 The areas where my experience aligns most directly with this role are Microsoft 365, Network, Security, Customer Support.
 

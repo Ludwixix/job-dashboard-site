@@ -9,7 +9,7 @@ I'm writing to express my interest in the AOD Support Workers - Multiple Casual 
 
 
 
-I bring built ServiceNow automation eliminating hundreds of hours of manual data entry per month and delivered L1/L2/L3 support consistently achieving >90% SLA resolution.
+I bring experience building ServiceNow automation eliminating hundreds of hours of manual data entry per month and delivering L1/L2/L3 support consistently achieving >90% SLA resolution.
 
 The areas where my experience aligns most directly with this role are ServiceNow, Customer Support.
 

@@ -9,7 +9,7 @@ I am writing to express my interest in the Quality Officer position at Victorian
 
 The Victorian Government Senior Cloud Engineer role matches my Azure, Microsoft 365, identity, automation, enterprise support, and public-sector delivery experience.
 
-I bring delivered enterprise infrastructure support across Azure, Microsoft 365, and identity platforms, built PowerShell automation solutions that eliminated recurring manual toil, and led root-cause analysis investigations with documented 15% reduction in repeat incidents.
+I bring experience delivering enterprise infrastructure support across Azure, Microsoft 365, and identity platforms, building PowerShell automation solutions that eliminated recurring manual toil, and leading root-cause analysis investigations with documented 15% reduction in repeat incidents.
 
 The areas where my experience aligns most directly with this role are Compliance.
 

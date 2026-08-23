@@ -9,7 +9,7 @@ I'm writing to express my interest in the Front of House Team Member - Elsternwi
 
 LinkedIn listing for Front of House Team Member - Elsternwick Casual/Part-Time/Full-Time at Chargrill Charlie's
 
-I bring delivered enterprise infrastructure support across Azure, Microsoft 365, and identity platforms, built PowerShell automation solutions that eliminated recurring manual toil, and led root-cause analysis investigations with documented 15% reduction in repeat incidents.
+I bring experience delivering enterprise infrastructure support across Azure, Microsoft 365, and identity platforms, building PowerShell automation solutions that eliminated recurring manual toil, and leading root-cause analysis investigations with documented 15% reduction in repeat incidents.
 
 The areas most relevant to the role are core infrastructure, tailored existing materials, verify listing.
 
