@@ -1,63 +1,60 @@
 #!/usr/bin/env python3
-"""Generate a category-grouped job dashboard from clean JSON data.
+"""Build a self-contained 3-stream job dashboard from JSON data.
 
-Displays jobs organized by IT subcategory with proper visual separation.
-Each category shows its own grid with a header, badge count, and description.
+Usage:
+  python3 build_categorized_dashboard.py [jobs_file.json]
+  Defaults to jobs_combined.json in the same directory.
+
+Reads job data, classifies into 3 streams via stream_classifier,
+and outputs a self-contained HTML dashboard with dark theme.
 """
-import html as html_mod
 import json
+import html as html_mod
 import hashlib
 import re
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
-# ── Category definitions ──────────────────────────────────────────────────
-CATEGORIES = {
-    "cloud-devops": {
-        "name": "Cloud & DevOps",
-        "color": "#62d9ff",
-        "icon": "☁️",
-        "desc": "Cloud platforms, DevOps, SRE, Azure/AWS, infrastructure automation, containerisation",
-    },
-    "security": {
-        "name": "Security & Cyber",
-        "color": "#ff6b6b",
-        "icon": "🛡️",
-        "desc": "SOC, cyber security, compliance, penetration testing, vulnerability management",
-    },
-    "m365-identity": {
-        "name": "M365, Identity & Endpoint",
-        "color": "#bda7ff",
-        "icon": "🔐",
-        "desc": "Entra ID, Intune, MDM, EUC, modern workplace, identity management",
-    },
-    "service-desk": {
-        "name": "Service Desk & Support",
-        "color": "#ffc857",
-        "icon": "🎧",
-        "desc": "L1/L2/L3 help desk, desktop support, IT support, technical support",
-    },
-    "infrastructure-systems": {
-        "name": "Infrastructure & Systems",
-        "color": "#61e6a6",
-        "icon": "🖥️",
-        "desc": "Sysadmin, networking, servers, data centre, virtualisation, Windows/Linux",
-    },
-    "software-data": {
-        "name": "Software & Data",
-        "color": "#ff8a65",
+# ── Import stream classifier ──────────────────────────────────────────────
+sys.path.insert(0, str(Path(__file__).parent))
+from stream_classifier import classify_all_jobs
+
+# ── Stream metadata ───────────────────────────────────────────────────────
+STREAMS = {
+    "core-it": {
+        "id": "core-it",
+        "name": "Core IT & Systems Engineering",
         "icon": "💻",
-        "desc": "Software engineering, data engineering, AI/ML, full-stack development",
+        "color": "#62d9ff",
+        "desc": "Enterprise IT infrastructure, cloud platforms, identity administration, and technical support.",
     },
-    "project-management": {
-        "name": "Project & IT Management",
-        "color": "#91a7bc",
-        "icon": "📋",
-        "desc": "PM, BA, delivery, agile, scrum, service management, change management",
+    "bridge": {
+        "id": "bridge",
+        "name": "Local \"Bridge\" & Casual Work",
+        "icon": "🌉",
+        "color": "#ffc857",
+        "desc": "Immediate, low-barrier local employment. Casual and part-time roles near St Kilda.",
+    },
+    "traineeship": {
+        "id": "traineeship",
+        "name": "Technical Traineeships & Trade Pathways",
+        "icon": "🔧",
+        "color": "#bda7ff",
+        "desc": "Structured on-the-job training, apprenticeships, and employer-sponsored certifications.",
     },
 }
 
-# ── HTML helpers ──────────────────────────────────────────────────────────
+# ── Source badge colours ──────────────────────────────────────────────────
+SOURCE_COLORS = {
+    "linkedin": "#0a66c2",
+    "seek": "#3b6fb5",
+    "indeed": "#2164f3",
+    "adzuna": "#e57200",
+}
+
+# ── Helpers ───────────────────────────────────────────────────────────────
+
 def esc(text):
     return html_mod.escape(str(text))
 
@@ -67,225 +64,424 @@ def role_id(job):
     return hashlib.sha256(route.encode()).hexdigest()[:12]
 
 
-def stage_class(status):
-    return f"stage-{(status or 'new').lower()}"
+def relative_date(posted_str):
+    """Convert a posted date string to 'N days ago' style."""
+    if not posted_str:
+        return ""
+    try:
+        # Try ISO format first
+        dt = datetime.fromisoformat(posted_str.replace("Z", "+00:00"))
+        now = datetime.now(timezone.utc)
+        delta = now - dt
+        days = delta.days
+        if days < 0:
+            return "today"
+        if days == 0:
+            return "today"
+        if days == 1:
+            return "yesterday"
+        if days < 7:
+            return f"{days} days ago"
+        weeks = days // 7
+        if weeks == 1:
+            return "1 week ago"
+        if weeks < 5:
+            return f"{weeks} weeks ago"
+        months = days // 30
+        if months == 1:
+            return "1 month ago"
+        return f"{months} months ago"
+    except Exception:
+        return posted_str
 
 
-def render_card(job, category_id=None):
-    """Render a single job card."""
+def work_style(job):
+    """Determine Onsite / Hybrid / Remote badge."""
+    remote = job.get("remote", False)
+    location = (job.get("location") or "").lower()
+    desc = (job.get("description") or "").lower()
+    combined = f"{location} {desc}"
+
+    if remote is True or remote == "true":
+        return "Remote"
+    if "remote" in combined or "work from home" in combined or "wfh" in combined:
+        if "hybrid" in combined or "flexible" in combined or "2 days" in combined:
+            return "Hybrid"
+        return "Remote"
+    if "hybrid" in combined or "flexible" in combined:
+        return "Hybrid"
+    return "Onsite"
+
+
+def work_style_color(style):
+    return {
+        "Remote": "#61e6a6",
+        "Hybrid": "#ffc857",
+        "Onsite": "#ff8a65",
+    }.get(style, "#91a7bc")
+
+
+def source_badge_color(source):
+    s = (source or "").lower()
+    for key, color in SOURCE_COLORS.items():
+        if key in s:
+            return color
+    return "#91a7bc"
+
+
+# ── Card renderer ─────────────────────────────────────────────────────────
+
+def render_card(job, stream_id):
     rid = role_id(job)
     score = job.get("score", 0)
     company = esc(job.get("company", ""))
     title = esc(job.get("title", ""))
     location = esc(job.get("location", ""))
-    posted = job.get("posted", "")
+    posted = relative_date(job.get("posted", ""))
     source = job.get("source", "")
     why = esc(job.get("why", ""))
     tags = job.get("tags", [])
     url = job.get("url", "#")
-    work = "remote" if job.get("remote") else "onsite"
-    verification = "verified" if "verified" in (job.get("listing_verification") or "").lower() else "review"
+    work = work_style(job)
+    work_color = work_style_color(work)
+    src_color = source_badge_color(source)
+    verification = job.get("listing_verification", "")
     route_type = job.get("application_route_type", "")
 
-    tags_html = "".join(f'<span class="tag">{esc(t)}</span>' for t in tags[:5])
-    score_cls = "score" if score >= 85 else "flag" if score < 70 else ""
+    tags_html = "".join(f'<span class="tag">{esc(t)}</span>' for t in tags[:4])
 
-    return f'''<article class="card stage-new" id="role-{rid}" data-role-id="{rid}" data-score="{score}" data-work="{work}" data-source="{source.lower()}" data-source-group="{source.lower()}" data-verification="{verification}" data-lane="core" data-category="{category_id or ''}">
-<div class="rank">#{job.get("rank", "?")} · {score}% SCREENING MATCH</div>
-<div class="company">{company}</div>
-<div class="title">{title}</div>
-<div class="meta"><span>📍 {location}</span><span>📅 Posted {posted}</span><span>🔎 {esc(source)}</span><span>🧭 {esc(route_type)}</span></div>
-<p class="why">{why}</p>
-<div class="tags"><span class="tag score">{score} screening match</span>{tags_html}</div>
-<div class="role-controls"><span class="stage-label">Stage: <b class="stage-value" data-role-id="{rid}">New</b></span>
-<select class="status-select" data-role-id="{rid}" aria-label="Change application stage">
-<option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
-</select>
-<button class="copy-link-btn" data-role-id="{rid}" title="Copy a direct link to this role">Copy link</button></div>
-<div class="links">
-<a class="primary-link" href="{esc(url)}" target="_blank" rel="noopener">↗ Apply / open route</a></div>
+    # Score visual
+    if score >= 85:
+        score_cls = "score-high"
+    elif score >= 70:
+        score_cls = "score-mid"
+    else:
+        score_cls = "score-low"
+
+    return f'''<article class="card" id="role-{rid}" data-role-id="{rid}" data-score="{score}" data-work="{work.lower()}" data-source="{source.lower()}" data-stream="{stream_id}">
+  <div class="card-header">
+    <a href="{esc(url)}" target="_blank" rel="noopener" class="card-title">{title}</a>
+    <span class="score-badge {score_cls}">{score}%</span>
+  </div>
+  <div class="card-employer">{company}</div>
+  <div class="card-badges">
+    <span class="badge badge-work" style="color:{work_color};border-color:{work_color}">{work}</span>
+    <span class="badge badge-source" style="color:{src_color};border-color:{src_color}">{esc(source)}</span>
+    {f'<span class="badge badge-location">📍 {location}</span>' if location else ''}
+    {f'<span class="badge badge-date">📅 {posted}</span>' if posted else ''}
+  </div>
+  {f'<p class="card-why">{why}</p>' if why else ''}
+  {f'<div class="card-tags">{tags_html}</div>' if tags_html else ''}
+  <div class="card-actions">
+    <a href="{esc(url)}" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
+    <button class="btn btn-pack" disabled title="Coming soon">⬇ Pack</button>
+    <button class="btn btn-auto" disabled title="Coming soon">⚡ Auto-Apply</button>
+    <span class="card-spacer"></span>
+    <span class="stage-label">Stage:</span>
+    <select class="status-select" data-role-id="{rid}" aria-label="Change application stage">
+      <option>New</option><option>Review</option><option>Ready</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option>
+    </select>
+  </div>
 </article>'''
 
 
-def render_category_section(cat_id, cat_info, jobs):
-    """Render a full category section with header and card grid."""
-    count = len(jobs)
-    color = cat_info["color"]
-    cards_html = "\n".join(render_card(j, cat_id) for j in jobs)
+# ── Stream section renderer ───────────────────────────────────────────────
 
-    return f'''<section class="lane category-section" id="cat-{cat_id}" style="border-left:3px solid {color};padding-left:18px;margin:20px 0">
-<h2 style="color:{color};font-size:20px;margin:0 0 4px">{cat_info["icon"]} {cat_info["name"]} <span class="category-badge" style="color:{color};border-color:{color}">{count}</span></h2>
-<p style="color:var(--muted);margin:0 0 14px;font-size:13px">{cat_info["desc"]}</p>
-<div class="grid">{cards_html}</div>
-</section>'''
-
-
-def render_other_section(jobs):
-    """Render the non-IT / other jobs section."""
+def render_stream_section(stream_id, stream_info, jobs):
     if not jobs:
         return ""
-    cards_html = "\n".join(render_card(j, "other") for j in jobs)
-    return f'''<section class="lane outdoor" id="other-jobs" style="border-top:3px solid #61e6a6">
-<h2>🌿 Other Jobs ({len(jobs)})</h2>
-<p style="color:var(--muted);margin:0 0 14px">Non-IT roles: outdoor, trades, hospitality, admin, and other positions.</p>
-<div class="grid">{cards_html}</div>
+    color = stream_info["color"]
+    cards_html = "\n".join(render_card(j, stream_id) for j in jobs)
+    return f'''<section class="stream-section" id="stream-{stream_id}" data-stream="{stream_id}">
+  <div class="stream-header" style="border-color:{color}">
+    <h2 style="color:{color}">{stream_info["icon"]} {stream_info["name"]} <span class="count-badge" style="color:{color};border-color:{color}">{len(jobs)}</span></h2>
+    <p class="stream-desc">{stream_info["desc"]}</p>
+  </div>
+  <div class="grid">{cards_html}</div>
 </section>'''
 
 
-def render_section_lane(section_name, section_label, icon, color, jobs):
-    """Render a section (technician, outdoor, local, linkedin)."""
-    if not jobs:
-        return ""
-    cards_html = "\n".join(render_card(j, section_name) for j in jobs)
-    return f'''<section class="lane {section_name}" id="{section_name}-jobs" style="border-top:3px solid {color}">
-<h2>{icon} {section_label} ({len(jobs)})</h2>
-<div class="grid">{cards_html}</div>
-</section>'''
+# ── HTML template ─────────────────────────────────────────────────────────
 
+def build_page(streams, input_name, total_jobs):
+    # Stats
+    counts = {sid: len(jobs) for sid, jobs in streams.items()}
+    all_sources = set()
+    all_work_styles = set()
+    for jobs in streams.values():
+        for j in jobs:
+            all_sources.add(j.get("source", ""))
+            all_work_styles.add(work_style(j))
 
-# ── Main ──────────────────────────────────────────────────────────────────
-def main():
-    base = Path(__file__).parent
-    input_path = base / "jobs_nonlinkedin_2026-08-23_final.json"
-    css_path = base / "_style.css"
-    output_path = base / "index_categorized.html"
-
-    if not input_path.exists():
-        input_path = base / "jobs_nonlinkedin_2026-08-08_reclassified.json"
-    if not input_path.exists():
-        print(f"Error: no job data found")
-        sys.exit(1)
-
-    with open(input_path, encoding="utf-8") as f:
-        data = json.load(f)
-
-    # Load CSS
-    css = css_path.read_text(encoding="utf-8") if css_path.exists() else ""
-
-    # Separate core jobs by subcategory
-    core_jobs = data.get("jobs", [])
-    cat_jobs = {cat_id: [] for cat_id in CATEGORIES}
-    other_jobs = []
-
-    for job in core_jobs:
-        subcat = job.get("subcategory", "")
-        if subcat in CATEGORIES:
-            cat_jobs[subcat].append(job)
-        else:
-            other_jobs.append(job)
-
-    # Sections
-    sections = data.get("sections", {})
-
-    # Build HTML
-    stats_total = len(core_jobs)
-    stats_it = sum(len(v) for v in cat_jobs.values())
-    stats_other = len(other_jobs)
-
-    category_html = "\n".join(
-        render_category_section(cat_id, cat_info, cat_jobs[cat_id])
-        for cat_id, cat_info in CATEGORIES.items()
-        if cat_jobs[cat_id]
+    # Filter option HTML
+    source_options = "".join(
+        f'<option value="{esc(s.lower())}">{esc(s)}</option>'
+        for s in sorted(all_sources - {""})
+    )
+    work_options = "".join(
+        f'<option value="{w.lower()}">{w}</option>'
+        for w in sorted(all_work_styles - {""})
     )
 
-    other_html = render_other_section(other_jobs)
+    # Stream sections
+    sections_html = "\n".join(
+        render_stream_section(sid, STREAMS[sid], streams[sid])
+        for sid in ["core-it", "bridge", "traineeship"]
+        if streams[sid]
+    )
 
-    tech_html = render_section_lane("technician", "Technician & Trade", "🔧", "#bda7ff", sections.get("technician", []))
-    outdoor_html = render_section_lane("outdoor", "Outdoor & Council", "🌿", "#61e6a6", sections.get("outdoor", []))
-    local_html = render_section_lane("local", "Local & Support Near St Kilda", "📍", "#ffc857", sections.get("local", []))
-    linkedin_html = render_section_lane("linkedin", "LinkedIn Listings", "💼", "#0a66c2", sections.get("linkedin", []))
+    # Stream nav tabs
+    tabs_html = "".join(
+        f'<button class="tab" data-stream="{sid}" style="--tab-color:{STREAMS[sid]["color"]}">'
+        f'{STREAMS[sid]["icon"]} {STREAMS[sid]["name"]} <span class="tab-count">{counts[sid]}</span></button>'
+        for sid in ["core-it", "bridge", "traineeship"]
+    )
 
-    page = f'''<!doctype html>
+    return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sam Ludwig — Job Dashboard</title>
-<style>{css}</style>
+<title>Job Dashboard — 3 Streams</title>
 <style>
-.category-section {{ background: linear-gradient(145deg, var(--panel), #0e192a); border: 1px solid var(--line); border-radius: 14px; padding: 20px; }}
-.category-badge {{ display: inline-flex; align-items: center; justify-content: center; min-width: 28px; height: 28px; border-radius: 999px; font-size: 13px; font-weight: 700; padding: 0 8px; background: #0b1727; border: 1px solid currentColor; }}
-.category-nav {{ display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 22px; }}
-.category-nav a {{ color: var(--cyan); text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px; background: #0d192a; font-size: 13px; }}
-.category-nav a:hover {{ border-color: var(--cyan); }}
+/* ── Reset & base ─────────────────────────────────── */
+*,*::before,*::after{{box-sizing:border-box;margin:0;padding:0}}
+body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:#0f0f23;color:#e0e0e0;line-height:1.5;min-height:100vh}}
+a{{color:inherit;text-decoration:none}}
+
+/* ── Layout ───────────────────────────────────────── */
+.wrap{{max-width:1200px;margin:0 auto;padding:20px 24px 60px}}
+.hero{{margin-bottom:24px}}
+.hero h1{{font-size:1.6rem;font-weight:700;color:#fff;margin-bottom:4px}}
+.hero p{{color:#888;font-size:.9rem}}
+
+/* ── Stats bar ────────────────────────────────────── */
+.stats{{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:20px}}
+.stat{{background:#1a1a2e;border:1px solid #2a2a4a;border-radius:10px;padding:12px 20px;text-align:center;min-width:120px}}
+.stat b{{display:block;font-size:1.3rem;color:#fff}}
+.stat span{{font-size:.75rem;color:#888}}
+
+/* ── Stream tabs ──────────────────────────────────── */
+.tabs{{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:20px;border-bottom:1px solid #2a2a4a;padding-bottom:10px}}
+.tab{{background:#1a1a2e;border:1px solid #2a2a4a;border-radius:8px;padding:8px 16px;color:#aaa;font-size:.85rem;cursor:pointer;transition:all .2s}}
+.tab:hover{{border-color:var(--tab-color,#62d9ff);color:#fff}}
+.tab.active{{background:color-mix(in srgb,var(--tab-color) 15%,#1a1a2e);border-color:var(--tab-color);color:#fff;font-weight:600}}
+.tab-count{{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;border-radius:999px;font-size:.7rem;font-weight:700;background:#0f0f23;border:1px solid var(--tab-color);padding:0 5px;margin-left:4px}}
+
+/* ── Filters ──────────────────────────────────────── */
+.filters{{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px;align-items:center}}
+.filters label{{font-size:.8rem;color:#888}}
+.filters select{{background:#1a1a2e;border:1px solid #2a2a4a;border-radius:6px;color:#ddd;padding:5px 10px;font-size:.8rem}}
+.filters select:focus{{outline:none;border-color:#62d9ff}}
+
+/* ── Stream sections ──────────────────────────────── */
+.stream-section{{margin-bottom:32px;display:none}}
+.stream-section.visible{{display:block}}
+.stream-header{{border-left:3px solid;padding:0 0 0 16px;margin-bottom:16px}}
+.stream-header h2{{font-size:1.15rem;margin-bottom:2px}}
+.stream-desc{{color:#888;font-size:.8rem}}
+.count-badge{{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;border-radius:999px;font-size:.75rem;font-weight:700;background:#0f0f23;border:1px solid;padding:0 6px;vertical-align:middle}}
+
+/* ── Grid ─────────────────────────────────────────── */
+.grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}}
+
+/* ── Card ─────────────────────────────────────────── */
+.card{{background:#1a1a2e;border:1px solid #2a2a4a;border-radius:10px;padding:16px;transition:border-color .2s,box-shadow .2s;display:flex;flex-direction:column;gap:8px}}
+.card:hover{{border-color:#3a3a5a;box-shadow:0 2px 12px rgba(0,0,0,.3)}}
+.card.hidden{{display:none}}
+.card-header{{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}}
+.card-title{{font-size:1rem;font-weight:600;color:#fff;flex:1;line-height:1.3}}
+.card-title:hover{{color:#62d9ff}}
+.card-employer{{font-size:.85rem;color:#aaa}}
+
+/* Score badge */
+.score-badge{{font-size:.75rem;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap;flex-shrink:0}}
+.score-high{{background:#61e6a620;color:#61e6a6;border:1px solid #61e6a6}}
+.score-mid{{background:#ffc85720;color:#ffc857;border:1px solid #ffc857}}
+.score-low{{background:#ff6b6b20;color:#ff6b6b;border:1px solid #ff6b6b}}
+
+/* Badges row */
+.card-badges{{display:flex;gap:6px;flex-wrap:wrap}}
+.badge{{font-size:.7rem;padding:2px 8px;border-radius:999px;border:1px solid;font-weight:500;white-space:nowrap}}
+
+/* Why text */
+.card-why{{font-size:.8rem;color:#999;font-style:italic}}
+
+/* Tags */
+.card-tags{{display:flex;gap:4px;flex-wrap:wrap}}
+.tag{{font-size:.65rem;padding:2px 6px;border-radius:4px;background:#2a2a4a;color:#aaa}}
+
+/* Actions row */
+.card-actions{{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:4px;border-top:1px solid #2a2a4a;padding-top:8px}}
+.btn{{font-size:.75rem;padding:4px 10px;border-radius:6px;border:1px solid #3a3a5a;background:#0f0f23;color:#ccc;cursor:pointer;transition:all .15s}}
+.btn:hover:not([disabled]){{border-color:#62d9ff;color:#fff}}
+.btn[disabled]{{opacity:.35;cursor:not-allowed}}
+.btn-apply{{border-color:#62d9ff;color:#62d9ff}}
+.btn-apply:hover{{background:#62d9ff20}}
+.card-spacer{{flex:1}}
+.stage-label{{font-size:.75rem;color:#888}}
+.status-select{{background:#0f0f23;border:1px solid #2a2a4a;border-radius:4px;color:#ccc;padding:3px 6px;font-size:.75rem}}
+
+/* ── Footer ───────────────────────────────────────── */
+.foot{{margin-top:40px;text-align:center;color:#555;font-size:.75rem;border-top:1px solid #2a2a4a;padding-top:16px}}
+
+/* ── Responsive ───────────────────────────────────── */
+@media(max-width:480px){{
+  .grid{{grid-template-columns:1fr}}
+  .stats{{flex-direction:column}}
+}}
 </style>
 </head>
 <body>
 <div class="wrap">
+
 <div class="hero">
-<div>
-<div class="eyebrow">Job Dashboard</div>
-<h1>Sam Ludwig — St Kilda Job Dashboard</h1>
-<p>Categorized job listings with screening scores and application tracking.</p>
-</div>
+  <h1>Job Dashboard</h1>
+  <p>Stream-classified job listings with application tracking</p>
 </div>
 
 <section class="stats">
-<div class="stat"><b>{stats_it}</b><span>IT jobs (categorized)</span></div>
-<div class="stat"><b>{stats_other}</b><span>Other roles</span></div>
-<div class="stat"><b>{len(sections.get("local", []))}</b><span>Local to St Kilda</span></div>
-<div class="stat"><b>{len(sections.get("linkedin", []))}</b><span>LinkedIn listings</span></div>
+  <div class="stat"><b>{total_jobs}</b><span>Total Jobs</span></div>
+  <div class="stat"><b>{counts.get("core-it",0)}</b><span>💻 Core IT</span></div>
+  <div class="stat"><b>{counts.get("bridge",0)}</b><span>🌉 Bridge</span></div>
+  <div class="stat"><b>{counts.get("traineeship",0)}</b><span>🔧 Traineeship</span></div>
 </section>
 
-<nav class="category-nav" aria-label="Jump to category">
-{''.join(f'<a href="#cat-{cat_id}">{cat_info["icon"]} {cat_info["name"]} ({len(cat_jobs[cat_id])})</a>' for cat_id, cat_info in CATEGORIES.items() if cat_jobs[cat_id])}
-<a href="#other-jobs">🌿 Other ({stats_other})</a>
-<a href="#technician-jobs">🔧 Technician ({len(sections.get("technician", []))})</a>
-<a href="#outdoor-jobs">🌿 Outdoor ({len(sections.get("outdoor", []))})</a>
-<a href="#local-jobs">📍 Local ({len(sections.get("local", []))})</a>
-<a href="#linkedin-jobs">💼 LinkedIn ({len(sections.get("linkedin", []))})</a>
+<nav class="tabs" aria-label="Switch stream">
+  <button class="tab active" data-stream="all" style="--tab-color:#fff">All <span class="tab-count">{total_jobs}</span></button>
+  {tabs_html}
 </nav>
 
-{category_html}
-{other_html}
-{tech_html}
-{outdoor_html}
-{local_html}
-{linkedin_html}
+<div class="filters">
+  <label>Work Style:
+    <select id="filter-work">
+      <option value="all">All</option>
+      {work_options}
+    </select>
+  </label>
+  <label>Source:
+    <select id="filter-source">
+      <option value="all">All</option>
+      {source_options}
+    </select>
+  </label>
+</div>
 
-<div class="foot">Generated from {input_path.name} · {stats_total} IT jobs categorized into {sum(1 for v in cat_jobs.values() if v)} subcategories</div>
+{sections_html}
+
+<div class="foot">Generated from {esc(input_name)} · {total_jobs} jobs across 3 streams</div>
 </div>
 
 <script>
-/* Stage persistence via localStorage */
-const stageOrder = ['New','Review','Ready','Applied','Interview','Offer','Rejected'];
-document.querySelectorAll('.status-select').forEach(select => {{
-    const rid = select.dataset.roleId;
-    const saved = localStorage.getItem('stage-' + rid);
-    if (saved) {{ select.value = saved; }}
-    select.onchange = () => {{
-        localStorage.setItem('stage-' + rid, select.value);
-        const value = document.querySelector(`.stage-value[data-role-id="${{rid}}"]`);
-        if (value) value.textContent = select.value;
+(function() {{
+  const STAGE_KEY = 'stage-';
+  const stageOrder = ['New','Review','Ready','Applied','Interview','Offer','Rejected'];
+
+  // ── Restore saved stages ──
+  document.querySelectorAll('.status-select').forEach(sel => {{
+    const rid = sel.dataset.roleId;
+    const saved = localStorage.getItem(STAGE_KEY + rid);
+    if (saved) sel.value = saved;
+    sel.onchange = () => {{
+      localStorage.setItem(STAGE_KEY + rid, sel.value);
     }};
-}});
-/* Copy link */
-document.querySelectorAll('.copy-link-btn').forEach(btn => {{
-    btn.onclick = async () => {{
-        const url = `${{location.origin}}${{location.pathname}}#role-${{btn.dataset.roleId}}`;
-        try {{ await navigator.clipboard.writeText(url); btn.textContent = 'Copied'; setTimeout(() => btn.textContent = 'Copy link', 1400); }}
-        catch {{ prompt('Copy this link:', url); }}
-    }};
-}});
-/* Smooth scroll for category nav */
-document.querySelectorAll('.category-nav a').forEach(a => {{
-    a.onclick = (e) => {{
-        e.preventDefault();
-        document.querySelector(a.getAttribute('href'))?.scrollIntoView({{ behavior: 'smooth' }});
-    }};
-}});
+  }});
+
+  // ── Stream tab switching ──
+  const tabs = document.querySelectorAll('.tab');
+  const sections = document.querySelectorAll('.stream-section');
+
+  function showStream(streamId) {{
+    sections.forEach(s => {{
+      if (streamId === 'all' || s.dataset.stream === streamId) {{
+        s.classList.add('visible');
+      }} else {{
+        s.classList.remove('visible');
+      }}
+    }});
+    tabs.forEach(t => {{
+      t.classList.toggle('active', t.dataset.stream === streamId);
+    }});
+  }}
+
+  tabs.forEach(t => {{
+    t.onclick = () => showStream(t.dataset.stream);
+  }});
+
+  // Show all initially
+  showStream('all');
+
+  // ── Filters ──
+  const filterWork = document.getElementById('filter-work');
+  const filterSource = document.getElementById('filter-source');
+
+  function applyFilters() {{
+    const workVal = filterWork.value;
+    const sourceVal = filterSource.value;
+    document.querySelectorAll('.card').forEach(card => {{
+      const matchWork = workVal === 'all' || card.dataset.work === workVal;
+      const matchSource = sourceVal === 'all' || card.dataset.source === sourceVal;
+      card.classList.toggle('hidden', !(matchWork && matchSource));
+    }});
+  }}
+
+  filterWork.onchange = applyFilters;
+  filterSource.onchange = applyFilters;
+}})();
 </script>
 </body>
 </html>'''
 
+
+# ── Main ──────────────────────────────────────────────────────────────────
+
+def main():
+    base = Path(__file__).parent
+
+    # CLI argument or default
+    if len(sys.argv) > 1:
+        input_path = Path(sys.argv[1])
+        if not input_path.is_absolute():
+            input_path = base / input_path
+    else:
+        # Auto-detect: prefer combined, fall back to dated files
+        candidates = [
+            base / "scrapers" / "jobs_combined.json",
+            base / "jobs_combined.json",
+            base / "jobs_nonlinkedin_2026-08-23_final.json",
+            base / "jobs_nonlinkedin_2026-08-22_final.json",
+        ]
+        input_path = None
+        for c in candidates:
+            if c.exists():
+                input_path = c
+                break
+        if input_path is None:
+            print("Error: no job data found. Provide a JSON file as argument.")
+            sys.exit(1)
+
+    print(f"Loading: {input_path}")
+    with open(input_path, encoding="utf-8") as f:
+        data = json.load(f)
+
+    jobs = data.get("jobs", [])
+    if not jobs:
+        print("Error: no jobs found in file")
+        sys.exit(1)
+
+    print(f"Classifying {len(jobs)} jobs into 3 streams...")
+    streams = classify_all_jobs(jobs)
+
+    # Print summary
+    for sid, info in STREAMS.items():
+        print(f"  {info['icon']} {info['name']}: {len(streams[sid])} jobs")
+
+    # Build HTML
+    output_path = base / "index.html"
+    page = build_page(streams, input_path.name, len(jobs))
     output_path.write_text(page, encoding="utf-8")
-    print(f"Generated {output_path.name}")
-    print(f"  IT jobs: {stats_it} in {sum(1 for v in cat_jobs.values() if v)} categories")
-    for cat_id, jobs in cat_jobs.items():
-        if jobs:
-            print(f"    {CATEGORIES[cat_id]['name']}: {len(jobs)}")
-    print(f"  Other: {stats_other}")
-    print(f"  Sections: technician={len(sections.get('technician',[]))}, outdoor={len(sections.get('outdoor',[]))}, local={len(sections.get('local',[]))}, linkedin={len(sections.get('linkedin',[]))}")
+    print(f"\nGenerated: {output_path}")
+    print(f"  Total: {len(jobs)} jobs across 3 streams")
 
 
 if __name__ == "__main__":
