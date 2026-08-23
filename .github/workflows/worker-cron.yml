@@ -1,0 +1,30 @@
+name: worker-cron
+
+# Fallback trigger for the async generation worker (generate_worker edge
+# function). Primary path is pg_cron + pg_net (see supabase/pg_cron/), which
+# wakes every 30s from inside the Supabase database. This workflow is a free,
+# zero-config fallback if pg_net can't be enabled: it just POSTs an empty body
+# to the worker endpoint on a schedule. The worker returns processed:0 when the
+# queue is empty, so idle ticks are harmless (and free on the GitHub Actions
+# free tier).
+#
+# To activate: GitHub → repo → Actions → "worker-cron" → Enable. Adjust cadence
+# via the schedule below if desired.
+
+on:
+  schedule:
+    # Every 5 minutes. GitHub's minimum is ~5 min; free-tier runs may be
+    # delayed further. Tighter cadence = faster button flip, at free-tier mercy.
+    - cron: '*/5 * * * *'
+  workflow_dispatch: {}
+
+jobs:
+  ping-worker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wake generate_worker edge function
+        run: |
+          curl -sS -X POST \
+            -H 'Content-Type: application/json' \
+            -d '{}' \
+            https://piussupjoajcxumtmzpp.supabase.co/functions/v1/generate_worker

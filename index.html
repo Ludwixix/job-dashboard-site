@@ -2080,48 +2080,99 @@ a{color:inherit;text-decoration:none}
   filterWork.onchange = applyFilters;
   filterSource.onchange = applyFilters;
 
-  // ── Generate button ──
+  // ── Generate job (async queue + status poll) ──
+  // POST /generate enqueues and returns { job_id } instantly; we poll
+  // GET /status?job_id= until the worker flips it to 'completed' (the worker
+  // does the slow ~2min OpenRouter call out-of-band and persists the docs).
+  // Then we refresh the saved library, rebuild the per-card download row from
+  // the persisted docs, and flip the button to Ready. No auto-download on
+  // submit — downloads happen from the gen-docs row.
   window.generateJob = async function(btn, jobData) {
-    btn.textContent = '⏳ Generating...';
+    btn.textContent = '⏳ Generating — takes ~2 min — refreshing…';
     btn.disabled = true;
-    
+
+    let jobId;
     try {
       const resp = await fetch('https://piussupjoajcxumtmzpp.supabase.co/functions/v1/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(jobData),
       });
-      
       if (!resp.ok) throw new Error('API error: ' + resp.status);
-      const data = await resp.json();
-      
-      const filename = (jobData.company + '_' + jobData.title).replace(/[^a-zA-Z0-9]/g, '_');
-      if (data.resume) {
-        downloadPdf(data.resume, filename + '_resume.pdf');
-      }
-      if (data.cover_letter) {
-        downloadPdf(data.cover_letter, filename + '_cover_letter.pdf');
-      }
-
-      // Docs are persisted server-side — refresh the saved-applications list so
-      // the library shows them as ready without needing a manual reload.
-      if (data.application_id && window.savedRefresh) {
-        window.savedRefresh().catch(() => {});
-      }
-
-      // Per-card gen-docs row: download the fresh resume / cover letter, and
-      // offer a Regenerate shortcut.
-      renderGenDocs(btn, data, jobData, filename);
-
-      btn.textContent = data.application_id ? '✅ Ready — saved!' : '✅ Done!';
-      setTimeout(() => { btn.textContent = '✨ Generate'; btn.disabled = false; }, 2000);
+      const queued = await resp.json();
+      if (!queued.job_id) throw new Error('no job_id in queue response');
+      jobId = queued.job_id;
     } catch(e) {
       btn.textContent = '❌ Failed';
       console.error(e);
       setTimeout(() => { btn.textContent = '✨ Generate'; btn.disabled = false; }, 2000);
+      return;
+    }
+
+    // Poll until the job leaves queued/running (interval ≥3s to honor limits).
+    const POLL_MS = 4500;
+    for (;;) {
+      await new Promise(r => setTimeout(r, POLL_MS));
+      let st;
+      try {
+        const resp = await fetch(
+          'https://piussupjoajcxumtmzpp.supabase.co/functions/v1/status?job_id=' + encodeURIComponent(jobId)
+        );
+        if (!resp.ok) throw new Error('status HTTP ' + resp.status);
+        st = await resp.json();
+      } catch(e) {
+        // Transient poll error — keep waiting rather than killing the run.
+        console.error(e);
+        continue;
+      }
+
+      if (st.status === 'completed') {
+        try {
+          // Refresh the saved-applications library, then fetch the persisted
+          // docs so we can render the per-card download row in place.
+          if (window.savedRefresh) window.savedRefresh().catch(() => {});
+          const docs = await fetchGeneratedDocs(st.application_id);
+          if (docs) {
+            const filename = (jobData.company + '_' + jobData.title).replace(/[^a-zA-Z0-9]/g, '_');
+            renderGenDocs(btn, docs, jobData, filename);
+          }
+        } catch(e) { console.error(e); }
+        btn.textContent = '✅ Ready';
+        setTimeout(() => { btn.textContent = '✨ Generate'; btn.disabled = false; }, 2000);
+        return;
+      }
+
+      if (st.status === 'error') {
+        btn.textContent = '❌ Failed';
+        console.error('generate failed:', st.error || 'unknown');
+        setTimeout(() => { btn.textContent = '✨ Generate'; btn.disabled = false; }, 3000);
+        return;
+      }
+
+      // queued / running — keep refreshing the label so the user knows it's live.
+      btn.textContent = '⏳ Generating — takes ~2 min — refreshing…';
     }
   };
-  
+
+  // Fetch the freshly-generated resume + cover markdown from the saved-applications
+  // library (the untouched /applications endpoint), shaped like the old sync
+  // generate response so renderGenDocs keeps working unchanged.
+  async function fetchGeneratedDocs(applicationId) {
+    if (!applicationId) return null;
+    const resp = await fetch('https://piussupjoajcxumtmzpp.supabase.co/functions/v1/applications');
+    if (!resp.ok) throw new Error('applications HTTP ' + resp.status);
+    const data = await resp.json();
+    const app = (data.saved || []).find(a => a.id === applicationId);
+    if (!app) return null;
+    let resume = '', cover = '';
+    for (const d of app.docs) {
+      if (d.type === 'resume') resume = d.content;
+      else if (d.type === 'cover_letter') cover = d.content;
+    }
+    if (!resume && !cover) return null;
+    return { resume, cover_letter: cover, application_id: applicationId };
+  }
+
   function downloadPdf(markdown, filename) {
     // Convert markdown to simple HTML, then to PDF via print
     const html = markdownToHtml(markdown);
