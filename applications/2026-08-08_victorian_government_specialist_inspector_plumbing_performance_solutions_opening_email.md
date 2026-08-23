@@ -10,13 +10,13 @@ Application — Specialist Inspector, Plumbing - Performance Solutions — Sam L
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Specialist Inspector, Plumbing - Performance Solutions position with Victorian Government. The Victorian Government Senior Cloud Engineer role matches my Azure, Microsoft 365, identity, automation, enterprise support, and public-sector delivery experience.
+I'm writing about the Specialist Inspector, Plumbing - Performance Solutions position with Victorian Government. The Victorian Government Senior Cloud Engineer role matches my Azure, Microsoft 365, identity, automation, enterprise support, and public-sector delivery experience.
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are azure, microsoft 365, entra id.
+The areas most relevant to the role are compliance.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

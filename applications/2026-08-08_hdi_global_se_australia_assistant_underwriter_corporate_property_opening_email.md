@@ -10,13 +10,13 @@ Application — Assistant Underwriter – Corporate Property — Sam Ludwig
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Assistant Underwriter – Corporate Property position with HDI Global SE, Australia. Adzuna listing for Assistant Underwriter – Corporate Property at HDI Global SE, Australia
+I'm writing about the Assistant Underwriter – Corporate Property position with HDI Global SE, Australia. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are core infrastructure, tailored existing materials, verify listing.
+The areas most relevant to the role are compliance.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

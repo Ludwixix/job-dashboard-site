@@ -10,13 +10,13 @@ Application — Tech Support roles — Sam Ludwig
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Tech Support roles position with First Focus IT. The First Focus IT technical support role matches my Microsoft-focused service operations background across Azure, Active Directory, Outlook, endpoint support, troubleshooting, and customer communication.
+I'm writing about the Tech Support roles position with First Focus IT. The First Focus IT technical support role matches my Microsoft-focused service operations background across Azure, Active Directory, Outlook, endpoint support, troubleshooting, and customer communication.
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are azure, intune, active directory.
+The areas most relevant to the role are azure, active directory, customer support.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

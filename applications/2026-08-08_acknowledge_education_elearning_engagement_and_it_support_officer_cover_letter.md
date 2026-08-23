@@ -5,17 +5,15 @@ Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
 
 Dear Hiring Manager,
 
-I’m applying for the eLearning Engagement & IT Support Officer position with Acknowledge Education. Adzuna listing for eLearning Engagement & IT Support Officer at Acknowledge Education
+I'm writing to express my interest in the eLearning Engagement & IT Support Officer position with Acknowledge Education. I'm drawn to Acknowledge Education's educational mission. Having previously supported government education technology at scale, I understand the unique demands of education-sector IT.
 
-My recent experience combines enterprise support with earlier field-based technical work. At Australia Post via Capgemini, I delivered hardware diagnostics, Windows imaging, endpoint provisioning, Autopilot/UEM enrolment, inventory control, loan-device management and compliant disposal. At St John of God Health Care, I led Windows 11 migration across more than 100 clinical endpoints using Autopilot and Intune, with application validation and hypercare in a live hospital environment.
 
-Earlier work at NBN Co and PolaAir developed practical site assessment, physical infrastructure installation, equipment handling, systematic fault-finding and customer communication across Melbourne locations. My Capgemini experience also adds strong documentation, process discipline, stakeholder communication, PowerShell automation and enterprise service operations.
 
-What appeals to me about the role is the combination of core infrastructure, tailored existing materials, verify listing. I’d bring dependable task ownership, clear communication and a willingness to learn the way your team works.
+I bring delivered enterprise Teams rollout with governance, meeting policies, and federation management and delivered L1/L2/L3 support consistently achieving >90% SLA resolution.
 
-I’m happy to confirm any licence, qualification, check, vehicle, roster or prior-industry requirements before progressing.
+The areas where my experience aligns most directly with this role are Teams, Git, Customer Support, Compliance.
 
-Thank you for considering my application. I would welcome a conversation about how my background could contribute to your team.
+I'd welcome a conversation about how my background could contribute to your team. I'm happy to confirm any licence, qualification, check, roster or prior-industry requirements before progressing.
 
-Yours sincerely,
+Kind regards,
 Sam Ludwig

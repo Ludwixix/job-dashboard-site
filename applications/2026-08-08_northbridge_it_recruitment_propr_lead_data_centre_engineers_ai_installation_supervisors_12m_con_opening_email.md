@@ -10,13 +10,13 @@ Application — Lead Data Centre Engineers / AI Installation Supervisors - 12M C
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Lead Data Centre Engineers / AI Installation Supervisors - 12M CONTRACT - EXT position with Northbridge IT Recruitment Propr. Adzuna listing for Lead Data Centre Engineers / AI Installation Supervisors - 12M CONTRACT - EXT at Northbridge IT Recruitment Propr
+I'm writing about the Lead Data Centre Engineers / AI Installation Supervisors - 12M CONTRACT - EXT position with Northbridge IT Recruitment Propr. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are data-centre operations.
+The areas most relevant to the role are data centre.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

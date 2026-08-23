@@ -10,13 +10,13 @@ Application — Manager, Support & Delivery Teams — Sam Ludwig
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Manager, Support & Delivery Teams position with Halcyon Knights. Adzuna listing for Manager, Support & Delivery Teams at Halcyon Knights
+I'm writing about the Manager, Support & Delivery Teams position with Halcyon Knights. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are teams.
+The areas most relevant to the role are teams, customer support.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

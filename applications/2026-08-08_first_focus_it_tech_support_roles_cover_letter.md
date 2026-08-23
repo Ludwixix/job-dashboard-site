@@ -5,17 +5,15 @@ Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
 
 Dear Hiring Manager,
 
-I’m applying for the Tech Support roles position with First Focus IT. The First Focus IT technical support role matches my Microsoft-focused service operations background across Azure, Active Directory, Outlook, endpoint support, troubleshooting, and customer communication.
+I'm writing to express my interest in the Tech Support roles position with First Focus IT. I'm interested in contributing to First Focus IT's Microsoft-focused technical support operations. My hands-on experience across Azure, Active Directory, Outlook, and customer-facing troubleshooting aligns with the service-delivery standards your clients expect.
 
-My recent experience combines enterprise support with earlier field-based technical work. At Australia Post via Capgemini, I delivered hardware diagnostics, Windows imaging, endpoint provisioning, Autopilot/UEM enrolment, inventory control, loan-device management and compliant disposal. At St John of God Health Care, I led Windows 11 migration across more than 100 clinical endpoints using Autopilot and Intune, with application validation and hypercare in a live hospital environment.
+The First Focus IT technical support role matches my Microsoft-focused service operations background across Azure, Active Directory, Outlook, endpoint support, troubleshooting, and customer communication.
 
-Earlier work at NBN Co and PolaAir developed practical site assessment, physical infrastructure installation, equipment handling, systematic fault-finding and customer communication across Melbourne locations. My Capgemini experience also adds strong documentation, process discipline, stakeholder communication, PowerShell automation and enterprise service operations.
+I bring spearheaded Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements, managed Active Directory and Group Policy for enterprise environments supporting 660,000+ users, and delivered L1/L2/L3 support consistently achieving >90% SLA resolution.
 
-What appeals to me about the role is the combination of azure, intune, active directory. I’d bring dependable task ownership, clear communication and a willingness to learn the way your team works.
+The areas where my experience aligns most directly with this role are Azure, Active Directory, Customer Support.
 
-I’m happy to confirm any licence, qualification, check, vehicle, roster or prior-industry requirements before progressing.
+I'd welcome a conversation about how my background could contribute to your team. I'm happy to confirm any licence, qualification, check, roster or prior-industry requirements before progressing.
 
-Thank you for considering my application. I would welcome a conversation about how my background could contribute to your team.
-
-Yours sincerely,
+Kind regards,
 Sam Ludwig

@@ -10,13 +10,13 @@ Application — Senior/Associate Electrical Engineer - Substations / Data Centre
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Senior/Associate Electrical Engineer - Substations / Data Centres position with WSP. Adzuna listing for Senior/Associate Electrical Engineer - Substations / Data Centres at WSP
+I'm writing about the Senior/Associate Electrical Engineer - Substations / Data Centres position with WSP. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are data-centre operations.
+The areas most relevant to the role are data centre.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

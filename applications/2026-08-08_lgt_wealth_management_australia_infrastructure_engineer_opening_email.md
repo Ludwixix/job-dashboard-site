@@ -10,13 +10,13 @@ Application — Infrastructure Engineer — Sam Ludwig
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Infrastructure Engineer position with LGT Wealth Management Australia. The LGT Infrastructure Engineer role is a strong match for my experience across Windows, Azure, Microsoft 365, Entra ID, PowerShell automation, incident response, documentation, and production support.
+I'm writing about the Infrastructure Engineer position with LGT Wealth Management Australia. The LGT Infrastructure Engineer role is a strong match for my experience across Windows, Azure, Microsoft 365, Entra ID, PowerShell automation, incident response, documentation, and production support.
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are azure, microsoft 365, entra id.
+The areas most relevant to the role are microsoft 365, entra id, azure.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

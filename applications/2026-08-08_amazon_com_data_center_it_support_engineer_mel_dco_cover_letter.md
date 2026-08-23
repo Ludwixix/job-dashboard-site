@@ -5,17 +5,15 @@ Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
 
 Dear Hiring Manager,
 
-I’m applying for the Data Center IT Support Engineer, MEL - DCO position with Amazon.com. The Amazon data-centre IT support role matches my endpoint support, hardware diagnostics, physical infrastructure, incident response, and disciplined operational-procedure experience.
+I'm writing to express my interest in the Data Center IT Support Engineer, MEL - DCO position with Amazon.com. I'm drawn to the scale and operational discipline of Amazon's data-centre environment. My background in endpoint support, physical infrastructure, and structured operational procedures connects directly with the demands of a world-class data-centre operation.
 
-My recent experience combines enterprise support with earlier field-based technical work. At Australia Post via Capgemini, I delivered hardware diagnostics, Windows imaging, endpoint provisioning, Autopilot/UEM enrolment, inventory control, loan-device management and compliant disposal. At St John of God Health Care, I led Windows 11 migration across more than 100 clinical endpoints using Autopilot and Intune, with application validation and hypercare in a live hospital environment.
+The Amazon data-centre IT support role matches my endpoint support, hardware diagnostics, physical infrastructure, incident response, and disciplined operational-procedure experience.
 
-Earlier work at NBN Co and PolaAir developed practical site assessment, physical infrastructure installation, equipment handling, systematic fault-finding and customer communication across Melbourne locations. My Capgemini experience also adds strong documentation, process discipline, stakeholder communication, PowerShell automation and enterprise service operations.
+I bring led Windows 11 migration across 100+ clinical endpoints with zero patient-care disruption and delivered L1/L2/L3 support consistently achieving >90% SLA resolution.
 
-What appeals to me about the role is the combination of intune, itil, data-centre operations. I’d bring dependable task ownership, clear communication and a willingness to learn the way your team works.
+The areas where my experience aligns most directly with this role are Intune, Data Centre, Customer Support.
 
-I’m happy to confirm any licence, qualification, check, vehicle, roster or prior-industry requirements before progressing.
+I'd welcome a conversation about how my background could contribute to your team. I'm happy to confirm any licence, qualification, check, roster or prior-industry requirements before progressing.
 
-Thank you for considering my application. I would welcome a conversation about how my background could contribute to your team.
-
-Yours sincerely,
+Kind regards,
 Sam Ludwig

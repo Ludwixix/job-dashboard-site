@@ -5,17 +5,15 @@ Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
 
 Dear Hiring Manager,
 
-I’m applying for the Microsoft Cloud Solutions Consultant position with FUJIFILM MicroChannel. The FUJIFILM MicroChannel role matches my Azure, Microsoft 365, identity, automation, enterprise support, and customer-facing technical delivery experience.
+I'm writing to express my interest in the Microsoft Cloud Solutions Consultant position with FUJIFILM MicroChannel. I'm interested in contributing to FUJIFILM MicroChannel's Azure cloud consulting practice. My Azure, Microsoft 365, identity management, and customer-facing technical delivery experience aligns with the consultancy context and cloud-solutions focus.
 
-My recent experience combines enterprise support with earlier field-based technical work. At Australia Post via Capgemini, I delivered hardware diagnostics, Windows imaging, endpoint provisioning, Autopilot/UEM enrolment, inventory control, loan-device management and compliant disposal. At St John of God Health Care, I led Windows 11 migration across more than 100 clinical endpoints using Autopilot and Intune, with application validation and hypercare in a live hospital environment.
+The FUJIFILM MicroChannel role matches my Azure, Microsoft 365, identity, automation, enterprise support, and customer-facing technical delivery experience.
 
-Earlier work at NBN Co and PolaAir developed practical site assessment, physical infrastructure installation, equipment handling, systematic fault-finding and customer communication across Melbourne locations. My Capgemini experience also adds strong documentation, process discipline, stakeholder communication, PowerShell automation and enterprise service operations.
+I bring spearheaded Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements.
 
-What appeals to me about the role is the combination of azure, microsoft 365, entra id. I’d bring dependable task ownership, clear communication and a willingness to learn the way your team works.
+The areas where my experience aligns most directly with this role are Azure.
 
-I’m happy to confirm any licence, qualification, check, vehicle, roster or prior-industry requirements before progressing.
+I'd welcome a conversation about how my background could contribute to your team. I'm happy to confirm any licence, qualification, check, roster or prior-industry requirements before progressing.
 
-Thank you for considering my application. I would welcome a conversation about how my background could contribute to your team.
-
-Yours sincerely,
+Kind regards,
 Sam Ludwig

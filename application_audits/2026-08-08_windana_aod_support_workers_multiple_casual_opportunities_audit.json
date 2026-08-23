@@ -1,0 +1,73 @@
+{
+  "audit_version": "2.0",
+  "fit": "Good fit",
+  "score": 81.8,
+  "dimensions": {
+    "skill_match": {
+      "score": 85.0,
+      "weight": "40%",
+      "matched": 2,
+      "total": 2
+    },
+    "experience_alignment": {
+      "score": 95,
+      "weight": "25%",
+      "candidate_years": 6,
+      "required_years": 3,
+      "seniority": "mid"
+    },
+    "location_remote_fit": {
+      "score": 80,
+      "weight": "15%",
+      "work_mode": "onsite"
+    },
+    "growth_potential": {
+      "score": 70,
+      "weight": "10%"
+    },
+    "company_size_fit": {
+      "score": 50,
+      "weight": "10%",
+      "company_size": "unknown"
+    }
+  },
+  "matched_skills": [
+    "ServiceNow",
+    "Customer Support"
+  ],
+  "missing_skills": [],
+  "strengths": [
+    "Strong advanced proficiency in ServiceNow",
+    "Strong advanced proficiency in Customer Support",
+    "Experience level aligns well (6 years vs 3 required)"
+  ],
+  "risks": [
+    "Confirm listing availability and exact requirements before applying"
+  ],
+  "confidence": 0.8,
+  "source": "Indeed",
+  "source_url": "https://au.indeed.com/viewjob?jk=1fd65c0e7c4a5a67",
+  "application_route": "https://au.indeed.com/viewjob?jk=1fd65c0e7c4a5a67",
+  "application_route_type": "indeed_direct",
+  "listing_verification": "indeed_jobspy",
+  "matched_terms": [
+    "ServiceNow",
+    "Customer support"
+  ],
+  "requested_terms": [
+    "ServiceNow",
+    "Customer support"
+  ],
+  "unsupported_or_unverified_terms": [],
+  "requirements_to_confirm": [
+    "Confirm the listing is still open and review the exact job description."
+  ],
+  "recommendation": "Review the listing and requirements before applying.",
+  "human_review": [
+    "Check the listing date, closing date, location, roster, and application route.",
+    "Read the tailored documents once and edit any wording that doesn't sound like you.",
+    "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
+    "Submit manually only after your explicit approval."
+  ],
+  "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
+}

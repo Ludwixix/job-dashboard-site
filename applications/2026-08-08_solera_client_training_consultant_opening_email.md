@@ -10,13 +10,13 @@ Application — Client Training Consultant — Sam Ludwig
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Client Training Consultant position with Solera. Adzuna listing for Client Training Consultant at Solera
+I'm writing about the Client Training Consultant position with Solera. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are core infrastructure, tailored existing materials, verify listing.
+The areas most relevant to the role are git, customer support.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

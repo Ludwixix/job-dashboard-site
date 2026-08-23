@@ -5,17 +5,15 @@ Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
 
 Dear Hiring Manager,
 
-I’m applying for the Computer Network and Systems Engineer position with Converged Medical Solutions. The Converged Medical Solutions role matches my Microsoft 365, managed-services, healthcare-technology, endpoint, identity, and structured troubleshooting experience.
+I'm writing to express my interest in the Computer Network and Systems Engineer position with Converged Medical Solutions. I'm attracted to Converged Medical Solutions's focus on cybersecurity and Microsoft 365 solutions for healthcare organisations. My experience delivering enterprise services in hospital environments through St John of God Health Care gives me direct familiarity with the reliability and compliance standards healthcare technology demands.
 
-My recent experience combines enterprise support with earlier field-based technical work. At Australia Post via Capgemini, I delivered hardware diagnostics, Windows imaging, endpoint provisioning, Autopilot/UEM enrolment, inventory control, loan-device management and compliant disposal. At St John of God Health Care, I led Windows 11 migration across more than 100 clinical endpoints using Autopilot and Intune, with application validation and hypercare in a live hospital environment.
+The Converged Medical Solutions role matches my Microsoft 365, managed-services, healthcare-technology, endpoint, identity, and structured troubleshooting experience.
 
-Earlier work at NBN Co and PolaAir developed practical site assessment, physical infrastructure installation, equipment handling, systematic fault-finding and customer communication across Melbourne locations. My Capgemini experience also adds strong documentation, process discipline, stakeholder communication, PowerShell automation and enterprise service operations.
+I bring delivered enterprise Microsoft 365 services across SharePoint, Exchange, Teams, and Entra ID for 660,000+ users, deployed fibre and copper Layer 1 infrastructure across residential and commercial environments, and aligned infrastructure with acsc essential 8 and implemented mfa compliance across 200+ sites.
 
-What appeals to me about the role is the combination of microsoft 365, entra id, intune. I’d bring dependable task ownership, clear communication and a willingness to learn the way your team works.
+The areas where my experience aligns most directly with this role are Microsoft 365, Network, Security, Customer Support.
 
-I’m happy to confirm any licence, qualification, check, vehicle, roster or prior-industry requirements before progressing.
+I'd welcome a conversation about how my background could contribute to your team. I'm happy to confirm any licence, qualification, check, roster or prior-industry requirements before progressing.
 
-Thank you for considering my application. I would welcome a conversation about how my background could contribute to your team.
-
-Yours sincerely,
+Kind regards,
 Sam Ludwig

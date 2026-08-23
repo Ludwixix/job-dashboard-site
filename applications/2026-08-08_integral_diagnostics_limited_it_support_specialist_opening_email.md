@@ -10,13 +10,13 @@ Application — IT Support Specialist — Sam Ludwig
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the IT Support Specialist position with Integral Diagnostics Limited. Adzuna listing for IT Support Specialist at Integral Diagnostics Limited
+I'm writing about the IT Support Specialist position with Integral Diagnostics Limited. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are core infrastructure, tailored existing materials, verify listing.
+The areas most relevant to the role are customer support, endpoint lifecycle.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

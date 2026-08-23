@@ -1,7 +1,49 @@
 {
-  "audit_version": "1.0",
-  "fit": "Partial fit",
-  "score": 0,
+  "audit_version": "2.0",
+  "fit": "Good fit",
+  "score": 83.8,
+  "dimensions": {
+    "skill_match": {
+      "score": 85.0,
+      "weight": "40%",
+      "matched": 1,
+      "total": 1
+    },
+    "experience_alignment": {
+      "score": 95,
+      "weight": "25%",
+      "candidate_years": 6,
+      "required_years": 3,
+      "seniority": "mid"
+    },
+    "location_remote_fit": {
+      "score": 80,
+      "weight": "15%",
+      "work_mode": "onsite"
+    },
+    "growth_potential": {
+      "score": 60,
+      "weight": "10%"
+    },
+    "company_size_fit": {
+      "score": 80,
+      "weight": "10%",
+      "company_size": "government"
+    }
+  },
+  "matched_skills": [
+    "Compliance"
+  ],
+  "missing_skills": [],
+  "strengths": [
+    "Strong advanced proficiency in Compliance",
+    "Experience level aligns well (6 years vs 3 required)",
+    "Location arrangement is practical (onsite)"
+  ],
+  "risks": [
+    "Confirm listing availability and exact requirements before applying"
+  ],
+  "confidence": 0.8,
   "source": "Adzuna",
   "source_url": "https://www.adzuna.com.au/details/5842371530?utm_medium=api&utm_source=cc30c73e",
   "application_route": "https://www.adzuna.com.au/details/5842371530?utm_medium=api&utm_source=cc30c73e",
@@ -27,9 +69,9 @@
   "recommendation": "Review the listing and requirements before applying.",
   "human_review": [
     "Check the listing date, closing date, location, roster, and application route.",
-    "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+    "Read the tailored documents once and edit any wording that doesn't sound like you.",
     "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
     "Submit manually only after your explicit approval."
   ],
-  "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+  "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
 }

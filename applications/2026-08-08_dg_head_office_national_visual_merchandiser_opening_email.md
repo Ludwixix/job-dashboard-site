@@ -10,13 +10,13 @@ Application — National Visual Merchandiser — Sam Ludwig
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the National Visual Merchandiser position with DG Head Office. Adzuna listing for National Visual Merchandiser at DG Head Office
+I'm writing about the National Visual Merchandiser position with DG Head Office. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are microsoft 365.
+The areas most relevant to the role are microsoft 365, teams, network.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

@@ -5,17 +5,15 @@ Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
 
 Dear Hiring Manager,
 
-I’m applying for the Senior Cloud Engineer position with Victorian Institute of Teaching. The Victorian Institute of Teaching Senior Cloud Engineer role matches my Azure, Microsoft 365, Entra ID, hybrid identity, automation, enterprise support, and public-sector delivery experience.
+I am writing to express my interest in the Senior Cloud Engineer position at Victorian Institute of Teaching. I'm drawn to Victorian Institute of Teaching's mission of supporting quality teaching across Victoria. Contributing reliable cloud infrastructure to an organisation that directly impacts educational outcomes is meaningful work.
 
-My recent experience combines enterprise support with earlier field-based technical work. At Australia Post via Capgemini, I delivered hardware diagnostics, Windows imaging, endpoint provisioning, Autopilot/UEM enrolment, inventory control, loan-device management and compliant disposal. At St John of God Health Care, I led Windows 11 migration across more than 100 clinical endpoints using Autopilot and Intune, with application validation and hypercare in a live hospital environment.
+The Victorian Institute of Teaching Senior Cloud Engineer role matches my Azure, Microsoft 365, Entra ID, hybrid identity, automation, enterprise support, and public-sector delivery experience.
 
-Earlier work at NBN Co and PolaAir developed practical site assessment, physical infrastructure installation, equipment handling, systematic fault-finding and customer communication across Melbourne locations. My Capgemini experience also adds strong documentation, process discipline, stakeholder communication, PowerShell automation and enterprise service operations.
+I bring delivered enterprise Microsoft 365 services across SharePoint, Exchange, Teams, and Entra ID for 660,000+ users and spearheaded Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements.
 
-What appeals to me about the role is the combination of azure, microsoft 365, entra id. I’d bring dependable task ownership, clear communication and a willingness to learn the way your team works.
+The areas where my experience aligns most directly with this role are Microsoft 365, Azure.
 
-I’m happy to confirm any licence, qualification, check, vehicle, roster or prior-industry requirements before progressing.
-
-Thank you for considering my application. I would welcome a conversation about how my background could contribute to your team.
+I would welcome the opportunity to discuss how my experience could contribute to your team. I am available for an interview at your convenience and happy to confirm any licence, qualification, or screening requirements before progressing.
 
 Yours sincerely,
 Sam Ludwig

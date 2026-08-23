@@ -5,17 +5,15 @@ Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
 
 Dear Hiring Manager,
 
-I’m applying for the Infrastructure Engineer position with LGT Wealth Management Australia. The LGT Infrastructure Engineer role is a strong match for my experience across Windows, Azure, Microsoft 365, Entra ID, PowerShell automation, incident response, documentation, and production support.
+I'm writing to express my interest in the Infrastructure Engineer position with LGT Wealth Management Australia. I'm interested in contributing to LGT Wealth Management Australia's technology operations in the wealth management space. Financial services demand precise, security-conscious infrastructure, and my experience across Microsoft 365, Azure, and identity management aligns with the operational standards this sector requires.
 
-My recent experience combines enterprise support with earlier field-based technical work. At Australia Post via Capgemini, I delivered hardware diagnostics, Windows imaging, endpoint provisioning, Autopilot/UEM enrolment, inventory control, loan-device management and compliant disposal. At St John of God Health Care, I led Windows 11 migration across more than 100 clinical endpoints using Autopilot and Intune, with application validation and hypercare in a live hospital environment.
+The LGT Infrastructure Engineer role is a strong match for my experience across Windows, Azure, Microsoft 365, Entra ID, PowerShell automation, incident response, documentation, and production support.
 
-Earlier work at NBN Co and PolaAir developed practical site assessment, physical infrastructure installation, equipment handling, systematic fault-finding and customer communication across Melbourne locations. My Capgemini experience also adds strong documentation, process discipline, stakeholder communication, PowerShell automation and enterprise service operations.
+I bring delivered enterprise Microsoft 365 services across SharePoint, Exchange, Teams, and Entra ID for 660,000+ users, managed hybrid identity synchronisation across three identity providers for 660,000+ users, and spearheaded Azure cloud adoption aligned with ACSC Essential 8 maturity model requirements.
 
-What appeals to me about the role is the combination of azure, microsoft 365, entra id. I’d bring dependable task ownership, clear communication and a willingness to learn the way your team works.
+The areas where my experience aligns most directly with this role are Microsoft 365, Entra ID, Azure, Windows, PowerShell.
 
-I’m happy to confirm any licence, qualification, check, vehicle, roster or prior-industry requirements before progressing.
+I'd welcome a conversation about how my background could contribute to your team. I'm happy to confirm any licence, qualification, check, roster or prior-industry requirements before progressing.
 
-Thank you for considering my application. I would welcome a conversation about how my background could contribute to your team.
-
-Yours sincerely,
+Kind regards,
 Sam Ludwig

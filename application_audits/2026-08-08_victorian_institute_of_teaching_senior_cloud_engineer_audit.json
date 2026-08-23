@@ -1,7 +1,51 @@
 {
-  "audit_version": "1.0",
-  "fit": "Strong fit",
-  "score": 93,
+  "audit_version": "2.0",
+  "fit": "Good fit",
+  "score": 78.2,
+  "dimensions": {
+    "skill_match": {
+      "score": 90.0,
+      "weight": "40%",
+      "matched": 2,
+      "total": 2
+    },
+    "experience_alignment": {
+      "score": 65,
+      "weight": "25%",
+      "candidate_years": 6,
+      "required_years": 5,
+      "seniority": "senior"
+    },
+    "location_remote_fit": {
+      "score": 80,
+      "weight": "15%",
+      "work_mode": "onsite"
+    },
+    "growth_potential": {
+      "score": 60,
+      "weight": "10%"
+    },
+    "company_size_fit": {
+      "score": 80,
+      "weight": "10%",
+      "company_size": "government"
+    }
+  },
+  "matched_skills": [
+    "Microsoft 365",
+    "Azure"
+  ],
+  "missing_skills": [],
+  "strengths": [
+    "Strong expert proficiency in Microsoft 365",
+    "Strong advanced proficiency in Azure",
+    "Location arrangement is practical (onsite)"
+  ],
+  "risks": [
+    "Role targets senior level; candidate is mid-level",
+    "Confirm listing availability and exact requirements before applying"
+  ],
+  "confidence": 0.75,
   "source": "Careers Vic",
   "source_url": "https://www.careers.vic.gov.au/job/senior-cloud-engineer-77733",
   "application_route": "https://www.careers.vic.gov.au/job/senior-cloud-engineer-77733",
@@ -29,9 +73,9 @@
   "recommendation": "Review the listing and requirements before applying.",
   "human_review": [
     "Check the listing date, closing date, location, roster, and application route.",
-    "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+    "Read the tailored documents once and edit any wording that doesn't sound like you.",
     "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
     "Submit manually only after your explicit approval."
   ],
-  "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+  "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
 }

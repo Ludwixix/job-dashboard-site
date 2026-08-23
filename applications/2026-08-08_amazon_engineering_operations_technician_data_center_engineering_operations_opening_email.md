@@ -2,7 +2,7 @@
 
 **Company:** Amazon
 **Location:** Melbourne Region, Melbourne
-**Application link:** https://www.adzuna.com.au/land/ad/5845923744?se=GM6bMMWe8RGU6LIjyaRnwA&utm_medium=api&utm_source=cc30c73e&v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102
+**Application link:** https://www.adzuna.com.au/land/ad/5845923744?se=Utx6CQye8RGSb8VpDRDiVA&utm_medium=api&utm_source=cc30c73e&v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102
 
 ## Subject
 Application — Engineering Operations Technician, Data Center Engineering Operations — Sam Ludwig
@@ -10,13 +10,13 @@ Application — Engineering Operations Technician, Data Center Engineering Opera
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Engineering Operations Technician, Data Center Engineering Operations position with Amazon. Adzuna listing for Engineering Operations Technician, Data Center Engineering Operations at Amazon
+I'm writing about the Engineering Operations Technician, Data Center Engineering Operations position with Amazon. The Amazon data-centre engineering-operations role matches my endpoint support, physical infrastructure, fault-finding, operational procedures, and data-centre exposure. The structured, safety-conscious environment aligns with my disciplined approach to technical operations.
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are layer 1 networking, data-centre operations.
+The areas most relevant to the role are network, data centre, customer support.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

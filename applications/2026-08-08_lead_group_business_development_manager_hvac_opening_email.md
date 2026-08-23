@@ -10,13 +10,13 @@ Application — Business Development Manager - HVAC — Sam Ludwig
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Business Development Manager - HVAC position with Lead Group. Adzuna listing for Business Development Manager - HVAC at Lead Group
+I'm writing about the Business Development Manager - HVAC position with Lead Group. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are layer 1 networking, hvac.
+The areas most relevant to the role are network, hvac.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

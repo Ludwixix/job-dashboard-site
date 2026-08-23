@@ -2,7 +2,7 @@
 
 **Company:** WSP USA
 **Location:** Melbourne Region, Melbourne
-**Application link:** https://www.adzuna.com.au/land/ad/5851967463?se=SpPzO8We8RGfQpohglHoaw&utm_medium=api&utm_source=cc30c73e&v=B53AB186587AA7126448B920F46E811885DA1285
+**Application link:** https://www.adzuna.com.au/land/ad/5851967463?se=UtSUGgye8RGfYqjUJN_cUg&utm_medium=api&utm_source=cc30c73e&v=B53AB186587AA7126448B920F46E811885DA1285
 
 ## Subject
 Application — Senior/Associate Electrical Engineer - Substations / Data Centres — Sam Ludwig
@@ -10,13 +10,13 @@ Application — Senior/Associate Electrical Engineer - Substations / Data Centre
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Senior/Associate Electrical Engineer - Substations / Data Centres position with WSP USA. Adzuna listing for Senior/Associate Electrical Engineer - Substations / Data Centres at WSP USA
+I'm writing about the Senior/Associate Electrical Engineer - Substations / Data Centres position with WSP USA. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are data-centre operations.
+The areas most relevant to the role are data centre.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

@@ -10,13 +10,13 @@ Application — Data Center IT Support Engineer, MEL - DCO — Sam Ludwig
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Data Center IT Support Engineer, MEL - DCO position with Amazon.com. The Amazon data-centre IT support role matches my endpoint support, hardware diagnostics, physical infrastructure, incident response, and disciplined operational-procedure experience.
+I'm writing about the Data Center IT Support Engineer, MEL - DCO position with Amazon.com. The Amazon data-centre IT support role matches my endpoint support, hardware diagnostics, physical infrastructure, incident response, and disciplined operational-procedure experience.
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are intune, itil, data-centre operations.
+The areas most relevant to the role are intune, data centre, customer support.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

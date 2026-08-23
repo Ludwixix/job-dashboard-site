@@ -10,13 +10,13 @@ Application — Personal Assistant — Sam Ludwig
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Personal Assistant position with HarperLloyd Recruitment. Adzuna listing for Personal Assistant at HarperLloyd Recruitment
+I'm writing about the Personal Assistant position with HarperLloyd Recruitment. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
 The areas most relevant to the role are core infrastructure, tailored existing materials, verify listing.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

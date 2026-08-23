@@ -10,13 +10,13 @@ Application — Field Service Technician — Sam Ludwig
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Field Service Technician position with Hipac Healthcare Pty. Adzuna listing for Field Service Technician at Hipac Healthcare Pty
+I'm writing about the Field Service Technician position with Hipac Healthcare Pty. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are healthcare technology, customer support.
+The areas most relevant to the role are customer support.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

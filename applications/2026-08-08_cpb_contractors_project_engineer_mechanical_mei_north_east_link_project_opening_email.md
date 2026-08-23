@@ -10,13 +10,13 @@ Application — Project Engineer, Mechanical - MEI | North East Link Project —
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Project Engineer, Mechanical - MEI | North East Link Project position with CPB Contractors. Adzuna listing for Project Engineer, Mechanical - MEI | North East Link Project at CPB Contractors
+I'm writing about the Project Engineer, Mechanical - MEI | North East Link Project position with CPB Contractors. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are core infrastructure, tailored existing materials, verify listing.
+The areas most relevant to the role are entra id.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

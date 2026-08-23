@@ -10,13 +10,13 @@ Application — Technical Operations Manager - Electrical OEM - Power — Sam Lu
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the Technical Operations Manager - Electrical OEM - Power position with Engineering Networks Pty Ltd. Adzuna listing for Technical Operations Manager - Electrical OEM - Power at Engineering Networks Pty Ltd
+I'm writing about the Technical Operations Manager - Electrical OEM - Power position with Engineering Networks Pty Ltd. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are layer 1 networking.
+The areas most relevant to the role are network.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

@@ -10,13 +10,13 @@ Application — eLearning Engagement & IT Support Officer — Sam Ludwig
 ## Email body
 Hello Hiring Manager,
 
-I’m writing about the eLearning Engagement & IT Support Officer position with Acknowledge Education. Adzuna listing for eLearning Engagement & IT Support Officer at Acknowledge Education
+I'm writing about the eLearning Engagement & IT Support Officer position with Acknowledge Education. 
 
 My background includes enterprise technical support, endpoint lifecycle management, field infrastructure, systematic fault-finding, customer communication and process-focused documentation.
 
-The areas most relevant to the role are core infrastructure, tailored existing materials, verify listing.
+The areas most relevant to the role are teams, git, customer support.
 
-I’d welcome a brief conversation about the role and any position-specific requirements.
+I'd welcome a brief conversation about the role and any position-specific requirements.
 
 Regards,
 Sam Ludwig

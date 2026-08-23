@@ -5,17 +5,15 @@ Melbourne, VIC | 0405 993 245 | sam.ludwig@gmail.com
 
 Dear Hiring Manager,
 
-I’m applying for the Inspector, Plumbing - Gas Safety Assurance position with Victorian Government. The Victorian Government Senior Cloud Engineer role matches my Azure, Microsoft 365, identity, automation, enterprise support, and public-sector delivery experience.
+I am writing to express my interest in the Inspector, Plumbing - Gas Safety Assurance position at Victorian Government. I'm motivated by the opportunity to contribute to Victorian Government technology infrastructure. Having previously delivered enterprise services in a government environment through the Department of Education Victoria, I understand the scale, security requirements, and public-accountability standards involved.
 
-My recent experience combines enterprise support with earlier field-based technical work. At Australia Post via Capgemini, I delivered hardware diagnostics, Windows imaging, endpoint provisioning, Autopilot/UEM enrolment, inventory control, loan-device management and compliant disposal. At St John of God Health Care, I led Windows 11 migration across more than 100 clinical endpoints using Autopilot and Intune, with application validation and hypercare in a live hospital environment.
+The Victorian Government Senior Cloud Engineer role matches my Azure, Microsoft 365, identity, automation, enterprise support, and public-sector delivery experience.
 
-Earlier work at NBN Co and PolaAir developed practical site assessment, physical infrastructure installation, equipment handling, systematic fault-finding and customer communication across Melbourne locations. My Capgemini experience also adds strong documentation, process discipline, stakeholder communication, PowerShell automation and enterprise service operations.
+I bring delivered enterprise infrastructure support across Azure, Microsoft 365, and identity platforms, built PowerShell automation solutions that eliminated recurring manual toil, and led root-cause analysis investigations with documented 15% reduction in repeat incidents.
 
-What appeals to me about the role is the combination of azure, microsoft 365, entra id. I’d bring dependable task ownership, clear communication and a willingness to learn the way your team works.
+The areas where my experience aligns most directly with this role are Compliance.
 
-I’m happy to confirm any licence, qualification, check, vehicle, roster or prior-industry requirements before progressing.
-
-Thank you for considering my application. I would welcome a conversation about how my background could contribute to your team.
+I would welcome the opportunity to discuss how my experience could contribute to your team. I am available for an interview at your convenience and happy to confirm any licence, qualification, or screening requirements before progressing.
 
 Yours sincerely,
 Sam Ludwig

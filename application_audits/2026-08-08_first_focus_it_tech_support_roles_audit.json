@@ -1,7 +1,51 @@
 {
-  "audit_version": "1.0",
-  "fit": "Strong fit",
-  "score": 91,
+  "audit_version": "2.0",
+  "fit": "Good fit",
+  "score": 79.8,
+  "dimensions": {
+    "skill_match": {
+      "score": 85.0,
+      "weight": "40%",
+      "matched": 3,
+      "total": 3
+    },
+    "experience_alignment": {
+      "score": 95,
+      "weight": "25%",
+      "candidate_years": 6,
+      "required_years": 3,
+      "seniority": "mid"
+    },
+    "location_remote_fit": {
+      "score": 80,
+      "weight": "15%",
+      "work_mode": "onsite"
+    },
+    "growth_potential": {
+      "score": 50,
+      "weight": "10%"
+    },
+    "company_size_fit": {
+      "score": 50,
+      "weight": "10%",
+      "company_size": "unknown"
+    }
+  },
+  "matched_skills": [
+    "Azure",
+    "Active Directory",
+    "Customer Support"
+  ],
+  "missing_skills": [],
+  "strengths": [
+    "Strong advanced proficiency in Azure",
+    "Strong advanced proficiency in Active Directory",
+    "Strong advanced proficiency in Customer Support"
+  ],
+  "risks": [
+    "Confirm listing availability and exact requirements before applying"
+  ],
+  "confidence": 0.85,
   "source": "Indeed",
   "source_url": "https://au.indeed.com/viewjob?jk=b4f4a51940b29ba4",
   "application_route": "https://au.indeed.com/viewjob?jk=b4f4a51940b29ba4",
@@ -26,9 +70,9 @@
   "recommendation": "Review the listing and requirements before applying.",
   "human_review": [
     "Check the listing date, closing date, location, roster, and application route.",
-    "Read the tailored documents once and edit any wording that doesn’t sound like you.",
+    "Read the tailored documents once and edit any wording that doesn't sound like you.",
     "Confirm every licence, qualification, clearance, vehicle, and work-right requirement.",
     "Submit manually only after your explicit approval."
   ],
-  "source_basis": "Role title, listing metadata, search rationale, and verified candidate profile"
+  "source_basis": "Role title, listing metadata, job description analysis, skill matching, and verified candidate profile"
 }
