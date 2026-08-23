@@ -2098,8 +2098,14 @@ a{color:inherit;text-decoration:none}
       if (data.cover_letter) {
         downloadPdf(data.cover_letter, filename + '_cover_letter.pdf');
       }
-      
-      btn.textContent = '✅ Done!';
+
+      // Docs are persisted server-side — refresh the saved-applications list so
+      // the library shows them as ready without needing a manual reload.
+      if (data.application_id && window.savedRefresh) {
+        window.savedRefresh().catch(() => {});
+      }
+
+      btn.textContent = data.application_id ? '✅ Ready — saved!' : '✅ Done!';
       setTimeout(() => { btn.textContent = '✨ Generate'; btn.disabled = false; }, 2000);
     } catch(e) {
       btn.textContent = '❌ Failed';
@@ -2164,6 +2170,8 @@ a{color:inherit;text-decoration:none}
     const data = await resp.json();
     render(data.saved || []);
   }
+
+  window.savedRefresh = refresh; // lets generateJob notify us when new docs land
 
   function render(saved){
     docContent = {};

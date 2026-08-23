@@ -57,6 +57,12 @@ const SUPABASE_URL = (Deno.env.get("SUPABASE_URL") || "").replace(/\/+$/, "");
 const SERVICE_KEY = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") || Deno.env.get("SUPABASE_SERVICE_KEY") || "";
 const BUCKET = Deno.env.get("SUPABASE_BUCKET") || "candidate";
 
+// Local dashboard "user" for generated documents. The dashboard has no auth,
+// so documents are attributed to this fixed user. A real UUID keeps the
+// UNIQUE(job_id, user_id, document_type, format) constraint working, so
+// regenerating the same role merges instead of duplicating rows.
+const LOCAL_USER_ID = "00000000-0000-4000-8000-000000000001";
+
 // Make a Supabase PostgREST / Storage request with the service role.
 function sbAuth() {
   return {
@@ -115,6 +121,7 @@ async function resolveJobId(job) {
     body: JSON.stringify({
       canonical_url,
       source: "generated",
+      application_route: "On-demand (dashboard): generate",
       application_route_type: "On-demand (dashboard): generate",
       listing_verification: "Generated from verified candidate profile",
       title: job.title,
@@ -136,7 +143,7 @@ async function upsertDocument(jobId, type, content, model) {
       headers: { ...sbAuth(), Prefer: "resolution=merge-duplicates,return=representation" },
       body: JSON.stringify({
         job_id: jobId,
-        user_id: null,
+        user_id: LOCAL_USER_ID,
         document_type: type,
         format: "markdown",
         content,
