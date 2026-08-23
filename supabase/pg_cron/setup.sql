@@ -20,19 +20,26 @@
 create extension if not exists pg_cron;
 create extension if not exists pg_net;
 
--- pg_cron uses SIX-field cron (second minute hour day month weekday), so
--- the leading */30 means "every 30 seconds" (0 and 30 of the seconds field).
+-- pg_cron on Supabase runs at MINUTE granularity (this build's cron worker fires
+-- schedule rows on a minute boundary, not per-second). Use a minute-based spec.
+-- `* * * * * *` = every minute. (A leading `*/30` in the minute slot means "at
+-- :00 and :30 of each hour", NOT "every 30 seconds" — that was the first bug hit
+-- when deploying this. Do not use a seconds sub-field.)
 select cron.schedule(
   'generate-worker-tick',
-  '*/30 * * * * *',
+  '* * * * * *',
   $$
   select net.http_post(
-    url:='https://piussupjoajcxumtmzpp.supabase.co/functions/v1/generate_worker',
-    headers: '{"Content-Type":"application/json"}'::jsonb,
-    body: '{}'::jsonb
+    'https://piussupjoajcxumtmzpp.supabase.co/functions/v1/generate_worker',
+    '{}'::jsonb
   );
   $$
 );
+
+-- Note: net.http_post must use POSITIONAL args (url, body, params, headers).
+-- The named-arg form (`url:=..., headers:=...`) fails inside the cron command
+-- executor with `syntax error at or near ":"`, so the invocation above uses the
+-- positional form. The default headers already send Content-Type: application/json.
 
 -- To unschedule later:
 --   select cron.unschedule('generate-worker-tick');

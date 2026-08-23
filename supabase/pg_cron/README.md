@@ -28,8 +28,13 @@ available on all Supabase plans (including free), but it may need enabling once
 as above. If `create extension if not exists pg_net;` errors, use the GitHub
 Actions fallback instead.
 
-The cron schedule is the 6-field `*/30 * * * * *` (every 30 seconds). To change interval, edit the
+The cron schedule is `* * * * * *` (every minute). Note: Supabase's pg_cron build fires at MINUTE granularity — do not use a seconds sub-field (`*/30`, which would mean ":00 and :30 of each hour", not "every 30s"). To change interval, edit the
 cron expression in `setup.sql` and re-run `cron.unschedule` + `cron.schedule`.
+
+Also note: the cron command MUST call `net.http_post` with POSITIONAL args
+(`net.http_post(url, body)`). The named-arg form (`url: '...', headers: '...'`)
+fails inside cron with `syntax error at or near ":"`. The default headers already
+send `Content-Type: application/json`, so only the URL + body are needed.
 
 Register   : run `supabase/pg_cron/setup.sql` in the SQL Editor.
 Verify     : `select * from cron.job;`
@@ -47,13 +52,13 @@ GitHub → repo → **Actions** → the **worker-cron** workflow → **Enable**.
 `schedule` cron in that file to change cadence (default every 5 min).
 
 > Free-plan GitHub Actions runs may be delayed several minutes behind schedule —
-> acceptable for a `~2 min` generation. The pg_cron path is the tight (30s) one.
+> acceptable for a `~2 min` generation. The pg_cron path polls every minute.
 
 ## Which one should you use?
 
 | Path | Latency | Setup | Runtime cost |
 |------|---------|-------|--------------|
-| pg_cron + pg_net | ~30s polls | 2 extension enables + 1 SQL file | $0 (in-db) |
+| pg_cron + pg_net | ~1 min polls | 2 extension enables + 1 SQL file | $0 (in-db) |
 | GitHub Actions  | ~5 min polls | enable 1 workflow | $0 (free tier) |
 
 **Primary: pg_cron + pg_net.** Only switch to GitHub Actions if the `pg_net`
