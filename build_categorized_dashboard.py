@@ -11,6 +11,7 @@ and outputs a self-contained HTML dashboard with dark theme.
 import hashlib
 import html as html_mod
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -89,6 +90,10 @@ def relative_date(posted_str):
         # Try ISO format first
         dt = datetime.fromisoformat(posted_str.replace("Z", "+00:00"))
         now = datetime.now(timezone.utc)
+        if dt.tzinfo is None:
+            # Naive dates are treated as UTC (all timestamps are generated in UTC).
+            dt = dt.replace(tzinfo=timezone.utc)
+        dt = dt.astimezone(timezone.utc)
         delta = now - dt
         days = delta.days
         if days < 0:
@@ -146,18 +151,89 @@ def source_badge_color(source):
     return "#91a7bc"
 
 
+# ── Summary helpers ──────────────────────────────────────────────────────
+
+BOILERPLATE_RE = re.compile(
+    r'(listing\s*for|scraped\s*from|adzuna listing|indeed listing|seek listing|'
+    r'linkedin listing|job\s*listing|job\s*description|position\s*overview|'
+    r'about\s*this\s*role|lorem ipsum)',
+    re.IGNORECASE,
+)
+
+
+def _normalize(value):
+    """Collapse all whitespace/newlines into single spaces and strip."""
+    return re.sub(r'\s+', ' ', str(value or '')).strip()
+
+
+def _looks_boilerplate(text):
+    return bool(text and BOILERPLATE_RE.search(text))
+
+
+def _readable_company(job):
+    """Return a sane company label, never 'nan' and never empty."""
+    company = _normalize(job.get('company')).strip(' ,.-')
+    if company.lower() in ('nan', 'none', 'n/a', '-'):
+        company = ''
+    return company or 'Not specified'
+
+
+def card_summary(job):
+    """Build a short, readable job summary (never empty, no 'nan', no boilerplate-only).
+
+    Prefers the real job description when it is reasonably long and not
+    boilerplate. Otherwise falls back to a smart concatenation of the most
+    informative available fields so no card is empty or boilerplate-only.
+    """
+    title = _normalize(job.get('title'))
+    company = _normalize(job.get('company')).strip(' ,.-')
+    if company.lower() in ('nan', 'none', 'n/a', '-'):
+        company = ''
+    location = _normalize(job.get('location'))
+    salary = _normalize(job.get('salary'))
+    tags = [t for t in (job.get('tags') or []) if _normalize(t)]
+    verification = _normalize(job.get('listing_verification'))
+
+    desc = _normalize(job.get('description'))
+    # Prefer a real, reasonably-long description over boilerplate/intro text.
+    if len(desc) >= 120 and not _looks_boilerplate(desc):
+        return desc
+
+    # Fallback: smart concatenation of the most informative fields.
+    parts = []
+    if title and company:
+        parts.append(f'{title} at {company}')
+    elif title:
+        parts.append(title)
+    if location:
+        parts.append(f'Located in {location}')
+    if salary:
+        parts.append(f'Salary: {salary}')
+    if tags:
+        parts.append('Focus areas: ' + ', '.join(tags))
+    if verification:
+        parts.append(f'Listing: {verification}')
+    if not parts:
+        parts.append('Details are not yet available on the original listing.')
+
+    # Append a human 'why' note only when it is not boilerplate.
+    why = _normalize(job.get('why'))
+    if why and not _looks_boilerplate(why):
+        parts.append(why)
+
+    return ' '.join(parts)
+
+
 # ── Card renderer ─────────────────────────────────────────────────────────
 
 def render_card(job, stream_id):
     rid = role_id(job)
     score = job.get("score", 0)
-    company = esc(job.get("company", ""))
+    company = esc(_readable_company(job))
     title = esc(job.get("title", ""))
     location = esc(job.get("location", ""))
     posted = relative_date(job.get("posted", ""))
     source = job.get("source", "")
-    why = esc(job.get("why", ""))
-    enriched = esc(job.get("enriched_description", ""))
     tags = job.get("tags", [])
     url = job.get("url", "#")
     work = work_style(job)
@@ -181,6 +257,19 @@ def render_card(job, stream_id):
     else:
         score_cls = "score-low"
 
+    # ── Readable summary (full text always in DOM, collapsed via CSS) ──
+    summary_raw = card_summary(job)
+    summary_text = esc(summary_raw)
+    summary_long = len(summary_raw) > 180
+    summary_html = f'''<div class="card-summary">
+    <p class="summary-text" id="sum-{rid}">{summary_text}</p>'''
+    if summary_long:
+        summary_html += (
+            f'<button class="btn-summary" data-summary-id="sum-{rid}" '
+            f'onclick="toggleSummary(this)" aria-expanded="false">Show more</button>'
+        )
+    summary_html += '</div>'
+
     pack_buttons = []
     resume_path = resume_pdf or ""
     cover_path = cover_pdf or ""
@@ -201,8 +290,24 @@ def render_card(job, stream_id):
     if cover_path:
         pack_buttons.append(f'<a href="{esc(cover_path)}" class="btn btn-pack" title="View cover letter">📄 Cover</a>')
     if not pack_buttons:
-        job_data = json.dumps({"title": job.get("title", ""), "company": job.get("company", ""), "description": (job.get("description") or "")[:600], "why": job.get("why", ""), "location": job.get("location", "")})
-        pack_buttons.append(f'<button class="btn btn-generate" onclick="generateJob(this, {job_data})" title="Generate tailored resume + cover letter">✨ Generate</button>')
+        job_data = json.dumps(
+            {
+                "title": job.get("title", ""),
+                "company": job.get("company", ""),
+                "description": (job.get("description") or "")[:2000],
+                "why": job.get("why", ""),
+                "location": job.get("location", ""),
+            },
+            ensure_ascii=False,
+            separators=(",", ":"),
+        )
+        # Payload carried in a data attribute with HTML entities escaped, so the
+        # button's onclick/quoted attribute always stays valid and dataset works
+        # without re-fetching page source.
+        pack_buttons.append(
+            f'<button class="btn btn-generate" data-payload="{esc(job_data)}" '
+            f'onclick="generateJob(this)" title="Generate tailored resume + cover letter">✨ Generate</button>'
+        )
     pack_html = " ".join(pack_buttons)
 
     return f'''<article class="card" id="role-{rid}" data-role-id="{rid}" data-score="{score}" data-work="{work.lower()}" data-source="{source.lower()}" data-stream="{stream_id}">
@@ -214,11 +319,10 @@ def render_card(job, stream_id):
   <div class="card-badges">
     <span class="badge badge-work" style="color:{work_color};border-color:{work_color}">{work}</span>
     <span class="badge badge-source" style="color:{src_color};border-color:{src_color}">{esc(source)}</span>
-    {f'<span class="badge badge-location">📍 {location}</span>' if location else ''}
+    {f'<span class="badge badge-location">📌 {location}</span>' if location else ''}
     {f'<span class="badge badge-date">📅 {posted}</span>' if posted else ''}
   </div>
-  {f'<p class="card-desc">{enriched}</p>' if enriched else ''}
-  {f'<p class="card-why">{why}</p>' if why else ''}
+  {summary_html}
   {f'<div class="card-tags">{tags_html}</div>' if tags_html else ''}
   <div class="card-actions">
     <a href="{esc(url)}" target="_blank" rel="noopener" class="btn btn-apply" title="Open original listing">↗ Original</a>
@@ -497,8 +601,21 @@ a{{color:inherit;text-decoration:none}}
 }}
 
 /* Why text */
-.card-desc{{font-size:.85rem;color:var(--text-secondary);line-height:1.55;margin-bottom:4px}}
-.card-why{{font-size:.82rem;color:var(--text-muted);font-style:italic;line-height:1.5}}
+.card-summary{{
+  flex-shrink:0;
+}}
+.summary-text{{
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;
+  overflow:hidden;text-overflow:ellipsis;
+  font-size:.85rem;color:var(--text-secondary);line-height:1.5;margin-bottom:2px;
+}}
+.summary-text.expanded{{-webkit-line-clamp:999;display:block;overflow:visible}}
+.btn-summary{{
+  display:inline-block;font-size:.72rem;font-weight:600;
+  padding:2px 8px;border:none;background:transparent;
+  color:var(--accent-blue);cursor:pointer;font-family:inherit;margin-top:4px;
+}}
+.btn-summary:hover{{color:#fff;text-decoration:underline}}
 
 /* Tags */
 .card-tags{{display:flex;gap:4px;flex-wrap:wrap}}
@@ -694,11 +811,29 @@ a{{color:inherit;text-decoration:none}}
   filterWork.onchange = applyFilters;
   filterSource.onchange = applyFilters;
 
+  // ── Summary expand / collapse (static markup, no page re-fetch) ──
+  window.toggleSummary = function(btn) {{
+    const el = document.getElementById(btn.dataset.summaryId);
+    if (!el) return;
+    const expanded = el.classList.toggle('expanded');
+    btn.textContent = expanded ? 'Show less' : 'Show more';
+    btn.setAttribute('aria-expanded', String(expanded));
+  }};
+
   // ── Generate button ──
-  window.generateJob = async function(btn, jobData) {{
+  window.generateJob = async function(btn) {{
+    let jobData;
+    try {{
+      jobData = JSON.parse(btn.dataset.payload);
+    }} catch (e) {{
+      btn.textContent = '❌ Data';
+      console.error(e);
+      setTimeout(() => {{ btn.textContent = '✨ Generate'; btn.disabled = false; }}, 2000);
+      return;
+    }}
     btn.textContent = '⏳ Generating...';
     btn.disabled = true;
-    
+
     try {{
       const resp = await fetch('/.netlify/functions/generate', {{
         method: 'POST',
