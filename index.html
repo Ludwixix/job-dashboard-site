@@ -322,6 +322,11 @@ a{color:inherit;text-decoration:none}
 .grid .card:nth-child(8){animation-delay:.4s}
 .grid .card:nth-child(9){animation-delay:.45s}
 .grid .card:nth-child(10){animation-delay:.5s}
+/* Generated-doc download links (stable ?file= URLs) */
+.gen-docs{display:flex;flex-wrap:wrap;gap:6px;align-items:center;width:100%;margin-top:2px}
+.gen-doc-btn{font-size:.72rem;font-weight:600;padding:3px 10px;border-radius:var(--radius-full,999px);border:1px solid var(--accent-green,#61e6a6);color:var(--accent-green,#61e6a6);text-decoration:none;white-space:nowrap;background:rgba(97,230,166,.06);transition:background .15s}
+.gen-doc-btn:hover{background:rgba(97,230,166,.18)}
+.gen-doc-btn:visited{color:var(--accent-green,#61e6a6)}
 </style>
 </head>
 <body>
@@ -10643,42 +10648,113 @@ a{color:inherit;text-decoration:none}
     let jobData;
     try {
       jobData = JSON.parse(btn.dataset.payload);
-    } catch (e) {
+    } catch (err) {
+      console.error('generate: bad data-payload', err);
       btn.textContent = '❌ Data';
-      console.error(e);
       setTimeout(() => { btn.textContent = '✨ Generate'; btn.disabled = false; }, 2000);
       return;
     }
-    btn.textContent = '⏳ Generating...';
-    btn.disabled = true;
 
+    btn.textContent = '⏳ Queueing…';
+    btn.disabled = true;
+    btn.classList.add('generating');
+    const setBtn = (t) => { btn.textContent = t; };
+
+    // 1) Enqueue — returns instantly
+    let jobId;
     try {
-      const resp = await fetch('/.netlify/functions/generate', {
+      const resp = await fetch('https://piussupjoajcxumtmzpp.supabase.co/functions/v1/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(jobData),
       });
-      
       if (!resp.ok) throw new Error('API error: ' + resp.status);
-      const data = await resp.json();
-      
-      const filename = (jobData.company + '_' + jobData.title).replace(/[^a-zA-Z0-9]/g, '_');
-      if (data.resume) {
-        downloadPdf(data.resume, filename + '_resume.pdf');
+      const queued = await resp.json();
+      if (!queued.job_id) throw new Error('no job_id in queue response');
+      jobId = queued.job_id;
+    } catch (err) {
+      console.error('generate: enqueue failed', err);
+      setBtn('❌ Failed');
+      btn.classList.remove('generating');
+      setTimeout(() => { btn.textContent = '✨ Generate'; btn.disabled = false; }, 3000);
+      return;
+    }
+
+    // 2) Poll until the worker (slow OpenRouter call) completes or errors
+    const POLL_MS = 4500;
+    for (;;) {
+      await new Promise(r => setTimeout(r, POLL_MS));
+      let st;
+      try {
+        const resp = await fetch('https://piussupjoajcxumtmzpp.supabase.co/functions/v1/status?job_id=' + encodeURIComponent(jobId));
+        if (!resp.ok) throw new Error('status HTTP ' + resp.status);
+        st = await resp.json();
+      } catch (e) {
+        console.error('generate: poll error', e);
+        continue; // transient — keep waiting
       }
-      if (data.cover_letter) {
-        downloadPdf(data.cover_letter, filename + '_cover_letter.pdf');
+
+      if (st.status === 'completed') {
+        // Docs persisted server-side. Render stable download links on the card.
+        try { await window.renderDocLinksForCardRef(btn); } catch (e) { console.error(e); }
+        setBtn('✅ Ready');
+        btn.classList.remove('generating');
+        return;
       }
-      
-      btn.textContent = '✅ Done!';
-      setTimeout(() => { btn.textContent = '✨ Generate'; btn.disabled = false; }, 2000);
-    } catch(e) {
-      btn.textContent = '❌ Failed';
-      console.error(e);
-      setTimeout(() => { btn.textContent = '✨ Generate'; btn.disabled = false; }, 2000);
+
+      if (st.status === 'error') {
+        console.error('generate failed:', st.error || 'unknown');
+        setBtn('❌ Failed');
+        btn.classList.remove('generating');
+        setTimeout(() => { btn.textContent = '✨ Generate'; btn.disabled = false; }, 5000);
+        return;
+      }
+
+      setBtn('⏳ Generating … ~90s');
     }
   };
-  
+
+  // Persistent download links on the card, built from the saved-applications
+  // library (the same stable ?file= URLs used by the load-time rows). Survives
+  // a reload — this is the bit that made generated docs "appear" on the card.
+  window.renderDocLinksForCardRef = async function(btn) {
+    try {
+      const card = btn.closest('.card');
+      if (!card) return;
+      const resp = await fetch('https://piussupjoajcxumtmzpp.supabase.co/functions/v1/applications');
+      if (!resp.ok) return;
+      const data = await resp.json();
+      const co = (card.querySelector('.card-employer') || {}).textContent || '';
+      const ti = (card.querySelector('.card-title') || {}).textContent || '';
+      const key = (co + '|' + ti).trim();
+      const app = (data.saved || []).find(a =>
+        ((a.company || '') + '|' + (a.title || '')).trim() === key);
+      if (!app) return;
+      let resumeId = '', coverId = '';
+      for (const d of (app.docs || [])) {
+        if (d.type === 'resume') resumeId = d.id;
+        else if (d.type === 'cover_letter') coverId = d.id;
+      }
+      const actions = btn.parentElement;
+      if (!actions || actions.querySelector('.gen-docs')) return; // already there
+      const row = document.createElement('div');
+      row.className = 'gen-docs';
+      row.style.marginLeft = '2px';
+      if (resumeId) {
+        const a = document.createElement('a');
+        a.className = 'gen-doc-btn'; a.href = 'https://piussupjoajcxumtmzpp.supabase.co/functions/v1/applications?file=' + resumeId;
+        a.download = ''; a.textContent = '⬇ Resume';
+        row.appendChild(a);
+      }
+      if (coverId) {
+        const a = document.createElement('a');
+        a.className = 'gen-doc-btn'; a.href = 'https://piussupjoajcxumtmzpp.supabase.co/functions/v1/applications?file=' + coverId;
+        a.download = ''; a.textContent = '⬇ Cover letter';
+        row.appendChild(a);
+      }
+      if (row.children.length) actions.appendChild(row);
+    } catch (e) { console.error('renderDocLinksForCardRef', e); }
+  };
   function downloadPdf(markdown, filename) {
     // Convert markdown to simple HTML, then to PDF via print
     const html = markdownToHtml(markdown);
