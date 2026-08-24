@@ -260,6 +260,7 @@ a{color:inherit;text-decoration:none}
 .btn-pack:hover{background:rgba(97,230,166,0.1)}
 .gen-docs{display:flex;flex-wrap:wrap;gap:6px;align-items:center;width:100%}
 .gen-doc-btn{border-color:var(--accent-green);color:var(--accent-green);font-size:.72rem;font-weight:600;padding:3px 10px;white-space:nowrap}
+.gen-doc-btn:link,.gen-doc-btn:visited{color:var(--accent-green);text-decoration:none;display:inline-block}
 .gen-doc-btn:hover{background:rgba(97,230,166,0.12)}
 .gen-doc-btn.regen{color:var(--text-muted);border-color:var(--border)}
 .card-spacer{flex:1}
@@ -2251,6 +2252,95 @@ a{color:inherit;text-decoration:none}
 
     actions.appendChild(row);
   }
+
+  // ── Persistent file links on job cards (load-time) ──
+  // After page load, fetch the saved-applications library and, for every job
+  // card whose company+title matches a saved application, append the same
+  // .gen-docs row (Download Resume / Download Cover letter + Regenerate) but
+  // with real stable file URLs (?file=<documentId>). This survives a reload —
+  // unlike the post-generate row, which only exists for the current JS session.
+  const APPLICATIONS_URL = 'https://piussupjoajcxumtmzpp.supabase.co/functions/v1/applications';
+
+  window.linkSavedDocsToCards = async function() {
+    try {
+      const resp = await fetch(APPLICATIONS_URL);
+      if (!resp.ok) return;
+      const data = await resp.json();
+      const saved = data.saved || [];
+      if (!saved.length) return;
+
+      // company|title -> { resumeId, coverId, applicationId, docs? }
+      const byJob = new Map();
+      for (const app of saved) {
+        const key = String(app.company||'') + '|' + String(app.title||'');
+        const resume = (app.docs||[]).find(d => d.type === 'resume');
+        const cover  = (app.docs||[]).find(d => d.type === 'cover_letter');
+        byJob.set(key, {
+          applicationId: app.id,
+          resumeId: resume ? resume.id : null,
+          coverId: cover ? cover.id : null,
+        });
+      }
+
+      const actionRows = document.querySelectorAll('.card-actions');
+      for (const actions of actionRows) {
+        const genBtn = Array.from(actions.querySelectorAll('button')).find(b => b.textContent.includes('Generate'));
+        if (!genBtn) continue;
+        const m = genBtn.getAttribute('onclick');
+        if (!m) continue;
+        // parse the jobData JSON embedded in onclick="generateJob(this, {…})"
+        const start = m.indexOf('{');
+        const end = m.lastIndexOf('})');
+        if (start < 0 || end < 0) continue;
+        let jobData = null;
+        try { jobData = JSON.parse(m.slice(start, end).replace(/\\u0026/g,'&')); } catch(e){ continue; }
+        if (!jobData) continue;
+        const key = String(jobData.company||'') + '|' + String(jobData.title||'');
+        const match = byJob.get(key);
+        if (!match) continue;
+
+        // skip if this card already got a gen-docs row this run
+        if (actions.querySelector('.gen-docs')) continue;
+
+        const row = document.createElement('div');
+        row.className = 'gen-docs';
+        row.style.marginLeft = '2px';
+        if (match.resumeId) {
+          const a = document.createElement('a');
+          a.className = 'gen-doc-btn';
+          a.href = APPLICATIONS_URL + '?file=' + match.resumeId;
+          a.download = '';
+          a.textContent = 'Download Resume';
+          row.appendChild(a);
+        }
+        if (match.coverId) {
+          const a = document.createElement('a');
+          a.className = 'gen-doc-btn';
+          a.href = APPLICATIONS_URL + '?file=' + match.coverId;
+          a.download = '';
+          a.textContent = 'Download Cover letter';
+          row.appendChild(a);
+        }
+        if (match.applicationId) {
+          const regen = document.createElement('button');
+          regen.className = 'gen-doc-btn regen';
+          regen.textContent = '↻ Regenerate';
+          regen.onclick = async () => {
+            regen.textContent = '↻ Regenerating…';
+            regen.disabled = true;
+            await generateJob(genBtn, jobData);
+          };
+          row.appendChild(regen);
+        }
+        actions.appendChild(row);
+      }
+    } catch(e) {
+      console.error('linkSavedDocsToCards:', e);
+    }
+  };
+
+  // Run once on load (cards are already in the DOM before this script).
+  window.linkSavedDocsToCards();
 })();
 </script><script>
 // ── Saved-applications library ────────────────────────────────────────────

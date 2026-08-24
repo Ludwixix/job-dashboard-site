@@ -1,10 +1,17 @@
 // Supabase Edge Function: saved-applications library (read + delete).
 // Replaces the former Netlify function of the same purpose.
 //
-//   GET    -> { saved: [ { id, title, company, location, createdAt,
-//                          docs: [ { id, type, content, createdAt } ] } ] }
+//   GET        -> { saved: [ { id, title, company, location, createdAt,
+//                             docs: [ { id, type, content, createdAt } ] } ] }
+//   GET ?file= <documentId>   -> download ONE document as a file (stable URL):
+//                               text/markdown + Content-Disposition attachment
 //   DELETE ?id=<documentId>   -> delete one resume/cover letter
 //   DELETE ?jobId=<jobId>     -> delete the job (cascades docs) + its status history
+//
+// The ?file= variant powers persistent "Download" links on each job card: the
+// frontend stores the per-document URL and links to it directly, so a saved
+// resume/cover letter is reachable at a stable address without a client-side
+// print-to-PDF step to merely open the file.
 //
 // Runs with SERVICE ROLE (injected server-side) so the frontend never handles a
 // privileged key. The endpoint itself is public — acceptable for a personal
@@ -32,6 +39,26 @@ function sbAuth() {
     Authorization: `Bearer ${SERVICE_KEY}`,
     "Content-Type": "application/json",
   };
+}
+
+async function getDocumentFile(docId) {
+  const q = new URLSearchParams({
+    select: "id,document_type,content,created_at,jobs(title,company)",
+  });
+  const resp = await fetch(`${SUPABASE_URL}/rest/v1/application_documents?id=eq.${encodeURIComponent(docId)}&${q}`, { headers: sbAuth() });
+  if (!resp.ok) return { error: `supabase ${resp.status}` };
+  const rows = await resp.json();
+  const row = rows && rows[0];
+  if (!row) return { notFound: true };
+
+  const company = row.jobs?.company || "application";
+  const title = row.jobs?.title || "document";
+  const type = row.document_type === "cover_letter" ? "cover_letter" : "resume";
+  const slug = (s) => String(s||"").replace(/[^a-zA-Z0-9]+/g,"_").replace(/^_+|_+$/g,"");
+  const ext = type;
+  const filename = `${slug(company)}_${slug(title)}_${ext}.md`;
+
+  return { filename, content: row.content || "", contentType: type };
 }
 
 async function listApplications() {
@@ -96,6 +123,25 @@ Deno.serve(async (req) => {
   const method = req.method;
 
   if (method === "GET") {
+    // ?file=<documentId> -> single document as a downloadable file (stable URL).
+    const fileId = url.searchParams.get("file");
+    if (fileId) {
+      // Reject non-UUID ids early so a bad ?file= returns 404, not a Supabase 400.
+      if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(fileId)) {
+        return corsResponse(404, { error: "document not found" });
+      }
+      const file = await getDocumentFile(fileId);
+      if (file.notFound) return corsResponse(404, { error: "document not found" });
+      if (file.error) return corsResponse(502, { error: file.error });
+      return new Response(file.content, {
+        status: 200,
+        headers: {
+          ...corsHeaders,
+          "Content-Type": "text/markdown; charset=utf-8",
+          "Content-Disposition": `attachment; filename="${encodeURIComponent(file.filename)}"`,
+        },
+      });
+    }
     const result = await listApplications();
     if (result.error) return corsResponse(502, { error: result.error });
     return corsResponse(200, result);
