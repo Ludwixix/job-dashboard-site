@@ -2284,23 +2284,47 @@ a{color:inherit;text-decoration:none}
 
       const actionRows = document.querySelectorAll('.card-actions');
       for (const actions of actionRows) {
-        const genBtn = Array.from(actions.querySelectorAll('button')).find(b => b.textContent.includes('Generate'));
-        if (!genBtn) continue;
-        const m = genBtn.getAttribute('onclick');
-        if (!m) continue;
-        // parse the jobData JSON embedded in onclick="generateJob(this, {…})"
-        const start = m.indexOf('{');
-        const end = m.lastIndexOf('})');
-        if (start < 0 || end < 0) continue;
-        let jobData = null;
-        try { jobData = JSON.parse(m.slice(start, end).replace(/\\u0026/g,'&')); } catch(e){ continue; }
-        if (!jobData) continue;
-        const key = String(jobData.company||'') + '|' + String(jobData.title||'');
+        const card = actions.closest('.card');
+        if (!card) continue;
+        const company = (card.querySelector('.card-employer') || {}).textContent || '';
+        const titleEl = card.querySelector('.card-title');
+        const title = titleEl ? titleEl.textContent : '';
+        if (!company && !title) continue;
+        const key = String(company||'').trim() + '|' + String(title||'').trim();
         const match = byJob.get(key);
         if (!match) continue;
 
         // skip if this card already got a gen-docs row this run
         if (actions.querySelector('.gen-docs')) continue;
+
+        // Regenerate needs the jobData payload; reconstruct it from the card's
+        // generate button (may be truncated if description contains a quote), so
+        // fall back to a minimal payload the generate endpoint accepts.
+        let jobData = { title, company };
+        const genBtn = Array.from(actions.querySelectorAll('button')).find(b => b.textContent.includes('Generate'));
+        if (genBtn) {
+          const ocRaw = genBtn.getAttribute('onclick') || '';
+          const s = ocRaw.indexOf('{');
+          if (s >= 0) {
+            // Parse the JSON object by consuming balanced braces from the first {.
+            let depth = 0, inStr = false, esc = false, end = -1;
+            for (let i = s; i < ocRaw.length; i++) {
+              const ch = ocRaw[i];
+              if (esc) { esc = false; continue; }
+              if (ch === '\\') { esc = true; continue; }
+              if (ch === '"') inStr = !inStr;
+              if (!inStr) {
+                if (ch === '{') depth++;
+                else if (ch === '}') { depth--; if (depth === 0) { end = i; break; } }
+              }
+            }
+            if (end > 0) {
+              try { jobData = JSON.parse(ocRaw.slice(s, end+1).replace(/\\u0026/g,'&')); } catch(e){ /* keep minimal */ }
+            }
+          }
+        }
+        const matchKey = String(jobData?.company||'').trim() + '|' + String(jobData?.title||'').trim();
+        if (matchKey && matchKey !== key) continue;
 
         const row = document.createElement('div');
         row.className = 'gen-docs';
