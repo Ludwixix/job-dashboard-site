@@ -10,7 +10,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from adzuna_scraper import scrape_adzuna
 from indeed_jobspy import scrape_indeed
 from linkedin_browser import scrape_linkedin_browser
-from seek_browser import scrape_seek_browser
+from seek_robust import scrape_seek as scrape_seek_robust
 
 from stream_classifier import classify_all_jobs
 
@@ -90,12 +90,12 @@ def main():
     except Exception as e:
         print(f"LinkedIn failed: {e}")
 
-    # Phase 3: Seek (browser-based)
+    # Phase 3: Seek (robust multi-strategy scraper)
     print("\n" + "=" * 60)
-    print("PHASE 3: Seek (Playwright)")
+    print("PHASE 3: Seek (Robust Playwright)")
     print("=" * 60)
     try:
-        seek_jobs = scrape_seek_browser()
+        seek_jobs = scrape_seek_robust()
         all_jobs.extend(seek_jobs)
         print(f"Seek: {len(seek_jobs)} jobs")
     except Exception as e:

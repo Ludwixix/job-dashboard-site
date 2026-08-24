@@ -128,15 +128,15 @@ def main():
     print("Scraping Seek.com.au API...")
     jobs = scrape_seek()
 
-    # If API returned nothing, fall back to browser scraper
+    # If API returned nothing, fall back to robust scraper
     if not jobs:
-        print("  API returned 0 jobs — falling back to browser scraper...")
+        print("  API returned 0 jobs — falling back to robust scraper...")
         try:
-            from seek_browser import scrape_seek_browser
-            jobs = scrape_seek_browser()
-            print(f"  Browser scraper returned {len(jobs)} jobs")
+            from seek_robust import scrape_seek as scrape_seek_robust
+            jobs = scrape_seek_robust(strategies=["playwright"], enrich=False)
+            print(f"  Robust scraper returned {len(jobs)} jobs")
         except Exception as e:
-            print(f"  Browser scraper also failed: {e}")
+            print(f"  Robust scraper also failed: {e}")
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump({"source": "seek", "scraped_at": datetime.now(timezone.utc).isoformat(), "count": len(jobs), "jobs": jobs}, f, indent=2, ensure_ascii=False)

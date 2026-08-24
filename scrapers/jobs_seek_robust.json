@@ -1,7 +1,11 @@
 {
-  "source": "seek",
-  "scraped_at": "2026-08-24T03:21:36.158279+00:00",
+  "source": "seek_robust",
+  "scraped_at": "2026-08-24T03:10:18.017113+00:00",
   "count": 328,
+  "elapsed_seconds": 219.3,
+  "strategies_used": [
+    "playwright"
+  ],
   "jobs": [
     {
       "title": "Senior Network Engineer - Remote",
