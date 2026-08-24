@@ -86,6 +86,50 @@ The "Profile" section must always be a polished, employer-facing pitch — never
 ### 5. Length and focus
 Default to 1-2 pages. For senior/high-overlap roles, more detail and more roles listed is fine. For roles requesting a leaner or more junior-focused resume, trim older/less relevant roles first (oldest chronologically, least relevant technically) rather than cutting metrics or the most recent role.
 
+### 5b. Target output style (match the reference examples)
+When generating, aim for the polished, scannable, ATS-friendly style of a professionally designed CV: a clean modern rules page, not a dense Word wall.
+
+**Layout & hierarchy**
+- Clear visual hierarchy: name large and bold at very top, then contact line (location | phone | email | linkedin | website) beneath it.
+- Use clear, non-decorative body type (Arial, Calibri, Segoe UI, or Helvetica family).
+- Section headings in bold uppercase with strong contrast (e.g., `PROFESSIONAL SUMMARY`, `TECHNICAL EXPERTISE`, `PROFESSIONAL EXPERIENCE`, `EDUCATION & CERTIFICATIONS`). Bold headings, keep the name un-hyperlinked and largest.
+- Single-column body (no two-column text boxes) for ATS compatibility; use backdrop/shadow-free flat design.
+- Generous white space — margins, line-height ~1.4–1.5, space between sections.
+
+**Professional Summary**
+- 2 short paragraphs max, third-person but present-tense and outcome-led (e.g. "Infrastructure and M365 Engineer with 6+ years bridging…").
+- First paragraph: who Sam is + the scale of environments he operates in (+the kinds of clients/industries).
+- Second paragraph (optional but recommended): the more human/soft-skills close.
+- Only include numbers that exist in the source of truth (users, sites, uptime %, SLAs). Never invent metrics.
+
+**Technical Expertise / Skills**
+- Group into 4–8 category rows with a **bold label, then a colon, then the comma-separated list** on the same line, e.g.:
+  - `M365 & Cloud: SharePoint Online, Exchange Hybrid, Teams, OneDrive, Entra ID, Azure Functions, Power Automate, Defender, Purview`
+  - `Identity & Security: Conditional Access, MFA enforcement, hybrid AD/Azure AD sync, ACSC Essential 8, compliance scripting`
+  - `Endpoint Management: Intune (MDM/MAM), Windows Autopilot, SCCM, Windows 10/11 enterprise, SOE design`
+  - `Automation & DevOps: PowerShell (advanced/PnP), Python, JavaScript/TypeScript, React, SPFx, Azure DevOps CI/CD, Git`
+  - `Infrastructure: Layer 1 troubleshooting, hardware provisioning, VMware, Hyper-V, Windows Server, Active Directory`
+  - `Service Management: ITIL 4, ServiceNow, Zendesk, incident/problem management, SLA management, RCA documentation`
+- Adapt the labels/lists to the role, but keep this category-row style — it is the single most distinctive element of Sam's target CV template.
+
+**Professional Experience**
+- For each role: **Job title** (bold), line 2 = *Company name* (and client if per contract), line 3 = date range, then bullet points.
+- Start each bullet with a strong past/present-tense verb; put the outcome/value first; include a real metric from the source of truth wherever one exists.
+- Use bullets, not paragraphs. Aim for 4–6 solid bullets for the current/recent role, 2–4 for older ones.
+- Preserve real employer names and joint-arrangement formatting (e.g. "CapGemini (Dept. of Education Victoria)", "Australia Post (via CapGemini)").
+
+**Education & Certifications (etc.)**
+- Bulleted, terse lists. Keep certifications written exactly as granted ("Microsoft Certified: Azure Administrator Associate (AZ-104)").
+- Add a `KEY PROJECTS & PORTFOLIO` or similar section with 3–5 curated, real projects (link out where possible, e.g. github.com/Ludwixix/…).
+
+**Cover letter style adds**
+- Letterhead-less, professional; max one page.
+- Opening paragraph: role + company, 1–2 sentences, no "I am writing to apply for…" throat clearing if the role is clear from context; just be genuine and direct.
+- Mid-paragraphs: 2–3 short, real, quantified achievements that map to the listing; a sentence of domain/company tie-in.
+- Close: confident 1–2 sentence wrap that matches the job ad's channel/instructions.
+
+Treat the above as the reference visual standard: if a human recruiter would call it clean, flat, and easy to scan, it's right. Plain Markdown (no images/emoji, no multi-byte box-drawing characters).
+
 ### 6. Flag-and-confirm message (used for "no match" and "adjacent/stretch" tiers)
 When a role doesn't clear the relevance bar, don't generate a resume. Instead output:
 

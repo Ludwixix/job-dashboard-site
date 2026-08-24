@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <style>
 /* ── Reset & Base ─────────────────────────────────── */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -10742,40 +10743,173 @@ a{color:inherit;text-decoration:none}
       row.style.marginLeft = '2px';
       if (resumeId) {
         const a = document.createElement('a');
-        a.className = 'gen-doc-btn'; a.href = 'https://piussupjoajcxumtmzpp.supabase.co/functions/v1/applications?file=' + resumeId;
-        a.download = ''; a.textContent = '⬇ Resume';
+        a.className = 'gen-doc-btn'; a.href = '#resume';
+        a.dataset.docId = resumeId; a.dataset.kind = 'resume';
+        a.setAttribute('role', 'button'); a.setAttribute('aria-label', 'Download resume as PDF');
+        a.textContent = '⬇ Resume (PDF)';
+        a.onclick = function (ev) {
+          ev.preventDefault();
+          const co = (card.querySelector('.card-employer') || {}).textContent || '';
+          const ti = (card.querySelector('.card-title') || {}).textContent || '';
+          window.downloadGenDoc(this.dataset.docId, (co + '_' + ti + '_resume.pdf').replace(/[^\w\-. ]+/g, ''));
+        };
         row.appendChild(a);
       }
       if (coverId) {
         const a = document.createElement('a');
-        a.className = 'gen-doc-btn'; a.href = 'https://piussupjoajcxumtmzpp.supabase.co/functions/v1/applications?file=' + coverId;
-        a.download = ''; a.textContent = '⬇ Cover letter';
+        a.className = 'gen-doc-btn'; a.href = '#cover';
+        a.dataset.docId = coverId; a.dataset.kind = 'cover';
+        a.setAttribute('role', 'button'); a.setAttribute('aria-label', 'Download cover letter as PDF');
+        a.textContent = '⬇ Cover letter (PDF)';
+        a.onclick = function (ev) {
+          ev.preventDefault();
+          const co = (card.querySelector('.card-employer') || {}).textContent || '';
+          const ti = (card.querySelector('.card-title') || {}).textContent || '';
+          window.downloadGenDoc(this.dataset.docId, (co + '_' + ti + '_cover_letter.pdf').replace(/[^\w\-. ]+/g, ''));
+        };
         row.appendChild(a);
       }
       if (row.children.length) actions.appendChild(row);
     } catch (e) { console.error('renderDocLinksForCardRef', e); }
   };
-  function downloadPdf(markdown, filename) {
-    // Convert markdown to simple HTML, then to PDF via print
-    const html = markdownToHtml(markdown);
-    const win = window.open('', '_blank');
-    win.document.write(`<!DOCTYPE html><html><head><title>${filename}</title>
-      <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; color: #1a1a1a; }
-        h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
-        h2 { font-size: 1.1rem; margin-top: 1.5rem; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
-        h3 { font-size: 1rem; margin-top: 1.2rem; color: #333; }
-        p { margin: 0.5rem 0; }
-        ul { margin: 0.5rem 0; padding-left: 1.5rem; }
-        li { margin: 0.3rem 0; }
-        strong { font-weight: 600; }
-        @media print { body { margin: 0; padding: 20px; } }
-      </style>
-    </head><body>${html}</body></html>`);
-    win.document.close();
-    setTimeout(() => { win.print(); }, 500);
+  // ── PDF generation (client-side, real .pdf via jsPDF) ────────────────
+  // Renders the persisted markdown resume/cover letter into a clean, ATS-friendly
+  // PDF (selectable text, not an image). Falls back to the raw .md URL if the
+  // jsPDF library failed to load (e.g. offline).
+  function markdownToPdf(markdown, filename) {
+    return new Promise(function (resolve, reject) {
+      try {
+        var lib = window.jspdf; // set by UMD build loaded in <head>
+        if (!lib || !lib.jsPDF) return reject(new Error('jsPDF not loaded'));
+
+        var doc = new lib.jsPDF({ unit: 'pt', format: 'a4' });
+        var pageW = doc.internal.pageSize.getWidth();
+        var pageH = doc.internal.pageSize.getHeight();
+        var margin = 56;
+        var maxW = pageW - margin * 2;
+        var cursorY = margin;
+
+        function ensureSpace(h) {
+          if (cursorY + h > pageH - margin) {
+            doc.addPage();
+            cursorY = margin;
+          }
+        }
+        function stripInline(md) {
+          // **bold** -> convert to * emphasis for selectable text; strip URLs
+          return md
+            .replace(/\*\*([^*]+)\*\*/g, '$1')
+            .replace(/\*([^*]+)\*/g, '$1')
+            .replace(/\[(.+?)\]\([^)]*\)/g, '$1')
+            .replace(/`/g, '');
+        }
+        function wrapText(text, opts) {
+          var size = opts.size || 10;
+          doc.setFontSize(size);
+          var style = opts.bold ? 'bold' : 'normal';
+          doc.setFont('helvetica', style);
+          return doc.splitTextToSize(text, maxW);
+        }
+        function writeLine(text, opts) {
+          opts = opts || {};
+          var size = opts.size || 10;
+          doc.setFontSize(size);
+          doc.setFont('helvetica', opts.bold ? 'bold' : 'normal');
+          var lines = doc.splitTextToSize(text, maxW);
+          lines.forEach(function (ln) {
+            ensureSpace(size * 1.45);
+            doc.text(stripInline(ln), margin, cursorY + size);
+            cursorY += size * 1.45;
+          });
+        }
+        function sectionGap(sz) {
+          cursorY += sz || 8;
+        }
+
+        // ── Parse markdown line-by-line ──
+        var lines = String(markdown || '').split(/\r?\n/);
+        var i = 0;
+        while (i < lines.length) {
+          var raw = lines[i];
+          var line = raw.trim();
+          i++;
+
+          if (!line) { cursorY += 4; continue; }
+          // Horizontal rule
+          if (/^[-*_]{3,}$/.test(line)) { cursorY += 6; continue; }
+          // Headings: ## Title / ### Sub
+          var h = line.match(/^(#{1,6})\s+(.*)$/);
+          if (h) {
+            var lvl = h[1].length;
+            sectionGap(lvl === 1 ? 12 : 7);
+            if (lvl === 1) { writeLine(h[2], { size: 17, bold: true }); }
+            else if (lvl === 2) { writeLine(h[2], { size: 12, bold: true }); }
+            else { writeLine(h[2], { size: 10.5, bold: true }); }
+            // Underline for h2-style headers to mirror the example CV style
+            if (lvl <= 2 && false) {
+              doc.setDrawColor(0); doc.setLineWidth(0.8);
+              ensureSpace(4); doc.line(margin, cursorY + 2, pageW - margin, cursorY + 2);
+            }
+            sectionGap(5);
+            continue;
+          }
+          // Bullet list
+          var bl = line.match(/^[-*•]\s+(.*)$/) || line.match(/^\d+\.\s+(.*)$/);
+          if (bl) {
+            var txt = bl[1];
+            // keep bullet block indented with wrapping
+            var size = 10;
+            doc.setFontSize(size);
+            doc.setFont('helvetica', 'normal');
+            var bullet = '• ';
+            var indent = size * 0.9;
+            var parts = doc.splitTextToSize(txt, maxW - indent);
+            parts.forEach(function (part, idx) {
+              ensureSpace(size * 1.42);
+              doc.text((idx === 0 ? bullet : '   '), margin, cursorY + size);
+              doc.text(stripInline(part), margin + indent, cursorY + size);
+              cursorY += size * 1.42;
+            });
+            continue;
+          }
+          // Plain paragraph
+          writeLine(line, {});
+        }
+
+        var safeName = String(filename || 'document').replace(/[^\w\- ]+/g, '').trim() || 'document';
+        if (!/\.pdf$/i.test(safeName)) safeName += '.pdf';
+        doc.save(safeName);
+        resolve(safeName);
+      } catch (e) {
+        reject(e);
+      }
+    });
   }
-  
+
+  // Download one generated document as a PDF (client-side). Fetches the raw
+  // markdown from the stable ?file= URL, converts, and saves as <filename>.pdf.
+  // Falls back to opening the markdown URL directly if PDF isn't available.
+  window.downloadGenDoc = async function(docId, fallbackName) {
+    if (!docId) return;
+    var url = 'https://piussupjoajcxumtmzpp.supabase.co/functions/v1/applications?file=' + encodeURIComponent(docId);
+    if (!window.jspdf || !(window.jspdf.jsPDF)) {
+      window.open(url, '_blank');
+      return;
+    }
+    try {
+      const resp = await fetch(url);
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const md = await resp.text();
+      await markdownToPdf(md, fallbackName || (docId + '.pdf'));
+    } catch (e) {
+      console.error('PDF generation failed, opening markdown instead', e);
+      // clear the ready state and give the user the md as a last resort
+      var a = document.createElement('a');
+      a.href = url; a.target = '_blank'; a.rel = 'noopener';
+      document.body.appendChild(a); a.click(); a.remove();
+    }
+  };
+
   function markdownToHtml(md) {
     return md
       .replace(/^### (.+)$/gm, '<h3>$1</h3>')
