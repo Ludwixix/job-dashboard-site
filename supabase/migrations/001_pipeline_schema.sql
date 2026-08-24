@@ -107,9 +107,16 @@ ALTER TABLE interview_preparations ENABLE ROW LEVEL SECURITY;
 ALTER TABLE status_history ENABLE ROW LEVEL SECURITY;
 
 -- Authenticated users: read-only access
+-- Idempotent: the Supabase GitHub integration re-runs migrations on every
+-- push, and CREATE POLICY has no IF NOT EXISTS. Drop-then-create makes
+-- this re-runnable against a DB that already has these policies.
+DROP POLICY IF EXISTS "Authenticated read jobs" ON jobs;
 CREATE POLICY "Authenticated read jobs" ON jobs FOR SELECT USING (auth.role() = 'authenticated');
+DROP POLICY IF EXISTS "Authenticated read documents" ON application_documents;
 CREATE POLICY "Authenticated read documents" ON application_documents FOR SELECT USING (auth.role() = 'authenticated');
+DROP POLICY IF EXISTS "Authenticated read prep" ON interview_preparations;
 CREATE POLICY "Authenticated read prep" ON interview_preparations FOR SELECT USING (auth.role() = 'authenticated');
+DROP POLICY IF EXISTS "Authenticated read history" ON status_history;
 CREATE POLICY "Authenticated read history" ON status_history FOR SELECT USING (auth.role() = 'authenticated');
 
 -- Service role (used by edge functions / n8n) bypasses RLS automatically.

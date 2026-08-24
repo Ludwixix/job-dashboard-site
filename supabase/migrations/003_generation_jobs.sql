@@ -53,6 +53,8 @@ CREATE TRIGGER generation_jobs_updated_at
 ALTER TABLE generation_jobs ENABLE ROW LEVEL SECURITY;
 
 -- Authenticated users: read-only access (polling /status from a signed-in client)
+-- Drop-then-create keeps this idempotent for the GitHub integration re-runs.
+DROP POLICY IF EXISTS "Authenticated read generation jobs" ON generation_jobs;
 CREATE POLICY "Authenticated read generation jobs"
   ON generation_jobs FOR SELECT
   USING (auth.role() = 'authenticated');
