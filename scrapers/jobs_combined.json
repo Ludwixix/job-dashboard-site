@@ -22,7 +22,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Lead Solution Architect - Home Health at Australian Unity",
-      "score": 0,
+      "score": 92,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5853134547?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -105,50 +105,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 74.2,
-        "fit_label": "Good fit",
+        "score": 92,
+        "fit": "Excellent fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 65,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 5,
-            "seniority": "senior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 100,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 90,
+          "growth_potential": 70
         },
         "matched_skills": [
-          "Customer Support"
+          "active directory"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Role targets senior level; candidate is mid-level",
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -165,7 +147,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for IT Support Specialist at STR",
-      "score": 0,
+      "score": 82,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5852546634?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -245,47 +227,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 72.0,
-        "fit_label": "Good fit",
+        "score": 82,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 95,
-            "weight": "15%",
-            "work_mode": "remote"
-          },
-          "growth_potential": {
-            "score": 90,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 90,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
-        "matched_skills": [],
+        "matched_skills": [
+          "active directory"
+        ],
         "missing_skills": [],
         "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (remote)"
+          "Strong skill alignment in active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -302,7 +269,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for IT Support Analyst at HPX Group",
-      "score": 0,
+      "score": 84,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5852545054?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -382,47 +349,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 69.2,
-        "fit_label": "Partial fit",
+        "score": 84,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 85,
-            "weight": "10%",
-            "company_size": "enterprise"
-          }
+          "skill_match": 90,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
-        "matched_skills": [],
+        "matched_skills": [
+          "active directory"
+        ],
         "missing_skills": [],
         "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -439,7 +391,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Retail IT Student at Hydro Tasmania",
-      "score": 0,
+      "score": 82,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5852538841?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -519,47 +471,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 67.8,
-        "fit_label": "Partial fit",
+        "score": 82,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 90,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
-        "matched_skills": [],
+        "matched_skills": [
+          "active directory"
+        ],
         "missing_skills": [],
         "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -576,7 +513,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Professional Services Consultant at TESSERENT",
-      "score": 0,
+      "score": 79,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5851364610?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -664,51 +601,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 82.8,
-        "fit_label": "Good fit",
+        "score": 79,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 2,
-            "total": 2
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 80,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 83,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Security",
-          "Customer Support"
+          "active directory",
+          "cybersecurity"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Security",
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)"
+          "Strong skill alignment in active directory, cybersecurity",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "active directory",
+          "cybersecurity"
+        ]
       }
     },
     {
@@ -725,7 +645,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for IT Support Specialist at Integral Diagnostics Limited",
-      "score": 0,
+      "score": 84,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5851363189?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -809,51 +729,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 79.8,
-        "fit_label": "Good fit",
+        "score": 84,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 2,
-            "total": 2
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 90,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Customer Support",
-          "Endpoint Lifecycle"
+          "active directory"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Strong advanced proficiency in Endpoint Lifecycle",
-          "Experience level aligns well (6 years vs 3 required)"
+          "Strong skill alignment in active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -870,7 +771,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Software Engineer at Computershare",
-      "score": 0,
+      "score": 83,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5851099498?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -953,50 +854,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 80.5,
-        "fit_label": "Good fit",
+        "score": 83,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 85,
-            "weight": "15%",
-            "work_mode": "hybrid"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 90,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 80,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Customer Support"
+          "active directory"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (hybrid)"
+          "Strong skill alignment in active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -1013,7 +896,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Junior Business Analyst at Ausimm",
-      "score": 0,
+      "score": 83,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5851094364?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -1096,50 +979,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 83.0,
-        "fit_label": "Good fit",
+        "score": 83,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 100,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 1,
-            "seniority": "junior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 90,
+          "experience_fit": 70,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 90
         },
         "matched_skills": [
-          "Git"
+          "active directory"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Git",
-          "Experience level aligns well (6 years vs 1 required)",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "junior",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -1156,7 +1021,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Service & Systems Support Officer at AFCA",
-      "score": 0,
+      "score": 82,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5851073851?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -1243,50 +1108,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 81.8,
-        "fit_label": "Good fit",
+        "score": 82,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 90,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Customer Support"
+          "active directory"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -1303,7 +1150,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Legal Assistant- Insurance Litigation at Burgess Paluch Legal Recruitment",
-      "score": 0,
+      "score": 84,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5851041219?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -1383,47 +1230,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 67.0,
-        "fit_label": "Partial fit",
+        "score": 84,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 100,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 1,
-            "seniority": "junior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 90,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
-        "matched_skills": [],
+        "matched_skills": [
+          "active directory"
+        ],
         "missing_skills": [],
         "strengths": [
-          "Experience level aligns well (6 years vs 1 required)",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -1440,7 +1272,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Assistant Underwriter – Corporate Property at HDI Global SE, Australia",
-      "score": 0,
+      "score": 82,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5849658160?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -1523,50 +1355,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 83.0,
-        "fit_label": "Good fit",
+        "score": 82,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 100,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 1,
-            "seniority": "junior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 90,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Compliance"
+          "active directory"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Compliance",
-          "Experience level aligns well (6 years vs 1 required)",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -1583,7 +1397,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Client Training Consultant at Solera",
-      "score": 0,
+      "score": 88,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5849653743?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -1667,51 +1481,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 82.8,
-        "fit_label": "Good fit",
+        "score": 88,
+        "fit": "Excellent fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 2,
-            "total": 2
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 80,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 90,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 90
         },
         "matched_skills": [
-          "Git",
-          "Customer Support"
+          "active directory"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Git",
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)"
+          "Strong skill alignment in active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -1728,7 +1523,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Back End Developer at Study and Work",
-      "score": 0,
+      "score": 80,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5849648384?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -1811,50 +1606,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 81.8,
-        "fit_label": "Good fit",
+        "score": 80,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 79,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Data Centre"
+          "sharepoint",
+          "active directory"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong proficient proficiency in Data Centre",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in sharepoint, active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "sharepoint",
+          "active directory"
+        ]
       }
     },
     {
@@ -1871,7 +1650,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Service Desk Engineer, Level 2 – CT Group at Lyra Technology Group",
-      "score": 0,
+      "score": 81,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5849648358?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -1962,52 +1741,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 85.2,
-        "fit_label": "Strong fit",
+        "score": 81,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 3,
-            "total": 3
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 85,
-            "weight": "10%",
-            "company_size": "enterprise"
-          }
+          "skill_match": 80,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 80,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Teams",
-          "ServiceNow",
-          "Customer Support"
+          "teams",
+          "active directory"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Teams",
-          "Strong advanced proficiency in ServiceNow",
-          "Strong advanced proficiency in Customer Support"
+          "Strong skill alignment in teams, active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.9
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "teams",
+          "active directory"
+        ]
       }
     },
     {
@@ -2024,7 +1785,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Manager, Support & Delivery Teams at Halcyon Knights",
-      "score": 0,
+      "score": 86,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5849069510?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -2112,51 +1873,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 79.8,
-        "fit_label": "Good fit",
+        "score": 86,
+        "fit": "Excellent fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 2,
-            "total": 2
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 95,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Teams",
-          "Customer Support"
+          "teams",
+          "active directory"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Teams",
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)"
+          "Strong skill alignment in teams, active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "teams",
+          "active directory"
+        ]
       }
     },
     {
@@ -2173,7 +1917,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Sales & Operations Specialist at Harris Scarfe Careers",
-      "score": 0,
+      "score": 82,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5848234169?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -2253,9 +1997,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 68.5,
-        "fit_label": "Partial fit",
-        "match_tier": "No match"
+        "score": 82,
+        "fit": "Strong fit",
+        "dimensions": {
+          "skill_match": 90,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
+        },
+        "matched_skills": [
+          "active directory"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong skill alignment in active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "active directory"
+        ]
       },
       "flag_message": "⚠️ Resume not generated: Sales & Operations Specialist at Harris Scarfe Careers\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -2274,7 +2041,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Level 2 IT Support Officer at Hays",
-      "score": 0,
+      "score": 81,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5847920015?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -2358,51 +2125,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 80.5,
-        "fit_label": "Good fit",
+        "score": 81,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 2,
-            "total": 2
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 85,
-            "weight": "15%",
-            "work_mode": "hybrid"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 83,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Security",
-          "Customer Support"
+          "active directory",
+          "cybersecurity"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Security",
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)"
+          "Strong skill alignment in active directory, cybersecurity",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "active directory",
+          "cybersecurity"
+        ]
       }
     },
     {
@@ -2419,7 +2169,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Talent Acquisition Business Partner at Keyton",
-      "score": 0,
+      "score": 84,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5846899554?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -2499,47 +2249,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 65.8,
-        "fit_label": "Partial fit",
+        "score": 84,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 90,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
-        "matched_skills": [],
+        "matched_skills": [
+          "active directory"
+        ],
         "missing_skills": [],
         "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -2556,7 +2291,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for eLearning Engagement & IT Support Officer at Acknowledge Education",
-      "score": 0,
+      "score": 76,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5844989824?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -2642,53 +2377,36 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 83.8,
-        "fit_label": "Good fit",
+        "score": 76,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 4,
-            "total": 4
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 90,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 76,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Teams",
-          "Git",
-          "Customer Support",
-          "Compliance"
+          "sharepoint",
+          "teams",
+          "active directory"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Teams",
-          "Strong advanced proficiency in Git",
-          "Strong advanced proficiency in Customer Support"
+          "Strong skill alignment in sharepoint, teams, active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.9
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "sharepoint",
+          "teams",
+          "active directory"
+        ]
       }
     },
     {
@@ -2705,7 +2423,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Communications and Outreach Officer at Deakin University",
-      "score": 0,
+      "score": 86,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5844958461?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -2785,9 +2503,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 72.0,
-        "fit_label": "Good fit",
-        "match_tier": "No match"
+        "score": 86,
+        "fit": "Excellent fit",
+        "dimensions": {
+          "skill_match": 95,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 90,
+          "growth_potential": 50
+        },
+        "matched_skills": [
+          "active directory",
+          "stakeholder management"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong skill alignment in active directory, stakeholder management",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "active directory",
+          "stakeholder management"
+        ]
       },
       "flag_message": "⚠️ Resume not generated: Communications and Outreach Officer at Deakin University\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -2806,7 +2549,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Personal Assistant at HarperLloyd Recruitment",
-      "score": 0,
+      "score": 80,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5837586378?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -2886,47 +2629,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 67.0,
-        "fit_label": "Partial fit",
+        "score": 80,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 100,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 1,
-            "seniority": "junior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 79,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
-        "matched_skills": [],
+        "matched_skills": [
+          "sharepoint",
+          "active directory"
+        ],
         "missing_skills": [],
         "strengths": [
-          "Experience level aligns well (6 years vs 1 required)",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in sharepoint, active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "sharepoint",
+          "active directory"
+        ]
       }
     },
     {
@@ -2943,7 +2673,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for National Visual Merchandiser at DG Head Office",
-      "score": 0,
+      "score": 64,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5843140334?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -3033,52 +2763,41 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 83.8,
-        "fit_label": "Good fit",
+        "score": 64,
+        "fit": "Good fit",
         "dimensions": {
-          "skill_match": {
-            "score": 90.0,
-            "weight": "40%",
-            "matched": 3,
-            "total": 3
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 79,
+          "experience_fit": 30,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Microsoft 365",
-          "Teams",
-          "Network"
+          "microsoft 365",
+          "sharepoint",
+          "teams",
+          "active directory",
+          "networking"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong expert proficiency in Microsoft 365",
-          "Strong advanced proficiency in Teams",
-          "Strong proficient proficiency in Network"
+          "Strong skill alignment in microsoft 365, sharepoint, teams",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Experience level below role requirements",
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.9
+        "confidence": 1.0,
+        "experience_level": "executive",
+        "job_skills_found": [
+          "microsoft 365",
+          "sharepoint",
+          "teams",
+          "active directory",
+          "networking"
+        ]
       }
     },
     {
@@ -3096,7 +2815,7 @@
         "local_bridge"
       ],
       "why": "LinkedIn listing for Sales Associate - Casual at Foot Locker",
-      "score": 0,
+      "score": 66,
       "listing_verification": "linkedin_public",
       "application_route": "https://au.linkedin.com/jobs/view/sales-associate-casual-at-foot-locker-4414863870",
       "application_route_type": "linkedin_direct",
@@ -3176,9 +2895,28 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 65.8,
-        "fit_label": "Partial fit",
-        "match_tier": "No match"
+        "score": 66,
+        "fit": "Good fit",
+        "dimensions": {
+          "skill_match": 50,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
+        },
+        "matched_skills": [],
+        "missing_skills": [],
+        "strengths": [
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.7,
+        "experience_level": "mid",
+        "job_skills_found": []
       },
       "flag_message": "⚠️ Resume not generated: Sales Associate - Casual at Foot Locker\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -3198,7 +2936,7 @@
         "local_bridge"
       ],
       "why": "LinkedIn listing for Casual Sales Associate at POP MART",
-      "score": 0,
+      "score": 66,
       "listing_verification": "linkedin_public",
       "application_route": "https://au.linkedin.com/jobs/view/casual-sales-associate-at-pop-mart-4438110773",
       "application_route_type": "linkedin_direct",
@@ -3278,9 +3016,28 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 65.8,
-        "fit_label": "Partial fit",
-        "match_tier": "No match"
+        "score": 66,
+        "fit": "Good fit",
+        "dimensions": {
+          "skill_match": 50,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
+        },
+        "matched_skills": [],
+        "missing_skills": [],
+        "strengths": [
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.7,
+        "experience_level": "mid",
+        "job_skills_found": []
       },
       "flag_message": "⚠️ Resume not generated: Casual Sales Associate at POP MART\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -3300,7 +3057,7 @@
         "local_bridge"
       ],
       "why": "LinkedIn listing for Casual Food and Beverage Attendant at Melbourne Polytechnic",
-      "score": 0,
+      "score": 66,
       "listing_verification": "linkedin_public",
       "application_route": "https://au.linkedin.com/jobs/view/casual-food-and-beverage-attendant-at-melbourne-polytechnic-4455526459",
       "application_route_type": "linkedin_direct",
@@ -3380,47 +3137,28 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 65.8,
-        "fit_label": "Partial fit",
+        "score": 66,
+        "fit": "Good fit",
         "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 50,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 80,
+          "growth_potential": 50
         },
         "matched_skills": [],
         "missing_skills": [],
         "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.7
+        "confidence": 0.7,
+        "experience_level": "mid",
+        "job_skills_found": []
       }
     },
     {
@@ -3438,7 +3176,7 @@
         "local_bridge"
       ],
       "why": "LinkedIn listing for Casual Sales Assistant | BRAS N THINGS | Cranbourne at Bras n Things",
-      "score": 0,
+      "score": 66,
       "listing_verification": "linkedin_public",
       "application_route": "https://au.linkedin.com/jobs/view/casual-sales-assistant-bras-n-things-cranbourne-at-bras-n-things-4457041616",
       "application_route_type": "linkedin_direct",
@@ -3518,9 +3256,28 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 67.0,
-        "fit_label": "Partial fit",
-        "match_tier": "No match"
+        "score": 66,
+        "fit": "Good fit",
+        "dimensions": {
+          "skill_match": 50,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
+        },
+        "matched_skills": [],
+        "missing_skills": [],
+        "strengths": [
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.7,
+        "experience_level": "mid",
+        "job_skills_found": []
       },
       "flag_message": "⚠️ Resume not generated: Casual Sales Assistant | BRAS N THINGS | Cranbourne at Bras n Things\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -3540,7 +3297,7 @@
         "local_bridge"
       ],
       "why": "LinkedIn listing for Front of House Team Member - Elsternwick Casual/Part-Time/Full-Time at Chargrill Charlie's",
-      "score": 0,
+      "score": 66,
       "listing_verification": "linkedin_public",
       "application_route": "https://au.linkedin.com/jobs/view/front-of-house-team-member-elsternwick-casual-part-time-full-time-at-chargrill-charlie-s-4454142149",
       "application_route_type": "linkedin_direct",
@@ -3620,47 +3377,28 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 65.8,
-        "fit_label": "Partial fit",
+        "score": 66,
+        "fit": "Good fit",
         "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 50,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [],
         "missing_skills": [],
         "strengths": [
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.7
+        "confidence": 0.7,
+        "experience_level": "mid",
+        "job_skills_found": []
       }
     },
     {
@@ -3678,7 +3416,7 @@
         "local_bridge"
       ],
       "why": "LinkedIn listing for Casual Sales Assistant | BONDS Outlet | Endeavour Hills at Hanes Brands Australasia",
-      "score": 0,
+      "score": 66,
       "listing_verification": "linkedin_public",
       "application_route": "https://au.linkedin.com/jobs/view/casual-sales-assistant-bonds-outlet-endeavour-hills-at-hanes-brands-australasia-4457052496",
       "application_route_type": "linkedin_direct",
@@ -3758,9 +3496,28 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 67.0,
-        "fit_label": "Partial fit",
-        "match_tier": "No match"
+        "score": 66,
+        "fit": "Good fit",
+        "dimensions": {
+          "skill_match": 50,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
+        },
+        "matched_skills": [],
+        "missing_skills": [],
+        "strengths": [
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.7,
+        "experience_level": "mid",
+        "job_skills_found": []
       },
       "flag_message": "⚠️ Resume not generated: Casual Sales Assistant | BONDS Outlet | Endeavour Hills at Hanes Brands Australasia\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -3780,7 +3537,7 @@
         "local_bridge"
       ],
       "why": "LinkedIn listing for Sales Assistant | Sorrento at Nude Lucy",
-      "score": 0,
+      "score": 66,
       "listing_verification": "linkedin_public",
       "application_route": "https://au.linkedin.com/jobs/view/sales-assistant-sorrento-at-nude-lucy-4454172855",
       "application_route_type": "linkedin_direct",
@@ -3860,9 +3617,28 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 67.0,
-        "fit_label": "Partial fit",
-        "match_tier": "No match"
+        "score": 66,
+        "fit": "Good fit",
+        "dimensions": {
+          "skill_match": 50,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
+        },
+        "matched_skills": [],
+        "missing_skills": [],
+        "strengths": [
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.7,
+        "experience_level": "mid",
+        "job_skills_found": []
       },
       "flag_message": "⚠️ Resume not generated: Sales Assistant | Sorrento at Nude Lucy\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -3882,7 +3658,7 @@
         "local_bridge"
       ],
       "why": "LinkedIn listing for Sales Associate (Part-Time) at POP MART",
-      "score": 0,
+      "score": 66,
       "listing_verification": "linkedin_public",
       "application_route": "https://au.linkedin.com/jobs/view/sales-associate-part-time-at-pop-mart-4437782644",
       "application_route_type": "linkedin_direct",
@@ -3962,9 +3738,28 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 65.8,
-        "fit_label": "Partial fit",
-        "match_tier": "No match"
+        "score": 66,
+        "fit": "Good fit",
+        "dimensions": {
+          "skill_match": 50,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
+        },
+        "matched_skills": [],
+        "missing_skills": [],
+        "strengths": [
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.7,
+        "experience_level": "mid",
+        "job_skills_found": []
       },
       "flag_message": "⚠️ Resume not generated: Sales Associate (Part-Time) at POP MART\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -3984,7 +3779,7 @@
         "core_it"
       ],
       "why": "Indeed listing for AOD Support Workers - Multiple Casual Opportunities at Windana",
-      "score": 0,
+      "score": 66,
       "listing_verification": "indeed_jobspy",
       "application_route": "https://au.indeed.com/viewjob?jk=1fd65c0e7c4a5a67",
       "application_route_type": "indeed_direct",
@@ -4074,51 +3869,28 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 81.8,
-        "fit_label": "Good fit",
+        "score": 66,
+        "fit": "Good fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 2,
-            "total": 2
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 50,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
-        "matched_skills": [
-          "ServiceNow",
-          "Customer Support"
-        ],
+        "matched_skills": [],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in ServiceNow",
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)"
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": []
       }
     },
     {
@@ -4136,7 +3908,7 @@
         "local_bridge"
       ],
       "why": "Indeed listing for Bakers Assistant at Madeleines Bakery and Cake shop",
-      "score": 0,
+      "score": 75,
       "listing_verification": "indeed_jobspy",
       "application_route": "https://au.indeed.com/viewjob?jk=bb72ca1775112768",
       "application_route_type": "indeed_direct",
@@ -4216,47 +3988,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 67.0,
-        "fit_label": "Partial fit",
+        "score": 75,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 50,
-            "weight": "40%",
-            "matched": 0,
-            "total": 0
-          },
-          "experience_alignment": {
-            "score": 100,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 1,
-            "seniority": "junior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 74,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
-        "matched_skills": [],
+        "matched_skills": [
+          "sharepoint",
+          "active directory"
+        ],
         "missing_skills": [],
         "strengths": [
-          "Experience level aligns well (6 years vs 1 required)",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in sharepoint, active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "sharepoint",
+          "active directory"
+        ]
       }
     },
     {
@@ -4274,7 +4033,7 @@
         "local_bridge"
       ],
       "why": "Indeed listing for Counter operator at nan",
-      "score": 0,
+      "score": 74,
       "listing_verification": "indeed_jobspy",
       "application_route": "https://au.indeed.com/viewjob?jk=37d8d9662e9dfcbe",
       "application_route_type": "indeed_direct",
@@ -4357,9 +4116,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 81.8,
-        "fit_label": "Good fit",
-        "match_tier": "No match"
+        "score": 74,
+        "fit": "Strong fit",
+        "dimensions": {
+          "skill_match": 70,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
+        },
+        "matched_skills": [
+          "sharepoint",
+          "customer service"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong skill alignment in sharepoint, customer service",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "sharepoint",
+          "customer service"
+        ]
       },
       "flag_message": "⚠️ Resume not generated: Counter operator at \n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Customer Support\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -4379,7 +4163,7 @@
         "local_bridge"
       ],
       "why": "Indeed listing for Casual Wait Staff at il pizzaioll",
-      "score": 0,
+      "score": 74,
       "listing_verification": "indeed_jobspy",
       "application_route": "https://au.indeed.com/viewjob?jk=2912c7e5a5710539",
       "application_route_type": "indeed_direct",
@@ -4462,50 +4246,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 74.2,
-        "fit_label": "Good fit",
+        "score": 74,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 65,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 5,
-            "seniority": "senior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 70,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Customer Support"
+          "active directory",
+          "customer service"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory, customer service",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Role targets senior level; candidate is mid-level",
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "active directory",
+          "customer service"
+        ]
       }
     },
     {
@@ -4523,7 +4291,7 @@
         "local_bridge"
       ],
       "why": "Indeed listing for Barista/All Rounder at Westbrook Food Store",
-      "score": 0,
+      "score": 74,
       "listing_verification": "indeed_jobspy",
       "application_route": "https://au.indeed.com/viewjob?jk=f575f0e42a0726fb",
       "application_route_type": "indeed_direct",
@@ -4607,9 +4375,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 81.8,
-        "fit_label": "Good fit",
-        "match_tier": "No match"
+        "score": 74,
+        "fit": "Strong fit",
+        "dimensions": {
+          "skill_match": 70,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
+        },
+        "matched_skills": [
+          "stakeholder management"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong skill alignment in stakeholder management",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "stakeholder management"
+        ]
       },
       "flag_message": "⚠️ Resume not generated: Barista/All Rounder at Westbrook Food Store\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Customer Support\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -4629,7 +4420,7 @@
         "local_bridge"
       ],
       "why": "Indeed listing for Pastry Cook at Cafe Francois",
-      "score": 0,
+      "score": 66,
       "listing_verification": "indeed_jobspy",
       "application_route": "https://au.indeed.com/viewjob?jk=a06b0d6683db8eba",
       "application_route_type": "indeed_direct",
@@ -4710,9 +4501,28 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 67.8,
-        "fit_label": "Partial fit",
-        "match_tier": "No match"
+        "score": 66,
+        "fit": "Good fit",
+        "dimensions": {
+          "skill_match": 50,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
+        },
+        "matched_skills": [],
+        "missing_skills": [],
+        "strengths": [
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": []
       },
       "flag_message": "⚠️ Resume not generated: Pastry Cook at Cafe Francois\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): none\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -4732,7 +4542,7 @@
         "local_bridge"
       ],
       "why": "Indeed listing for food and beverage attendant at Olinda Tea House",
-      "score": 0,
+      "score": 66,
       "listing_verification": "indeed_jobspy",
       "application_route": "https://au.indeed.com/viewjob?jk=a261590f46875995",
       "application_route_type": "indeed_direct",
@@ -4815,50 +4625,28 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 81.8,
-        "fit_label": "Good fit",
+        "score": 66,
+        "fit": "Good fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 50,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
-        "matched_skills": [
-          "Customer Support"
-        ],
+        "matched_skills": [],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": []
       }
     },
     {
@@ -4876,7 +4664,7 @@
         "local_bridge"
       ],
       "why": "Indeed listing for Casual Cook / All-Rounder – Burger Restaurant at Burger Road",
-      "score": 0,
+      "score": 75,
       "listing_verification": "indeed_jobspy",
       "application_route": "https://au.indeed.com/viewjob?jk=54e32ee441d5c1e4",
       "application_route_type": "indeed_direct",
@@ -4960,9 +4748,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 79.8,
-        "fit_label": "Good fit",
-        "match_tier": "No match"
+        "score": 75,
+        "fit": "Strong fit",
+        "dimensions": {
+          "skill_match": 74,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
+        },
+        "matched_skills": [
+          "sharepoint",
+          "active directory"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong skill alignment in sharepoint, active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "sharepoint",
+          "active directory"
+        ]
       },
       "flag_message": "⚠️ Resume not generated: Casual Cook / All-Rounder – Burger Restaurant at Burger Road\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Customer Support\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -4982,7 +4795,7 @@
         "local_bridge"
       ],
       "why": "Indeed listing for Bartender at nan",
-      "score": 0,
+      "score": 61,
       "listing_verification": "indeed_jobspy",
       "application_route": "https://au.indeed.com/viewjob?jk=37f9ac624b4a9ab1",
       "application_route_type": "indeed_direct",
@@ -5066,9 +4879,35 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 84.0,
-        "fit_label": "Good fit",
-        "match_tier": "No match"
+        "score": 61,
+        "fit": "Good fit",
+        "dimensions": {
+          "skill_match": 70,
+          "experience_fit": 30,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
+        },
+        "matched_skills": [
+          "sharepoint",
+          "customer service"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong skill alignment in sharepoint, customer service",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
+        ],
+        "risks": [
+          "Experience level below role requirements",
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "experience_level": "executive",
+        "job_skills_found": [
+          "sharepoint",
+          "customer service"
+        ]
       },
       "flag_message": "⚠️ Resume not generated: Bartender at \n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Customer Support\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -5088,7 +4927,7 @@
         "local_bridge"
       ],
       "why": "Indeed listing for Wait Staff at PNM FOOD",
-      "score": 0,
+      "score": 74,
       "listing_verification": "indeed_jobspy",
       "application_route": "https://au.indeed.com/viewjob?jk=61df30b370d1e189",
       "application_route_type": "indeed_direct",
@@ -5171,50 +5010,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 74.2,
-        "fit_label": "Good fit",
+        "score": 74,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 65,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 5,
-            "seniority": "senior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 70,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Customer Support"
+          "active directory"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Role targets senior level; candidate is mid-level",
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -5231,7 +5052,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Workshop Technician at Fisher & Paykel",
-      "score": 0,
+      "score": 85,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5852545359?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -5314,9 +5135,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 81.8,
-        "fit_label": "Good fit",
-        "match_tier": "No match"
+        "score": 85,
+        "fit": "Strong fit",
+        "dimensions": {
+          "skill_match": 95,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 80,
+          "growth_potential": 50
+        },
+        "matched_skills": [
+          "active directory",
+          "stakeholder management"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong skill alignment in active directory, stakeholder management",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "active directory",
+          "stakeholder management"
+        ]
       },
       "flag_message": "⚠️ Resume not generated: Workshop Technician at Fisher & Paykel\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Customer Support\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -5335,7 +5181,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for IT Operations Technician at Hays",
-      "score": 0,
+      "score": 82,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5850725916?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -5418,50 +5264,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 81.8,
-        "fit_label": "Good fit",
+        "score": 82,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 83,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 80,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Security"
+          "active directory",
+          "cybersecurity"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Security",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory, cybersecurity",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "active directory",
+          "cybersecurity"
+        ]
       }
     },
     {
@@ -5478,7 +5308,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Trainee Graduate at Freighter Group",
-      "score": 0,
+      "score": 81,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5845193805?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -5562,9 +5392,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 89.5,
-        "fit_label": "Strong fit",
-        "match_tier": "No match"
+        "score": 81,
+        "fit": "Strong fit",
+        "dimensions": {
+          "skill_match": 85,
+          "experience_fit": 70,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 90
+        },
+        "matched_skills": [
+          "active directory",
+          "customer service"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong skill alignment in active directory, customer service",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "experience_level": "junior",
+        "job_skills_found": [
+          "active directory",
+          "customer service"
+        ]
       },
       "flag_message": "⚠️ Resume not generated: Trainee Graduate at Freighter Group\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Customer Support\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -5583,7 +5438,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Field Service Technician at Hipac Healthcare Pty",
-      "score": 0,
+      "score": 71,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5844278727?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -5672,50 +5527,33 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 85.2,
-        "fit_label": "Strong fit",
+        "score": 71,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 85,
-            "weight": "10%",
-            "company_size": "enterprise"
-          }
+          "skill_match": 90,
+          "experience_fit": 30,
+          "location_fit": 90,
+          "company_fit": 90,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Customer Support"
+          "active directory"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Experience level below role requirements",
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "executive",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -5732,7 +5570,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Specialist Inspector, Plumbing - Performance Solutions at Victorian Government",
-      "score": 0,
+      "score": 72,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5842371693?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -5826,50 +5664,33 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 85.8,
-        "fit_label": "Strong fit",
+        "score": 72,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 80,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 80,
-            "weight": "10%",
-            "company_size": "government"
-          }
+          "skill_match": 90,
+          "experience_fit": 30,
+          "location_fit": 90,
+          "company_fit": 95,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Compliance"
+          "active directory"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Compliance",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Experience level below role requirements",
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "executive",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -5886,7 +5707,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Inspector, Plumbing - Gas Safety Assurance at Victorian Government",
-      "score": 0,
+      "score": 72,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5842371530?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -5980,50 +5801,33 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 83.8,
-        "fit_label": "Good fit",
+        "score": 72,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 60,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 80,
-            "weight": "10%",
-            "company_size": "government"
-          }
+          "skill_match": 90,
+          "experience_fit": 30,
+          "location_fit": 90,
+          "company_fit": 95,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Compliance"
+          "active directory"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Compliance",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Experience level below role requirements",
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "executive",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -6040,7 +5844,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for 104 – Completions & Commissioning Manager (internal only) at Marinus Link Pty",
-      "score": 0,
+      "score": 84,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5841916658?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -6122,49 +5926,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 74.8,
-        "fit_label": "Good fit",
+        "score": 84,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 75,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 0,
-            "seniority": "trainee"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 90,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Customer Support"
+          "active directory"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Customer Support",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "active directory"
+        ]
       }
     },
     {
@@ -6181,7 +5968,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Contracts Manager at Techforce Personnel",
-      "score": 0,
+      "score": 80,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5849595209?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -6264,50 +6051,36 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 80.5,
-        "fit_label": "Good fit",
+        "score": 80,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 85,
-            "weight": "15%",
-            "work_mode": "hybrid"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 77,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 80,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Network"
+          "active directory",
+          "networking",
+          "stakeholder management"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong proficient proficiency in Network",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (hybrid)"
+          "Strong skill alignment in active directory, networking, stakeholder management",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "active directory",
+          "networking",
+          "stakeholder management"
+        ]
       }
     },
     {
@@ -6324,7 +6097,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Contracts Manager at OSOS Alliance",
-      "score": 0,
+      "score": 76,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5846912190?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -6407,50 +6180,36 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 82.5,
-        "fit_label": "Good fit",
+        "score": 76,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 85,
-            "weight": "15%",
-            "work_mode": "hybrid"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 77,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Teams"
+          "teams",
+          "active directory",
+          "stakeholder management"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Teams",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (hybrid)"
+          "Strong skill alignment in teams, active directory, stakeholder management",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "teams",
+          "active directory",
+          "stakeholder management"
+        ]
       }
     },
     {
@@ -6467,7 +6226,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Business Development Manager - HVAC at Lead Group",
-      "score": 0,
+      "score": 81,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5851363751?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -6557,51 +6316,40 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 83.2,
-        "fit_label": "Good fit",
+        "score": 81,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 2,
-            "total": 2
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 85,
-            "weight": "10%",
-            "company_size": "enterprise"
-          }
+          "skill_match": 83,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Network",
-          "HVAC"
+          "sharepoint",
+          "active directory",
+          "networking",
+          "hvac",
+          "team leadership"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong proficient proficiency in Network",
-          "Strong proficient proficiency in HVAC",
-          "Experience level aligns well (6 years vs 3 required)"
+          "Strong skill alignment in sharepoint, active directory, networking",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 1.0,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "sharepoint",
+          "active directory",
+          "networking",
+          "hvac",
+          "team leadership"
+        ]
       }
     },
     {
@@ -6618,7 +6366,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Business Development Manager - HVAC at Lead Group Consultancy",
-      "score": 0,
+      "score": 81,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5846911705?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -6708,51 +6456,40 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 84.2,
-        "fit_label": "Good fit",
+        "score": 81,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 2,
-            "total": 2
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 60,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 85,
-            "weight": "10%",
-            "company_size": "enterprise"
-          }
+          "skill_match": 83,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Network",
-          "HVAC"
+          "sharepoint",
+          "active directory",
+          "networking",
+          "hvac",
+          "team leadership"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong proficient proficiency in Network",
-          "Strong proficient proficiency in HVAC",
-          "Experience level aligns well (6 years vs 3 required)"
+          "Strong skill alignment in sharepoint, active directory, networking",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 1.0,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "sharepoint",
+          "active directory",
+          "networking",
+          "hvac",
+          "team leadership"
+        ]
       }
     },
     {
@@ -6769,7 +6506,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Engineering Operations Technician, Data Center Engineering Operations at Amazon",
-      "score": 0,
+      "score": 85,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/land/ad/5845923744?se=7GBHdtue8RGU6LIjyaRnwA&utm_medium=api&utm_source=cc30c73e&v=05849C32C37382DA8ACAC71E3A844F3DE6CF4102",
       "application_route_type": "adzuna_api",
@@ -6862,9 +6599,36 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 81.8,
-        "fit_label": "Good fit",
-        "match_tier": "No match"
+        "score": 85,
+        "fit": "Strong fit",
+        "dimensions": {
+          "skill_match": 93,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 90,
+          "growth_potential": 50
+        },
+        "matched_skills": [
+          "active directory",
+          "networking",
+          "data centre"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong skill alignment in active directory, networking, data centre",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "active directory",
+          "networking",
+          "data centre"
+        ]
       },
       "flag_message": "⚠️ Resume not generated: Engineering Operations Technician, Data Center Engineering Operations at Amazon\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Network, Data Centre, Customer Support\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -6883,7 +6647,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Technical Operations Manager - Electrical OEM - Power at Engineering Networks Pty Ltd",
-      "score": 0,
+      "score": 85,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5840284057?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -6971,50 +6735,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 79.8,
-        "fit_label": "Good fit",
+        "score": 85,
+        "fit": "Excellent fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 90,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 80,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Network"
+          "active directory",
+          "networking"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong proficient proficiency in Network",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory, networking",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "active directory",
+          "networking"
+        ]
       }
     },
     {
@@ -7031,7 +6779,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Financial Accountant at 5G Networks",
-      "score": 0,
+      "score": 77,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5838397976?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -7122,53 +6870,40 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 79.8,
-        "fit_label": "Good fit",
+        "score": 77,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 4,
-            "total": 4
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 79,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Network",
-          "Security",
-          "Data Centre",
-          "Customer Support"
+          "active directory",
+          "networking",
+          "cybersecurity",
+          "data centre",
+          "stakeholder management"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Security",
-          "Strong advanced proficiency in Customer Support",
-          "Strong proficient proficiency in Network"
+          "Strong skill alignment in active directory, networking, cybersecurity",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.9
+        "confidence": 1.0,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "active directory",
+          "networking",
+          "cybersecurity",
+          "data centre",
+          "stakeholder management"
+        ]
       }
     },
     {
@@ -7185,7 +6920,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Senior Project Engineer, Mechanical - MEI | North East Link Project at CPB Contractors",
-      "score": 0,
+      "score": 82,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5845680960?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -7268,9 +7003,36 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 74.2,
-        "fit_label": "Good fit",
-        "match_tier": "No match"
+        "score": 82,
+        "fit": "Strong fit",
+        "dimensions": {
+          "skill_match": 77,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 80,
+          "growth_potential": 70
+        },
+        "matched_skills": [
+          "azure",
+          "entra id",
+          "active directory"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong skill alignment in azure, entra id, active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "azure",
+          "entra id",
+          "active directory"
+        ]
       },
       "flag_message": "⚠️ Resume not generated: Senior Project Engineer, Mechanical - MEI | North East Link Project at CPB Contractors\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Entra ID\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -7289,7 +7051,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Project Engineer, Mechanical - MEI | North East Link Project at CPB Contractors",
-      "score": 0,
+      "score": 65,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5845680569?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -7372,9 +7134,37 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 81.8,
-        "fit_label": "Good fit",
-        "match_tier": "No match"
+        "score": 65,
+        "fit": "Good fit",
+        "dimensions": {
+          "skill_match": 77,
+          "experience_fit": 30,
+          "location_fit": 90,
+          "company_fit": 80,
+          "growth_potential": 50
+        },
+        "matched_skills": [
+          "azure",
+          "entra id",
+          "active directory"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong skill alignment in azure, entra id, active directory",
+          "Ideal location match (Melbourne-based)",
+          "Proven track record in enterprise environments"
+        ],
+        "risks": [
+          "Experience level below role requirements",
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "experience_level": "executive",
+        "job_skills_found": [
+          "azure",
+          "entra id",
+          "active directory"
+        ]
       },
       "flag_message": "⚠️ Resume not generated: Project Engineer, Mechanical - MEI | North East Link Project at CPB Contractors\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Entra ID\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -7393,7 +7183,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Senior Project Engineer, Electrical - MEI | North East Link Project at CPB Contractors",
-      "score": 0,
+      "score": 82,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5845680561?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -7477,9 +7267,36 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 74.2,
-        "fit_label": "Good fit",
-        "match_tier": "No match"
+        "score": 82,
+        "fit": "Strong fit",
+        "dimensions": {
+          "skill_match": 77,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 80,
+          "growth_potential": 70
+        },
+        "matched_skills": [
+          "azure",
+          "entra id",
+          "active directory"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong skill alignment in azure, entra id, active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "azure",
+          "entra id",
+          "active directory"
+        ]
       },
       "flag_message": "⚠️ Resume not generated: Senior Project Engineer, Electrical - MEI | North East Link Project at CPB Contractors\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Entra ID\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -7498,7 +7315,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Senior/Associate Electrical Engineer - Substations / Data Centres at WSP USA",
-      "score": 0,
+      "score": 88,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/land/ad/5851967463?se=0NTzgNue8RGSb8VpDRDiVA&utm_medium=api&utm_source=cc30c73e&v=B53AB186587AA7126448B920F46E811885DA1285",
       "application_route_type": "adzuna_api",
@@ -7586,9 +7403,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 74.2,
-        "fit_label": "Good fit",
-        "match_tier": "No match"
+        "score": 88,
+        "fit": "Excellent fit",
+        "dimensions": {
+          "skill_match": 94,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 70
+        },
+        "matched_skills": [
+          "active directory",
+          "data centre"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong skill alignment in active directory, data centre",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "active directory",
+          "data centre"
+        ]
       },
       "flag_message": "⚠️ Resume not generated: Senior/Associate Electrical Engineer - Substations / Data Centres at WSP USA\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Data Centre\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -7607,7 +7449,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Senior/Associate Electrical Engineer - Substations / Data Centres at WSP",
-      "score": 0,
+      "score": 88,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5851099492?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -7695,9 +7537,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 74.2,
-        "fit_label": "Good fit",
-        "match_tier": "No match"
+        "score": 88,
+        "fit": "Excellent fit",
+        "dimensions": {
+          "skill_match": 94,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 70
+        },
+        "matched_skills": [
+          "active directory",
+          "data centre"
+        ],
+        "missing_skills": [],
+        "strengths": [
+          "Strong skill alignment in active directory, data centre",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
+        ],
+        "risks": [
+          "Verify exact requirements before applying"
+        ],
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "active directory",
+          "data centre"
+        ]
       },
       "flag_message": "⚠️ Resume not generated: Senior/Associate Electrical Engineer - Substations / Data Centres at WSP\n\nMatch assessment: No match\nWhy: The role requires skills and experience that don't overlap with Sam's background\nClosest genuine overlap (if any): Data Centre\n\nOptions:\n1. Confirm you want a resume generated anyway (I'll clearly label any stretch/transferable framing used)\n2. Skip this listing\n3. Provide additional context (e.g. unlisted experience/qualifications) that changes the assessment",
       "match_tier": "No match"
@@ -7716,7 +7583,7 @@
         "adzuna"
       ],
       "why": "Adzuna listing for Lead Data Centre Engineers / AI Installation Supervisors - 12M CONTRACT - EXT at Northbridge IT Recruitment Propr",
-      "score": 0,
+      "score": 90,
       "listing_verification": "api_verified",
       "application_route": "https://www.adzuna.com.au/details/5851041189?utm_medium=api&utm_source=cc30c73e",
       "application_route_type": "adzuna_api",
@@ -7803,50 +7670,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 74.2,
-        "fit_label": "Good fit",
+        "score": 90,
+        "fit": "Excellent fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 65,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 5,
-            "seniority": "senior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 100,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 70,
+          "growth_potential": 70
         },
         "matched_skills": [
-          "Data Centre"
+          "active directory",
+          "data centre"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong proficient proficiency in Data Centre",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in active directory, data centre",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Role targets senior level; candidate is mid-level",
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.8
+        "confidence": 0.9,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "active directory",
+          "data centre"
+        ]
       }
     },
     {
@@ -7962,52 +7813,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 78.2,
-        "fit_label": "Good fit",
+        "score": 77,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 90.0,
-            "weight": "40%",
-            "matched": 2,
-            "total": 2
-          },
-          "experience_alignment": {
-            "score": 65,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 5,
-            "seniority": "senior"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 60,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 80,
-            "weight": "10%",
-            "company_size": "government"
-          }
+          "skill_match": 60,
+          "experience_fit": 90,
+          "location_fit": 90,
+          "company_fit": 95,
+          "growth_potential": 80
         },
         "matched_skills": [
-          "Microsoft 365",
-          "Azure"
+          "azure",
+          "microsoft 365"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong expert proficiency in Microsoft 365",
-          "Strong advanced proficiency in Azure",
-          "Location arrangement is practical (onsite)"
+          "Strong skill alignment in azure, microsoft 365",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Role targets senior level; candidate is mid-level",
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.75
+        "confidence": 0.7,
+        "experience_level": "senior",
+        "job_skills_found": [
+          "azure",
+          "microsoft 365"
+        ]
       }
     },
     {
@@ -8120,52 +7953,38 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 79.8,
-        "fit_label": "Good fit",
+        "score": 80,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 3,
-            "total": 3
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 75,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 90,
+          "growth_potential": 80
         },
         "matched_skills": [
-          "Azure",
-          "Active Directory",
-          "Customer Support"
+          "azure",
+          "entra id",
+          "active directory",
+          "customer service"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Azure",
-          "Strong advanced proficiency in Active Directory",
-          "Strong advanced proficiency in Customer Support"
+          "Strong skill alignment in azure, entra id, active directory",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.85
+        "confidence": 0.8,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "azure",
+          "entra id",
+          "active directory",
+          "customer service"
+        ]
       }
     },
     {
@@ -8284,53 +8103,36 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 86.0,
-        "fit_label": "Strong fit",
+        "score": 83,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 90.0,
-            "weight": "40%",
-            "matched": 4,
-            "total": 4
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 95,
-            "weight": "15%",
-            "work_mode": "remote"
-          },
-          "growth_potential": {
-            "score": 70,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 86,
+          "experience_fit": 80,
+          "location_fit": 100,
+          "company_fit": 90,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Microsoft 365",
-          "Network",
-          "Security",
-          "Customer Support"
+          "microsoft 365",
+          "networking",
+          "cybersecurity"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong expert proficiency in Microsoft 365",
-          "Strong advanced proficiency in Security",
-          "Strong advanced proficiency in Customer Support"
+          "Strong skill alignment in microsoft 365, networking, cybersecurity",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.85
+        "confidence": 0.7,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "microsoft 365",
+          "networking",
+          "cybersecurity"
+        ]
       }
     },
     {
@@ -8443,50 +8245,32 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 81.5,
-        "fit_label": "Good fit",
+        "score": 84,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 1,
-            "total": 1
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 85,
-            "weight": "15%",
-            "work_mode": "hybrid"
-          },
-          "growth_potential": {
-            "score": 60,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 80,
+          "experience_fit": 80,
+          "location_fit": 100,
+          "company_fit": 90,
+          "growth_potential": 80
         },
         "matched_skills": [
-          "Azure"
+          "azure"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Azure",
-          "Experience level aligns well (6 years vs 3 required)",
-          "Location arrangement is practical (hybrid)"
+          "Strong skill alignment in azure",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.75
+        "confidence": 0.7,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "azure"
+        ]
       }
     },
     {
@@ -8599,52 +8383,34 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 79.8,
-        "fit_label": "Good fit",
+        "score": 76,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 85.0,
-            "weight": "40%",
-            "matched": 3,
-            "total": 3
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 73,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 90,
+          "growth_potential": 50
         },
         "matched_skills": [
-          "Intune",
-          "Data Centre",
-          "Customer Support"
+          "sharepoint",
+          "data centre"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong advanced proficiency in Intune",
-          "Strong advanced proficiency in Customer Support",
-          "Strong proficient proficiency in Data Centre"
+          "Strong skill alignment in sharepoint, data centre",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.85
+        "confidence": 0.7,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "sharepoint",
+          "data centre"
+        ]
       }
     },
     {
@@ -8764,55 +8530,44 @@
       "hiring_manager": null,
       "application_materials": "Tailored résumé, cover letter and opening email",
       "scoring": {
-        "score": 85.8,
-        "fit_label": "Strong fit",
+        "score": 82,
+        "fit": "Strong fit",
         "dimensions": {
-          "skill_match": {
-            "score": 100,
-            "weight": "40%",
-            "matched": 6,
-            "total": 6
-          },
-          "experience_alignment": {
-            "score": 95,
-            "weight": "25%",
-            "candidate_years": 6,
-            "required_years": 3,
-            "seniority": "mid"
-          },
-          "location_remote_fit": {
-            "score": 80,
-            "weight": "15%",
-            "work_mode": "onsite"
-          },
-          "growth_potential": {
-            "score": 50,
-            "weight": "10%"
-          },
-          "company_size_fit": {
-            "score": 50,
-            "weight": "10%",
-            "company_size": "unknown"
-          }
+          "skill_match": 80,
+          "experience_fit": 80,
+          "location_fit": 90,
+          "company_fit": 90,
+          "growth_potential": 80
         },
         "matched_skills": [
-          "Microsoft 365",
-          "Entra ID",
-          "Azure",
-          "Windows",
-          "PowerShell",
-          "Documentation"
+          "azure",
+          "microsoft 365",
+          "sharepoint",
+          "entra id",
+          "powershell",
+          "windows",
+          "documentation"
         ],
         "missing_skills": [],
         "strengths": [
-          "Strong expert proficiency in Microsoft 365",
-          "Strong expert proficiency in Entra ID",
-          "Strong expert proficiency in PowerShell"
+          "Strong skill alignment in azure, microsoft 365, sharepoint",
+          "Experience level matches role requirements",
+          "Ideal location match (Melbourne-based)"
         ],
         "risks": [
-          "Confirm listing availability and exact requirements before applying"
+          "Verify exact requirements before applying"
         ],
-        "confidence": 0.85
+        "confidence": 0.8,
+        "experience_level": "mid",
+        "job_skills_found": [
+          "azure",
+          "microsoft 365",
+          "sharepoint",
+          "entra id",
+          "powershell",
+          "windows",
+          "documentation"
+        ]
       }
     }
   ],
